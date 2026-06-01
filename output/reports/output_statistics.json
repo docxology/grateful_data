@@ -1,0 +1,288 @@
+{
+  "directories": {
+    "pdf": {
+      "exists": true,
+      "file_count": 10,
+      "size_mb": "3.08",
+      "total_size_bytes": 3232521,
+      "largest_files": [
+        {
+          "name": "grateful_data_combined.pdf",
+          "size_mb": "2.88",
+          "path": "pdf/grateful_data_combined.pdf"
+        },
+        {
+          "name": "_combined_manuscript.log",
+          "size_mb": "0.05",
+          "path": "pdf/_combined_manuscript.log"
+        },
+        {
+          "name": "_combined_manuscript.tex",
+          "size_mb": "0.05",
+          "path": "pdf/_combined_manuscript.tex"
+        }
+      ],
+      "extensions": {
+        ".md": 1,
+        ".log": 2,
+        ".aux": 1,
+        ".blg": 1,
+        ".bib": 1,
+        ".pdf": 1,
+        ".tex": 1,
+        ".toc": 1,
+        ".bbl": 1
+      }
+    },
+    "web": {
+      "exists": true,
+      "file_count": 11,
+      "size_mb": "0.20",
+      "total_size_bytes": 207079,
+      "largest_files": [
+        {
+          "name": "index.html",
+          "size_mb": "0.07",
+          "path": "web/index.html"
+        },
+        {
+          "name": "_combined_manuscript.md",
+          "size_mb": "0.04",
+          "path": "web/_combined_manuscript.md"
+        },
+        {
+          "name": "manuscript__04_results.html",
+          "size_mb": "0.02",
+          "path": "web/manuscript__04_results.html"
+        }
+      ],
+      "extensions": {
+        ".html": 10,
+        ".md": 1
+      }
+    },
+    "slides": {
+      "exists": true,
+      "file_count": 1,
+      "size_mb": "0.00",
+      "total_size_bytes": 1264,
+      "largest_files": [
+        {
+          "name": "_slides_math_header.tex",
+          "size_mb": "0.00",
+          "path": "slides/_slides_math_header.tex"
+        }
+      ],
+      "extensions": {
+        ".tex": 1
+      }
+    },
+    "figures": {
+      "exists": true,
+      "file_count": 24,
+      "size_mb": "2.72",
+      "total_size_bytes": 2853876,
+      "largest_files": [
+        {
+          "name": "mosaic.png",
+          "size_mb": "1.28",
+          "path": "figures/mosaic.png"
+        },
+        {
+          "name": "alluvial_composer_song_era.png",
+          "size_mb": "0.14",
+          "path": "figures/alluvial_composer_song_era.png"
+        },
+        {
+          "name": "geo_scatter.png",
+          "size_mb": "0.14",
+          "path": "figures/geo_scatter.png"
+        }
+      ],
+      "extensions": {
+        ".png": 24
+      }
+    },
+    "data": {
+      "exists": true,
+      "file_count": 19,
+      "size_mb": "21.04",
+      "total_size_bytes": 22062965,
+      "largest_files": [
+        {
+          "name": "compendium_full.json",
+          "size_mb": "13.01",
+          "path": "data/raw/compendium_full.json"
+        },
+        {
+          "name": "performances.csv",
+          "size_mb": "2.75",
+          "path": "data/raw/performances.csv"
+        },
+        {
+          "name": "performances.csv",
+          "size_mb": "2.71",
+          "path": "data/performances.csv"
+        }
+      ],
+      "extensions": {
+        ".json": 4,
+        ".csv": 15
+      }
+    },
+    "reports": {
+      "exists": true,
+      "file_count": 19,
+      "size_mb": "0.17",
+      "total_size_bytes": 177539,
+      "largest_files": [
+        {
+          "name": "artifact_manifest.json",
+          "size_mb": "0.07",
+          "path": "reports/artifact_manifest.json"
+        },
+        {
+          "name": "stage-01-clean-output-directories.json",
+          "size_mb": "0.02",
+          "path": "reports/snapshots/stage-01-clean-output-directories.json"
+        },
+        {
+          "name": "stage-02-environment-setup.json",
+          "size_mb": "0.02",
+          "path": "reports/snapshots/stage-02-environment-setup.json"
+        }
+      ],
+      "extensions": {
+        ".json": 13,
+        ".jsonl": 1,
+        ".txt": 2,
+        ".md": 3
+      }
+    },
+    "simulations": {
+      "exists": true,
+      "file_count": 0,
+      "size_mb": "0.00",
+      "total_size_bytes": 0,
+      "largest_files": [],
+      "extensions": {}
+    },
+    "llm": {
+      "exists": true,
+      "file_count": 0,
+      "size_mb": "0.00",
+      "total_size_bytes": 0,
+      "largest_files": [],
+      "extensions": {}
+    },
+    "logs": {
+      "exists": true,
+      "file_count": 1,
+      "size_mb": "0.00",
+      "total_size_bytes": 222,
+      "largest_files": [
+        {
+          "name": "pipeline.log",
+          "size_mb": "0.00",
+          "path": "logs/pipeline.log"
+        }
+      ],
+      "extensions": {
+        ".log": 1
+      }
+    }
+  },
+  "total_files": 85,
+  "total_size_mb": 27.21354103088379,
+  "largest_files": [
+    {
+      "name": "compendium_full.json",
+      "size_mb": "13.01",
+      "category": "data",
+      "path": "data/raw/compendium_full.json"
+    },
+    {
+      "name": "grateful_data_combined.pdf",
+      "size_mb": "2.88",
+      "category": "pdf",
+      "path": "pdf/grateful_data_combined.pdf"
+    },
+    {
+      "name": "performances.csv",
+      "size_mb": "2.75",
+      "category": "data",
+      "path": "data/raw/performances.csv"
+    },
+    {
+      "name": "performances.csv",
+      "size_mb": "2.71",
+      "category": "data",
+      "path": "data/performances.csv"
+    },
+    {
+      "name": "mosaic.png",
+      "size_mb": "1.28",
+      "category": "figures",
+      "path": "figures/mosaic.png"
+    },
+    {
+      "name": "alluvial_composer_song_era.png",
+      "size_mb": "0.14",
+      "category": "figures",
+      "path": "figures/alluvial_composer_song_era.png"
+    },
+    {
+      "name": "geo_scatter.png",
+      "size_mb": "0.14",
+      "category": "figures",
+      "path": "figures/geo_scatter.png"
+    },
+    {
+      "name": "index.html",
+      "size_mb": "0.07",
+      "category": "web",
+      "path": "web/index.html"
+    },
+    {
+      "name": "artifact_manifest.json",
+      "size_mb": "0.07",
+      "category": "reports",
+      "path": "reports/artifact_manifest.json"
+    },
+    {
+      "name": "_combined_manuscript.log",
+      "size_mb": "0.05",
+      "category": "pdf",
+      "path": "pdf/_combined_manuscript.log"
+    }
+  ],
+  "missing_expected_files": [],
+  "sizes_by_category": {
+    "pdf": 3.0827722549438477,
+    "web": 0.19748592376708984,
+    "slides": 0.0012054443359375,
+    "figures": 2.721668243408203,
+    "data": 21.04088306427002,
+    "reports": 0.16931438446044922,
+    "simulations": 0.0,
+    "llm": 0.0,
+    "logs": 0.0002117156982421875
+  },
+  "file_counts_by_type": {
+    ".md": 5,
+    ".log": 3,
+    ".aux": 1,
+    ".blg": 1,
+    ".bib": 1,
+    ".pdf": 1,
+    ".tex": 2,
+    ".toc": 1,
+    ".bbl": 1,
+    ".html": 10,
+    ".png": 24,
+    ".json": 17,
+    ".csv": 15,
+    ".jsonl": 1,
+    ".txt": 2
+  }
+}

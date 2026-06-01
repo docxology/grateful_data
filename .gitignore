@@ -1,0 +1,22 @@
+# Disposable build / environment artifacts — never committed.
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.benchmarks/
+.coverage
+.coverage.*
+coverage_project.json
+.DS_Store
+
+# Third-party vendored snapshots (incl. copyrighted lyric HTML and a nested
+# git checkout). Excluded from the public release per the project's
+# pointers-only lyric policy; regenerate locally via scripts/00_fetch_sources.py.
+data/vendor/
+
+# Transient online-refresh candidates (regenerated on demand).
+output/refresh/

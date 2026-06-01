@@ -1,0 +1,23 @@
+warning: `VIRTUAL_ENV=/Users/4d/Documents/GitHub/template/.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead
+============================= test session starts ==============================
+platform darwin -- Python 3.12.13, pytest-9.0.3, pluggy-1.6.0
+rootdir: /Users/4d/Documents/GitHub/projects/working/grateful_data
+configfile: pyproject.toml
+plugins: cov-7.1.0
+collected 254 items / 1 error
+
+==================================== ERRORS ====================================
+_____________ ERROR collecting tests/test_colimits_and_property.py _____________
+ImportError while importing test module '/Users/4d/Documents/GitHub/projects/working/grateful_data/tests/test_colimits_and_property.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Users/4d/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/4d/Documents/GitHub/template/projects/grateful_data/tests/test_colimits_and_property.py:9: in <module>
+    ???
+E   ModuleNotFoundError: No module named 'hypothesis'
+=========================== short test summary info ============================
+ERROR tests/test_colimits_and_property.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 1.02s ===============================

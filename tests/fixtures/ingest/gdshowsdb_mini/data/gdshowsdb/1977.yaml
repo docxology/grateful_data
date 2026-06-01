@@ -1,0 +1,30 @@
+1977/05/08:
+  :uuid: test-uuid-1
+  :venue: Barton Hall, Cornell University
+  :city: Ithaca
+  :state: NY
+  :country: US
+  :sets:
+  - :uuid: set-1
+    :songs:
+    - :uuid: song-1
+      :name: Promised Land
+      :segued: false
+    - :uuid: song-2
+      :name: Scarlet Begonias
+      :segued: true
+    - :uuid: song-3
+      :name: Fire on the Mountain
+      :segued: false
+1977/05/09:
+  :uuid: test-uuid-2
+  :venue: Boston Garden
+  :city: Boston
+  :state: MA
+  :country: US
+  :sets:
+  - :uuid: set-2
+    :songs:
+    - :uuid: song-4
+      :name: Bertha
+      :segued: false

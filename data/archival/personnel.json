@@ -1,0 +1,196 @@
+[
+  {
+    "slug": "barlow",
+    "full_name": "John Perry Barlow",
+    "intervals": [
+      {
+        "start": "1971-01-01",
+        "end": "1995-07-09",
+        "role": "lyricist"
+      }
+    ]
+  },
+  {
+    "slug": "constanten",
+    "full_name": "Tom Constanten",
+    "intervals": [
+      {
+        "start": "1968-11-23",
+        "end": "1970-01-30",
+        "role": "keyboards"
+      }
+    ]
+  },
+  {
+    "slug": "garcia",
+    "full_name": "Jerome John Garcia",
+    "intervals": [
+      {
+        "start": "1965-12-04",
+        "end": "1995-07-09",
+        "role": "lead guitar"
+      },
+      {
+        "start": "1965-12-04",
+        "end": "1995-07-09",
+        "role": "vocals"
+      }
+    ]
+  },
+  {
+    "slug": "godchaux_d",
+    "full_name": "Donna Jean Godchaux",
+    "intervals": [
+      {
+        "start": "1972-03-21",
+        "end": "1979-02-17",
+        "role": "vocals"
+      }
+    ]
+  },
+  {
+    "slug": "godchaux_k",
+    "full_name": "Keith Godchaux",
+    "intervals": [
+      {
+        "start": "1971-10-19",
+        "end": "1979-02-17",
+        "role": "keyboards"
+      }
+    ]
+  },
+  {
+    "slug": "hart",
+    "full_name": "Mickey Hart",
+    "intervals": [
+      {
+        "start": "1967-09-30",
+        "end": "1971-02-18",
+        "role": "percussion"
+      },
+      {
+        "start": "1974-10-20",
+        "end": "1995-07-09",
+        "role": "percussion"
+      }
+    ]
+  },
+  {
+    "slug": "hornsby",
+    "full_name": "Bruce Hornsby",
+    "intervals": [
+      {
+        "start": "1990-09-15",
+        "end": "1992-03-24",
+        "role": "keyboards"
+      }
+    ]
+  },
+  {
+    "slug": "hunter",
+    "full_name": "Robert Hunter",
+    "intervals": [
+      {
+        "start": "1967-01-01",
+        "end": "1995-07-09",
+        "role": "lyricist"
+      }
+    ]
+  },
+  {
+    "slug": "kreutzmann",
+    "full_name": "Bill Kreutzmann",
+    "intervals": [
+      {
+        "start": "1965-12-04",
+        "end": "1995-07-09",
+        "role": "drums"
+      }
+    ]
+  },
+  {
+    "slug": "lesh",
+    "full_name": "Philip Chapman Lesh",
+    "intervals": [
+      {
+        "start": "1965-12-04",
+        "end": "1995-07-09",
+        "role": "bass"
+      },
+      {
+        "start": "1965-12-04",
+        "end": "1995-07-09",
+        "role": "vocals"
+      }
+    ]
+  },
+  {
+    "slug": "mydland",
+    "full_name": "Brent Mydland",
+    "intervals": [
+      {
+        "start": "1979-04-22",
+        "end": "1990-07-26",
+        "role": "keyboards"
+      },
+      {
+        "start": "1979-04-22",
+        "end": "1990-07-26",
+        "role": "vocals"
+      }
+    ]
+  },
+  {
+    "slug": "pigpen",
+    "full_name": "Ron McKernan",
+    "intervals": [
+      {
+        "start": "1965-12-04",
+        "end": "1972-06-17",
+        "role": "keyboards"
+      },
+      {
+        "start": "1965-12-04",
+        "end": "1972-06-17",
+        "role": "harmonica"
+      },
+      {
+        "start": "1965-12-04",
+        "end": "1972-06-17",
+        "role": "vocals"
+      }
+    ]
+  },
+  {
+    "slug": "weir",
+    "full_name": "Robert Hall Weir",
+    "intervals": [
+      {
+        "start": "1965-12-04",
+        "end": "1995-07-09",
+        "role": "rhythm guitar"
+      },
+      {
+        "start": "1965-12-04",
+        "end": "1995-07-09",
+        "role": "vocals"
+      }
+    ]
+  },
+  {
+    "slug": "welnick",
+    "full_name": "Vince Welnick",
+    "intervals": [
+      {
+        "start": "1990-09-07",
+        "end": "1995-07-09",
+        "role": "keyboards"
+      },
+      {
+        "start": "1990-09-07",
+        "end": "1995-07-09",
+        "role": "vocals"
+      }
+    ]
+  }
+]

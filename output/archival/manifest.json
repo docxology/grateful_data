@@ -1,0 +1,29 @@
+{
+  "tier": "archival",
+  "git_head": "62fb1a6fa048e1a8c1997704840d01a726411020",
+  "entity_counts": {
+    "shows": 3341,
+    "performances": 40757,
+    "songs": 645,
+    "venues": 912
+  },
+  "file_hashes": {
+    "output/data/raw/citations.csv": "799e3fae605512cf148fd0759fcdd0247e379f73123150bdcd1031e4d055090a",
+    "output/data/raw/compendium_full.json": "e103a6d1e23963836fb4c161f1ec234b306c7e3acc6184bcc6e0e0446c8d4b30",
+    "output/data/raw/lyric_pointers.csv": "ec9cb3f1555b281ce85de7cacb39f467d3cbbd93bda067c1cb6fb658235781d3",
+    "output/data/raw/performances.csv": "a33f624f7ac69716b1dcc41211dc0faf17837faf004bcae4bbee314254538986",
+    "output/data/raw/personnel.csv": "17801e0b150322e315f17d437921bce95b2a481468a45d213ad463f3aaa41f55",
+    "output/data/raw/recordings.csv": "41ca7b41c151ad62060cd9b29171f6b3a221e7442e9bf2cb6ab9399970e2639c",
+    "output/data/raw/releases.csv": "c7a1e9c744541e2353ef76c71be37be354dcfc4753f1ba38cae8ccf93cbeb4a2",
+    "output/data/raw/reviews.csv": "6d3d272085ccb3f4193a0bdb7ae241f07a80f1f69c1ff497883378680b2f2239",
+    "output/data/raw/segues.csv": "0a8bb1cec6188c6718da5561b90b29277d498d2d2df7400992dbe280d98cb144",
+    "output/data/raw/shows.csv": "d537752f9f17947642aaee7eeacf3c9279a2ba92bbb16fcf5ba7253fcd007444",
+    "output/data/raw/songs.csv": "041a87907aec1710ca12953563f4a61108d5be2cb888bbce9be2db0260943e33",
+    "output/data/raw/venue_geo.csv": "91ff68581cff01f7d5c4cc24e3bedef68e1c678f94495faa7d69b0b11f76e0e5",
+    "output/data/raw/venues.csv": "c84065b396c65ffce0517f379d807b517cb4eff302be456a8d18b16b20c08e57"
+  },
+  "completeness_report": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/reports/completeness_report.json",
+  "figure_validation": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/reports/figure_validation.json",
+  "fetch_manifest": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/fetch_manifest.json",
+  "build_report": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/archival/build_report.json"
+}

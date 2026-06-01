@@ -1,0 +1,34 @@
+{
+  "title": "The Music Never Stopped: A Grateful Data Compendium with a Category-Theoretic Interpretation",
+  "upload_type": "publication",
+  "publication_type": "article",
+  "description": "A modular, citation-bound Grateful Dead data compendium integrating shows, songs, performances, personnel, venues, recordings, and reception across Setlist.fm, the Setlist Program, the CMU/Leone setlist archive, GDsets, gdshowsdb, the Internet Archive Live Music Archive, the Alex Allan lyric finder, the official band site, and reference sources (Wikipedia, Britannica, Dodd's annotated lyrics). Pairs the compendium with a category-theoretic interpretation in which performances are spans and setlists/lineups arise as functors from a time category. Lyric content is referenced by pointer only (no full lyric text).",
+  "version": "1.0.0",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Friedman, Daniel Ari",
+      "orcid": "0000-0001-6232-9096",
+      "affiliation": "Active Inference Institute"
+    }
+  ],
+  "keywords": [
+    "grateful dead",
+    "setlist data",
+    "category theory",
+    "music information retrieval",
+    "reproducible data compendium"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/docxology/grateful_data",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.20482025",
+      "relation": "isVersionOf",
+      "scheme": "doi"
+    }
+  ]
+}

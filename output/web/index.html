@@ -1,0 +1,2489 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>_combined_manuscript</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <script defer=""
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+
+<style>
+body {
+  font-family: 'Liberation Serif', 'Times New Roman', serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+}
+
+code {
+  background-color: #ecf0f1;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: 'Liberation Mono', 'Courier New', monospace;
+}
+
+pre {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+th, td {
+  border: 1px solid #bdc3c7;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  margin: 20px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.toc {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.toc a {
+  color: #2c3e50;
+}
+
+.math {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.1em;
+}
+
+.figure {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.figure img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.figure-caption {
+  font-style: italic;
+  color: #7f8c8d;
+  margin-top: 10px;
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#abstract" id="toc-abstract"><span
+class="toc-section-number">1</span> Abstract</a></li>
+<li><a href="#introduction" id="toc-introduction"><span
+class="toc-section-number">2</span> Introduction</a>
+<ul>
+<li><a href="#what-we-mean-by-the-music-never-stopped"
+id="toc-what-we-mean-by-the-music-never-stopped"><span
+class="toc-section-number">2.1</span> What we mean by “the music never
+stopped”</a></li>
+<li><a href="#sources-surveyed" id="toc-sources-surveyed"><span
+class="toc-section-number">2.2</span> Sources surveyed</a></li>
+<li><a href="#what-is-in-this-repository"
+id="toc-what-is-in-this-repository"><span
+class="toc-section-number">2.3</span> What is in this
+repository</a></li>
+<li><a href="#related-work" id="toc-related-work"><span
+class="toc-section-number">2.4</span> Related work</a></li>
+<li><a href="#what-is-not-in-this-repository"
+id="toc-what-is-not-in-this-repository"><span
+class="toc-section-number">2.5</span> What is <em>not</em> in this
+repository</a></li>
+</ul></li>
+<li><a href="#methodology" id="toc-methodology"><span
+class="toc-section-number">3</span> Methodology</a>
+<ul>
+<li><a href="#schema" id="toc-schema"><span
+class="toc-section-number">3.1</span> Schema</a>
+<ul>
+<li><a href="#data-dictionary-core-entities"
+id="toc-data-dictionary-core-entities"><span
+class="toc-section-number">3.1.1</span> Data dictionary (core
+entities)</a></li>
+</ul></li>
+<li><a href="#source-ingestion" id="toc-source-ingestion"><span
+class="toc-section-number">3.2</span> Source ingestion</a>
+<ul>
+<li><a href="#contextual-source-layer"
+id="toc-contextual-source-layer"><span
+class="toc-section-number">3.2.1</span> Contextual-source layer</a></li>
+</ul></li>
+<li><a href="#integration" id="toc-integration"><span
+class="toc-section-number">3.3</span> Integration</a></li>
+<li><a href="#committed-compendium-dataarchival"
+id="toc-committed-compendium-dataarchival"><span
+class="toc-section-number">3.4</span> Committed compendium
+(<code>data/archival/</code>)</a></li>
+<li><a href="#analyses-and-validation"
+id="toc-analyses-and-validation"><span
+class="toc-section-number">3.5</span> Analyses and validation</a>
+<ul>
+<li><a href="#first-principles-claim-ledger"
+id="toc-first-principles-claim-ledger"><span
+class="toc-section-number">3.5.1</span> First-principles claim
+ledger</a></li>
+<li><a href="#provenance-external-pointers-and-reviewer-artifacts"
+id="toc-provenance-external-pointers-and-reviewer-artifacts"><span
+class="toc-section-number">3.5.2</span> Provenance, external pointers,
+and reviewer artifacts</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#category-theoretic-interpretation"
+id="toc-category-theoretic-interpretation"><span
+class="toc-section-number">4</span> Category-theoretic
+interpretation</a>
+<ul>
+<li><a href="#why-category-theory" id="toc-why-category-theory"><span
+class="toc-section-number">4.1</span> Why category theory</a></li>
+<li><a href="#the-date-poset-and-the-show-category"
+id="toc-the-date-poset-and-the-show-category"><span
+class="toc-section-number">4.2</span> The date poset and the show
+category</a></li>
+<li><a href="#the-setlist-functor" id="toc-the-setlist-functor"><span
+class="toc-section-number">4.3</span> The setlist functor</a></li>
+<li><a href="#the-lineup-functor-and-the-active-roster-presheaf"
+id="toc-the-lineup-functor-and-the-active-roster-presheaf"><span
+class="toc-section-number">4.4</span> The lineup functor and the
+active-roster presheaf</a></li>
+<li><a href="#performances-as-spans-with-fibers-over-shows-and-songs"
+id="toc-performances-as-spans-with-fibers-over-shows-and-songs"><span
+class="toc-section-number">4.5</span> Performances as spans, with fibers
+over shows and songs</a></li>
+<li><a href="#audio-enrichment" id="toc-audio-enrichment"><span
+class="toc-section-number">4.6</span> Audio enrichment</a></li>
+<li><a href="#coproducts-and-colimits"
+id="toc-coproducts-and-colimits"><span
+class="toc-section-number">4.7</span> Coproducts and colimits</a></li>
+<li><a href="#natural-transformations"
+id="toc-natural-transformations"><span
+class="toc-section-number">4.8</span> Natural transformations</a></li>
+<li><a href="#representability-yoneda-over-the-date-poset"
+id="toc-representability-yoneda-over-the-date-poset"><span
+class="toc-section-number">4.9</span> Representability (Yoneda) over the
+date poset</a></li>
+<li><a href="#what-the-construction-buys"
+id="toc-what-the-construction-buys"><span
+class="toc-section-number">4.10</span> What the construction
+buys</a></li>
+</ul></li>
+<li><a href="#results-on-the-compendium"
+id="toc-results-on-the-compendium"><span
+class="toc-section-number">5</span> Results on the compendium</a>
+<ul>
+<li><a href="#scope-and-completeness"
+id="toc-scope-and-completeness"><span
+class="toc-section-number">5.1</span> Scope and completeness</a></li>
+<li><a href="#top-line-counts" id="toc-top-line-counts"><span
+class="toc-section-number">5.2</span> Top-line counts</a></li>
+<li><a href="#statistical-shape-and-concentration"
+id="toc-statistical-shape-and-concentration"><span
+class="toc-section-number">5.3</span> Statistical shape and
+concentration</a></li>
+<li><a href="#temporal-activity" id="toc-temporal-activity"><span
+class="toc-section-number">5.4</span> Temporal activity</a></li>
+<li><a href="#repertoire-frequency-and-co-occurrence"
+id="toc-repertoire-frequency-and-co-occurrence"><span
+class="toc-section-number">5.5</span> Repertoire frequency and
+co-occurrence</a></li>
+<li><a href="#markov-structure-of-setlist-order"
+id="toc-markov-structure-of-setlist-order"><span
+class="toc-section-number">5.6</span> Markov structure of setlist
+order</a></li>
+<li><a href="#category-theoretic-cardinalities"
+id="toc-category-theoretic-cardinalities"><span
+class="toc-section-number">5.7</span> Category-theoretic
+cardinalities</a></li>
+<li><a href="#composers-eras-and-personnel"
+id="toc-composers-eras-and-personnel"><span
+class="toc-section-number">5.8</span> Composers, eras, and
+personnel</a></li>
+<li><a href="#reception-citations-and-recordings"
+id="toc-reception-citations-and-recordings"><span
+class="toc-section-number">5.9</span> Reception, citations, and
+recordings</a></li>
+<li><a href="#lyric-pointers-and-segues"
+id="toc-lyric-pointers-and-segues"><span
+class="toc-section-number">5.10</span> Lyric pointers and
+segues</a></li>
+<li><a href="#geography-set-position-tours-and-bustouts"
+id="toc-geography-set-position-tours-and-bustouts"><span
+class="toc-section-number">5.11</span> Geography, set position, tours,
+and bustouts</a></li>
+<li><a href="#composite-views" id="toc-composite-views"><span
+class="toc-section-number">5.12</span> Composite views</a></li>
+<li><a href="#claim-evidence-map" id="toc-claim-evidence-map"><span
+class="toc-section-number">5.13</span> Claim evidence map</a></li>
+<li><a href="#limitations-and-threats-to-validity"
+id="toc-limitations-and-threats-to-validity"><span
+class="toc-section-number">5.14</span> Limitations and threats to
+validity</a></li>
+<li><a href="#honest-framing" id="toc-honest-framing"><span
+class="toc-section-number">5.15</span> Honest framing</a></li>
+</ul></li>
+<li><a href="#segue-and-transition-structure"
+id="toc-segue-and-transition-structure"><span
+class="toc-section-number">6</span> Segue and transition structure</a>
+<ul>
+<li><a href="#two-notions-of-what-follows-what"
+id="toc-two-notions-of-what-follows-what"><span
+class="toc-section-number">6.1</span> Two notions of “what follows
+what”</a></li>
+<li><a href="#the-most-frequent-segues"
+id="toc-the-most-frequent-segues"><span
+class="toc-section-number">6.2</span> The most frequent segues</a></li>
+<li><a href="#segue-hubs" id="toc-segue-hubs"><span
+class="toc-section-number">6.3</span> Segue hubs</a></li>
+<li><a href="#what-this-does-and-does-not-establish"
+id="toc-what-this-does-and-does-not-establish"><span
+class="toc-section-number">6.4</span> What this does and does not
+establish</a></li>
+</ul></li>
+<li><a href="#conclusion" id="toc-conclusion"><span
+class="toc-section-number">7</span> Conclusion</a></li>
+<li><a href="#reproducibility" id="toc-reproducibility"><span
+class="toc-section-number">8</span> Reproducibility</a>
+<ul>
+<li><a href="#single-command-reproduction"
+id="toc-single-command-reproduction"><span
+class="toc-section-number">8.1</span> Single-command
+reproduction</a></li>
+<li><a href="#manuscript-pdf-template-renderer"
+id="toc-manuscript-pdf-template-renderer"><span
+class="toc-section-number">8.2</span> Manuscript PDF (template
+renderer)</a></li>
+<li><a href="#cli" id="toc-cli"><span
+class="toc-section-number">8.3</span> CLI</a></li>
+<li><a href="#whats-bound-to-what" id="toc-whats-bound-to-what"><span
+class="toc-section-number">8.4</span> What’s bound to what</a></li>
+<li><a href="#no-mocks" id="toc-no-mocks"><span
+class="toc-section-number">8.5</span> No mocks</a></li>
+<li><a href="#determinism" id="toc-determinism"><span
+class="toc-section-number">8.6</span> Determinism</a></li>
+</ul></li>
+<li><a href="#the-executable-honesty-boundary"
+id="toc-the-executable-honesty-boundary"><span
+class="toc-section-number">9</span> The executable honesty boundary</a>
+<ul>
+<li><a href="#what-the-boundary-refuses"
+id="toc-what-the-boundary-refuses"><span
+class="toc-section-number">9.1</span> What the boundary refuses</a></li>
+<li><a href="#why-this-exists" id="toc-why-this-exists"><span
+class="toc-section-number">9.2</span> Why this exists</a></li>
+<li><a href="#binding-to-tests" id="toc-binding-to-tests"><span
+class="toc-section-number">9.3</span> Binding to tests</a></li>
+<li><a href="#verdict" id="toc-verdict"><span
+class="toc-section-number">9.4</span> Verdict</a></li>
+<li><a href="#licensing-and-provenance"
+id="toc-licensing-and-provenance"><span
+class="toc-section-number">9.5</span> Licensing and provenance</a></li>
+<li><a href="#out-of-scope" id="toc-out-of-scope"><span
+class="toc-section-number">9.6</span> Out of scope</a></li>
+</ul></li>
+<li><a href="#references" id="toc-references"><span
+class="toc-section-number">10</span> References</a></li>
+</ul>
+</nav>
+<h1 data-number="1" id="abstract"><span
+class="header-section-number">1</span> Abstract</h1>
+<p>We present a modular, citation-bound data compendium for the Grateful
+Dead universe — shows, songs, performances, personnel timelines, venues,
+recordings, and reception — and a category-theoretic interpretation of
+the performance graph. The work is grounded in the archival reality that
+Grateful Dead history is both institutional and participatory: UCSC’s
+Grateful Dead Archive and the Internet Archive collection preserve
+formal and community records [ucsc_grateful_dead_archive;
+internet_archive_lma; internet_archive_gd_collection_policy], while
+taping and trading scholarship shows why setlists and recording metadata
+are cultural evidence, not merely fan trivia [dead_net_taping_dead;
+wallace_cocreation_sound_archive]. The surrounding source dossier also
+binds the non-quantitative historical frame – formation and Acid Test
+context, Wall of Sound engineering, live recording/liveness scholarship,
+Deadhead sociology, studio-era reception, and public recognition – to
+checked sources rather than to folklore alone [dead_net_biography;
+foundsf_weir_psychedelic_sf; smithsonian_institutionally_dead;
+mcintosh_wall_of_sound; brackett_live_dead;
+adams_deadhead_social_science; rockhall_grateful_dead;
+grammy_lifetime_achievement; kennedy_center_honors_2024]. The compendium
+integrates nine primary sources (<code>Setlist.fm</code> [setlistfm_gd],
+<code>The SetList Program</code> [setlists_net_program], the Mark Leone
+CMU setlist archive [cmu_leone_setlists; noah_truckin_through_time],
+<code>GDsets</code> [gdsets_com; gdsets_dead], <code>gdshowsdb</code>
+[gdshowsdb; github_topic_gratefuldead], the Internet Archive Live Music
+Archive [internet_archive_lma; fifteen_songs_dataset], the Alex Allan /
+whitegum lyric finder [whitegum_alex_allan; cmu_leone_lyrics], the
+official band site [dead_net_official], and Wikipedia [wikipedia_gd;
+wikipedia_discography]) with four reference sources (Britannica
+[britannica_gd], the lineup-changes guide [ucr_lineup_changes], Dodd and
+Trist’s <em>The Complete Annotated Grateful Dead Lyrics</em>
+[dodd_annotated_lyrics], and the Grateful Stats front-end
+[grateful_stats]) and secondary corpora and community discussions
+[grateful_data_tutorial; jerry_pycia; gd_reviews_corpus;
+reddit_data_sets; reddit_lyrics_attribution; reddit_setlist_db;
+reddit_spreadsheet_archive]. Each source is parsed by an independently
+testable <em>reference</em> module written against the documented record
+shape; the committed compendium under <code>data/archival/</code> is the
+dataset reported here (3341 ingested shows (gdshowsdb + truckin
+gap-fill; community literature estimates ~2318 canonical concerts), 645
+songs, 912 venues, 40757 performance rows). A runtime completeness audit
+and figure-validation gate certify referential integrity and
+non-degenerate outputs on every pipeline run. Integration is a
+deterministic, sort-keyed merge over canonical slugs; registered figures
+also emit CSV/JSON data tables, and a first-principles claim ledger
+classifies each major result by irreducible input, hard constraint,
+assumption, validation artifact, and interpretation limit. Exploratory
+repertoire/uncertainty panels are labelled as pattern-discovery rather
+than causal inference. We then exhibit four small but real categorical
+constructions, situated against transformational and categorical
+music-theory precedents [lewin_gmit; padi_category_music_case_study;
+popoff_hidden_categories]: a poset category of dates, a discrete
+category of shows, a <em>monotone</em> cumulative setlist functor and
+lineup functor from dates into sets, and a span representation that
+takes each performance to be the apex of a span between its show and its
+song. Wide pullbacks over a fixed show recover the show’s setlist; wide
+pullbacks over a fixed song recover the song’s performance history. The
+active-band roster, by contrast, is a non-monotone presheaf on the date
+poset — a categorical formalization of the familiar fact that members
+come and go. The artefacts in this paper come from the committed
+archival snapshot; all source-ingestion modules are written against the
+<em>real</em> source shape so that
+<code>scripts/00_fetch_sources.py --online --write-archival</code>
+refreshes the full snapshot.</p>
+<hr />
+<h1 data-number="2" id="introduction"><span
+class="header-section-number">2</span> Introduction</h1>
+<h2 data-number="2.1" id="what-we-mean-by-the-music-never-stopped"><span
+class="header-section-number">2.1</span> What we mean by “the music
+never stopped”</h2>
+<p>The Grateful Dead performed roughly two and a half thousand concerts
+between 1965 and 1995. The public record of those concerts — setlists,
+recordings, ticket stubs, member rosters, composer credits, release
+histories, and decades of fan commentary — is one of the most
+extensively documented bodies of live performance in popular-music
+history. It is also unusually hybrid. UCSC’s Grateful Dead Archive gives
+the band a formal institutional home [ucsc_grateful_dead_archive], while
+the Internet Archive collection and Deadhead taping culture preserve the
+community-built sound archive and its metadata
+[internet_archive_gd_collection_policy; dead_net_taping_dead;
+wallace_cocreation_sound_archive]. The record is fragmented across
+primary databases, archival corpora, reference works, and a long tail of
+community spreadsheets and forum threads [reddit_data_sets;
+reddit_setlist_db; reddit_spreadsheet_archive]. This paper introduces
+<em>The Music Never Stopped</em>: a reproducible, citation-bound
+compendium that integrates the primary sources into a single schema,
+exposes them to standard data-analysis machinery, and exhibits a small
+but genuine category-theoretic structure latent in the performance
+graph.</p>
+<h2 data-number="2.2" id="sources-surveyed"><span
+class="header-section-number">2.2</span> Sources surveyed</h2>
+<p>We organize the cited landscape into four layers.</p>
+<p><strong>Primary setlist sources.</strong> Setlist.fm publishes a
+crowd-curated, API-backed register of every Grateful Dead show
+[setlistfm_gd]. The SetList Program at <code>setlists.net</code> covers
+1965–1995 with an interactive interface [setlists_net_program]. The Mark
+Leone CMU archive [cmu_leone_setlists], derived from the Jerry Stratton
+database, is the ancestor of many community scrapes; Noah Gorstein has
+converted the abandoned HTML into an open SQLite database
+[noah_truckin_through_time]. <code>GDsets</code> combines setlists with
+ticket-stub and stage-pass images [gdsets_com; gdsets_dead]. The
+<code>gdshowsdb</code> repository ships a relational schema and a Ruby
+gem [gdshowsdb]; the GitHub topic <code>gratefuldead</code> is the
+meta-index that links these and other resources
+[github_topic_gratefuldead].</p>
+<p><strong>Primary lyric and song-attribution sources.</strong> Mark
+Leone’s lyric index at CMU [cmu_leone_lyrics] points to the Stratton
+database via FTP. Alex Allan’s <code>whitegum.com</code> is the
+canonical lyric and song finder for every song the Dead played, with
+composer/lyricist attribution and per-song performance data
+[whitegum_alex_allan]. Dodd and Trist’s <em>The Complete Annotated
+Grateful Dead Lyrics</em> supplies the authoritative interpretive and
+annotation context for lyric studies [dodd_annotated_lyrics]. We cite it
+as an external authority and store only pointer metadata; no lyric text
+is bundled. Hunter’s own retrospective account and community discussion
+are used only as context for songwriter roles, never as an override of
+the structured composer/lyricist fields
+[rolling_stone_robert_hunter_interview; reddit_lyrics_attribution].</p>
+<p><strong>Personnel, discography, recording, and reception
+sources.</strong> The official band site lists members and roles
+[dead_net_official]. Wikipedia’s Grateful Dead entry [wikipedia_gd] and
+discography [wikipedia_discography] anchor the biographical timeline;
+Britannica frames the wider cultural context [britannica_gd].
+<em>Ultimate Classic Rock</em>’s lineup-changes guide
+[ucr_lineup_changes] provides a chronological narrative of personnel
+transitions. The Internet Archive’s Live Music Archive supplies
+recording metadata for the bulk of the live corpus
+[internet_archive_lma], and its Grateful Dead collection policy explains
+the special access and metadata posture of those recordings
+[internet_archive_gd_collection_policy]. The
+<code>fifteen-songs-dataset</code> curates 2617 soundboard recordings of
+15 songs for music-information-retrieval research
+[fifteen_songs_dataset], while Wang et al.’s setlist-segmentation paper
+gives a broader MIR frame for why live setlist identification is
+non-trivial [wang_setlist_segmentation]. <code>jerryPycia</code>
+provides a Python query library over Dead show data [jerry_pycia]; the
+<code>grateful-dead-reviews</code> corpus collects long-form fan reviews
+[gd_reviews_corpus]. The <code>gratefulstats.com</code> front-end
+aggregates show/tune/venue statistics [grateful_stats]. The
+<code>gratefuldata</code> tutorial demonstrates an ETL pipeline using
+the Internet Archive together with ASCAP ACE composer data
+[grateful_data_tutorial]. The compendium draws composer/lyricist
+attributions from these sources and encodes them in
+<code>data/archival/songs.json</code>.</p>
+<p><strong>Historical, technical, and interpretive context.</strong> The
+supplied enriched bibliography is useful as a discovery map, but the map
+is not itself evidence. Each durable topic is therefore rebound to
+checked source families: the official dead.net biography and FoundSF’s
+Bob Weir oral-history page for formation and Acid Test context
+[dead_net_biography; foundsf_weir_psychedelic_sf], Smithsonian and UCSC
+for institutional archive status [smithsonian_institutionally_dead;
+ucsc_grateful_dead_archive], McIntosh for the Wall of Sound hardware
+[mcintosh_wall_of_sound], Marshall, JSTOR Daily, Meriwether, Wallace,
+and the Internet Archive policy page for the tape-trading and
+sound-archive ecosystem [marshall_bootleg_collectors;
+jstor_daily_tape_trading; dead_net_taping_dead;
+wallace_cocreation_sound_archive;
+internet_archive_gd_collection_policy], Brackett’s <em>Live Dead</em>
+for liveness and recorded-performance scholarship [brackett_live_dead],
+Adams and Sardiello for Deadhead sociology
+[adams_deadhead_social_science], Dodd and Weiner for the bibliographic
+field map [dodd_weiner_annotated_bibliography], Britannica and Americana
+Highways for narrow biographical and studio-reception context
+[britannica_jerry_garcia;
+americana_highways_workingmans_american_beauty], and official
+public-recognition sources for later institutional status
+[rockhall_grateful_dead; grammy_lifetime_achievement;
+kennedy_center_honors_2024]. Community reconstructions such as touring
+revenue estimates are cited only as labelled business-history context,
+not as compendium measurements [grateful_seconds_touring_revenues].</p>
+<h2 data-number="2.3" id="what-is-in-this-repository"><span
+class="header-section-number">2.3</span> What is in this repository</h2>
+<p>We ship a committed archival compendium under
+<code>data/archival/</code> that drives every analysis and
+category-theoretic claim in this paper end-to-end, plus a parser for
+each cited source so that refreshing the snapshot is a matter of running
+the same code with online flags.</p>
+<h2 data-number="2.4" id="related-work"><span
+class="header-section-number">2.4</span> Related work</h2>
+<p>Prior Grateful Dead data efforts are mostly <em>single-source</em> or
+<em>single-purpose</em>. Community setlist databases and the gdshowsdb /
+truckin-through-time projects [gdshowsdb; noah_truckin_through_time]
+assemble the raw show record; aggregators such as Grateful Stats
+[grateful_stats] and community spreadsheets and forums
+[reddit_setlist_db; reddit_data_sets] surface frequency rankings; and
+query libraries such as <code>jerryPycia</code> [jerry_pycia] and the
+<code>grateful-data</code> tutorial [grateful_data_tutorial] expose one
+source programmatically. Archive and popular-music studies add a second
+frame: the Dead’s sound record is co-produced by band, archive, tapers,
+uploaders, and curators rather than handed down by a single authority
+[wallace_cocreation_sound_archive; dead_net_taping_dead;
+internet_archive_gd_collection_policy; brackett_live_dead]. Sociological
+work on Deadheads, bibliographic scholarship, and tape-trader studies
+explain why this record is also a community institution rather than
+simply a discography [adams_deadhead_social_science;
+dodd_weiner_annotated_bibliography; marshall_bootleg_collectors;
+jstor_daily_tape_trading].</p>
+<p>This compendium differs on two axes. It is
+<em>integration-first</em>: primary sources are reconciled on canonical
+slugs into one immutable, citation-bound schema with a runtime honesty
+boundary and completeness/figure-validation probes. It is also
+<em>structure-first</em>: the performance record is read through small
+but mechanically checked categorical constructions (functors, spans,
+colimits, a date-poset Yoneda statement) rather than treated only as a
+frequency table. The music-theory lineage is Lewin’s transformational
+shift from static objects to relations and transformations [lewin_gmit],
+with newer categorical music work showing how such networks can be
+formalized diagrammatically [padi_category_music_case_study;
+popoff_hidden_categories]. Our contribution is a concrete, reproducible
+instantiation on a real performance corpus, with every quantitative or
+categorical claim bound to code.</p>
+<h2 data-number="2.5" id="what-is-not-in-this-repository"><span
+class="header-section-number">2.5</span> What is <em>not</em> in this
+repository</h2>
+<p>We do not bundle lyric text — full lyrics are copyrighted. The
+compendium stores songs as titled records with composer and lyricist
+attribution; the semantic layer (motifs, themes, annotations) is read
+against external indices such as Alex Allan’s finder and Dodd’s
+annotated lyrics [whitegum_alex_allan; dodd_annotated_lyrics]. We do not
+bundle audio. The audio-enriched category in §3 is a structural
+abstraction over similarity weights; concrete weights are produced by an
+external pipeline against the <code>fifteen-songs-dataset</code>
+[fifteen_songs_dataset].</p>
+<hr />
+<h1 data-number="3" id="methodology"><span
+class="header-section-number">3</span> Methodology</h1>
+<h2 data-number="3.1" id="schema"><span
+class="header-section-number">3.1</span> Schema</h2>
+<p>The compendium primitive is a small frozen-dataclass schema. Every
+entity validates its inputs in <code>__post_init__</code>; every primary
+key is computed by a canonical-slug function so that joins across
+sources reduce to dictionary lookups. The nine entity types are
+<code>Show</code>, <code>Venue</code>, <code>Person</code>,
+<code>Song</code>, <code>Performance</code>, <code>Recording</code>,
+<code>Release</code>, <code>Citation</code>, and <code>Lineup</code>;
+their fields and invariants are documented in
+<code>src/models.py</code>.</p>
+<p>Two canonical-slug rules suffice for source-agnostic identity:</p>
+<ul>
+<li>a song slug is the ASCII-folded, punctuation-stripped slug of its
+title;</li>
+<li>a show slug is <code>YYYY-MM-DD@&lt;venue-slug&gt;</code>.</li>
+</ul>
+<p>These deterministic functions absorb the cross-source-naming variance
+that would otherwise require a manual alias table.</p>
+<h3 data-number="3.1.1" id="data-dictionary-core-entities"><span
+class="header-section-number">3.1.1</span> Data dictionary (core
+entities)</h3>
+<p>The field-level contract for the entities that carry the quantitative
+claims; the authoritative definition with all invariants is
+<code>src/models.py</code>.</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Entity</th>
+<th>Key</th>
+<th>Principal fields</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Show</code></td>
+<td><code>slug</code> = <code>YYYY-MM-DD@venue</code></td>
+<td><code>date</code>, <code>venue_slug</code></td>
+<td>one concert; <code>venue_slug</code> is a foreign key into
+<code>Venue</code></td>
+</tr>
+<tr>
+<td><code>Venue</code></td>
+<td><code>slug</code></td>
+<td><code>name</code>, <code>city</code>, <code>state_or_region</code>,
+<code>country</code></td>
+<td>geo coordinates live in a <code>venue_geo</code> sidecar</td>
+</tr>
+<tr>
+<td><code>Song</code></td>
+<td><code>slug</code> (slug of title)</td>
+<td><code>title</code>, <code>composers</code>, <code>lyricists</code>,
+<code>first_performed</code>, <code>last_performed</code>,
+<code>aliases</code></td>
+<td>catalogue entry; need not have been performed</td>
+</tr>
+<tr>
+<td><code>Performance</code></td>
+<td><code>(show, song, set, position)</code></td>
+<td><code>show_slug</code>, <code>song_slug</code>,
+<code>set_number</code>, <code>position</code>, <code>segue_into</code>,
+<code>notes</code></td>
+<td>the apex of the show<span
+class="math inline">\(\leftrightarrow\)</span>song span</td>
+</tr>
+<tr>
+<td><code>Person</code></td>
+<td><code>slug</code></td>
+<td><code>intervals</code> = <code>(start, end, role)</code> tuples</td>
+<td>open interval (<code>end=None</code>) means still active</td>
+</tr>
+<tr>
+<td><code>Recording</code></td>
+<td><code>slug</code></td>
+<td><code>show_slug</code> (or date), <code>source_type</code></td>
+<td>Internet Archive + curated rows</td>
+</tr>
+<tr>
+<td><code>Review</code></td>
+<td>—</td>
+<td><code>show_slug</code>, <code>kind</code>, <code>sentiment</code>
+<span class="math inline">\(\in[-1,1]\)</span>,
+<code>source_url</code></td>
+<td>positive sentiment requires a source URL (honesty check)</td>
+</tr>
+<tr>
+<td><code>Citation</code></td>
+<td><code>key</code></td>
+<td><code>kind</code>, <code>url</code></td>
+<td>bibliography + <code>references.bib</code></td>
+</tr>
+<tr>
+<td><code>LyricPointer</code></td>
+<td><code>song_slug</code></td>
+<td><code>url</code>, <code>themes</code>, <code>lyricist</code></td>
+<td>URL metadata only — never lyric text</td>
+</tr>
+</tbody>
+</table>
+<h2 data-number="3.2" id="source-ingestion"><span
+class="header-section-number">3.2</span> Source ingestion</h2>
+<p>Each cited source has its own <em>reference parser</em> at
+<code>src/sources/&lt;name&gt;.py</code>. Every parser exposes a single
+<code>parse</code> function whose input is a record in the documented
+upstream shape (JSON payload for API sources, line-oriented text block
+for HTML-derived archives, dict-of-tables for relational dumps) and
+whose output is in the canonical schema. The committed snapshot in
+<code>data/archival/</code> is built from gdshowsdb YAML,
+truckin-through-time SQLite gap-fill, and curated overlays. Live HTTP
+fetchers are implemented in <code>src/ingest/</code> and invoked by
+<code>scripts/00_fetch_sources.py --online --archival-max</code>. We
+support nine ingestion paths corresponding to the survey above:</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Source</th>
+<th>Module</th>
+<th>Citation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Setlist.fm</td>
+<td><code>sources/setlistfm.py</code></td>
+<td>[setlistfm_gd]</td>
+</tr>
+<tr>
+<td>The SetList Program</td>
+<td><code>sources/setlist_program.py</code></td>
+<td>[setlists_net_program]</td>
+</tr>
+<tr>
+<td>CMU / Mark Leone</td>
+<td><code>sources/cmu_setlists.py</code></td>
+<td>[cmu_leone_setlists; noah_truckin_through_time]</td>
+</tr>
+<tr>
+<td>GDsets</td>
+<td><code>sources/gdsets.py</code></td>
+<td>[gdsets_com; gdsets_dead]</td>
+</tr>
+<tr>
+<td>gdshowsdb</td>
+<td><code>sources/gdshowsdb.py</code></td>
+<td>[gdshowsdb]</td>
+</tr>
+<tr>
+<td>Internet Archive LMA</td>
+<td><code>sources/internet_archive.py</code></td>
+<td>[internet_archive_lma; fifteen_songs_dataset]</td>
+</tr>
+<tr>
+<td>Alex Allan / whitegum</td>
+<td><code>sources/alex_allan.py</code></td>
+<td>[whitegum_alex_allan]</td>
+</tr>
+<tr>
+<td>dead.net (official)</td>
+<td><code>sources/dead_net.py</code></td>
+<td>[dead_net_official]</td>
+</tr>
+<tr>
+<td>Wikipedia</td>
+<td><code>sources/wikipedia.py</code></td>
+<td>[wikipedia_gd; wikipedia_discography]</td>
+</tr>
+</tbody>
+</table>
+<p>The Internet Archive path is treated as recording <em>metadata</em>
+rather than as an audio-ingestion license. The Grateful Dead collection
+has its own access and upload posture, and its item metadata can include
+source, taper, and transfer fields that are valuable without bundling
+audio files [internet_archive_gd_collection_policy]. Likewise, the lyric
+layer records URLs, lyricist attribution, and curated theme labels only;
+Dodd and Trist’s annotated lyrics are cited as external interpretive
+context, not ingested text [dodd_annotated_lyrics].</p>
+<h3 data-number="3.2.1" id="contextual-source-layer"><span
+class="header-section-number">3.2.1</span> Contextual-source layer</h3>
+<p>Historical context is deliberately stored as citations and prose, not
+as performance data. The enriched-bibliography pass added a fourth
+source class: checked contextual anchors for formation, public honors,
+sound engineering, tape-trading, Deadhead sociology, studio-era
+reception, bibliography, and live-recording scholarship
+[dead_net_biography; foundsf_weir_psychedelic_sf;
+smithsonian_institutionally_dead; mcintosh_wall_of_sound;
+marshall_bootleg_collectors; brackett_live_dead;
+adams_deadhead_social_science; dodd_weiner_annotated_bibliography;
+americana_highways_workingmans_american_beauty;
+kennedy_center_honors_2024]. These sources can explain why a date
+matters, but they do not create or override <code>Show</code>,
+<code>Performance</code>, <code>Recording</code>, or
+<code>Release</code> rows. The quality tiers are explicit:</p>
+<ul>
+<li><strong>Data-bearing primary sources</strong> (gdshowsdb, Truckin,
+Setlist.fm, SetList Program, Internet Archive metadata) may create or
+corroborate schema rows through parser code.</li>
+<li><strong>Pointer-only sources</strong> (whitegum, the CMU lyric
+index, dead.net song pages, Dodd/Trist) may supply URLs, attributions,
+and themes but never bundled lyric text.</li>
+<li><strong>Scholarly or institutional context</strong> (UCSC, Wallace,
+Brackett, Adams/Sardiello, Lewin, NIST/Padi, Popoff/Andreatta) may
+support manuscript interpretation, methods scope, and related work.</li>
+<li><strong>Journalism or publisher context</strong> (JSTOR Daily,
+Americana Highways, Billboard, Britannica, McIntosh) may support
+labelled reception, biography, or technical context only.</li>
+<li><strong>Community reconstruction</strong> (Reddit threads, Grateful
+Seconds) may support explicitly labelled background, never quantitative
+findings.</li>
+</ul>
+<p>No current-person, revenue, lyric, or audio claim from the source
+dossier is allowed into the quantitative layer unless it is
+independently sourced and represented in the schema. The same rule
+applies to citation placement: contextual sources may explain the
+provenance of a figure or timeline label, but the plotted statistics
+must still come from generated reports or exported figure data.</p>
+<h2 data-number="3.3" id="integration"><span
+class="header-section-number">3.3</span> Integration</h2>
+<p>The integration layer at <code>src/integration/reconcile.py</code>
+performs a deterministic merge. The merge rule is pointwise per entity
+type — venues join on slug, songs join on slug with union of
+composer/lyricist tuples and min/max of first/last-performed dates,
+people join on slug with union of intervals, performances join on the
+four-tuple <code>(show, song, set, pos)</code>. The resulting
+<code>Compendium</code> is immutable and byte-stable across runs.</p>
+<h2 data-number="3.4" id="committed-compendium-dataarchival"><span
+class="header-section-number">3.4</span> Committed compendium
+(<code>data/archival/</code>)</h2>
+<p>The published dataset lives under <code>data/archival/</code> (3341
+ingested shows (gdshowsdb + truckin gap-fill; community literature
+estimates ~2318 canonical concerts), 645 songs, 912 venues, 40757
+performance rows). It merges gdshowsdb YAML, truckin-through-time
+gap-fill, Internet Archive LMA metadata, bibliography citations,
+maximinus reviews, CMU lyric pointers, and curated personnel/releases
+overlays. <code>GRATEFUL_DATA_TIER=archival</code> selects this load
+path (see <code>src/tier.py</code>).</p>
+<h2 data-number="3.5" id="analyses-and-validation"><span
+class="header-section-number">3.5</span> Analyses and validation</h2>
+<p>The analysis layer at <code>src/analysis/</code> computes descriptive
+statistics, co-occurrence and Markov transitions, era and personnel
+timelines, geo and tour aggregates, lyric-theme frequencies from
+pointers, review sentiment, segue extraction, eigenvector centrality,
+stationary distributions, and bustout (recurrence-gap) metrics — each as
+a pure function of the <code>Compendium</code>.</p>
+<p>Distributional statistics are first-class objects rather than
+incidental plot annotations. <code>src/analysis/distributions.py</code>
+computes show-level performance-row summaries, robust percentiles, and
+simple concentration statistics (Gini, top-decile share, and the number
+of ranked items needed to cover 50% and 80% of rows). The method is
+descriptive only: it reports skew and concentration in the archival
+record without treating unequal song frequency, venue recurrence, or
+setlist length as causal effects. Show-level performance distributions
+include empty-setlist shows, because excluding them would make the
+setlist-completeness limitation invisible.</p>
+<p>The same module now adds fixed-seed item-level bootstrap intervals
+for the song and venue concentration statistics. These intervals are
+reported as exploratory uncertainty bands around descriptive metrics:
+the resampling unit is the observed item count (a song’s performance
+count or a venue’s show count), not a claim about unobserved concerts,
+fan preference, or musical causation.</p>
+<p>Exploratory repertoire modeling lives in
+<code>src/analysis/exploratory.py</code>. It constructs an era-by-song
+performance-count matrix with generic segment markers excluded, applies
+a centered SVD to log-count profiles, and clusters the two-dimensional
+coordinates with deterministic k-means-style updates and stable
+tie-breaks. The output is explicitly labelled as pattern discovery: it
+helps inspect era-weighted repertoire profiles, but it is not
+predictive, causal, or a definitive musicological taxonomy.</p>
+<p>The transition analysis is intentionally modest: a first-order chain
+over adjacent within-show performance rows plus an explicit segue graph
+over source-marked <code>segue_into</code> edges. MIR work on
+full-concert setlist identification shows why audio-level segmentation
+is a separate, harder task that would require different evidence and
+different artifacts [wang_setlist_segmentation]. The current analysis
+report also includes a deterministic transition-sensitivity layer:
+predecessor-support thresholds are summarized with and without generic
+segment markers, and era-specific transition summaries are reported as
+descriptive diagnostics. These sensitivity rows do not rerun the
+permutation screen and do not create predictive claims; they show how
+fragile or stable the visible transition surface is under ordinary
+presentation choices.</p>
+<p>Repertoire concentration is likewise reported with sensitivity
+context. Beyond the fixed-seed bootstrap intervals, the analysis report
+summarizes alternate top-N cuts for performance share, within-cut Gini,
+top-decile concentration, and era coverage. This keeps the manuscript
+from treating a single top-song cutoff or heatmap width as if it were an
+intrinsic property of the archive.</p>
+<h3 data-number="3.5.1" id="first-principles-claim-ledger"><span
+class="header-section-number">3.5.1</span> First-principles claim
+ledger</h3>
+<p>The methods layer now includes a claim-governance pass in
+<code>src/analysis/first_principles.py</code>. This is not a statistical
+model; it is a reproducibility device. The ledger deconstructs each
+major manuscript claim family into five irreducible parts: the data
+input, the hard constraint that must hold, the softer modeling or
+presentation choice, the assumption that remains after the hard
+constraint is enforced, and the interpretation limit. The current build
+classifies 12 claim families across 6 claim classes, naming 12 hard
+constraints, 12 assumptions, and 12 validation artifacts.</p>
+<p>This layer prevents the common failure mode in computational
+humanities projects: a polished visualization silently upgrades a
+descriptive pattern into an explanatory claim. For example, repertoire
+rankings are permitted to say what was counted after segment-marker
+exclusion; they are not permitted to say what the band preferred. The
+transition matrix is permitted to summarize adjacent setlist rows; it is
+not permitted to infer musical causality. The historical-context
+timeline is permitted to orient computed show counts against cited
+milestones; it is not permitted to create or modify a <code>Show</code>
+row. <code>scripts/19_first_principles_review.py</code> serializes the
+ledger as <code>output/reports/first_principles_review.json</code> and
+<code>output/reports/first_principles_claims.csv</code>. Each row also
+names the manuscript section, figure filename, report key, governing
+test file, and claim status, so caveats can be routed through the ledger
+instead of repeated as free-floating prose.</p>
+<h3 data-number="3.5.2"
+id="provenance-external-pointers-and-reviewer-artifacts"><span
+class="header-section-number">3.5.2</span> Provenance, external
+pointers, and reviewer artifacts</h3>
+<p>Source provenance is exported as a sidecar rather than written into
+the frozen entity dataclasses. <code>src/provenance.py</code> records
+the source-layer families behind shows, songs, venues, performances,
+recordings, releases, citations, lyric pointers, reviews, personnel
+rows, and computed segue edges. The records are deliberately
+conservative: they identify ingest or computation layers, not hidden
+row-level certainty that the schema does not store.</p>
+<p>The external-media layer is pointer-only.
+<code>src/external_manifests.py</code> writes audio and lyric URL
+manifests with compact metadata, hashes where available, and explicit
+policy labels. It rejects bundled audio, local paths, lyric text,
+transcripts, excerpts, waveforms, and derived text fields. It also
+writes a small pipeline contract that names allowed inputs and outputs
+for future external audio-feature and lyric-annotation workflows. This
+keeps future audio- or lyric-analysis work reproducible without changing
+the present copyright and data-boundary claims.</p>
+<p>Visualization lives in <code>src/viz/</code>: reusable panel builders
+(<code>panels.py</code>), a figure registry (<code>figures.py</code>),
+mosaic composition (<code>compose.py</code>), alluvial flows
+(<code>alluvial.py</code>), and non-blank figure validation
+(<code>validate.py</code>). HTML dashboards and entity markdown pages
+live in <code>src/reporting/</code>.</p>
+<p>The figure set is deliberately mixed: frequency and concentration
+views use ranked bars or cumulative-share curves; distributions use
+histograms with median and high-percentile reference lines; temporal
+activity uses bars/lines; co-occurrence and transition matrices use
+heatmaps; geography uses a size-encoded scatter map; and the
+composer/song/era view uses an alluvial diagram. Pie charts are avoided
+because the same categorical comparisons are more legible as sorted bars
+with counts and shares.</p>
+<p>The contextual-source distinction also shapes the visual layer. The
+new historical-context timeline overlays a small set of cited milestones
+on computed show counts; it is a visual orientation aid, not an ingest
+product. The figure registry therefore carries its title, screen-reader
+alt text, caption hint, data source, statistic, exclusion rule, claim
+class, draw function, and figure-data exporter together. The same
+metadata feeds the dashboard, raw figure-data index, publication
+validator, and manuscript captions, so prose claims and plotted
+statistics are auditable from one registry. A plain static explorer
+under <code>output/explorer/</code> reuses exported show, song, venue,
+segue, figure, provenance, and claim-evidence data for local filtering
+without adding a frontend framework. The explorer supports URL-state
+filters, sortable table headers, related links, and filtered CSV
+download, so readers can inspect subsets without depending on a
+server.</p>
+<p>Runtime probes certify manuscript claims beyond unit tests:</p>
+<ul>
+<li><code>src/audit.py::audit_completeness</code> — referential
+integrity (tier-aware);</li>
+<li><code>src/export.py</code> — full raw CSV/JSON export of every
+entity type;</li>
+<li><code>src/analysis/first_principles.py</code> — first-principles
+claim/evidence ledger for hard constraints, assumptions, validation
+artifacts, and limits;</li>
+<li><code>src/provenance.py</code> — sidecar provenance CSV/JSON for
+entity/source-layer review;</li>
+<li><code>src/external_manifests.py</code> — pointer-only external
+audio/lyric manifests with protected-content rejection;</li>
+<li><code>src/viz/datasets.py</code> — raw CSV/JSON export of 34
+registered figure datasets;</li>
+<li><code>src/viz/validate.py::validate_figures</code> — every expected
+PNG exists and is non-degenerate.</li>
+</ul>
+<hr />
+<h1 data-number="4" id="category-theoretic-interpretation"><span
+class="header-section-number">4</span> Category-theoretic
+interpretation</h1>
+<h2 data-number="4.1" id="why-category-theory"><span
+class="header-section-number">4.1</span> Why category theory</h2>
+<p>Category theory gives us a vocabulary for <em>structure that survives
+change of representation</em>. The four constructions below identify
+structure that does not depend on which source we drew the data from or
+on which subset of the corpus we are looking at: they are stable in
+exactly the sense category theory was built to express.</p>
+<p>The point is not to claim that setlists require category theory. The
+point is to make the data model’s relations explicit. Lewin’s
+transformational theory famously shifts attention from musical objects
+to transformations among objects [lewin_gmit]; NIST’s music case study
+shows category theory used as an ontology and integration framework for
+musical knowledge [padi_category_music_case_study]; and recent work on
+hidden categories in Lewinian GIS and Klumpenhouwer networks makes the
+categorical connection literal [popoff_hidden_categories]. Those works
+license the <em>kind</em> of move being made here – a shift from objects
+to relations and an ontology whose diagrams can be checked – but they do
+not make the Grateful Dead corpus categorically interesting by
+association. Our use is narrower: shows, songs, dates, and performances
+form a small relational system whose laws can be checked directly
+against the compendium.</p>
+<p><strong>Scope of these claims.</strong> <span
+class="math inline">\(\mathbf{Date}\)</span> is a <em>thin</em> poset
+category, so associativity holds automatically and the Yoneda statement
+is the elementary poset case rather than a deep theorem. We therefore
+present the mechanized checks below — law sampling, the colimit
+universal property, the Yoneda bijection, the span/functor commutation —
+as <em>encoding and sanity checks</em>: they verify that the schema
+faithfully instantiates these categorical structures and that the
+corresponding properties hold on the real corpus (each with a negative
+control that fails on broken input), not that a non-trivial mathematical
+theorem about the Grateful Dead has been proved. Their value is that the
+data model is demonstrably the categorical object we claim it is — which
+is what licenses the representation-independent reading — not
+mathematical novelty or a claim that categorical music theory explains
+the band’s musical choices.</p>
+<h2 data-number="4.2" id="the-date-poset-and-the-show-category"><span
+class="header-section-number">4.2</span> The date poset and the show
+category</h2>
+<p>Let <span class="math inline">\(\mathbf{Date}\)</span> be the small
+category whose objects are the distinct performance dates in the
+compendium and whose morphisms <span class="math inline">\(d_1 \to
+d_2\)</span> exist iff <span class="math inline">\(d_1 \le d_2\)</span>.
+<span class="math inline">\(\mathbf{Date}\)</span> is a thin poset
+category; identities and associativity hold by construction. Let <span
+class="math inline">\(\mathbf{Show}\)</span> be the discrete category
+whose objects are the show slugs. Both categories’ laws are checked
+mechanically in
+<code>src/cattheory/categories.py::Category.check_laws</code>. Small
+categories are verified exhaustively; at archival scale the <span
+class="math inline">\(\mathbf{Date}\)</span> poset has 2312 objects, so
+an exhaustive associativity sweep is intractable. The checker instead
+verifies every identity and samples a fixed (seeded) set of random
+composable triples, checking both associativity and
+<strong>closure</strong> (that each sampled composite arrow is present
+in the table). Because the <span
+class="math inline">\(\mathbf{Date}\)</span> <code>compose</code> is
+order-preserving string composition, its associativity holds by
+construction; the data-reachable defect is a non-transitively-closed
+arrow table, which the sampled closure check catches with high
+probability. This is a <em>regression guard</em> — the laws hold by
+construction; the check is a sampled probe of systematic corruption, not
+a proof — paired with a negative control that fails on a deliberately
+non-closed table.</p>
+<h2 data-number="4.3" id="the-setlist-functor"><span
+class="header-section-number">4.3</span> The setlist functor</h2>
+<p>Define <span class="math inline">\(F_{\text{setlist}} : \mathbf{Date}
+\to \mathbf{Set}\)</span> by sending each date <span
+class="math inline">\(d\)</span> to the set of song slugs ever performed
+on or before <span class="math inline">\(d\)</span>, and each arrow
+<span class="math inline">\(d_1 \le d_2\)</span> to the inclusion of
+sets. <span class="math inline">\(F_{\text{setlist}}\)</span> is a
+covariant functor because the cumulative-songs set is monotone in <span
+class="math inline">\(d\)</span>.
+<code>cattheory/functors.py::setlist_functor</code> returns the explicit
+representation; <code>is_monotone</code> checks the functor law on the
+compendium.</p>
+<h2 data-number="4.4"
+id="the-lineup-functor-and-the-active-roster-presheaf"><span
+class="header-section-number">4.4</span> The lineup functor and the
+active-roster presheaf</h2>
+<p>Define <span class="math inline">\(F_{\text{lineup}} : \mathbf{Date}
+\to \mathbf{Set}\)</span> by sending each date <span
+class="math inline">\(d\)</span> to the set of personnel who have been
+in the band on or before <span class="math inline">\(d\)</span>, and
+each arrow to the inclusion. <span
+class="math inline">\(F_{\text{lineup}}\)</span> is again a monotone
+covariant functor.</p>
+<p>The <em>active-roster</em> assignment <span
+class="math inline">\(P_{\text{active}}(d) = \{p \mid p\ \text{is
+in the band on}\ d\}\)</span> is also natural, but it is <em>not</em>
+monotone: when Pigpen leaves the band in 1972 [ucr_lineup_changes;
+dead_net_official], the active set shrinks, so <span
+class="math inline">\(P_{\text{active}}\)</span> fails the
+covariant-functor law. It is, however, a perfectly good presheaf:
+contravariantly, the “forgetting” arrow <span class="math inline">\(d_2
+\to d_1\)</span> can be sent to the restriction of the active set. We
+make both views available (<code>setlist_functor</code>,
+<code>lineup_functor</code>, <code>active_lineup_presheaf</code>) and
+check that one is monotone and the other is not. The categorical content
+matches the historical fact: cumulative views grow; instantaneous views
+oscillate.</p>
+<h2 data-number="4.5"
+id="performances-as-spans-with-fibers-over-shows-and-songs"><span
+class="header-section-number">4.5</span> Performances as spans, with
+fibers over shows and songs</h2>
+<p>For each performance <span class="math inline">\(p = (\text{show},
+\text{song}, \text{set}, \text{pos})\)</span>, define a (2-leg)
+span:</p>
+<p><span class="math display">\[\mathrm{Show}\
+\xleftarrow{\pi_{\text{show}}}\ p\ \xrightarrow{\pi_{\text{song}}}\
+\mathrm{Song}.\]</span></p>
+<p>In <code>cattheory/spans.py</code>, <code>PerformanceSpan</code>
+exposes the two projections explicitly. The <em>fiber</em> of <span
+class="math inline">\(\pi_{\text{show}}\)</span> over a fixed show <span
+class="math inline">\(s\)</span> — the preimage <span
+class="math inline">\(\pi_{\text{show}}^{-1}(s)\)</span>, equivalently
+the wide pullback of all spans pinned on the left to <span
+class="math inline">\(s\)</span> in the discrete fibration sense —
+recovers the show’s setlist in canonical order. Symmetrically, the fiber
+of <span class="math inline">\(\pi_{\text{song}}\)</span> over a fixed
+song recovers the song’s performance history. We use “fiber / multi-leg
+span” rather than “wide pullback” in the strict universal-property
+sense; the discrete-base setting collapses the distinction. This
+construction shows that the performance primitive is not a derived field
+of the schema; it <em>is</em> the apex linking shows and songs, and the
+two projections commute by definition with the cumulative setlist
+functor.</p>
+<p>The categorical content is small but real:</p>
+<ul>
+<li>No data is lost going either direction along a span; both
+projections are total.</li>
+<li>The two wide-pullback constructions give the two natural
+“transposes” of the performance table — show-major and song-major —
+without privileging either.</li>
+<li>Composition of spans (in the bicategory of spans) corresponds
+exactly to the relational operation “show A and show B both played a
+song C” — useful for cross-show similarity measures.</li>
+</ul>
+<h2 data-number="4.6" id="audio-enrichment"><span
+class="header-section-number">4.6</span> Audio enrichment</h2>
+<p>Following the precedent of the <code>fifteen-songs-dataset</code>
+[fifteen_songs_dataset] and the broader MIR problem of identifying and
+segmenting live concert songs [wang_setlist_segmentation], pairs of
+performances of the <em>same song</em> could carry a similarity weight
+in <span class="math inline">\([0, 1]\)</span>. The category whose
+objects are performances and whose hom-objects are these weights is
+enriched over the unit-interval monoid <span class="math inline">\(([0,
+1], \max, 0)\)</span>.
+<code>cattheory/enriched.py::AudioEnrichedHom</code> captures the
+abstraction: the constructor enforces the weight constraint and the
+same-song precondition; identity homs at weight <span
+class="math inline">\(1.0\)</span> behave as required in the
+enrichment.</p>
+<p>We do not bundle audio. The enrichment is structural; concrete
+weights are expected to come from a downstream pipeline against the
+<code>fifteen-songs-dataset</code>.</p>
+<h2 data-number="4.7" id="coproducts-and-colimits"><span
+class="header-section-number">4.7</span> Coproducts and colimits</h2>
+<p><code>cattheory/colimits.py</code> exposes two constructions: the
+binary coproduct of two <code>Compendium</code> fragments, which by the
+reconciliation rules collapses into the disjoint-union compendium, and
+the colimit of the cumulative setlist functor on the compendium, which
+equals the set of all songs ever performed in the bundled data.
+Crucially, the colimit check verifies the <em>universal property</em>,
+not merely that each <span class="math inline">\(F(d)\)</span> is a
+subset of the union: <code>colimit_cone_factors</code> confirms that a
+strictly larger cocone vertex admits the unique mediating map and — as a
+built-in negative control — that a vertex <em>strictly smaller</em> than
+<span class="math inline">\(\bigcup F\)</span> fails to receive the
+colimit. A check that only asserted <span class="math inline">\(F(d)
+\subseteq \bigcup F\)</span> would be vacuous (true for any family);
+requiring the negative control to fail is what gives it teeth. The test
+<code>test_coproduct_disjoint_union</code> additionally asserts that
+splitting the shows and re-merging via the coproduct returns the
+original show set — a structural reproducibility witness for the
+reconciliation layer itself.</p>
+<h2 data-number="4.8" id="natural-transformations"><span
+class="header-section-number">4.8</span> Natural transformations</h2>
+<p>The cardinality assignment <code>η_d = |F(d)|</code> is a natural
+transformation <code>F ⟹ \mathrm{Card} \circ F</code> for any monotone
+covariant functor <code>F : \mathbf{Date} \to \mathbf{Set}</code>. The
+naturality square reduces (on this thin poset) to
+<code>|F(d_1)| \le |F(d_2)|</code> whenever <code>d_1 \le d_2</code>.
+<code>src/cattheory/natural.py</code> exposes
+<code>naturality_square_holds</code> and the two concrete instances
+<code>setlist_cardinality_transformation</code>,
+<code>lineup_cardinality_transformation</code>; both pass on the
+compendium and both are tested against a hand-crafted broken-cardinality
+functor as a negative control. This is small but real categorical
+machinery — it lets us reason about <em>several</em> functors in
+parallel through a single shared transformation.</p>
+<h2 data-number="4.9"
+id="representability-yoneda-over-the-date-poset"><span
+class="header-section-number">4.9</span> Representability (Yoneda) over
+the date poset</h2>
+<p>In the <em>discrete</em> show category the Yoneda embedding collapses
+to an equality indicator and is a near-tautology. The non-degenerate
+statement lives over the <span
+class="math inline">\(\mathbf{Date}\)</span> <strong>poset</strong>. For
+a fixed date <span class="math inline">\(d\)</span> the covariant
+representable <span class="math inline">\(\mathrm{Hom}(d, -)\)</span>
+sends each date <span class="math inline">\(e\)</span> to a singleton
+when <span class="math inline">\(d \le e\)</span> and to <span
+class="math inline">\(\varnothing\)</span> otherwise. A natural
+transformation <span class="math inline">\(\mathrm{Hom}(d, -)
+\Rightarrow F_{\text{setlist}}\)</span> assigns the arrow <span
+class="math inline">\(d \to e\)</span> an element of <span
+class="math inline">\(F_{\text{setlist}}(e)\)</span>, and naturality
+with the inclusion legs forces a single element that must lie in <span
+class="math inline">\(F_{\text{setlist}}(e)\)</span> for <em>every</em>
+<span class="math inline">\(e \ge d\)</span>. Because the setlist
+functor is monotone, that condition holds exactly for the elements of
+<span class="math inline">\(F_{\text{setlist}}(d)\)</span>, giving the
+Yoneda bijection <span
+class="math inline">\(\mathrm{Nat}(\mathrm{Hom}(d, -),
+F_{\text{setlist}}) \cong F_{\text{setlist}}(d)\)</span>: <em>the songs
+played by date <span class="math inline">\(d\)</span> are the natural
+transformations into the setlist functor.</em>
+<code>cattheory/yoneda.py::yoneda_lemma_holds_for_setlist</code> checks
+this on the corpus, and <code>count_yoneda_naturals</code> has a
+negative control — on a non-monotone functor an element that later drops
+out is correctly rejected and the bijection fails.</p>
+<h2 data-number="4.10" id="what-the-construction-buys"><span
+class="header-section-number">4.10</span> What the construction
+buys</h2>
+<p>The payoff is that <strong>the question “what songs were played when,
+by whom?”</strong> decomposes as a fibered relation in the compendium
+category: the span projections commute with the cumulative setlist
+functor, and the fiber over a fixed show date gives back exactly that
+show’s setlist for exactly that lineup. This is not asserted but
+<em>checked</em> —
+<code>cattheory/spans.py::projections_commute_with_setlist_functor</code>
+verifies, over the whole corpus, that the union of show-fibers up to
+each date equals the setlist functor’s value there. The compendium
+primitive is the apex of the span, not a derived join — which is what
+the categorical reading makes explicit, and what allows seamless
+extension to any other performance corpus with the same shape.</p>
+<hr />
+<h1 data-number="5" id="results-on-the-compendium"><span
+class="header-section-number">5</span> Results on the compendium</h1>
+<p></p>
+<p>All numbers in this section are computed at build time from the
+committed archival snapshot (<code>data/archival/</code>). Descriptive
+statistics and category-theoretic checks are serialized to
+<code>output/reports/analysis_report.json</code> and
+<code>output/reports/category_theory_report.json</code>; claim
+boundaries are serialized to
+<code>output/reports/first_principles_review.json</code>; referential
+completeness is certified by
+<code>output/reports/completeness_report.json</code> (zero dangling
+references on hard relations; 3341 shows with 40757 performance rows;
+venue geo coverage at archival scale); and every rendered figure is
+validated for existence and non-degeneracy in
+<code>output/reports/figure_validation.json</code>. Figures are
+generated by the registry in <code>src/viz/figures.py</code> and
+orchestrated through <code>scripts/04_figures.py</code>,
+<code>05_extended_figures.py</code>, <code>08_more_figures.py</code>,
+<code>06_mosaic.py</code>, and <code>10_alluvial.py</code>. Figure
+titles, alt-text hints, dashboard labels, caption metadata, and
+validation filenames are centralized in the same registry so the
+prose-facing visual documentation and the executable render target do
+not drift apart. The manuscript captions below use a common evidence
+pattern: data source, statistic, exclusion rule, and claim class.</p>
+<h2 data-number="5.1" id="scope-and-completeness"><span
+class="header-section-number">5.1</span> Scope and completeness</h2>
+<p>The active build spans <strong>3341 ingested shows</strong> from
+1965-05-05 through 1995-07-09 (3341 ingested shows (gdshowsdb + truckin
+gap-fill; community literature estimates ~2318 canonical concerts), 645
+songs, 912 venues, 40757 performance rows; community literature cites
+~2318 canonical concerts). The completeness audit confirms: every show
+resolves to a venue; every performance row resolves to a song; every
+venue in the compendium has geo coordinates; and no review, recording,
+or citation row dangles on hard relations. Importantly,
+<code>is_complete</code> is a <em>referential</em> claim — zero
+unresolved references on those hard relations — and explicitly NOT a
+claim that every show has a setlist: 282 of the 3341 catalogued shows
+have an empty setlist in gdshowsdb. These are surfaced as a pinned count
+(<code>n_shows_without_performances</code> in the report, bound by a
+ground-truth test) and reported as scope, not folded into the
+completeness gate. The completeness claims describe the ingested
+snapshot; they are not a claim that every optional layer (reviews, lyric
+text, exhaustive segue markup) is exhaustive.</p>
+<h2 data-number="5.2" id="top-line-counts"><span
+class="header-section-number">5.2</span> Top-line counts</h2>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th style="text-align: right;">Count</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Personnel</td>
+<td style="text-align: right;">14</td>
+<td>Intervals span 1965–1995 (curated)</td>
+</tr>
+<tr>
+<td>Songs</td>
+<td style="text-align: right;">645</td>
+<td>Composer/lyricist attribution where known</td>
+</tr>
+<tr>
+<td>Lyric pointers</td>
+<td style="text-align: right;">548</td>
+<td>URL metadata only (no lyric text)</td>
+</tr>
+<tr>
+<td>Venues</td>
+<td style="text-align: right;">912</td>
+<td>Geo sidecar at 100% venue coverage</td>
+</tr>
+<tr>
+<td>Shows</td>
+<td style="text-align: right;">3341</td>
+<td>gdshowsdb catalog; some setlists empty</td>
+</tr>
+<tr>
+<td>Performances</td>
+<td style="text-align: right;">40757</td>
+<td>Ordered set/position rows</td>
+</tr>
+<tr>
+<td>Recordings</td>
+<td style="text-align: right;">7122</td>
+<td>Internet Archive + curated rows</td>
+</tr>
+<tr>
+<td>Releases</td>
+<td style="text-align: right;">259</td>
+<td>Wikipedia discography merge at archival tier</td>
+</tr>
+<tr>
+<td>Reviews</td>
+<td style="text-align: right;">1888</td>
+<td>maximinus corpus + curated exemplar rows</td>
+</tr>
+<tr>
+<td>Citations</td>
+<td style="text-align: right;">139</td>
+<td>Bibliography markdown + references.bib</td>
+</tr>
+</tbody>
+</table>
+<p>The per-year distribution covers the band’s entire active career;
+venue concentration in the Bay Area and major halls reflects the
+underlying gdshowsdb catalog rather than a hand-picked slice. Recording
+and archive rows should be read in the context of the Dead’s mixed
+institutional/community record: UCSC preserves the formal archive, while
+the Internet Archive and taping/trading culture preserve circulating
+performance metadata [ucsc_grateful_dead_archive;
+internet_archive_gd_collection_policy; dead_net_taping_dead;
+wallace_cocreation_sound_archive].</p>
+<h2 data-number="5.3" id="statistical-shape-and-concentration"><span
+class="header-section-number">5.3</span> Statistical shape and
+concentration</h2>
+<p>The compendium is highly skewed, so the manuscript reports medians,
+percentiles, and concentration measures alongside top-line means. Figure
+<span class="math inline">\(\ref{fig:performance_distribution}\)</span>
+shows performance rows per show, including the 282 empty-setlist shows
+already surfaced by the completeness audit. The median show carries 17
+performance rows, the mean is 12.2, the 90th percentile is 24, and the
+maximum observed row count is 37. These are setlist-row counts, not
+audio durations or claims about musical density.</p>
+<!-- alt: Histogram of performance rows per show with median and p90 reference lines -->
+<div class="figure"><img src="../figures/performance_distribution.png" alt="../figures/performance_distribution" style="max-width: 0.88100%; height: auto;"></div>
+<p>Figure <span
+class="math inline">\(\ref{fig:repertoire_concentration}\)</span> makes
+the repertoire skew explicit. Generic segment markers are excluded,
+matching the top-song ranking. The song-performance Gini coefficient is
+0.74; the top decile of songs accounts for 50.61% of non-segment
+performance rows. The first 44 ranked songs (9.89% of ranked songs)
+account for half of those rows, and the first 93 songs (20.9%) account
+for 80%. This is a descriptive Pareto view of rotation intensity, not a
+claim that the remaining catalogue was unimportant.</p>
+<!-- alt: Cumulative-share curve showing ranked songs' share of performance rows -->
+<div class="figure"><img src="../figures/repertoire_concentration.png" alt="../figures/repertoire_concentration" style="max-width: 0.88100%; height: auto;"></div>
+<p>Figure <span
+class="math inline">\(\ref{fig:repertoire_topn_sensitivity}\)</span>
+checks whether the top-song cutoff changes the repertoire story. The
+exported rows compare top-N cuts 25, 50, 100, 200 over the same
+non-segment performance table; the largest displayed cut, N=200,
+accounts for 97.32% of non-segment performance rows. The era band shows
+that top-song coverage is not uniform across periods, so the top-song
+panels are summaries of the visible rotation rather than a complete
+description of each era.</p>
+<!-- alt: Line and band chart showing how top-N song cuts cover total and era-level non-segment performance rows -->
+<div class="figure"><img src="../figures/repertoire_topn_sensitivity.png" alt="../figures/repertoire_topn_sensitivity" style="max-width: 0.88100%; height: auto;"></div>
+<p>Figure <span
+class="math inline">\(\ref{fig:venue_concentration}\)</span> applies the
+same concentration lens to venues. The venue-show Gini coefficient is
+0.59, with the top decile of venue slugs accounting for 51.81% of show
+rows. The first 84 ranked venues (9.21% of venue slugs) account for half
+of the show rows, while 345 venues (37.83%) account for 80%. Because
+venue slugs remain source-derived and conservative aliasing is reported
+separately, this figure should be read as concentration over the bundled
+venue table, not as a fully disambiguated venue-history census.</p>
+<!-- alt: Cumulative-share curve showing ranked venues' share of show rows -->
+<div class="figure"><img src="../figures/venue_concentration.png" alt="../figures/venue_concentration" style="max-width: 0.88100%; height: auto;"></div>
+<p>Figure <span
+class="math inline">\(\ref{fig:concentration_uncertainty}\)</span> adds
+the bootstrap layer behind these concentration claims. For
+song-performance concentration, the Gini point estimate 0.738 has a
+fixed-seed 95% interval [0.713, 0.759], and the song top-decile share
+estimate 50.61% has interval [45.947, 55.041]%. For venue-show
+concentration, the Gini interval is [0.555, 0.617], and the venue
+top-decile share interval is [47.693, 55.282]%. These intervals are
+item-level resampling diagnostics for the observed archive, not
+uncertainty about an unobserved causal data-generating process.</p>
+<!-- alt: Error-bar chart of fixed-seed bootstrap intervals for song and venue concentration metrics -->
+<div class="figure"><img src="../figures/concentration_uncertainty.png" alt="../figures/concentration_uncertainty" style="max-width: 0.88100%; height: auto;"></div>
+<p>The exploratory repertoire layer asks a different question: if each
+top song is represented by its era-by-era performance-count profile,
+what structure is visible without adding audio features, lyric text, or
+causal claims? Figure <span
+class="math inline">\(\ref{fig:repertoire_embedding}\)</span> embeds the
+top 80 non-segment songs into two centered SVD components, retaining
+48.11% and 28.91% of the log-profile variance in the first two displayed
+components, then assigns 5 deterministic clusters. The cluster summary
+is intentionally compact: C0: 10 songs, Brent dominant; C1: 16 songs,
+Brent dominant; C2: 13 songs, Brent dominant; C3: 15 songs, Brent
+dominant; C4: 26 songs, Brent dominant. This should be read as a
+diagnostic map of era-weighted profiles, not as a discovered set of song
+genres.</p>
+<!-- alt: Scatterplot of top songs embedded by centered SVD era-count profiles and colored by deterministic clusters -->
+<div class="figure"><img src="../figures/repertoire_embedding.png" alt="../figures/repertoire_embedding" style="max-width: 90%%; height: auto;"></div>
+<p>Figure <span
+class="math inline">\(\ref{fig:era_repertoire_heatmap}\)</span> gives
+the matrix view behind the embedding. Each cell is the share of that
+era’s non-segment performance rows assigned to the song, so vertical
+comparisons within an era are meaningful; raw row counts remain
+available in <code>output/data/figures/</code>. This heatmap is the more
+conservative companion to the SVD scatter because it exposes the
+normalization directly.</p>
+<!-- alt: Heatmap of era-normalized performance-row intensity for the top songs -->
+<div class="figure"><img src="../figures/era_repertoire_heatmap.png" alt="../figures/era_repertoire_heatmap" style="max-width: 0.95100%; height: auto;"></div>
+<h2 data-number="5.4" id="temporal-activity"><span
+class="header-section-number">5.4</span> Temporal activity</h2>
+<p>Figure <span class="math inline">\(\ref{fig:shows_per_year}\)</span>
+plots the dual-axis career arc: distinct shows per calendar year (bars)
+and total performance rows (line). The shape matches the familiar
+three-act narrative in the standard references [wikipedia_gd;
+britannica_gd; ucsc_grateful_dead_archive]: rapid build-out in
+1969–1972, mid-70s consolidation, and sustained late-period touring with
+peaks in 1977 and 1989–1990.</p>
+<!-- alt: Bar and line chart of shows and performances per year, 1969-1995 -->
+<div class="figure"><img src="../figures/shows_per_year.png" alt="../figures/shows_per_year" style="max-width: 0.92100%; height: auto;"></div>
+<p>Figure <span
+class="math inline">\(\ref{fig:context_timeline}\)</span> adds a
+deliberately separate contextual overlay. The bars are the same computed
+show counts; the labels are cited historical waypoints from the source
+dossier: formation and Acid Test context, the live-recording turn around
+<em>Live/Dead</em>, the 1970 studio-songwriting pivot, the 1974 Wall of
+Sound, the formal taper-section era, the late-1980s mainstream
+breakthrough, and the 1995 endpoint [dead_net_biography;
+foundsf_weir_psychedelic_sf; smithsonian_institutionally_dead;
+mcintosh_wall_of_sound; dead_net_taping_dead; brackett_live_dead;
+americana_highways_workingmans_american_beauty;
+britannica_jerry_garcia]. The labels are not ingested rows and do not
+affect the counts.</p>
+<!-- alt: Shows-per-year bar chart with selected historical milestones labelled above the bars -->
+<div class="figure"><img src="../figures/context_timeline.png" alt="../figures/context_timeline" style="max-width: 0.95100%; height: auto;"></div>
+<h2 data-number="5.5" id="repertoire-frequency-and-co-occurrence"><span
+class="header-section-number">5.5</span> Repertoire frequency and
+co-occurrence</h2>
+<p><code>playing_in_the_band'' leads the archival compendium with 752 performance rows, followed by</code>not_fade_away’’
+(666) and ``the_other_one’’ (664). Figure <span
+class="math inline">\(\ref{fig:top_songs}\)</span> ranks the top 15; the
+ordering aligns qualitatively with community aggregates [grateful_stats;
+reddit_setlist_db].</p>
+<p>This ranking is a <em>repertoire</em> ranking: it deliberately
+excludes the generic structural segments <code>drums'',</code>space’‘,
+<code>jam'',</code>tuning’‘, and
+<code>feedback'', which are not compositions but recurring set segments. Counted as raw slugs they would dominate the corpus —</code>drums’’
+and
+<code>space'' are in fact the two highest-count performance slugs overall — so including them would make the headline ranking true-of-the-data but misleading-as-music. Their counts are reported separately rather than discarded (see</code>src/analysis/markers.py<code>and the</code>segment_marker_counts<code>field of</code>analysis_report.json<code>); named improvisational pieces such as</code>Spanish
+Jam’’ are catalogued songs and are <em>not</em> treated as generic
+markers. Of the 645 catalogued songs, 445 enter the performance record
+(69.42% catalogue coverage) and 196 are catalogued but never performed
+in the ingested snapshot.</p>
+<!-- alt: Horizontal bar chart of top fifteen songs by performance count -->
+<div class="figure"><img src="../figures/top_songs.png" alt="../figures/top_songs" style="max-width: 0.88100%; height: auto;"></div>
+<p>Figure <span class="math inline">\(\ref{fig:cooccurrence}\)</span>
+restricts the song–song co-occurrence matrix to the 25 most-played
+titles. High off-diagonal mass marks pairs that share shows frequently —
+including segue-adjacent pairs such as
+<code>Scarlet Begonias'' /</code>Fire on the Mountain’’ when both appear
+in the same setlist block. This is a setlist-level relation; audio-level
+similarity and boundary estimation remain outside scope and would
+require the kind of signal pipeline described in MIR
+setlist-segmentation work [wang_setlist_segmentation].</p>
+<!-- alt: Heatmap of song co-occurrence among top twenty-five songs -->
+<div class="figure"><img src="../figures/cooccurrence_heatmap.png" alt="../figures/cooccurrence_heatmap" style="max-width: 0.85100%; height: auto;"></div>
+<h2 data-number="5.6" id="markov-structure-of-setlist-order"><span
+class="header-section-number">5.6</span> Markov structure of setlist
+order</h2>
+<p>A first-order Markov model fit on within-show song order (see
+<code>src/analysis/transitions.py</code>) yields the sub-block in Figure
+<span class="math inline">\(\ref{fig:transitions}\)</span>. The
+manuscript-ready matrix excludes generic segment markers so the main
+panel is a song-to-song repertoire view; the sensitivity panel below
+reports what changes when markers are included. Chains such as
+<code>Help on the Way'' $\to$</code>Slipknot!’’ <span
+class="math inline">\(\to\)</span> ``Franklin’s Tower’’ appear as
+high-probability transitions when those titles co-occur in the
+compendium setlists.</p>
+<!-- alt: Heatmap of Markov transition probabilities among top songs -->
+<div class="figure"><img src="../figures/transition_matrix.png" alt="../figures/transition_matrix" style="max-width: 0.85100%; height: auto;"></div>
+<p>Figure <span
+class="math inline">\(\ref{fig:transition_sensitivity}\)</span> gives
+the support-threshold audit for the transition surface. It uses the
+deterministic report rows in
+<code>analysis_report.json::transition_sensitivity</code> and evaluates
+predecessor support thresholds 1, 5, 10, 20, 50 with markers included
+and excluded. This is the guardrail against treating one-observation
+probabilities as stable structure.</p>
+<!-- alt: Line chart comparing transition edge and predecessor retention across support thresholds with segment markers included versus excluded -->
+<div class="figure"><img src="../figures/transition_sensitivity.png" alt="../figures/transition_sensitivity" style="max-width: 0.88100%; height: auto;"></div>
+<p>The stationary distribution (Figure <span
+class="math inline">\(\ref{fig:stationary}\)</span>) and association
+centrality (Figure <span
+class="math inline">\(\ref{fig:centrality}\)</span>) provide
+complementary views: the former summarizes long-run Markov mass; the
+latter weights songs that bridge many co-occurring pairs in the show
+graph. Centrality is computed on the adjacency rather than the raw
+co-occurrence counts. This is a deliberate modeling choice, not a
+uniquely correct one: on raw counts, eigenvector centrality largely
+re-derives raw play frequency (a song played in hundreds of shows
+co-occurs with almost everything), so the association normalization
+reduces that volume bias and surfaces songs that bridge many pairs
+rather than songs that were simply played often.</p>
+<!-- alt: Bar chart of Markov stationary probabilities for top songs -->
+<div class="figure"><img src="../figures/stationary_top20.png" alt="../figures/stationary_top20" style="max-width: 0.88100%; height: auto;"></div>
+<!-- alt: Bar chart of association (Jaccard) eigenvector centrality scores for top songs -->
+<div class="figure"><img src="../figures/centrality_top20.png" alt="../figures/centrality_top20" style="max-width: 0.88100%; height: auto;"></div>
+<h2 data-number="5.7" id="category-theoretic-cardinalities"><span
+class="header-section-number">5.7</span> Category-theoretic
+cardinalities</h2>
+<p>Figure <span class="math inline">\(\ref{fig:functor_card}\)</span>
+plots cumulative setlist and lineup functor cardinalities <span
+class="math inline">\(|F_{\text{setlist}}(d)|\)</span> and <span
+class="math inline">\(|F_{\text{lineup}}(d)|\)</span> along the
+chronological show index. Both are monotone non-decreasing on the
+compendium tier, as required. The active-roster presheaf <span
+class="math inline">\(P_{\text{active}}\)</span> (not shown in this
+single panel) is intentionally non-monotone: Pigpen’s 1972 departure
+[ucr_lineup_changes; dead_net_official] and Brent Mydland’s 1990 death
+produce expected dips in instantaneous roster size while cumulative
+lineup size continues to grow.</p>
+<!-- alt: Line chart of cumulative setlist and lineup functor sizes -->
+<div class="figure"><img src="../figures/functor_cardinalities.png" alt="../figures/functor_cardinalities" style="max-width: 0.92100%; height: auto;"></div>
+<p>The category-theory report records 40757 performance spans,
+cumulative setlist cardinality 449 at the terminal date, cumulative
+lineup cardinality 14, and passing <code>Category.check_laws</code> for
+both <span class="math inline">\(\mathbf{Date}\)</span> and <span
+class="math inline">\(\mathbf{Show}\)</span>.</p>
+<h2 data-number="5.8" id="composers-eras-and-personnel"><span
+class="header-section-number">5.8</span> Composers, eras, and
+personnel</h2>
+<p>Figure <span class="math inline">\(\ref{fig:composer}\)</span>
+contrasts songs-written counts with performance-weighted attribution,
+exposing the familiar asymmetry between prolific Garcia/Hunter writing
+and high-performance-weight Weir/Barlow closers. Figure <span
+class="math inline">\(\ref{fig:era_density}\)</span> shows show density
+by year and month; Figure <span
+class="math inline">\(\ref{fig:gantt}\)</span> is a Gantt chart of the
+15 personnel intervals in the current build.</p>
+<!-- alt: Grouped bar chart of composer song counts versus weighted performances -->
+<div class="figure"><img src="../figures/composer_attribution.png" alt="../figures/composer_attribution" style="max-width: 0.92100%; height: auto;"></div>
+<!-- alt: Year by month heatmap of show counts -->
+<div class="figure"><img src="../figures/era_density.png" alt="../figures/era_density" style="max-width: 0.92100%; height: auto;"></div>
+<!-- alt: Gantt chart of personnel membership intervals -->
+<div class="figure"><img src="../figures/personnel_gantt.png" alt="../figures/personnel_gantt" style="max-width: 0.95100%; height: auto;"></div>
+<p>Figure <span class="math inline">\(\ref{fig:shows_by_era}\)</span>
+aggregates shows into the six era windows used throughout
+<code>src/analysis/eras.py</code>; Figure <span
+class="math inline">\(\ref{fig:lineup_diversity}\)</span> tracks active
+lineup size over time.</p>
+<!-- alt: Bar chart of show counts by musical era -->
+<div class="figure"><img src="../figures/shows_by_era.png" alt="../figures/shows_by_era" style="max-width: 0.88100%; height: auto;"></div>
+<!-- alt: Line chart of active lineup size over show dates -->
+<div class="figure"><img src="../figures/lineup_diversity.png" alt="../figures/lineup_diversity" style="max-width: 0.92100%; height: auto;"></div>
+<h2 data-number="5.9" id="reception-citations-and-recordings"><span
+class="header-section-number">5.9</span> Reception, citations, and
+recordings</h2>
+<p>The archival compendium bundles 1888 show-level reviews (including
+the maximinus corpus at archival tier plus 12 curated exemplar rows);
+Figure <span class="math inline">\(\ref{fig:sentiment}\)</span> reports
+mean sentiment by kind. Figure <span
+class="math inline">\(\ref{fig:citations}\)</span> and Figure <span
+class="math inline">\(\ref{fig:recordings}\)</span> summarize the 139
+bibliographic citations and 7122 Internet Archive recording rows. The
+added citation mass is intentionally weighted toward archival,
+scholarly, official, and publisher-controlled sources – not fan lore –
+so the paper’s cultural claims have a different evidence path from its
+show/performance rows [brackett_live_dead;
+dodd_weiner_annotated_bibliography; adams_deadhead_social_science;
+kennedy_center_honors_2024; rockhall_grateful_dead;
+grammy_lifetime_achievement].</p>
+<!-- alt: Bar chart of mean review sentiment by source kind -->
+<div class="figure"><img src="../figures/sentiment_by_kind.png" alt="../figures/sentiment_by_kind" style="max-width: 0.88100%; height: auto;"></div>
+<!-- alt: Ranked horizontal bar chart of citation kinds with counts and shares -->
+<div class="figure"><img src="../figures/citation_kinds.png" alt="../figures/citation_kinds" style="max-width: 0.82100%; height: auto;"></div>
+<!-- alt: Ranked horizontal bar chart of recording source types with counts; UNKNOWN dominates -->
+<div class="figure"><img src="../figures/recording_sources.png" alt="../figures/recording_sources" style="max-width: 0.82100%; height: auto;"></div>
+<h2 data-number="5.10" id="lyric-pointers-and-segues"><span
+class="header-section-number">5.10</span> Lyric pointers and segues</h2>
+<p>Lyric <em>text</em> is deliberately absent; Figure <span
+class="math inline">\(\ref{fig:lyric_themes}\)</span> counts theme tags
+attached to the 548 lyric pointers (CMU lyrics index, curated overlay,
+and dead.net gap-fill URLs). 80 pointers carry an attributed lyricist; 0
+performed songs lack any pointer URL in this build. The compendium
+carries 16585 explicit
+<code>segue_into'' edges from gdshowsdb</code>:segued<code>flags via</code>performances.json``.
+Figure <span class="math inline">\(\ref{fig:segue}\)</span> ranks the
+most frequent segues directly (a node-link layout collapses into an
+unreadable tangle once the top edge occurs over a thousand times); the
+segue <em>structure</em> is interpreted in Section <span
+class="math inline">\(\ref{sec:segue-structure}\)</span>.</p>
+<!-- alt: Horizontal bar chart of lyric theme tag frequencies -->
+<div class="figure"><img src="../figures/lyric_themes.png" alt="../figures/lyric_themes" style="max-width: 0.88100%; height: auto;"></div>
+<!-- alt: Ranked horizontal bar chart of the most frequent song-to-song segues with counts -->
+<div class="figure"><img src="../figures/segue_graph.png" alt="../figures/segue_graph" style="max-width: 0.95100%; height: auto;"></div>
+<h2 data-number="5.11"
+id="geography-set-position-tours-and-bustouts"><span
+class="header-section-number">5.11</span> Geography, set position,
+tours, and bustouts</h2>
+<p>Figure <span class="math inline">\(\ref{fig:geo}\)</span> maps
+geocoded venues (point size ∝ shows at that venue). Figure <span
+class="math inline">\(\ref{fig:setpos}\)</span> shows within-set
+position histograms; Figure <span
+class="math inline">\(\ref{fig:tours}\)</span> ranks tour tags by show
+count (most shows lack tour metadata in the ingest and appear under an
+untagged bucket); Figure <span
+class="math inline">\(\ref{fig:bustouts}\)</span> highlights songs with
+the widest gap between successive performances in the archival
+compendium.</p>
+<!-- alt: Scatter map of venue locations sized by show count -->
+<div class="figure"><img src="../figures/geo_scatter.png" alt="../figures/geo_scatter" style="max-width: 0.92100%; height: auto;"></div>
+<p>Figure <span
+class="math inline">\(\ref{fig:venue_identity_review}\)</span> is the
+companion to venue concentration: it shows the report-only identity
+audit rather than silently rewriting venue rows. The alias map is
+conservative, keeps negative controls distinct, and surfaces 311
+ambiguous same-date collisions for review instead of merging them.</p>
+<!-- alt: Horizontal bars summarize venue alias counts, conservative collapses, and ambiguous same-date canonical collisions -->
+<div class="figure"><img src="../figures/venue_identity_review.png" alt="../figures/venue_identity_review" style="max-width: 0.88100%; height: auto;"></div>
+<!-- alt: Bar chart of performance counts by set position -->
+<div class="figure"><img src="../figures/set_positions.png" alt="../figures/set_positions" style="max-width: 0.88100%; height: auto;"></div>
+<!-- alt: Horizontal bar chart of top tours by show count -->
+<div class="figure"><img src="../figures/tours_top.png" alt="../figures/tours_top" style="max-width: 0.88100%; height: auto;"></div>
+<!-- alt: Horizontal bar chart of widest recurrence gaps between song performances -->
+<div class="figure"><img src="../figures/bustouts.png" alt="../figures/bustouts" style="max-width: 0.88100%; height: auto;"></div>
+<p>Figure <span class="math inline">\(\ref{fig:lifespans}\)</span> gives
+the complementary <em>lifespan</em> view: each of the top songs as a
+horizontal segment from its debut year to its last-played year, ordered
+by debut and colored by debut era. Where Figure <span
+class="math inline">\(\ref{fig:bustouts}\)</span> measures recurrence
+gaps, this shows when each piece entered and left rotation — the
+temporal spine of the repertoire.</p>
+<!-- alt: Lollipop range chart of song first-to-last performance years, ordered by debut, colored by era -->
+<div class="figure"><img src="../figures/song_lifespans.png" alt="../figures/song_lifespans" style="max-width: 0.92100%; height: auto;"></div>
+<p>Figure <span class="math inline">\(\ref{fig:releases}\)</span> places
+the 259 bundled releases on a timeline by kind.</p>
+<!-- alt: Scatter timeline of release dates by release kind -->
+<div class="figure"><img src="../figures/releases_timeline.png" alt="../figures/releases_timeline" style="max-width: 0.95100%; height: auto;"></div>
+<h2 data-number="5.12" id="composite-views"><span
+class="header-section-number">5.12</span> Composite views</h2>
+<p>Figure <span class="math inline">\(\ref{fig:mosaic}\)</span> is the
+single-page extent artefact: title block, analytical panels, context
+timeline, and a per-layer provenance table. Figure <span
+class="math inline">\(\ref{fig:alluvial}\)</span> traces the top 40
+composer <span class="math inline">\(\to\)</span> song <span
+class="math inline">\(\to\)</span> era flows by performance weight.</p>
+<!-- alt: Large multi-panel mosaic summarizing the active compendium tier -->
+<div class="figure"><img src="../figures/mosaic.png" alt="../figures/mosaic" style="max-width: 0.98100%; height: auto;"></div>
+<!-- alt: Alluvial diagram linking composers to songs to eras -->
+<div class="figure"><img src="../figures/alluvial_composer_song_era.png" alt="../figures/alluvial_composer_song_era" style="max-width: 0.95100%; height: auto;"></div>
+<h2 data-number="5.13" id="claim-evidence-map"><span
+class="header-section-number">5.13</span> Claim evidence map</h2>
+<p>The first-principles review in Figure <span
+class="math inline">\(\ref{fig:claim_evidence_matrix}\)</span> is a
+meta-analytic control surface for the manuscript. It does not count
+shows, songs, or performances; it counts claim families by claim class
+and by their primary validation artifact. The value is negative as much
+as positive: the map records where a claim is merely contextual,
+exploratory, structural, or boundary-enforcing before prose or figure
+polish can make it sound stronger than the evidence supports.</p>
+<!-- alt: Heatmap counting claim families by claim class and primary validation artifact family -->
+<div class="figure"><img src="../figures/claim_evidence_matrix.png" alt="../figures/claim_evidence_matrix" style="max-width: 0.92100%; height: auto;"></div>
+<h2 data-number="5.14" id="limitations-and-threats-to-validity"><span
+class="header-section-number">5.14</span> Limitations and threats to
+validity</h2>
+<p>The quantitative views above describe the <em>ingested snapshot</em>,
+not ground truth, and several caveats bound their interpretation:</p>
+<ul>
+<li><strong>Segment markers.</strong>
+<code>drums</code>/<code>space</code>/<code>jam</code>/<code>tuning</code>/<code>feedback</code>
+are set segments, not songs. Manuscript-ready repertoire, co-occurrence,
+transition, stationary, and association panels exclude them; their
+counts and marker-inclusive transition sensitivity are reported
+separately. This policy is recorded in the first-principles ledger
+rather than repeated as a hidden assumption.</li>
+<li><strong>Descriptive, not inferential by default.</strong>
+Co-occurrence and the first-order Markov chain summarize observed
+setlists. Raw transition probabilities conflate one-observation
+certainties with well-supported estimates; we therefore report support
+per row and a permutation-null screen with <strong>Benjamini–Hochberg
+false-discovery-rate control</strong> across all 7639 eligible cells. At
+FDR <span class="math inline">\(q=0.05\)</span>, 1533 transitions are
+significant — versus 2284 that would pass an <em>uncorrected</em>
+per-cell threshold (multiple-comparison correction is essential: on
+random within-show order the FDR-controlled count is <span
+class="math inline">\(0\)</span>, while the uncorrected screen still
+flags ~5% of cells by chance). The surviving edges are the canonical
+segues (<code>drums</code> <span class="math inline">\(\to\)</span>
+<code>space</code>, <code>Scarlet Begonias</code> <span
+class="math inline">\(\to\)</span> <code>Fire on the Mountain</code>,
+<code>China Cat Sunflower</code> <span
+class="math inline">\(\to\)</span> <code>I Know You Rider</code>).</li>
+<li><strong>Centrality measures association, not volume.</strong>
+Computed on the Jaccard-association adjacency to avoid simply
+re-deriving play frequency.</li>
+<li><strong>Venue granularity.</strong> Venues are keyed by normalized
+name, so a single physical venue can appear under several slugs. The
+conservative alias layer identifies 20 duplicate slugs and 311 ambiguous
+same-date collisions, but this pass does not mutate venue rows. The full
+policy, negative controls, and mean collision Jaccard (0.047) are
+emitted to <code>analysis_report.json::venue_identity_review</code> and
+summarized in Figure <span
+class="math inline">\(\ref{fig:venue_identity_review}\)</span>.</li>
+<li><strong>Tour and review coverage are partial.</strong> Most shows
+lack tour metadata (the dominant <code>tours_top</code> bucket is
+untagged), and sentiment is computed over a curated/maximinus review
+subset, not a representative sample.</li>
+<li><strong>Catalogue coverage.</strong> 196 catalogued songs never
+enter the performance record in this snapshot (69.42% coverage); the
+catalogue is broader than the performed repertoire.</li>
+<li><strong>Audit reach.</strong> The recording date cross-check fires
+only for Internet Archive identifiers that encode a date
+(<code>gdYYYY-MM-DD</code>); recordings under other identifier schemes
+are checked for show-resolution but not date agreement. Venue records
+are merged “first non-empty value wins,” so a venue appearing in two
+sources with conflicting non-empty metadata keeps the first-seen value;
+the committed snapshot is built from sorted sources, so this is
+deterministic, but it is a merge convention, not a conflict
+resolver.</li>
+<li><strong>Figure validation is a blank-canvas tripwire, not a
+correctness oracle</strong> — a figure plotting wrong-but-non-degenerate
+data would pass; figure correctness is bound by the archival
+ground-truth tests on the underlying numbers, not by pixel
+variance.</li>
+<li><strong>The claim ledger is governance, not proof.</strong> It makes
+assumptions and evidence links explicit, but it cannot by itself prove
+that an adopted source is complete or that a historical interpretation
+is exhaustive. It is a guard against over-claiming, not a substitute for
+source criticism.</li>
+</ul>
+<p>These are referential and descriptive claims about the ingested
+corpus, not claims of completeness over every Grateful Dead
+performance.</p>
+<h2 data-number="5.15" id="honest-framing"><span
+class="header-section-number">5.15</span> Honest framing</h2>
+<p>Every figure carries an identical provenance footer stamped from the
+active tier at render time. Refresh the committed snapshot with
+<code>scripts/00_fetch_sources.py --online --archival-max</code>
+(unlimited Internet Archive pagination; Setlist.fm when
+<code>SETLISTFM_API_KEY</code> is set; CMU mirror fallbacks), then
+re-run <code>scripts/99_pipeline.py --tier archival</code>. The schema,
+integration, category-theoretic constructions, and validation gates are
+unchanged at any scale.</p>
+<hr />
+<h1 data-number="6" id="segue-and-transition-structure"><span
+class="header-section-number">6</span> Segue and transition
+structure</h1>
+<p></p>
+<p>The Grateful Dead’s setlists are not a bag of songs but a
+<em>sequenced</em> object: certain songs flow into certain others, often
+without pause, and those flows are as much a part of the band’s identity
+as the songs themselves. The compendium captures this at two distinct
+levels of evidence, and keeping them separate is the point of this
+section. That separation also aligns with MIR work on full-concert
+setlist segmentation: audio-level identification must contend with
+banter, applause, covers, transitions, and live-version variation
+[wang_setlist_segmentation], while this compendium starts from curated
+setlist rows and explicit editorial segue markers.</p>
+<h2 data-number="6.1" id="two-notions-of-what-follows-what"><span
+class="header-section-number">6.1</span> Two notions of “what follows
+what”</h2>
+<p>A <strong>transition</strong> is positional: song <span
+class="math inline">\(B\)</span> immediately follows song <span
+class="math inline">\(A\)</span> within a set, whether or not the band
+marked a musical link. These are what the first-order Markov model in
+Section <span class="math inline">\(\ref{sec:results}\)</span> counts,
+and the permutation-null screen retains 1533 of them as significant
+under false-discovery-rate control (out of 7639 eligible ordered
+pairs).</p>
+<p>A <strong>segue</strong> is explicit: the source data marks a “-&gt;”
+/ “&gt;” link between two performances, encoded in the compendium as a
+<code>segue_into</code> edge. There are 16585 such markers spanning 2751
+distinct directed song pairs. A segue is therefore a <em>curated
+subset</em> of the transitions — the ones a setlist editor judged to be
+a genuine musical continuation — and carries stronger evidentiary weight
+than mere adjacency.</p>
+<p>The two notions agree where it matters and diverge informatively. The
+FDR-significant transitions and the top segues share their podium in
+this archival build — “China Cat Sunflower” -&gt; “I Know You Rider” and
+“Scarlet Begonias” -&gt; “Fire on the Mountain” top both lists — which
+is reassuring: the explicit editorial judgement and the blind
+statistical screen converge on the same canonical pairings. Where they
+diverge, the transition view sees adjacencies that were never marked as
+segues (e.g. an encore break that the Markov model cannot distinguish
+from a continuation), which is exactly why the segue markers are the
+higher-confidence signal.</p>
+<h2 data-number="6.2" id="the-most-frequent-segues"><span
+class="header-section-number">6.2</span> The most frequent segues</h2>
+<p>Figure <span class="math inline">\(\ref{fig:segue}\)</span> ranks the
+segues directly. The single most frequent is “drums” -&gt; “space” with
+1197 occurrences — the canonical “Drums” -&gt; “Space” passage that
+anchors the second-set improvisational core for most of the band’s
+career. That this structural segment, rather than any song, is the
+corpus’s most frequent segue is not an artefact: it reflects a real
+feature of the music, and it is reported honestly here precisely because
+the segment markers are <em>kept</em> in the transition/segue analyses
+(they are excluded only from the repertoire ranking of Section <span
+class="math inline">\(\ref{sec:results}\)</span>, where they are not
+compositions). Below the segment core, the ranking is a tour of the
+band’s signature pairings — the “China Cat” -&gt; “Rider” fusion, the
+“Scarlet” -&gt; “Fire” suite, the “Estimated Prophet” -&gt; “Eyes of the
+World” flow — recovered from the markers alone, with no title-based
+inference.</p>
+<h2 data-number="6.3" id="segue-hubs"><span
+class="header-section-number">6.3</span> Segue hubs</h2>
+<p>Out-degree in the segue graph identifies <em>launch points</em> —
+songs that most often flow into something else. The highest is ``drums’’
+(1763 outgoing segues), consistent with the structural role of the
+“Drums”/“Space” core as a hinge between composed material: the band
+exits the improvisational segment into a wide variety of songs, so it
+accumulates a large, fan-shaped out-degree rather than a single dominant
+successor. Composed songs, by contrast, tend to have concentrated
+out-degree — a song like “Scarlet Begonias” overwhelmingly segues into
+one partner — which is the graph-theoretic signature of a fixed suite
+versus an improvisational junction.</p>
+<h2 data-number="6.4" id="what-this-does-and-does-not-establish"><span
+class="header-section-number">6.4</span> What this does and does not
+establish</h2>
+<p>These are descriptive structures over the ingested setlists, not
+causal or exhaustive claims. The segue markers are only as complete as
+the source editors’ annotations; an unmarked continuation is invisible
+to the segue view and appears only as a (weaker) transition. The Markov
+model is first-order by construction, so longer signature chains — “Help
+on the Way” -&gt; “Slipknot!” -&gt; “Franklin’s Tower” — are visible
+only as their pairwise links, not as a single third-order object. The
+taping and trading literature is a useful guardrail here: recordings and
+setlists are co-curated cultural records [dead_net_taping_dead;
+wallace_cocreation_sound_archive], so this section reports what the
+encoded record says rather than what the band “really” intended in every
+performance. Both limitations are inherent to the representation and are
+revisited in the limitations of Section <span
+class="math inline">\(\ref{sec:results}\)</span>.</p>
+<hr />
+<h1 data-number="7" id="conclusion"><span
+class="header-section-number">7</span> Conclusion</h1>
+<p>We have introduced <em>The Music Never Stopped</em>, a reproducible,
+citation-bound Grateful Dead data compendium, and we have shown that the
+performance graph carries a small but genuine category-theoretic
+structure. The compendium primitive is a frozen-dataclass schema with
+deterministic canonical-slug joins; the integration layer reconciles
+nine cited sources into one immutable <code>Compendium</code>; the
+analysis layer computes descriptive, co-occurrence, Markov-transition,
+time-series, and network views; and the category-theoretic layer
+exhibits the date poset, the show category, the monotone cumulative
+setlist and lineup functors, the non-monotone active-roster presheaf,
+and the performance-as-span construction whose wide pullbacks recover
+setlists and per-song histories.</p>
+<p>Several extensions are natural. First, integrating optional API
+overlays (Setlist.fm, Grateful Stats) when credentials are available.
+Second, integrating Dodd’s annotated lyrics [dodd_annotated_lyrics;
+billboard_lyric_book] as a pointer-only semantic enrichment layer over
+the song objects. Third, computing concrete audio-feature weights
+against the <code>fifteen-songs-dataset</code> [fifteen_songs_dataset]
+and exercising the enriched category at scale. Fourth, integrating the
+<code>gratefuldata</code> ETL patterns [grateful_data_tutorial] and the
+<code>jerryPycia</code> query surface [jerry_pycia] to broaden the
+analytical reach. Fifth, integrating the
+<code>grateful-dead-reviews</code> corpus [gd_reviews_corpus] for a
+reception layer that hangs off the performance spans on the show
+side.</p>
+<p>The deeper transferable lesson is that <strong>the compendium
+primitive should be chosen so that the question you are asking is
+literally a categorical construction over it</strong>. For the Grateful
+Dead, the performance is the apex of a span between show and song; for
+any analogous live-performance corpus (jam-band, classical concert
+series, theatrical run), the same primitive works without modification.
+The categorical reading is not an aesthetic overlay; it is the explicit
+statement of which joins commute, which codomains are monotone, and
+which views are unavoidably non-functorial.</p>
+<hr />
+<h1 data-number="8" id="reproducibility"><span
+class="header-section-number">8</span> Reproducibility</h1>
+<p>This manuscript’s numeric, categorical, and figure claims are bound
+to live code paths. The pipeline runs deterministically from the
+committed archival compendium (<code>data/archival/</code>); nothing in
+this paper is generated by hand.</p>
+<h2 data-number="8.1" id="single-command-reproduction"><span
+class="header-section-number">8.1</span> Single-command
+reproduction</h2>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> projects/working/grateful_data</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Refresh committed snapshot (optional; requires network)</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python scripts/00_fetch_sources.py <span class="at">--online</span> <span class="at">--archival-max</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Full analysis pipeline + figures + manuscript variables</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="va">GRATEFUL_DATA_TIER</span><span class="op">=</span>archival <span class="ex">uv</span> run python scripts/99_pipeline.py <span class="at">--tier</span> archival</span></code></pre></div>
+<p>The pipeline writes <code>output/data/compendium.json</code>,
+<code>output/reports/{analysis,category_theory,completeness,first_principles_review,figure_validation,source_reconciliation}.json</code>,
+<code>../figures/*.png</code> (36 validated figures),
+<code>output/dashboard.html</code>,
+<code>output/data/manuscript_variables.json</code>,
+<code>output/manuscript/</code> (token-resolved markdown for PDF), and
+raw entity exports under <code>output/data/raw/</code>. It also writes
+<code>output/reports/first_principles_claims.csv</code> and 34
+registered figure-data exports under <code>output/data/figures/</code>:
+each supported panel has a CSV table, a JSON table with metadata, and an
+<code>index.json</code> record consumed by the dashboard. Index rows
+include data source, statistic, exclusion rule, and claim class, so
+captions and raw data can be audited together. The same pipeline now
+writes provenance sidecars under <code>output/data/provenance/</code>,
+pointer-only audio/lyric manifests under
+<code>output/data/external/</code>, a static explorer under
+<code>output/explorer/</code>, a peer-review dossier under
+<code>output/reports/</code>, and a promotion-readiness report that does
+not move lifecycle folders. Optional entity markdown:
+<code>scripts/09_song_pages.py</code> and
+<code>scripts/11_entity_pages.py</code>.</p>
+<p>For a strict publication gate after the template render:</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python scripts/20_validate_publication_outputs.py <span class="at">--strict</span></span></code></pre></div>
+<p>For a non-mutating command-order and release-prep check:</p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python scripts/21_release_prep.py <span class="at">--dry-run</span></span></code></pre></div>
+<h2 data-number="8.2" id="manuscript-pdf-template-renderer"><span
+class="header-section-number">8.2</span> Manuscript PDF (template
+renderer)</h2>
+<p>From the template repository root:</p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> projects/working/grateful_data</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python scripts/z_generate_manuscript_variables.py</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /path/to/template</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python scripts/03_render_pdf.py <span class="at">--project</span> grateful_data</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python scripts/05_copy_outputs.py <span class="at">--project</span> grateful_data</span></code></pre></div>
+<p>This performs the multi-pass LaTeX + bibliography build and writes
+<code>output/grateful_data/pdf/grateful_data_combined.pdf</code>
+(citations from <code>references.bib</code> resolve in the rendered
+output).</p>
+<h2 data-number="8.3" id="cli"><span
+class="header-section-number">8.3</span> CLI</h2>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> projects/working/grateful_data</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="va">GRATEFUL_DATA_TIER</span><span class="op">=</span>archival <span class="ex">uv</span> run python <span class="at">-m</span> src.cli stats</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python <span class="at">-m</span> src.cli song scarlet_begonias</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python <span class="at">-m</span> src.cli show 1977-05-08@barton_hall_ithaca</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python <span class="at">-m</span> src.cli person garcia</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python <span class="at">-m</span> src.cli venue barton_hall_ithaca</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python <span class="at">-m</span> src.cli list shows</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python <span class="at">-m</span> src.cli list releases</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python <span class="at">-m</span> src.cli composers</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python <span class="at">-m</span> src.cli provenance songs scarlet_begonias</span></code></pre></div>
+<h2 data-number="8.4" id="whats-bound-to-what"><span
+class="header-section-number">8.4</span> What’s bound to what</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Claim in manuscript</th>
+<th>Bound by</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Numeric counts in §4</td>
+<td><code>output/data/manuscript_variables.json</code> +
+<code>output/reports/analysis_report.json</code></td>
+</tr>
+<tr>
+<td>Referential completeness</td>
+<td><code>scripts/13_audit_completeness.py</code> →
+<code>completeness_report.json</code>
+(<code>dangling_total: 0</code>)</td>
+</tr>
+<tr>
+<td>Figure integrity (blank-canvas tripwire)</td>
+<td><code>scripts/14_validate_figures.py</code> →
+<code>figure_validation.json</code> (36 non-blank). Figure
+<em>correctness</em> is bound by the archival ground-truth tests, not by
+pixel variance.</td>
+</tr>
+<tr>
+<td>Figure filenames, titles, alt text, captions, data source,
+statistic, exclusion rule, claim class</td>
+<td><code>src/viz/figures.py</code> registry +
+<code>manuscript/04_results.md</code> +
+<code>output/data/figures/index.json</code></td>
+</tr>
+<tr>
+<td>Figure raw data</td>
+<td><code>scripts/18_export_figure_data.py</code> →
+<code>output/data/figures/{*.csv,*.json,index.json}</code></td>
+</tr>
+<tr>
+<td>Claim boundaries</td>
+<td><code>scripts/19_first_principles_review.py</code> →
+<code>first_principles_review.json</code> +
+<code>first_principles_claims.csv</code> with section, figure, report,
+test, and status columns</td>
+</tr>
+<tr>
+<td>Transition sensitivity</td>
+<td><code>output/reports/analysis_report.json</code> →
+<code>transition_sensitivity</code> plus
+<code>transition_sensitivity.png</code> and figure CSV/JSON</td>
+</tr>
+<tr>
+<td>Repertoire sensitivity</td>
+<td><code>output/reports/analysis_report.json</code> →
+<code>statistical_shape.repertoire_topn_sensitivity</code> plus
+<code>repertoire_topn_sensitivity.png</code> and figure CSV/JSON</td>
+</tr>
+<tr>
+<td>Venue identity review</td>
+<td><code>output/reports/analysis_report.json</code> →
+<code>venue_identity_review</code> plus
+<code>venue_identity_review.png</code> and figure CSV/JSON</td>
+</tr>
+<tr>
+<td>Source provenance</td>
+<td><code>scripts/23_export_provenance.py</code> →
+<code>output/data/provenance/{provenance.csv,provenance.json,*.csv}</code></td>
+</tr>
+<tr>
+<td>External protected-content boundary</td>
+<td><code>scripts/24_external_manifests.py</code> → pointer-only
+audio/lyric manifests plus <code>pipeline_contract.json</code>;
+protected content fields are rejected</td>
+</tr>
+<tr>
+<td>Static explorer</td>
+<td><code>scripts/25_generate_explorer.py</code> →
+<code>output/explorer/index.html</code> +
+<code>explorer_data.json</code> with URL-state filters, sortable
+headers, related links, figure metadata, and filtered CSV download</td>
+</tr>
+<tr>
+<td>Peer-review dossier</td>
+<td><code>scripts/26_peer_review_dossier.py</code> → claim-to-artifact
+map in JSON and Markdown</td>
+</tr>
+<tr>
+<td>Publication output gate</td>
+<td><code>scripts/20_validate_publication_outputs.py --strict</code> →
+<code>publication_validation.json</code></td>
+</tr>
+<tr>
+<td>Non-destructive archival refresh diff</td>
+<td><code>scripts/22_archival_refresh_diff.py</code> →
+<code>output/refresh/archival_refresh_diff.{json,md}</code>; never
+overwrites <code>data/archival/</code></td>
+</tr>
+<tr>
+<td>Contextual historical claims</td>
+<td><code>manuscript/references.bib</code> + checked official/scholarly
+URLs; not ingested as <code>Show</code> or <code>Performance</code>
+rows</td>
+</tr>
+<tr>
+<td>Functor monotonicity</td>
+<td><code>category_theory_report.json</code>;
+<code>tests/test_cattheory.py</code></td>
+</tr>
+<tr>
+<td>Naturality of η</td>
+<td><code>src/cattheory/natural.py</code> + negative-control tests</td>
+</tr>
+<tr>
+<td>Wide-pullback setlist recovery</td>
+<td><code>tests/test_cattheory.py</code> on concrete compendium
+shows</td>
+</tr>
+<tr>
+<td>Citations</td>
+<td><code>manuscript/references.bib</code> + bibliography markdown (139
+merged citations in the active build)</td>
+</tr>
+<tr>
+<td>Honesty boundary</td>
+<td><code>src/honesty.py</code> enforced at every
+<code>load_seed_compendium()</code></td>
+</tr>
+</tbody>
+</table>
+<p>The bibliography parser accepts legacy <code>\url{...}</code>
+wrappers, explicit <code>url = {...}</code> fields, DOI-only entries,
+and explicit BibTeX years. That matters because the source dossier mixes
+web archives, books, conference papers, and DOI-bearing scholarly
+sources rather than a single citation style. The enriched-bibliography
+context pass is reproducible in the narrower sense that each adopted
+topic is represented by a stable citation key, verified metadata where
+available, and a rendered bibliographic entry. The dossier narrative
+itself is not used as an uncited authority: source topics enter the
+manuscript only through direct citation keys, and generated statistics
+still come from reports, figure-data exports, and tests.</p>
+<h2 data-number="8.5" id="no-mocks"><span
+class="header-section-number">8.5</span> No mocks</h2>
+<p>No test uses <code>MagicMock</code>, <code>mocker.patch</code>, or
+<code>unittest.mock</code>. Fixtures and the archival compendium are the
+test ground truth.</p>
+<h2 data-number="8.6" id="determinism"><span
+class="header-section-number">8.6</span> Determinism</h2>
+<p>All analyses are pure functions of the immutable
+<code>Compendium</code>; matplotlib uses the headless <code>Agg</code>
+backend; exploratory bootstrap and clustering code uses fixed
+deterministic seeds and tie-breaks. Re-running
+<code>scripts/99_pipeline.py --tier archival</code> produces byte-stable
+CSV/JSON and visually-stable figures on the same machine.</p>
+<hr />
+<h1 data-number="9" id="the-executable-honesty-boundary"><span
+class="header-section-number">9</span> The executable honesty
+boundary</h1>
+<p>The prose elsewhere in this manuscript draws a bright line between
+<em>ingested snapshot</em> and <em>live upstream</em>, between
+<em>pointer metadata</em> and <em>lyric text</em>, between <em>cited
+source</em> and <em>HTTP fetch</em>. This section promotes that boundary
+from prose to a runtime contract enforced inside the compendium loader
+by :class:<code>grateful_data.honesty.HonestyBoundary</code>.</p>
+<h2 data-number="9.1" id="what-the-boundary-refuses"><span
+class="header-section-number">9.1</span> What the boundary refuses</h2>
+<p>The boundary recursively walks the raw JSON payloads and the built
+<code>Compendium</code> and raises :class:<code>HonestyViolation</code>
+on any of the following shapes:</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Forbidden shape</th>
+<th>Detection rule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>lyric_text</code> / <code>lyrics</code> / <code>verse</code> /
+<code>chorus</code> / <code>stanza</code> / <code>refrain</code> keys
+anywhere</td>
+<td>recursive walk on lowercased key name; project bundles pointers, not
+text</td>
+</tr>
+<tr>
+<td><code>audio_feature_*</code> / <code>synth_*</code> keys
+anywhere</td>
+<td>recursive walk on lowercased key prefix; project bundles no
+audio</td>
+</tr>
+<tr>
+<td><code>Review</code> with <code>sentiment &gt; 0</code> and empty
+<code>source_url</code></td>
+<td>over-claim shape (“positive but unverifiable”)</td>
+</tr>
+<tr>
+<td><code>Citation</code> with empty or non-<code>http(s)://</code>
+URL</td>
+<td>broken provenance</td>
+</tr>
+<tr>
+<td><code>Recording</code> with <code>gd</code>-prefixed
+<code>archive_id</code> whose URL does not point at
+<code>archive.org</code></td>
+<td>identifier suggests Internet Archive but URL is elsewhere</td>
+</tr>
+<tr>
+<td><code>LyricPointer</code> with empty <code>source_url</code></td>
+<td>we promise a pointer; missing pointer is over-claim</td>
+</tr>
+</tbody>
+</table>
+<p>A violation aborts <code>load_seed_compendium</code> before any
+analysis runs. <code>enforce_honesty=False</code> is available but
+exists only for tests of the boundary itself.</p>
+<p>The same rule applies to prose-only context introduced from the
+supplied source dossier. Formation stories, Wall of Sound details,
+public honors, songwriter recollections, studio-era reception, and
+tape-trading claims must cite checked sources and remain prose or
+citation metadata unless the project has a schema field for them
+[dead_net_biography; foundsf_weir_psychedelic_sf;
+mcintosh_wall_of_sound; kennedy_center_honors_2024;
+marshall_bootleg_collectors; rolling_stone_robert_hunter_interview;
+americana_highways_workingmans_american_beauty]. The dossier does not
+authorize new quantitative rows, current-person claims, lyric text,
+audio features, or revenue figures inside <code>data/archival/</code>.
+Community reconstructions are explicitly labelled as context when cited
+[grateful_seconds_touring_revenues].</p>
+<h2 data-number="9.2" id="why-this-exists"><span
+class="header-section-number">9.2</span> Why this exists</h2>
+<p>Two lessons from the prior-work memory drove it directly:</p>
+<ul>
+<li><strong>disclosure is not remediation</strong> — buried hedges in
+research-manuscript prose are laundering, not honesty. A runtime check
+forced into every load is the durable form.</li>
+<li><strong>shape tests don’t bind truth</strong> — a unit test that
+checks the <em>shape</em> of a review record passes happily on a
+fabricated positive review. The honesty boundary checks the
+<em>content</em> shape that fabrication takes.</li>
+</ul>
+<h2 data-number="9.3" id="binding-to-tests"><span
+class="header-section-number">9.3</span> Binding to tests</h2>
+<p>Each forbidden shape has a dedicated negative-control test that
+constructs a synthetic violation and asserts the boundary rejects it.
+The positive control is the committed archival compendium:
+<code>test_seed_loader_passes_honesty</code> asserts that the real
+snapshot loads with <code>enforce_honesty=True</code>. The whole loop is
+tested in <code>tests/test_honesty.py</code> and (with one tamper test
+per failure mode flipping a real row to a known-bad shape) in
+<code>tests/test_honesty_tamper.py</code>.</p>
+<h2 data-number="9.4" id="verdict"><span
+class="header-section-number">9.4</span> Verdict</h2>
+<p><strong>CERTIFY-WITH-RESIDUALS for v0.1.</strong> The honesty
+boundary enforces every named failure mode at load time, the
+negative-control tamper tests demonstrate it fails loud on the right
+shapes, and the entity-page generators are anti-fabrication-tested in
+<code>tests/test_entity_pages_no_fabrication.py</code>. Acknowledged
+residuals at this version:</p>
+<ul>
+<li>schema validation catches shape violations but cross-field semantic
+validity (e.g. date ∈ band-active-window, set position ≤ setlist length)
+is not yet a gate — that is the next layer of refinement;</li>
+<li>the <code>cattheory/</code> package’s load-bearing modules
+(categories, functors, spans, natural, colimits, yoneda) each carry a
+<em>negative control</em> — a broken composition, a non-monotone
+functor, or a too-small colimit vertex that the check must reject — so
+the constructions are tested for teeth, not merely exercised. The
+colimit now verifies the universal property (not just subset-of-union)
+and Yoneda is checked over the non-degenerate <code>Date</code> poset
+rather than the trivial discrete case. The one remaining piece of honest
+<em>scaffolding</em> is <code>enriched.py</code>: the audio-similarity
+enrichment is structural only — concrete weights would come from a
+downstream pipeline against the <code>fifteen-songs-dataset</code>
+[fifteen_songs_dataset], and the honesty boundary forbids bundling audio
+features, so it is labelled a stub rather than presented as an empirical
+result.</li>
+</ul>
+<h2 data-number="9.5" id="licensing-and-provenance"><span
+class="header-section-number">9.5</span> Licensing and provenance</h2>
+<p>The compendium integrates many community and institutional sources,
+and is explicit about reuse posture. The <em>code and the derived
+compendium schema</em> (the slugged entity tables and the
+category-theoretic constructions) are the contribution of this project;
+the <em>underlying facts</em> — setlists, dates, venues, personnel — are
+drawn from the cited sources, each of which carries its own terms.
+Setlist and show data derive primarily from community archives
+(gdshowsdb, the truckin-through-time dataset, Setlist.fm) and reference
+works (Wikipedia, Britannica); recording metadata comes from the
+Internet Archive Live Music Archive, whose Grateful Dead collection has
+its own access policy and metadata conventions
+[internet_archive_gd_collection_policy]; reviews are a curated/maximinus
+subset. No lyric text and no audio-feature data are bundled — lyric
+pointers are URL metadata only — both to respect copyright and as the
+project’s stated ethical boundary. Dodd and Trist’s annotated lyrics are
+cited as scholarship, not copied as data [dodd_annotated_lyrics].</p>
+<p>One nuance worth stating explicitly: while individual facts (a date,
+a venue, a song title) are not protectable, a <em>curated
+compilation</em> — a particular hand-edited setlist or segue sequence —
+can carry its own rights independent of lyrics or audio, and our setlist
+and segue data derive from such community-curated sources. Archive
+scholarship on the Dead’s sound record underscores that this is a
+co-created curation ecosystem, not a source-free fact dump
+[wallace_cocreation_sound_archive; dead_net_taping_dead]. Downstream
+users should therefore consult each cited source for its own licensing
+before redistribution; this work claims rights only over the integration
+code and the structural representation, not over the source facts or any
+upstream curator’s compilation.</p>
+<h2 data-number="9.6" id="out-of-scope"><span
+class="header-section-number">9.6</span> Out of scope</h2>
+<p>The boundary is not a content-moderation system or a lyric
+classifier. It is a small set of refusals encoding what the <em>project
+itself</em> has promised to do and not do, written in code so a future
+contributor cannot quietly drift past it.</p>
+<hr />
+<h1 data-number="10" id="references"><span
+class="header-section-number">10</span> References</h1>
+<p>The full bibliographic database is at
+<code>manuscript/references.bib</code>.</p>
+</body>
+</html>

@@ -1,0 +1,27 @@
+# Venues
+
+- [Alpine Valley Music Theatre](alpine_valley_music_theatre_east_troy.md) — 1 shows
+- [Barton Hall](barton_hall_ithaca.md) — 1 shows
+- [Boston Garden](boston_garden_boston.md) — 3 shows
+- [Capital Centre](capital_centre_landover.md) — 1 shows
+- [Deer Creek Music Center](deer_creek_music_center_noblesville.md) — 1 shows
+- [Fillmore East](fillmore_east_new_york.md) — 6 shows
+- [Fillmore West](fillmore_west_san_francisco.md) — 2 shows
+- [Frost Amphitheater](frost_amphitheater_stanford.md) — 0 shows
+- [Henry J. Kaiser Convention Center](henry_j_kaiser_convention_center_oakland.md) — 4 shows
+- [JFK Stadium](jfk_stadium_philadelphia.md) — 3 shows
+- [Lakeland Civic Center](lakeland_civic_center_lakeland.md) — 0 shows
+- [Madison Square Garden](madison_square_garden_new_york.md) — 5 shows
+- [Oakland-Alameda County Coliseum](oakland_coliseum_arena_oakland.md) — 8 shows
+- [Old Renaissance Faire Grounds](old_renaissance_faire_grounds_veneta.md) — 1 shows
+- [Radio City Music Hall](radio_city_music_hall_new_york.md) — 1 shows
+- [Red Rocks Amphitheatre](red_rocks_amphitheatre_morrison.md) — 2 shows
+- [RFK Stadium](rfk_stadium_washington.md) — 1 shows
+- [Rich Stadium](rich_stadium_orchard_park.md) — 3 shows
+- [Richmond Coliseum](richmond_coliseum_richmond.md) — 3 shows
+- [Shoreline Amphitheatre](shoreline_amphitheatre_mountain_view.md) — 3 shows
+- [Soldier Field](soldier_field_chicago.md) — 2 shows
+- [The Spectrum](the_spectrum_philadelphia.md) — 9 shows
+- [The Warfield](the_warfield_san_francisco.md) — 18 shows
+- [Veterans Memorial Coliseum](veterans_memorial_coliseum_new_haven.md) — 1 shows
+- [Winterland Arena](winterland_arena_san_francisco.md) — 4 shows

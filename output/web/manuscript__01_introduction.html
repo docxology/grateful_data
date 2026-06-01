@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>01_introduction.md.web</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+<h1 id="introduction">Introduction</h1>
+<h2 id="what-we-mean-by-the-music-never-stopped">What we mean by “the
+music never stopped”</h2>
+<p>The Grateful Dead performed roughly two and a half thousand concerts
+between 1965 and 1995. The public record of those concerts — setlists,
+recordings, ticket stubs, member rosters, composer credits, release
+histories, and decades of fan commentary — is one of the most
+extensively documented bodies of live performance in popular-music
+history. It is also unusually hybrid. UCSC’s Grateful Dead Archive gives
+the band a formal institutional home [ucsc_grateful_dead_archive], while
+the Internet Archive collection and Deadhead taping culture preserve the
+community-built sound archive and its metadata
+[internet_archive_gd_collection_policy; dead_net_taping_dead;
+wallace_cocreation_sound_archive]. The record is fragmented across
+primary databases, archival corpora, reference works, and a long tail of
+community spreadsheets and forum threads [reddit_data_sets;
+reddit_setlist_db; reddit_spreadsheet_archive]. This paper introduces
+<em>The Music Never Stopped</em>: a reproducible, citation-bound
+compendium that integrates the primary sources into a single schema,
+exposes them to standard data-analysis machinery, and exhibits a small
+but genuine category-theoretic structure latent in the performance
+graph.</p>
+<h2 id="sources-surveyed">Sources surveyed</h2>
+<p>We organize the cited landscape into four layers.</p>
+<p><strong>Primary setlist sources.</strong> Setlist.fm publishes a
+crowd-curated, API-backed register of every Grateful Dead show
+[setlistfm_gd]. The SetList Program at <code>setlists.net</code> covers
+1965–1995 with an interactive interface [setlists_net_program]. The Mark
+Leone CMU archive [cmu_leone_setlists], derived from the Jerry Stratton
+database, is the ancestor of many community scrapes; Noah Gorstein has
+converted the abandoned HTML into an open SQLite database
+[noah_truckin_through_time]. <code>GDsets</code> combines setlists with
+ticket-stub and stage-pass images [gdsets_com; gdsets_dead]. The
+<code>gdshowsdb</code> repository ships a relational schema and a Ruby
+gem [gdshowsdb]; the GitHub topic <code>gratefuldead</code> is the
+meta-index that links these and other resources
+[github_topic_gratefuldead].</p>
+<p><strong>Primary lyric and song-attribution sources.</strong> Mark
+Leone’s lyric index at CMU [cmu_leone_lyrics] points to the Stratton
+database via FTP. Alex Allan’s <code>whitegum.com</code> is the
+canonical lyric and song finder for every song the Dead played, with
+composer/lyricist attribution and per-song performance data
+[whitegum_alex_allan]. Dodd and Trist’s <em>The Complete Annotated
+Grateful Dead Lyrics</em> supplies the authoritative interpretive and
+annotation context for lyric studies [dodd_annotated_lyrics]. We cite it
+as an external authority and store only pointer metadata; no lyric text
+is bundled. Hunter’s own retrospective account and community discussion
+are used only as context for songwriter roles, never as an override of
+the structured composer/lyricist fields
+[rolling_stone_robert_hunter_interview; reddit_lyrics_attribution].</p>
+<p><strong>Personnel, discography, recording, and reception
+sources.</strong> The official band site lists members and roles
+[dead_net_official]. Wikipedia’s Grateful Dead entry [wikipedia_gd] and
+discography [wikipedia_discography] anchor the biographical timeline;
+Britannica frames the wider cultural context [britannica_gd].
+<em>Ultimate Classic Rock</em>’s lineup-changes guide
+[ucr_lineup_changes] provides a chronological narrative of personnel
+transitions. The Internet Archive’s Live Music Archive supplies
+recording metadata for the bulk of the live corpus
+[internet_archive_lma], and its Grateful Dead collection policy explains
+the special access and metadata posture of those recordings
+[internet_archive_gd_collection_policy]. The
+<code>fifteen-songs-dataset</code> curates 2617 soundboard recordings of
+15 songs for music-information-retrieval research
+[fifteen_songs_dataset], while Wang et al.’s setlist-segmentation paper
+gives a broader MIR frame for why live setlist identification is
+non-trivial [wang_setlist_segmentation]. <code>jerryPycia</code>
+provides a Python query library over Dead show data [jerry_pycia]; the
+<code>grateful-dead-reviews</code> corpus collects long-form fan reviews
+[gd_reviews_corpus]. The <code>gratefulstats.com</code> front-end
+aggregates show/tune/venue statistics [grateful_stats]. The
+<code>gratefuldata</code> tutorial demonstrates an ETL pipeline using
+the Internet Archive together with ASCAP ACE composer data
+[grateful_data_tutorial]. The compendium draws composer/lyricist
+attributions from these sources and encodes them in
+<code>data/archival/songs.json</code>.</p>
+<p><strong>Historical, technical, and interpretive context.</strong> The
+supplied enriched bibliography is useful as a discovery map, but the map
+is not itself evidence. Each durable topic is therefore rebound to
+checked source families: the official dead.net biography and FoundSF’s
+Bob Weir oral-history page for formation and Acid Test context
+[dead_net_biography; foundsf_weir_psychedelic_sf], Smithsonian and UCSC
+for institutional archive status [smithsonian_institutionally_dead;
+ucsc_grateful_dead_archive], McIntosh for the Wall of Sound hardware
+[mcintosh_wall_of_sound], Marshall, JSTOR Daily, Meriwether, Wallace,
+and the Internet Archive policy page for the tape-trading and
+sound-archive ecosystem [marshall_bootleg_collectors;
+jstor_daily_tape_trading; dead_net_taping_dead;
+wallace_cocreation_sound_archive;
+internet_archive_gd_collection_policy], Brackett’s <em>Live Dead</em>
+for liveness and recorded-performance scholarship [brackett_live_dead],
+Adams and Sardiello for Deadhead sociology
+[adams_deadhead_social_science], Dodd and Weiner for the bibliographic
+field map [dodd_weiner_annotated_bibliography], Britannica and Americana
+Highways for narrow biographical and studio-reception context
+[britannica_jerry_garcia;
+americana_highways_workingmans_american_beauty], and official
+public-recognition sources for later institutional status
+[rockhall_grateful_dead; grammy_lifetime_achievement;
+kennedy_center_honors_2024]. Community reconstructions such as touring
+revenue estimates are cited only as labelled business-history context,
+not as compendium measurements [grateful_seconds_touring_revenues].</p>
+<h2 id="what-is-in-this-repository">What is in this repository</h2>
+<p>We ship a committed archival compendium under
+<code>data/archival/</code> that drives every analysis and
+category-theoretic claim in this paper end-to-end, plus a parser for
+each cited source so that refreshing the snapshot is a matter of running
+the same code with online flags.</p>
+<h2 id="related-work">Related work</h2>
+<p>Prior Grateful Dead data efforts are mostly <em>single-source</em> or
+<em>single-purpose</em>. Community setlist databases and the gdshowsdb /
+truckin-through-time projects [gdshowsdb; noah_truckin_through_time]
+assemble the raw show record; aggregators such as Grateful Stats
+[grateful_stats] and community spreadsheets and forums
+[reddit_setlist_db; reddit_data_sets] surface frequency rankings; and
+query libraries such as <code>jerryPycia</code> [jerry_pycia] and the
+<code>grateful-data</code> tutorial [grateful_data_tutorial] expose one
+source programmatically. Archive and popular-music studies add a second
+frame: the Dead’s sound record is co-produced by band, archive, tapers,
+uploaders, and curators rather than handed down by a single authority
+[wallace_cocreation_sound_archive; dead_net_taping_dead;
+internet_archive_gd_collection_policy; brackett_live_dead]. Sociological
+work on Deadheads, bibliographic scholarship, and tape-trader studies
+explain why this record is also a community institution rather than
+simply a discography [adams_deadhead_social_science;
+dodd_weiner_annotated_bibliography; marshall_bootleg_collectors;
+jstor_daily_tape_trading].</p>
+<p>This compendium differs on two axes. It is
+<em>integration-first</em>: primary sources are reconciled on canonical
+slugs into one immutable, citation-bound schema with a runtime honesty
+boundary and completeness/figure-validation probes. It is also
+<em>structure-first</em>: the performance record is read through small
+but mechanically checked categorical constructions (functors, spans,
+colimits, a date-poset Yoneda statement) rather than treated only as a
+frequency table. The music-theory lineage is Lewin’s transformational
+shift from static objects to relations and transformations [lewin_gmit],
+with newer categorical music work showing how such networks can be
+formalized diagrammatically [padi_category_music_case_study;
+popoff_hidden_categories]. Our contribution is a concrete, reproducible
+instantiation on a real performance corpus, with every quantitative or
+categorical claim bound to code.</p>
+<h2 id="what-is-not-in-this-repository">What is <em>not</em> in this
+repository</h2>
+<p>We do not bundle lyric text — full lyrics are copyrighted. The
+compendium stores songs as titled records with composer and lyricist
+attribution; the semantic layer (motifs, themes, annotations) is read
+against external indices such as Alex Allan’s finder and Dodd’s
+annotated lyrics [whitegum_alex_allan; dodd_annotated_lyrics]. We do not
+bundle audio. The audio-enriched category in §3 is a structural
+abstraction over similarity weights; concrete weights are produced by an
+external pipeline against the <code>fifteen-songs-dataset</code>
+[fifteen_songs_dataset].</p>
+</body>
+</html>

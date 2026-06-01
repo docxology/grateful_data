@@ -1,0 +1,119 @@
+{
+  "columns": [
+    "rank",
+    "song_slug",
+    "title",
+    "n_show_performances",
+    "max_gap_shows"
+  ],
+  "figure": "bustouts.png",
+  "metadata": {},
+  "rows": [
+    [
+      1,
+      "it_s_a_man_s_world",
+      "It's A Man's World",
+      16,
+      2665
+    ],
+    [
+      2,
+      "i_m_a_king_bee",
+      "I'm A King Bee",
+      40,
+      2371
+    ],
+    [
+      3,
+      "hey_jude",
+      "Hey Jude",
+      3,
+      2290
+    ],
+    [
+      4,
+      "mona",
+      "Mona",
+      3,
+      2244
+    ],
+    [
+      5,
+      "the_same_thing",
+      "The Same Thing",
+      46,
+      2167
+    ],
+    [
+      6,
+      "new_speedway_boogie",
+      "New Speedway Boogie",
+      60,
+      2152
+    ],
+    [
+      7,
+      "she_belongs_to_me",
+      "She Belongs To Me",
+      10,
+      2118
+    ],
+    [
+      8,
+      "death_don_t_have_no_mercy",
+      "Death Don't Have No Mercy",
+      50,
+      2064
+    ],
+    [
+      9,
+      "salt_lake_city",
+      "Salt Lake City",
+      2,
+      2007
+    ],
+    [
+      10,
+      "i_just_want_to_make_love_to_you",
+      "I Just Want To Make Love To You",
+      4,
+      1972
+    ],
+    [
+      11,
+      "it_takes_a_lot_to_laugh_it_takes_a_train_to_cry",
+      "It Takes A Lot To Laugh, It Takes A Train To Cry",
+      8,
+      1924
+    ],
+    [
+      12,
+      "how_long_blues",
+      "How Long Blues",
+      5,
+      1922
+    ],
+    [
+      13,
+      "hideaway",
+      "Hideaway",
+      3,
+      1878
+    ],
+    [
+      14,
+      "louie_louie",
+      "Louie Louie",
+      9,
+      1820
+    ],
+    [
+      15,
+      "good_morning_little_schoolgirl",
+      "Good Morning Little Schoolgirl",
+      86,
+      1749
+    ]
+  ],
+  "title": "Recurrence Gaps"
+}

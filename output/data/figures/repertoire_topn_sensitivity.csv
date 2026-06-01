@@ -1,0 +1,5 @@
+top_n,n_available,selected_performances,performance_share_pct,gini_within_cut,top_10_share_pct_within_cut,min_era_share_pct,mean_era_share_pct,max_era_share_pct
+25,25,12548,33.6,0.1165,11.3,22.94,36.548333,49.27
+50,50,20660,55.33,0.1512,16.15,41.22,58.125,74.79
+100,100,30732,82.3,0.2499,20.03,65.81,81.973333,92.24
+200,200,36338,97.32,0.4712,29.18,90.99,96.915,98.76

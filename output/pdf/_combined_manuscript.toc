@@ -1,0 +1,65 @@
+\contentsline {section}{\numberline {1}Abstract}{3}{section.1}%
+\contentsline {section}{\numberline {2}Introduction}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}What we mean by ``the music never stopped''}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Sources surveyed}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}What is in this repository}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Related work}{5}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}What is \emph {not} in this repository}{5}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Methodology}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Schema}{6}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Data dictionary (core entities)}{6}{subsubsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.2}Source ingestion}{6}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Contextual-source layer}{7}{subsubsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.3}Integration}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Committed compendium (\texttt {data/archival/})}{7}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Analyses and validation}{8}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}First-principles claim ledger}{8}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Provenance, external pointers, and reviewer artifacts}{8}{subsubsection.3.5.2}%
+\contentsline {section}{\numberline {4}Category-theoretic interpretation}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Why category theory}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}The date poset and the show category}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}The setlist functor}{10}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}The lineup functor and the active-roster presheaf}{10}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Performances as spans, with fibers over shows and songs}{11}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Audio enrichment}{11}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Coproducts and colimits}{11}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Natural transformations}{11}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Representability (Yoneda) over the date poset}{12}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}What the construction buys}{12}{subsection.4.10}%
+\contentsline {section}{\numberline {5}Results on the compendium}{13}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Scope and completeness}{13}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Top-line counts}{13}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Statistical shape and concentration}{13}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Temporal activity}{18}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Repertoire frequency and co-occurrence}{18}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Markov structure of setlist order}{20}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Category-theoretic cardinalities}{20}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Composers, eras, and personnel}{24}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.9}Reception, citations, and recordings}{24}{subsection.5.9}%
+\contentsline {subsection}{\numberline {5.10}Lyric pointers and segues}{24}{subsection.5.10}%
+\contentsline {subsection}{\numberline {5.11}Geography, set position, tours, and bustouts}{29}{subsection.5.11}%
+\contentsline {subsection}{\numberline {5.12}Composite views}{29}{subsection.5.12}%
+\contentsline {subsection}{\numberline {5.13}Claim evidence map}{29}{subsection.5.13}%
+\contentsline {subsection}{\numberline {5.14}Limitations and threats to validity}{31}{subsection.5.14}%
+\contentsline {subsection}{\numberline {5.15}Honest framing}{34}{subsection.5.15}%
+\contentsline {section}{\numberline {6}Segue and transition structure}{38}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Two notions of ``what follows what''}{38}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}The most frequent segues}{38}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Segue hubs}{38}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}What this does and does not establish}{38}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Conclusion}{39}{section.7}%
+\contentsline {section}{\numberline {8}Reproducibility}{40}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Single-command reproduction}{40}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Manuscript PDF (template renderer)}{40}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}CLI}{40}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}What's bound to what}{41}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}No mocks}{42}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Determinism}{42}{subsection.8.6}%
+\contentsline {section}{\numberline {9}The executable honesty boundary}{43}{section.9}%
+\contentsline {subsection}{\numberline {9.1}What the boundary refuses}{43}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Why this exists}{43}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Binding to tests}{43}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Verdict}{43}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Licensing and provenance}{44}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}Out of scope}{44}{subsection.9.6}%
+\contentsline {section}{\numberline {10}References}{45}{section.10}%

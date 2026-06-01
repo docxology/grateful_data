@@ -1,0 +1,44 @@
+domain: music-information-retrieval
+project_kind: data-compendium
+# Outputs produced by the self-contained analysis pipeline (scripts/99_pipeline.py).
+# This pipeline is deliberately free of infrastructure/ coupling.
+expected_outputs:
+  - figures
+  - canonical_compendium_csv
+  - canonical_compendium_json
+# Produced OUT OF BAND by the shared template renderer, NOT by 99_pipeline.py:
+#   uv run python scripts/03_render_pdf.py --project grateful_data
+# (multi-pass + bibliography; citations resolve in the rendered artifact). See AGENTS.md.
+template_rendered_outputs:
+  - manuscript_pdf
+review_gates:
+  - tests_90_pct_src
+  - manuscript_citations_resolve
+  - category_theory_laws_pass
+source_policy:
+  primary_sources:
+    - setlist.fm
+    - setlists.net
+    - cmu_mark_leone
+    - gdsets.com
+    - gdshowsdb
+    - internet_archive_live_music_archive
+    - whitegum_alex_allan
+    - dead.net
+  reference_sources:
+    - wikipedia
+    - britannica
+    - dodd_annotated_lyrics
+  lyrics_text_policy: pointers_only_no_full_text
+artifact_expectations:
+  - data/seed/shows.json
+  - data/seed/songs.json
+  - data/seed/personnel.json
+  - data/seed/venues.json
+  - data/seed/citations.json
+benchmark_rubric:
+  weights:
+    coverage_of_canonical_shows: 0.25
+    schema_completeness: 0.25
+    category_theoretic_coherence: 0.25
+    citation_resolution: 0.25

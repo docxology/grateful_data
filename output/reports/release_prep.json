@@ -1,0 +1,70 @@
+{
+  "all_ok": true,
+  "dry_run": true,
+  "html_postprocess": {
+    "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/web/index.html",
+    "planned": true
+  },
+  "schema": "grateful-data-release-prep-v1",
+  "steps": [
+    {
+      "command": [
+        "uv",
+        "run",
+        "pytest",
+        "tests/",
+        "--cov=src",
+        "--cov-fail-under=90"
+      ],
+      "cwd": "/Users/4d/Documents/GitHub/projects/working/grateful_data",
+      "env": {
+        "GRATEFUL_DATA_TIER": "archival"
+      },
+      "name": "tests"
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "python",
+        "scripts/99_pipeline.py",
+        "--tier",
+        "archival"
+      ],
+      "cwd": "/Users/4d/Documents/GitHub/projects/working/grateful_data",
+      "env": {
+        "GRATEFUL_DATA_TIER": "archival"
+      },
+      "name": "archival_pipeline"
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "python",
+        "scripts/03_render_pdf.py",
+        "--project",
+        "grateful_data"
+      ],
+      "cwd": "/Users/4d/Documents/GitHub/template",
+      "env": {
+        "GRATEFUL_DATA_TIER": "archival"
+      },
+      "name": "template_render"
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "python",
+        "scripts/20_validate_publication_outputs.py",
+        "--strict"
+      ],
+      "cwd": "/Users/4d/Documents/GitHub/projects/working/grateful_data",
+      "env": {
+        "GRATEFUL_DATA_TIER": "archival"
+      },
+      "name": "publication_validator"
+    }
+  ]
+}

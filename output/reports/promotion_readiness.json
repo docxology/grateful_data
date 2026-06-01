@@ -1,0 +1,44 @@
+{
+  "checks": [
+    {
+      "detail": "Project remains in working/; this script does not promote it.",
+      "name": "working_lifecycle",
+      "ok": true
+    },
+    {
+      "detail": "Tests directory exists for standalone 90% coverage gate.",
+      "name": "test_contract_present",
+      "ok": true
+    },
+    {
+      "detail": "Standalone analysis pipeline is available.",
+      "name": "pipeline_present",
+      "ok": true
+    },
+    {
+      "detail": "Publication validator is available.",
+      "name": "publication_validator_present",
+      "ok": true
+    },
+    {
+      "detail": "Release-prep orchestrator is available.",
+      "name": "release_prep_present",
+      "ok": true
+    },
+    {
+      "detail": "Latest publication validation report exists.",
+      "name": "latest_validation_report",
+      "ok": true
+    }
+  ],
+  "does_not_promote": true,
+  "project_root": "/Users/4d/Documents/GitHub/projects/working/grateful_data",
+  "promotion_command_if_explicitly_requested": "mv /Users/4d/Documents/GitHub/projects/working/grateful_data /Users/4d/Documents/GitHub/projects/active/grateful_data",
+  "ready_to_request_promotion": true,
+  "required_pre_promotion_gates": [
+    "uv run pytest tests/ --cov=src --cov-fail-under=90",
+    "GRATEFUL_DATA_TIER=archival uv run python scripts/99_pipeline.py --tier archival",
+    "uv run python scripts/20_validate_publication_outputs.py --strict"
+  ],
+  "schema": "grateful-data-promotion-readiness-v1"
+}

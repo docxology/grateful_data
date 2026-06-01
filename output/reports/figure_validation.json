@@ -1,0 +1,369 @@
+{
+  "n_figures": 36,
+  "n_ok": 36,
+  "n_failed": 0,
+  "missing": [],
+  "all_ok": true,
+  "results": [
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/shows_per_year.png",
+      "exists": true,
+      "size_bytes": 74601,
+      "width": 1125,
+      "height": 605,
+      "pixel_variance": 0.06460687,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/top_songs.png",
+      "exists": true,
+      "size_bytes": 62344,
+      "width": 1124,
+      "height": 605,
+      "pixel_variance": 0.0840672,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/cooccurrence_heatmap.png",
+      "exists": true,
+      "size_bytes": 138489,
+      "width": 1179,
+      "height": 1053,
+      "pixel_variance": 0.11467033,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/functor_cardinalities.png",
+      "exists": true,
+      "size_bytes": 52906,
+      "width": 1125,
+      "height": 605,
+      "pixel_variance": 0.01437266,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/transition_matrix.png",
+      "exists": true,
+      "size_bytes": 130305,
+      "width": 1174,
+      "height": 1053,
+      "pixel_variance": 0.22313996,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/composer_attribution.png",
+      "exists": true,
+      "size_bytes": 59709,
+      "width": 1201,
+      "height": 679,
+      "pixel_variance": 0.02145651,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/segue_graph.png",
+      "exists": true,
+      "size_bytes": 82802,
+      "width": 1350,
+      "height": 827,
+      "pixel_variance": 0.02428191,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/era_density.png",
+      "exists": true,
+      "size_bytes": 68390,
+      "width": 1201,
+      "height": 605,
+      "pixel_variance": 0.1257178,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/personnel_gantt.png",
+      "exists": true,
+      "size_bytes": 40187,
+      "width": 1349,
+      "height": 903,
+      "pixel_variance": 0.04007891,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/sentiment_by_kind.png",
+      "exists": true,
+      "size_bytes": 34384,
+      "width": 1051,
+      "height": 605,
+      "pixel_variance": 0.10739966,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/citation_kinds.png",
+      "exists": true,
+      "size_bytes": 36189,
+      "width": 1052,
+      "height": 603,
+      "pixel_variance": 0.0258675,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/recording_sources.png",
+      "exists": true,
+      "size_bytes": 35596,
+      "width": 1052,
+      "height": 603,
+      "pixel_variance": 0.0351548,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/shows_by_era.png",
+      "exists": true,
+      "size_bytes": 43523,
+      "width": 1200,
+      "height": 605,
+      "pixel_variance": 0.02903049,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/lyric_themes.png",
+      "exists": true,
+      "size_bytes": 55371,
+      "width": 1050,
+      "height": 754,
+      "pixel_variance": 0.04220046,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/lineup_diversity.png",
+      "exists": true,
+      "size_bytes": 39826,
+      "width": 1200,
+      "height": 605,
+      "pixel_variance": 0.01039126,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/geo_scatter.png",
+      "exists": true,
+      "size_bytes": 110330,
+      "width": 1349,
+      "height": 903,
+      "pixel_variance": 0.00975633,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/set_positions.png",
+      "exists": true,
+      "size_bytes": 32388,
+      "width": 1051,
+      "height": 605,
+      "pixel_variance": 0.02211068,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/performance_distribution.png",
+      "exists": true,
+      "size_bytes": 55526,
+      "width": 1200,
+      "height": 679,
+      "pixel_variance": 0.01456053,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/repertoire_concentration.png",
+      "exists": true,
+      "size_bytes": 64672,
+      "width": 1200,
+      "height": 679,
+      "pixel_variance": 0.01166955,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/venue_concentration.png",
+      "exists": true,
+      "size_bytes": 59994,
+      "width": 1200,
+      "height": 679,
+      "pixel_variance": 0.01008772,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/stationary_top20.png",
+      "exists": true,
+      "size_bytes": 75265,
+      "width": 1200,
+      "height": 754,
+      "pixel_variance": 0.02212849,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/centrality_top20.png",
+      "exists": true,
+      "size_bytes": 70154,
+      "width": 1200,
+      "height": 754,
+      "pixel_variance": 0.09650042,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/releases_timeline.png",
+      "exists": true,
+      "size_bytes": 64745,
+      "width": 1349,
+      "height": 605,
+      "pixel_variance": 0.01167337,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/context_timeline.png",
+      "exists": true,
+      "size_bytes": 58848,
+      "width": 1424,
+      "height": 677,
+      "pixel_variance": 0.0340248,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/tours_top.png",
+      "exists": true,
+      "size_bytes": 29235,
+      "width": 1200,
+      "height": 754,
+      "pixel_variance": 0.03773426,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/bustouts.png",
+      "exists": true,
+      "size_bytes": 65357,
+      "width": 1199,
+      "height": 754,
+      "pixel_variance": 0.07439271,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/song_lifespans.png",
+      "exists": true,
+      "size_bytes": 85781,
+      "width": 1200,
+      "height": 903,
+      "pixel_variance": 0.02554238,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/repertoire_embedding.png",
+      "exists": true,
+      "size_bytes": 123356,
+      "width": 1274,
+      "height": 829,
+      "pixel_variance": 0.01279034,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/concentration_uncertainty.png",
+      "exists": true,
+      "size_bytes": 46901,
+      "width": 1200,
+      "height": 679,
+      "pixel_variance": 0.00778401,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/transition_sensitivity.png",
+      "exists": true,
+      "size_bytes": 81051,
+      "width": 1275,
+      "height": 724,
+      "pixel_variance": 0.00989983,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/repertoire_topn_sensitivity.png",
+      "exists": true,
+      "size_bytes": 79015,
+      "width": 1275,
+      "height": 724,
+      "pixel_variance": 0.00962741,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/venue_identity_review.png",
+      "exists": true,
+      "size_bytes": 48815,
+      "width": 1273,
+      "height": 724,
+      "pixel_variance": 0.02967989,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/era_repertoire_heatmap.png",
+      "exists": true,
+      "size_bytes": 107643,
+      "width": 1423,
+      "height": 829,
+      "pixel_variance": 0.12154655,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/claim_evidence_matrix.png",
+      "exists": true,
+      "size_bytes": 65564,
+      "width": 1319,
+      "height": 722,
+      "pixel_variance": 0.05343254,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/mosaic.png",
+      "exists": true,
+      "size_bytes": 1479577,
+      "width": 4380,
+      "height": 5996,
+      "pixel_variance": 0.02709829,
+      "ok": true,
+      "reasons": []
+    },
+    {
+      "path": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/alluvial_composer_song_era.png",
+      "exists": true,
+      "size_bytes": 145622,
+      "width": 1730,
+      "height": 946,
+      "pixel_variance": 0.02215319,
+      "ok": true,
+      "reasons": []
+    }
+  ]
+}

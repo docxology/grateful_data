@@ -1,0 +1,222 @@
+
+==================================================
+STAGE 03: Render PDF (Project: grateful_data)
+==================================================
+Executing PDF rendering pipeline for project 'grateful_data'...
+Hydrating manuscript variables before render: z_generate_manuscript_variables.py
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/manuscript_variables.json
+Resolved 10 manuscript file(s) to /Users/4d/Documents/GitHub/projects/working/grateful_data/output/manuscript
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/manuscript
+Manuscript variables hydrated
+Refreshed config.yaml in injected manuscript: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/manuscript/config.yaml
+Refreshed references.bib in injected manuscript: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/manuscript/references.bib
+Rendering from injected manuscript directory: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/manuscript
+Running pre-flight LaTeX package validation...
+Validating 12 required and 11 optional LaTeX packages...
+✓ All LaTeX packages available
+Verifying figures from analysis stage...
+Found 24 figure(s) in figures/
+  Found figures: alluvial_composer_song_era.png, bustouts.png, centrality_top20.png
+  ... and 21 more
+Discovered 9 manuscript file(s):
+  Main sections (8):
+    • 00_abstract.md
+    • 01_introduction.md
+    • 02_methodology.md
+    • 03_category_theory.md
+    • 04_results.md
+    • 05_conclusion.md
+    • 06_reproducibility.md
+    • 07_honesty_boundary.md
+  References (1):
+    • 99_references.md
+
+============================================================
+MANUSCRIPT COMPOSITION (9 files)
+============================================================
+Markdown sections (9):
+  • 00_abstract.md                           (   2.6 KB)
+  • 01_introduction.md                       (   4.5 KB)
+  • 02_methodology.md                        (   4.2 KB)
+  • 03_category_theory.md                    (   6.5 KB)
+  • 04_results.md                            (  15.7 KB)
+  • 05_conclusion.md                         (   2.1 KB)
+  • 06_reproducibility.md                    (   3.3 KB)
+  • 07_honesty_boundary.md                   (   3.5 KB)
+  • 99_references.md                         (   0.1 KB)
+  Total markdown:                          (  42.4 KB)
+============================================================
+
+Initialized RenderManager from infrastructure.rendering
+Render formats: pdf=True html=True slides=False docx=False epub=False
+  [1/9] 00_abstract.md
+Rendering Markdown file: 00_abstract.md
+Skipping Beamer slides for 00_abstract.md (render.formats.slides=false)
+Generating HTML from /Users/4d/Documents/GitHub/projects/working/grateful_data/output/manuscript/00_abstract.md
+Successfully rendered 1 format(s) for 00_abstract.md
+    ✅ Completed in 0s
+  [2/9] 01_introduction.md
+Rendering Markdown file: 01_introduction.md
+Skipping Beamer slides for 01_introduction.md (render.formats.slides=false)
+Generating HTML from /Users/4d/Documents/GitHub/projects/working/grateful_data/output/manuscript/01_introduction.md
+Successfully rendered 1 format(s) for 01_introduction.md
+    ✅ Completed in 0s
+  [3/9] 02_methodology.md
+Rendering Markdown file: 02_methodology.md
+Skipping Beamer slides for 02_methodology.md (render.formats.slides=false)
+Generating HTML from /Users/4d/Documents/GitHub/projects/working/grateful_data/output/manuscript/02_methodology.md
+Successfully rendered 1 format(s) for 02_methodology.md
+    ✅ Completed in 0s
+  [4/9] 03_category_theory.md
+Rendering Markdown file: 03_category_theory.md
+Skipping Beamer slides for 03_category_theory.md (render.formats.slides=false)
+Generating HTML from /Users/4d/Documents/GitHub/projects/working/grateful_data/output/manuscript/03_category_theory.md
+Successfully rendered 1 format(s) for 03_category_theory.md
+    ✅ Completed in 0s
+  [5/9] 04_results.md
+Rendering Markdown file: 04_results.md
+Skipping Beamer slides for 04_results.md (render.formats.slides=false)
+Generating HTML from /Users/4d/Documents/GitHub/projects/working/grateful_data/output/manuscript/04_results.md
+Successfully rendered 1 format(s) for 04_results.md
+    ✅ Completed in 0s
+  [6/9] 05_conclusion.md
+Rendering Markdown file: 05_conclusion.md
+Skipping Beamer slides for 05_conclusion.md (render.formats.slides=false)
+Generating HTML from /Users/4d/Documents/GitHub/projects/working/grateful_data/output/manuscript/05_conclusion.md
+Successfully rendered 1 format(s) for 05_conclusion.md
+    ✅ Completed in 0s
+  [7/9] 06_reproducibility.md
+Rendering Markdown file: 06_reproducibility.md
+Skipping Beamer slides for 06_reproducibility.md (render.formats.slides=false)
+Generating HTML from /Users/4d/Documents/GitHub/projects/working/grateful_data/output/manuscript/06_reproducibility.md
+Successfully rendered 1 format(s) for 06_reproducibility.md
+    ✅ Completed in 0s
+  [8/9] 07_honesty_boundary.md
+Rendering Markdown file: 07_honesty_boundary.md
+Skipping Beamer slides for 07_honesty_boundary.md (render.formats.slides=false)
+Generating HTML from /Users/4d/Documents/GitHub/projects/working/grateful_data/output/manuscript/07_honesty_boundary.md
+Successfully rendered 1 format(s) for 07_honesty_boundary.md
+    ✅ Completed in 0s
+  [9/9] 99_references.md
+Rendering Markdown file: 99_references.md
+Skipping Beamer slides for 99_references.md (render.formats.slides=false)
+Generating HTML from /Users/4d/Documents/GitHub/projects/working/grateful_data/output/manuscript/99_references.md
+Successfully rendered 1 format(s) for 99_references.md
+    ✅ Completed in 0s
+Generating combined PDF manuscript...
+Rendering combined PDF from 9 files...
+
+============================================================
+COMBINED MANUSCRIPT RENDERING
+============================================================
+Combining 9 section(s):
+  [ 1/9] 00_abstract.md                           (   2.6 KB)
+  [ 2/9] 01_introduction.md                       (   4.5 KB)
+  [ 3/9] 02_methodology.md                        (   4.2 KB)
+  [ 4/9] 03_category_theory.md                    (   6.5 KB)
+  [ 5/9] 04_results.md                            (  15.7 KB)
+  [ 6/9] 05_conclusion.md                         (   2.1 KB)
+  [ 7/9] 06_reproducibility.md                    (   3.3 KB)
+  [ 8/9] 07_honesty_boundary.md                   (   3.5 KB)
+  [ 9/9] 99_references.md                         (   0.1 KB)
+  Total input size:                                (  42.4 KB)
+============================================================
+
+✓ Normalised 25 figure path(s) to ../figures/ in combined markdown
+Converting combined markdown to LaTeX...
+Using pandoc-crossref at /opt/homebrew/bin/pandoc-crossref
+✓ Disabled lmodern package to prevent XeLaTeX font conflicts
+✓ Patched hidelinks → colorlinks=true (uniform red hyperlinks)
+✓ Normalised 1 \hypersetup block(s) to uniform red link colours
+✓ Remapped 8 Unicode glyph(s) to PDF-safe output: η×2, →×2, ∝×1, ⟹×1, ∈×1, ≤×1
+✓ Rewrote 8 text-mode math command(s) to PDF-safe text
+✓ Made 76 long monospace path span(s) breakable
+✓ Extracted preamble from preamble.md
+✓ Injected geometry package (0.75in margins)
+✓ Inserted title/opening matter after \begin{document}
+✓ Inserted \clearpage and \bibliography{...} before \end{document}
+Verifying 24 figure reference(s)...
+  Found: 24/24 figures
+Rendering combined manuscript to PDF: grateful_data_combined.pdf
+  Source files: 9
+  Bibliography: references.bib
+  LaTeX compilation pass 1/4...
+  XeLaTeX pass 1 exited with code 1 but wrote output; continuing multi-pass compile
+  Bibliography processing...
+Processing bibliography with bibtex...
+  XeLaTeX pass 2 exited with code 1 but wrote output; continuing multi-pass compile
+  XeLaTeX pass 3 exited with code 1 but wrote output; continuing multi-pass compile
+  XeLaTeX pass 4 exited with code 1 but wrote output; continuing multi-pass compile
+
+Successfully combined 9 sections
+   Output: grateful_data_combined.pdf
+   Size: 2946.8 KB (2.88 MB)
+   Location: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/pdf
+   Duration: 18.13 seconds
+✅ Generated combined PDF: grateful_data_combined.pdf
+Generating combined HTML manuscript...
+Rendering combined HTML from 9 files...
+
+============================================================
+COMBINED HTML RENDERING
+============================================================
+Combining 9 section(s):
+  [ 1/9] 00_abstract.md                           (   2.6 KB)
+  [ 2/9] 01_introduction.md                       (   4.5 KB)
+  [ 3/9] 02_methodology.md                        (   4.2 KB)
+  [ 4/9] 03_category_theory.md                    (   6.5 KB)
+  [ 5/9] 04_results.md                            (  15.7 KB)
+  [ 6/9] 05_conclusion.md                         (   2.1 KB)
+  [ 7/9] 06_reproducibility.md                    (   3.3 KB)
+  [ 8/9] 07_honesty_boundary.md                   (   3.5 KB)
+  [ 9/9] 99_references.md                         (   0.1 KB)
+  Total input size:                                (  42.4 KB)
+============================================================
+
+Using pandoc-crossref at /opt/homebrew/bin/pandoc-crossref for combined HTML
+Converting combined markdown to HTML...
+✓ Embedded CSS styling in index.html
+✅ Generated combined HTML: index.html
+
+Rendering Summary:
+  Individual files processed: 9
+  Markdown files: 9
+
+============================================================
+RENDERING RESULTS SUMMARY
+============================================================
+Project: grateful_data
+
+📕 Combined Manuscript PDF:
+   grateful_data_combined.pdf                 2946.8 KB
+   Location: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/pdf/grateful_data_combined.pdf
+
+🌐 Combined Manuscript HTML:
+   index.html                                   72.9 KB
+   Location: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/web/index.html
+
+🌐 Web Outputs (9):
+   manuscript__00_abstract.html                  7.5 KB
+   manuscript__01_introduction.html             10.2 KB
+   manuscript__02_methodology.html               9.5 KB
+   manuscript__03_category_theory.html          12.2 KB
+   manuscript__04_results.html                  15.8 KB
+   manuscript__05_conclusion.html                6.1 KB
+   manuscript__06_reproducibility.html          13.9 KB
+   manuscript__07_honesty_boundary.html          8.1 KB
+   manuscript__99_references.html                3.8 KB
+
+📦 Total Output Size: 3019.7 KB (2.95 MB)
+============================================================
+
+PDF rendering pipeline completed
+Verifying PDF outputs...
+Generated 1 PDF file(s)
+  📕 grateful_data_combined.pdf (2.88 MB) ✓
+
+✅ Manuscript bibliography file(s) found and will be processed
+
+✅ Combined manuscript PDF successfully generated!
+  File size: 2.88 MB
+  Valid PDFs: 1/1
+PDF rendering complete - ready for validation

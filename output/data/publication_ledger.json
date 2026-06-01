@@ -1,0 +1,27 @@
+{
+  "releases": [
+    {
+      "doi": "10.5281/zenodo.dryrun",
+      "dry_run": true,
+      "github_release_url": "https://github.com/docxology/grateful_data/releases/tag/v1.0.0",
+      "github_repo": "docxology/grateful_data",
+      "pairing_valid": true,
+      "pdf_sha256": "b24d51d259024a0126a32dc3c34b82e2df68d481ea176243d606d27deb59904b",
+      "sandbox": true,
+      "tag": "v1.0.0",
+      "timestamp": "2026-06-01T01:37:04.220350+00:00"
+    },
+    {
+      "doi": "10.5281/zenodo.20482026",
+      "dry_run": false,
+      "github_release_url": null,
+      "github_repo": "docxology/grateful_data",
+      "pairing_valid": false,
+      "pdf_sha256": "2d42bfd04e0b32e4871d5bcbe2c65bcce58cca336da240af7c6fd03a6563a709",
+      "sandbox": false,
+      "tag": "v1.0.0",
+      "timestamp": "2026-06-01T01:39:36.204730+00:00"
+    }
+  ],
+  "schema": "template-publication-ledger-v1"
+}

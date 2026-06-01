@@ -1,0 +1,42 @@
+paper:
+  title: "The Music Never Stopped: A Grateful Data Compendium with a Category-Theoretic Interpretation"
+  version: "1.0.0"
+  date: "2026-05-31"
+
+authors:
+  - name: "Daniel Ari Friedman"
+    orcid: "0000-0001-6232-9096"
+    email: "daniel@activeinference.institute"
+    affiliations:
+      - "Active Inference Institute"
+      - "FractAI"
+    corresponding: true
+
+publication:
+  doi: "10.5281/zenodo.20482025"           # concept DOI — stable citation (PDF cover, CITATION.cff, badge)
+  version_doi: "10.5281/zenodo.20482026"   # this v1.0.0 deposit
+  version_record: "https://zenodo.org/records/20482026"
+  github_repository: "docxology/grateful_data"
+  year: 2026
+
+metadata:
+  license: "MIT"
+
+keywords:
+  - "grateful dead"
+  - "setlist data"
+  - "category theory"
+  - "music information retrieval"
+  - "reproducible data compendium"
+
+render:
+  formats:
+    pdf: true
+    html: true
+    slides: false
+    docx: false
+    epub: false
+
+llm:
+  translations:
+    enabled: false

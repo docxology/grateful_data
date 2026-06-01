@@ -1,0 +1,3041 @@
+{
+  "tier": "archival",
+  "top_line": {
+    "n_shows": 3341,
+    "n_songs": 645,
+    "n_people": 14,
+    "n_venues": 912,
+    "n_performances": 40757,
+    "n_recordings": 7122,
+    "n_releases": 259,
+    "n_citations": 139
+  },
+  "shows_per_year": {
+    "1965": 12,
+    "1966": 113,
+    "1967": 139,
+    "1968": 126,
+    "1969": 149,
+    "1970": 145,
+    "1971": 81,
+    "1972": 138,
+    "1973": 110,
+    "1974": 62,
+    "1975": 6,
+    "1976": 57,
+    "1977": 102,
+    "1978": 138,
+    "1979": 125,
+    "1980": 141,
+    "1981": 144,
+    "1982": 107,
+    "1983": 110,
+    "1984": 105,
+    "1985": 111,
+    "1986": 71,
+    "1987": 144,
+    "1988": 139,
+    "1989": 122,
+    "1990": 129,
+    "1991": 112,
+    "1992": 87,
+    "1993": 124,
+    "1994": 128,
+    "1995": 64
+  },
+  "performances_per_year": {
+    "1965": 2,
+    "1966": 228,
+    "1967": 201,
+    "1968": 529,
+    "1969": 1527,
+    "1970": 2078,
+    "1971": 1793,
+    "1972": 2281,
+    "1973": 1922,
+    "1974": 1081,
+    "1975": 56,
+    "1976": 957,
+    "1977": 1275,
+    "1978": 1641,
+    "1979": 1647,
+    "1980": 2157,
+    "1981": 1902,
+    "1982": 1358,
+    "1983": 1401,
+    "1984": 1322,
+    "1985": 1442,
+    "1986": 904,
+    "1987": 1752,
+    "1988": 1622,
+    "1989": 1498,
+    "1990": 1544,
+    "1991": 1498,
+    "1992": 1043,
+    "1993": 1587,
+    "1994": 1628,
+    "1995": 881
+  },
+  "top_songs": [
+    {
+      "slug": "playing_in_the_band",
+      "count": 752
+    },
+    {
+      "slug": "not_fade_away",
+      "count": 666
+    },
+    {
+      "slug": "the_other_one",
+      "count": 664
+    },
+    {
+      "slug": "me_and_my_uncle",
+      "count": 645
+    },
+    {
+      "slug": "sugar_magnolia",
+      "count": 610
+    },
+    {
+      "slug": "jack_straw",
+      "count": 596
+    },
+    {
+      "slug": "china_cat_sunflower",
+      "count": 578
+    },
+    {
+      "slug": "i_know_you_rider",
+      "count": 567
+    },
+    {
+      "slug": "truckin",
+      "count": 542
+    },
+    {
+      "slug": "good_lovin",
+      "count": 537
+    },
+    {
+      "slug": "promised_land",
+      "count": 504
+    },
+    {
+      "slug": "bertha",
+      "count": 485
+    },
+    {
+      "slug": "minglewood_blues",
+      "count": 472
+    },
+    {
+      "slug": "mexicali_blues",
+      "count": 443
+    },
+    {
+      "slug": "tennessee_jed",
+      "count": 437
+    }
+  ],
+  "top_songs_top3": [
+    {
+      "slug": "playing_in_the_band",
+      "count": 752
+    },
+    {
+      "slug": "not_fade_away",
+      "count": 666
+    },
+    {
+      "slug": "the_other_one",
+      "count": 664
+    }
+  ],
+  "top_song": "playing_in_the_band",
+  "top_song_count": 752,
+  "top_venues_by_shows": [
+    {
+      "slug": "oakland_alameda_county_coliseum_arena_oakland",
+      "n_shows": 66,
+      "n_songs": 176
+    },
+    {
+      "slug": "winterland_san_francisco",
+      "n_shows": 59,
+      "n_songs": 144
+    },
+    {
+      "slug": "oakland_coliseum_oakland",
+      "n_shows": 55,
+      "n_songs": 22
+    },
+    {
+      "slug": "spectrum_philadelphia",
+      "n_shows": 53,
+      "n_songs": 193
+    },
+    {
+      "slug": "madison_square_garden_new_york",
+      "n_shows": 52,
+      "n_songs": 177
+    },
+    {
+      "slug": "fillmore_auditorium_san_francisco",
+      "n_shows": 47,
+      "n_songs": 67
+    },
+    {
+      "slug": "the_spectrum_philadelphia",
+      "n_shows": 45,
+      "n_songs": 21
+    },
+    {
+      "slug": "fillmore_west_san_francisco",
+      "n_shows": 43,
+      "n_songs": 94
+    },
+    {
+      "slug": "fillmore_east_new_york",
+      "n_shows": 42,
+      "n_songs": 107
+    },
+    {
+      "slug": "nassau_veterans_memorial_coliseum_uniondale",
+      "n_shows": 42,
+      "n_songs": 165
+    }
+  ],
+  "cooccurrence_dim": 449,
+  "transitions_dim": 449,
+  "date_poset_objects": 2312,
+  "segment_marker_counts": [
+    {
+      "slug": "drums",
+      "count": 1777
+    },
+    {
+      "slug": "feedback",
+      "count": 76
+    },
+    {
+      "slug": "jam",
+      "count": 317
+    },
+    {
+      "slug": "space",
+      "count": 1247
+    }
+  ],
+  "catalog_coverage": {
+    "n_catalog": 641,
+    "n_performed_in_catalog": 445,
+    "n_never_performed": 196,
+    "coverage_pct": 69.42,
+    "n_performed_not_in_catalog": 0,
+    "n_segment_markers_performed": 4
+  },
+  "repertoire_turnover": [
+    {
+      "era_a": "Primal",
+      "era_b": "Europe 72",
+      "jaccard": 0.27,
+      "turnover": 0.73,
+      "shared": 64
+    },
+    {
+      "era_a": "Europe 72",
+      "era_b": "Wall of Sound",
+      "jaccard": 0.4685,
+      "turnover": 0.5315,
+      "shared": 67
+    },
+    {
+      "era_a": "Wall of Sound",
+      "era_b": "Hiatus->Return",
+      "jaccard": 0.4526,
+      "turnover": 0.5474,
+      "shared": 62
+    },
+    {
+      "era_a": "Hiatus->Return",
+      "era_b": "Brent",
+      "jaccard": 0.3571,
+      "turnover": 0.6429,
+      "shared": 90
+    },
+    {
+      "era_a": "Brent",
+      "era_b": "Vince+Bruce",
+      "jaccard": 0.4746,
+      "turnover": 0.5254,
+      "shared": 140
+    }
+  ],
+  "venue_duplication": {
+    "n_venue_slugs": 912,
+    "n_alias_slugs_present": 20,
+    "n_venues_after_canonicalization": 892,
+    "n_venues_collapsed": 20,
+    "n_ambiguous_same_date_collisions": 311,
+    "mean_collision_setlist_jaccard": 0.047
+  },
+  "venue_identity_review": {
+    "method": "reviewed conservative alias map; report-only, no venue rows rewritten",
+    "summary": {
+      "n_venue_slugs": 912,
+      "n_alias_slugs_present": 20,
+      "n_venues_after_canonicalization": 892,
+      "n_venues_collapsed": 20,
+      "n_ambiguous_same_date_collisions": 311,
+      "mean_collision_setlist_jaccard": 0.047
+    },
+    "alias_decisions": [
+      {
+        "source_slug": "coliseum_hampton",
+        "canonical_slug": "hampton_coliseum_hampton",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 3,
+        "canonical_show_count": 21,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "greek_theater_u_of_california_berkeley",
+        "canonical_slug": "greek_theatre_berkeley",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 21,
+        "canonical_show_count": 4,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "hampton_roads_coliseum_hampton",
+        "canonical_slug": "hampton_coliseum_hampton",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 14,
+        "canonical_show_count": 21,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "henry_j_kaiser_auditorium_oakland",
+        "canonical_slug": "henry_j_kaiser_convention_center_oakland",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 7,
+        "canonical_show_count": 34,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "henry_j_kaiser_oakland",
+        "canonical_slug": "henry_j_kaiser_convention_center_oakland",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 1,
+        "canonical_show_count": 34,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "madison_square_garden_new_york_city",
+        "canonical_slug": "madison_square_garden_new_york",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 6,
+        "canonical_show_count": 52,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "madison_square_garden_nyc",
+        "canonical_slug": "madison_square_garden_new_york",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 6,
+        "canonical_show_count": 52,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "nassau_coliseum_uniondale",
+        "canonical_slug": "nassau_veterans_memorial_coliseum_uniondale",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 37,
+        "canonical_show_count": 42,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "oakland_alameda_co_coliseum_oakland",
+        "canonical_slug": "oakland_coliseum_arena_oakland",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 2,
+        "canonical_show_count": 6,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "oakland_alameda_county_coliseum_arena_oakland",
+        "canonical_slug": "oakland_coliseum_arena_oakland",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 66,
+        "canonical_show_count": 6,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "oakland_alameda_county_coliseum_stadium_oakand",
+        "canonical_slug": "oakland_coliseum_stadium_oakland",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 5,
+        "canonical_show_count": 2,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "oakland_alameda_county_stadium_oakland",
+        "canonical_slug": "oakland_coliseum_stadium_oakland",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 1,
+        "canonical_show_count": 2,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "oakland_arena_oakland",
+        "canonical_slug": "oakland_coliseum_arena_oakland",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 3,
+        "canonical_show_count": 6,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "oakland_coliseum_oakland",
+        "canonical_slug": "oakland_coliseum_arena_oakland",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 55,
+        "canonical_show_count": 6,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "philadelphia_spectrum_philadelphia",
+        "canonical_slug": "the_spectrum_philadelphia",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 4,
+        "canonical_show_count": 45,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "red_rocks_amphitheater_morrison",
+        "canonical_slug": "red_rocks_amphitheatre_morrison",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 20,
+        "canonical_show_count": 20,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "spectrum_philadelphia",
+        "canonical_slug": "the_spectrum_philadelphia",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 53,
+        "canonical_show_count": 45,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "the_greek_theatre_berkeley",
+        "canonical_slug": "greek_theatre_berkeley",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 2,
+        "canonical_show_count": 4,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "william_randolph_hearst_greek_theatre_uc_berkeley_berkeley",
+        "canonical_slug": "greek_theatre_berkeley",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 29,
+        "canonical_show_count": 4,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      },
+      {
+        "source_slug": "winterland_san_francisco",
+        "canonical_slug": "winterland_arena_san_francisco",
+        "source_present": true,
+        "canonical_present": true,
+        "source_show_count": 59,
+        "canonical_show_count": 34,
+        "decision_status": "reviewed-collapse",
+        "review_note": "Conservative spelling/name variant collapse; does not mutate the compendium and is reported for review."
+      }
+    ],
+    "negative_controls": [
+      {
+        "slug": "fillmore_west_san_francisco",
+        "canonical_slug": "fillmore_west_san_francisco",
+        "preserved_distinct": true,
+        "present_in_compendium": true,
+        "show_count": 43,
+        "review_note": "Negative-control venue intentionally not folded by alias map."
+      },
+      {
+        "slug": "fillmore_east_new_york",
+        "canonical_slug": "fillmore_east_new_york",
+        "preserved_distinct": true,
+        "present_in_compendium": true,
+        "show_count": 42,
+        "review_note": "Negative-control venue intentionally not folded by alias map."
+      },
+      {
+        "slug": "fillmore_auditorium_san_francisco",
+        "canonical_slug": "fillmore_auditorium_san_francisco",
+        "preserved_distinct": true,
+        "present_in_compendium": true,
+        "show_count": 47,
+        "review_note": "Negative-control venue intentionally not folded by alias map."
+      },
+      {
+        "slug": "oakland_coliseum_stadium_oakland",
+        "canonical_slug": "oakland_coliseum_stadium_oakland",
+        "preserved_distinct": true,
+        "present_in_compendium": true,
+        "show_count": 2,
+        "review_note": "Negative-control venue intentionally not folded by alias map."
+      },
+      {
+        "slug": "oakland_auditorium_oakland",
+        "canonical_slug": "oakland_auditorium_oakland",
+        "preserved_distinct": true,
+        "present_in_compendium": true,
+        "show_count": 24,
+        "review_note": "Negative-control venue intentionally not folded by alias map."
+      },
+      {
+        "slug": "felt_forum_madison_square_garden_new_york",
+        "canonical_slug": "felt_forum_madison_square_garden_new_york",
+        "preserved_distinct": true,
+        "present_in_compendium": true,
+        "show_count": 4,
+        "review_note": "Negative-control venue intentionally not folded by alias map."
+      }
+    ],
+    "policy": "Only hand-verified same-venue spellings collapse. Distinct rooms, stadium/arena splits, and time-renamed venues remain separate unless future review explicitly changes the map."
+  },
+  "statistical_shape": {
+    "performance_rows_per_show": {
+      "per_show": {
+        "n": 3341,
+        "minimum": 0.0,
+        "p25": 1.0,
+        "median": 17.0,
+        "mean": 12.199,
+        "p75": 21.0,
+        "p90": 24.0,
+        "maximum": 37.0,
+        "stdev": 10.0896,
+        "iqr": 20.0
+      },
+      "n_zero_performance_shows": 282
+    },
+    "song_performance_concentration": {
+      "n_items": 445,
+      "total": 37340,
+      "gini": 0.7375,
+      "top_10_share_pct": 50.61,
+      "n_for_50_pct": 44,
+      "pct_items_for_50_pct": 9.89,
+      "n_for_80_pct": 93,
+      "pct_items_for_80_pct": 20.9
+    },
+    "venue_show_concentration": {
+      "n_items": 912,
+      "total": 3341,
+      "gini": 0.5883,
+      "top_10_share_pct": 51.81,
+      "n_for_50_pct": 84,
+      "pct_items_for_50_pct": 9.21,
+      "n_for_80_pct": 345,
+      "pct_items_for_80_pct": 37.83
+    },
+    "concentration_uncertainty": {
+      "method": "fixed-seed item-level bootstrap; descriptive uncertainty only",
+      "confidence": 0.95,
+      "n_resamples": 300,
+      "seed": 0,
+      "song_performance_concentration": {
+        "gini": {
+          "point": 0.7375,
+          "low": 0.7126,
+          "high": 0.7592,
+          "confidence": 0.95,
+          "n_resamples": 300,
+          "seed": 0
+        },
+        "top_10_share_pct": {
+          "point": 50.61,
+          "low": 45.947,
+          "high": 55.0405,
+          "confidence": 0.95,
+          "n_resamples": 300,
+          "seed": 0
+        }
+      },
+      "venue_show_concentration": {
+        "gini": {
+          "point": 0.5883,
+          "low": 0.5548,
+          "high": 0.6172,
+          "confidence": 0.95,
+          "n_resamples": 300,
+          "seed": 1
+        },
+        "top_10_share_pct": {
+          "point": 51.81,
+          "low": 47.6932,
+          "high": 55.2825,
+          "confidence": 0.95,
+          "n_resamples": 300,
+          "seed": 1
+        }
+      }
+    },
+    "repertoire_topn_sensitivity": {
+      "method": "deterministic top-N sensitivity over observed performance counts",
+      "exclude_segments": true,
+      "total_non_segment_performances": 37340,
+      "rows": [
+        {
+          "top_n": 25,
+          "n_available": 25,
+          "selected_performances": 12548,
+          "performance_share_pct": 33.6,
+          "gini_within_cut": 0.1165,
+          "top_10_share_pct_within_cut": 11.3,
+          "era_coverage": [
+            {
+              "era": "Primal",
+              "selected_performances": 1119,
+              "era_performance_share_pct": 26.39
+            },
+            {
+              "era": "Europe 72",
+              "selected_performances": 2037,
+              "era_performance_share_pct": 49.27
+            },
+            {
+              "era": "Wall of Sound",
+              "selected_performances": 1312,
+              "era_performance_share_pct": 47.99
+            },
+            {
+              "era": "Hiatus->Return",
+              "selected_performances": 1705,
+              "era_performance_share_pct": 41.45
+            },
+            {
+              "era": "Brent",
+              "selected_performances": 4895,
+              "era_performance_share_pct": 31.25
+            },
+            {
+              "era": "Vince+Bruce",
+              "selected_performances": 1480,
+              "era_performance_share_pct": 22.94
+            }
+          ]
+        },
+        {
+          "top_n": 50,
+          "n_available": 50,
+          "selected_performances": 20660,
+          "performance_share_pct": 55.33,
+          "gini_within_cut": 0.1512,
+          "top_10_share_pct_within_cut": 16.15,
+          "era_coverage": [
+            {
+              "era": "Primal",
+              "selected_performances": 1748,
+              "era_performance_share_pct": 41.22
+            },
+            {
+              "era": "Europe 72",
+              "selected_performances": 3092,
+              "era_performance_share_pct": 74.79
+            },
+            {
+              "era": "Wall of Sound",
+              "selected_performances": 1924,
+              "era_performance_share_pct": 70.37
+            },
+            {
+              "era": "Hiatus->Return",
+              "selected_performances": 2746,
+              "era_performance_share_pct": 66.76
+            },
+            {
+              "era": "Brent",
+              "selected_performances": 8469,
+              "era_performance_share_pct": 54.06
+            },
+            {
+              "era": "Vince+Bruce",
+              "selected_performances": 2681,
+              "era_performance_share_pct": 41.55
+            }
+          ]
+        },
+        {
+          "top_n": 100,
+          "n_available": 100,
+          "selected_performances": 30732,
+          "performance_share_pct": 82.3,
+          "gini_within_cut": 0.2499,
+          "top_10_share_pct_within_cut": 20.03,
+          "era_coverage": [
+            {
+              "era": "Primal",
+              "selected_performances": 2791,
+              "era_performance_share_pct": 65.81
+            },
+            {
+              "era": "Europe 72",
+              "selected_performances": 3691,
+              "era_performance_share_pct": 89.28
+            },
+            {
+              "era": "Wall of Sound",
+              "selected_performances": 2381,
+              "era_performance_share_pct": 87.09
+            },
+            {
+              "era": "Hiatus->Return",
+              "selected_performances": 3794,
+              "era_performance_share_pct": 92.24
+            },
+            {
+              "era": "Brent",
+              "selected_performances": 13463,
+              "era_performance_share_pct": 85.94
+            },
+            {
+              "era": "Vince+Bruce",
+              "selected_performances": 4612,
+              "era_performance_share_pct": 71.48
+            }
+          ]
+        },
+        {
+          "top_n": 200,
+          "n_available": 200,
+          "selected_performances": 36338,
+          "performance_share_pct": 97.32,
+          "gini_within_cut": 0.4712,
+          "top_10_share_pct_within_cut": 29.18,
+          "era_coverage": [
+            {
+              "era": "Primal",
+              "selected_performances": 3859,
+              "era_performance_share_pct": 90.99
+            },
+            {
+              "era": "Europe 72",
+              "selected_performances": 4047,
+              "era_performance_share_pct": 97.9
+            },
+            {
+              "era": "Wall of Sound",
+              "selected_performances": 2691,
+              "era_performance_share_pct": 98.43
+            },
+            {
+              "era": "Hiatus->Return",
+              "selected_performances": 4062,
+              "era_performance_share_pct": 98.76
+            },
+            {
+              "era": "Brent",
+              "selected_performances": 15422,
+              "era_performance_share_pct": 98.45
+            },
+            {
+              "era": "Vince+Bruce",
+              "selected_performances": 6256,
+              "era_performance_share_pct": 96.96
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "exploratory_repertoire": {
+    "label": "exploratory_repertoire_pattern_discovery",
+    "method_note": "Exploratory pattern-discovery only: fixed preprocessing, centered SVD coordinates, and deterministic k-means-style clustering over era-by-song performance counts; no causal or predictive claim is made.",
+    "exclude_segments": true,
+    "n_songs_embedded": 80,
+    "n_eras": 6,
+    "n_clusters": 5,
+    "component_variance_share": {
+      "component_1": 0.4811,
+      "component_2": 0.2891
+    },
+    "clusters": [
+      {
+        "cluster": 0,
+        "n_songs": 10,
+        "total_performances": 2470,
+        "dominant_era": "Brent",
+        "top_songs": [
+          {
+            "song_slug": "hell_in_a_bucket",
+            "n_performances": 288
+          },
+          {
+            "song_slug": "althea",
+            "n_performances": 272
+          },
+          {
+            "song_slug": "little_red_rooster",
+            "n_performances": 272
+          },
+          {
+            "song_slug": "touch_of_grey",
+            "n_performances": 267
+          },
+          {
+            "song_slug": "throwing_stones",
+            "n_performances": 266
+          }
+        ],
+        "era_counts": [
+          {
+            "era": "Brent",
+            "n_performances": 1855
+          },
+          {
+            "era": "Vince+Bruce",
+            "n_performances": 603
+          },
+          {
+            "era": "Hiatus->Return",
+            "n_performances": 12
+          },
+          {
+            "era": "Europe 72",
+            "n_performances": 0
+          },
+          {
+            "era": "Primal",
+            "n_performances": 0
+          },
+          {
+            "era": "Wall of Sound",
+            "n_performances": 0
+          }
+        ]
+      },
+      {
+        "cluster": 1,
+        "n_songs": 16,
+        "total_performances": 4754,
+        "dominant_era": "Brent",
+        "top_songs": [
+          {
+            "song_slug": "minglewood_blues",
+            "n_performances": 472
+          },
+          {
+            "song_slug": "estimated_prophet",
+            "n_performances": 392
+          },
+          {
+            "song_slug": "samson_and_delilah",
+            "n_performances": 367
+          },
+          {
+            "song_slug": "cassidy",
+            "n_performances": 337
+          },
+          {
+            "song_slug": "u_s_blues",
+            "n_performances": 332
+          }
+        ],
+        "era_counts": [
+          {
+            "era": "Brent",
+            "n_performances": 2658
+          },
+          {
+            "era": "Hiatus->Return",
+            "n_performances": 1057
+          },
+          {
+            "era": "Vince+Bruce",
+            "n_performances": 855
+          },
+          {
+            "era": "Wall of Sound",
+            "n_performances": 161
+          },
+          {
+            "era": "Primal",
+            "n_performances": 21
+          },
+          {
+            "era": "Europe 72",
+            "n_performances": 2
+          }
+        ]
+      },
+      {
+        "cluster": 2,
+        "n_songs": 13,
+        "total_performances": 4026,
+        "dominant_era": "Brent",
+        "top_songs": [
+          {
+            "song_slug": "looks_like_rain",
+            "n_performances": 419
+          },
+          {
+            "song_slug": "wharf_rat",
+            "n_performances": 398
+          },
+          {
+            "song_slug": "eyes_of_the_world",
+            "n_performances": 382
+          },
+          {
+            "song_slug": "he_s_gone",
+            "n_performances": 330
+          },
+          {
+            "song_slug": "stella_blue",
+            "n_performances": 330
+          }
+        ],
+        "era_counts": [
+          {
+            "era": "Brent",
+            "n_performances": 1836
+          },
+          {
+            "era": "Vince+Bruce",
+            "n_performances": 655
+          },
+          {
+            "era": "Hiatus->Return",
+            "n_performances": 546
+          },
+          {
+            "era": "Wall of Sound",
+            "n_performances": 512
+          },
+          {
+            "era": "Europe 72",
+            "n_performances": 472
+          },
+          {
+            "era": "Primal",
+            "n_performances": 5
+          }
+        ]
+      },
+      {
+        "cluster": 3,
+        "n_songs": 15,
+        "total_performances": 6908,
+        "dominant_era": "Brent",
+        "top_songs": [
+          {
+            "song_slug": "playing_in_the_band",
+            "n_performances": 752
+          },
+          {
+            "song_slug": "sugar_magnolia",
+            "n_performances": 610
+          },
+          {
+            "song_slug": "jack_straw",
+            "n_performances": 596
+          },
+          {
+            "song_slug": "promised_land",
+            "n_performances": 504
+          },
+          {
+            "song_slug": "bertha",
+            "n_performances": 485
+          }
+        ],
+        "era_counts": [
+          {
+            "era": "Brent",
+            "n_performances": 2563
+          },
+          {
+            "era": "Europe 72",
+            "n_performances": 1397
+          },
+          {
+            "era": "Hiatus->Return",
+            "n_performances": 1099
+          },
+          {
+            "era": "Wall of Sound",
+            "n_performances": 963
+          },
+          {
+            "era": "Vince+Bruce",
+            "n_performances": 842
+          },
+          {
+            "era": "Primal",
+            "n_performances": 44
+          }
+        ]
+      },
+      {
+        "cluster": 4,
+        "n_songs": 26,
+        "total_performances": 9801,
+        "dominant_era": "Brent",
+        "top_songs": [
+          {
+            "song_slug": "not_fade_away",
+            "n_performances": 666
+          },
+          {
+            "song_slug": "the_other_one",
+            "n_performances": 664
+          },
+          {
+            "song_slug": "me_and_my_uncle",
+            "n_performances": 645
+          },
+          {
+            "song_slug": "china_cat_sunflower",
+            "n_performances": 578
+          },
+          {
+            "song_slug": "i_know_you_rider",
+            "n_performances": 567
+          }
+        ],
+        "era_counts": [
+          {
+            "era": "Brent",
+            "n_performances": 3292
+          },
+          {
+            "era": "Primal",
+            "n_performances": 2473
+          },
+          {
+            "era": "Europe 72",
+            "n_performances": 1620
+          },
+          {
+            "era": "Vince+Bruce",
+            "n_performances": 1015
+          },
+          {
+            "era": "Hiatus->Return",
+            "n_performances": 753
+          },
+          {
+            "era": "Wall of Sound",
+            "n_performances": 648
+          }
+        ]
+      }
+    ],
+    "embedding": [
+      {
+        "song_slug": "playing_in_the_band",
+        "title": "Playing In The Band",
+        "x": 2.432694,
+        "y": 2.710189,
+        "cluster": 3,
+        "n_performances": 752,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.4282
+      },
+      {
+        "song_slug": "not_fade_away",
+        "title": "Not Fade Away",
+        "x": 3.511701,
+        "y": -0.816536,
+        "cluster": 4,
+        "n_performances": 666,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3604
+      },
+      {
+        "song_slug": "the_other_one",
+        "title": "The Other One",
+        "x": 3.821578,
+        "y": -1.120501,
+        "cluster": 4,
+        "n_performances": 664,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3434
+      },
+      {
+        "song_slug": "me_and_my_uncle",
+        "title": "Me And My Uncle",
+        "x": 4.232558,
+        "y": -0.711246,
+        "cluster": 4,
+        "n_performances": 645,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3178
+      },
+      {
+        "song_slug": "sugar_magnolia",
+        "title": "Sugar Magnolia",
+        "x": 3.566145,
+        "y": 0.418012,
+        "cluster": 3,
+        "n_performances": 610,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3672
+      },
+      {
+        "song_slug": "jack_straw",
+        "title": "Jack Straw",
+        "x": 1.773979,
+        "y": 3.030328,
+        "cluster": 3,
+        "n_performances": 596,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.4077
+      },
+      {
+        "song_slug": "china_cat_sunflower",
+        "title": "China Cat Sunflower",
+        "x": 3.566859,
+        "y": -1.832528,
+        "cluster": 4,
+        "n_performances": 578,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3702
+      },
+      {
+        "song_slug": "i_know_you_rider",
+        "title": "I Know You Rider",
+        "x": 3.530859,
+        "y": -1.773482,
+        "cluster": 4,
+        "n_performances": 567,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3739
+      },
+      {
+        "song_slug": "truckin",
+        "title": "Truckin'",
+        "x": 3.417309,
+        "y": 0.008401,
+        "cluster": 4,
+        "n_performances": 542,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3856
+      },
+      {
+        "song_slug": "good_lovin",
+        "title": "Good Lovin'",
+        "x": 2.145391,
+        "y": -2.475452,
+        "cluster": 4,
+        "n_performances": 537,
+        "dominant_era": "Primal",
+        "dominant_era_share": 0.3315
+      },
+      {
+        "song_slug": "promised_land",
+        "title": "Promised Land",
+        "x": 1.798435,
+        "y": 3.0447,
+        "cluster": 3,
+        "n_performances": 504,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3135
+      },
+      {
+        "song_slug": "bertha",
+        "title": "Bertha",
+        "x": 2.078241,
+        "y": 2.299191,
+        "cluster": 3,
+        "n_performances": 485,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.334
+      },
+      {
+        "song_slug": "minglewood_blues",
+        "title": "Minglewood Blues",
+        "x": -1.285025,
+        "y": -1.217288,
+        "cluster": 1,
+        "n_performances": 472,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.6059
+      },
+      {
+        "song_slug": "mexicali_blues",
+        "title": "Mexicali Blues",
+        "x": 1.652695,
+        "y": 2.485907,
+        "cluster": 3,
+        "n_performances": 443,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.4357
+      },
+      {
+        "song_slug": "tennessee_jed",
+        "title": "Tennessee Jed",
+        "x": 1.543857,
+        "y": 2.699367,
+        "cluster": 3,
+        "n_performances": 437,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3478
+      },
+      {
+        "song_slug": "deal",
+        "title": "Deal",
+        "x": 1.458837,
+        "y": 2.585516,
+        "cluster": 3,
+        "n_performances": 431,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.4153
+      },
+      {
+        "song_slug": "turn_on_your_lovelight",
+        "title": "Turn On Your Lovelight",
+        "x": 0.301167,
+        "y": -5.29178,
+        "cluster": 4,
+        "n_performances": 430,
+        "dominant_era": "Primal",
+        "dominant_era_share": 0.5628
+      },
+      {
+        "song_slug": "around_and_around",
+        "title": "Around And Around",
+        "x": 1.643382,
+        "y": 1.330409,
+        "cluster": 3,
+        "n_performances": 425,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.4588
+      },
+      {
+        "song_slug": "looks_like_rain",
+        "title": "Looks Like Rain",
+        "x": 0.434242,
+        "y": 2.607076,
+        "cluster": 2,
+        "n_performances": 419,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.5131
+      },
+      {
+        "song_slug": "big_river",
+        "title": "Big River",
+        "x": 1.303053,
+        "y": 2.788852,
+        "cluster": 3,
+        "n_performances": 401,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3791
+      },
+      {
+        "song_slug": "wharf_rat",
+        "title": "Wharf Rat",
+        "x": 1.029801,
+        "y": 1.917539,
+        "cluster": 2,
+        "n_performances": 398,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.4975
+      },
+      {
+        "song_slug": "el_paso",
+        "title": "El Paso",
+        "x": 2.899432,
+        "y": 1.239762,
+        "cluster": 3,
+        "n_performances": 397,
+        "dominant_era": "Europe 72",
+        "dominant_era_share": 0.2872
+      },
+      {
+        "song_slug": "estimated_prophet",
+        "title": "Estimated Prophet",
+        "x": -3.213872,
+        "y": 1.14147,
+        "cluster": 1,
+        "n_performances": 392,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.5816
+      },
+      {
+        "song_slug": "eyes_of_the_world",
+        "title": "Eyes Of The World",
+        "x": -0.021544,
+        "y": 2.557635,
+        "cluster": 2,
+        "n_performances": 382,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.4686
+      },
+      {
+        "song_slug": "sugaree",
+        "title": "Sugaree",
+        "x": 1.564094,
+        "y": 2.457412,
+        "cluster": 3,
+        "n_performances": 375,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3253
+      },
+      {
+        "song_slug": "uncle_john_s_band",
+        "title": "Uncle John's Band",
+        "x": 2.723883,
+        "y": -1.682462,
+        "cluster": 4,
+        "n_performances": 370,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3108
+      },
+      {
+        "song_slug": "samson_and_delilah",
+        "title": "Samson And Delilah",
+        "x": -3.505767,
+        "y": 0.89473,
+        "cluster": 1,
+        "n_performances": 367,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.515
+      },
+      {
+        "song_slug": "black_peter",
+        "title": "Black Peter",
+        "x": 1.4231,
+        "y": -1.621462,
+        "cluster": 4,
+        "n_performances": 353,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.5297
+      },
+      {
+        "song_slug": "loser",
+        "title": "Loser",
+        "x": 1.651084,
+        "y": 1.664631,
+        "cluster": 3,
+        "n_performances": 353,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3626
+      },
+      {
+        "song_slug": "one_more_saturday_night",
+        "title": "One More Saturday Night",
+        "x": 1.274166,
+        "y": 2.203024,
+        "cluster": 3,
+        "n_performances": 350,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3629
+      },
+      {
+        "song_slug": "brown_eyed_women",
+        "title": "Brown Eyed Women",
+        "x": 1.273591,
+        "y": 2.549023,
+        "cluster": 3,
+        "n_performances": 349,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3209
+      },
+      {
+        "song_slug": "beat_it_on_down_the_line",
+        "title": "Beat It On Down The Line",
+        "x": 3.59651,
+        "y": -0.943952,
+        "cluster": 4,
+        "n_performances": 346,
+        "dominant_era": "Europe 72",
+        "dominant_era_share": 0.3237
+      },
+      {
+        "song_slug": "casey_jones",
+        "title": "Casey Jones",
+        "x": 3.909001,
+        "y": -2.365162,
+        "cluster": 4,
+        "n_performances": 338,
+        "dominant_era": "Europe 72",
+        "dominant_era_share": 0.426
+      },
+      {
+        "song_slug": "cassidy",
+        "title": "Cassidy",
+        "x": -3.227037,
+        "y": 1.012262,
+        "cluster": 1,
+        "n_performances": 337,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.5875
+      },
+      {
+        "song_slug": "u_s_blues",
+        "title": "U.S. Blues",
+        "x": -1.726312,
+        "y": 2.186279,
+        "cluster": 1,
+        "n_performances": 332,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.5361
+      },
+      {
+        "song_slug": "he_s_gone",
+        "title": "He's Gone",
+        "x": 0.670786,
+        "y": 1.861744,
+        "cluster": 2,
+        "n_performances": 330,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.4758
+      },
+      {
+        "song_slug": "stella_blue",
+        "title": "Stella Blue",
+        "x": 0.292164,
+        "y": 2.058411,
+        "cluster": 2,
+        "n_performances": 330,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.5091
+      },
+      {
+        "song_slug": "don_t_ease_me_in",
+        "title": "Don't Ease Me In",
+        "x": 1.183897,
+        "y": -1.237555,
+        "cluster": 4,
+        "n_performances": 328,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.6067
+      },
+      {
+        "song_slug": "ramble_on_rose",
+        "title": "Ramble On Rose",
+        "x": 0.937207,
+        "y": 2.001688,
+        "cluster": 2,
+        "n_performances": 319,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.373
+      },
+      {
+        "song_slug": "scarlet_begonias",
+        "title": "Scarlet Begonias",
+        "x": -1.897606,
+        "y": 2.074764,
+        "cluster": 1,
+        "n_performances": 316,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.5158
+      },
+      {
+        "song_slug": "cold_rain_and_snow",
+        "title": "Cold Rain And Snow",
+        "x": 1.59851,
+        "y": -2.286425,
+        "cluster": 4,
+        "n_performances": 312,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.375
+      },
+      {
+        "song_slug": "mama_tried",
+        "title": "Mama Tried",
+        "x": 0.724625,
+        "y": -2.186221,
+        "cluster": 4,
+        "n_performances": 310,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.429
+      },
+      {
+        "song_slug": "friend_of_the_devil",
+        "title": "Friend Of The Devil",
+        "x": 1.097657,
+        "y": -1.181929,
+        "cluster": 4,
+        "n_performances": 308,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.4383
+      },
+      {
+        "song_slug": "goin_down_the_road_feelin_bad",
+        "title": "Goin' Down The Road Feelin' Bad",
+        "x": 2.586928,
+        "y": -0.514555,
+        "cluster": 4,
+        "n_performances": 302,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3808
+      },
+      {
+        "song_slug": "terrapin_station",
+        "title": "Terrapin Station",
+        "x": -3.647905,
+        "y": 0.549292,
+        "cluster": 1,
+        "n_performances": 302,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.5795
+      },
+      {
+        "song_slug": "bird_song",
+        "title": "Bird Song",
+        "x": -0.375169,
+        "y": -0.192804,
+        "cluster": 2,
+        "n_performances": 300,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.5867
+      },
+      {
+        "song_slug": "mississippi_half_step",
+        "title": "Mississippi Half Step",
+        "x": 0.665409,
+        "y": 2.342406,
+        "cluster": 2,
+        "n_performances": 295,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3864
+      },
+      {
+        "song_slug": "greatest_story_ever_told",
+        "title": "Greatest Story Ever Told",
+        "x": 0.952214,
+        "y": 0.32603,
+        "cluster": 2,
+        "n_performances": 289,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.4706
+      },
+      {
+        "song_slug": "candyman",
+        "title": "Candyman",
+        "x": 0.916004,
+        "y": -1.529284,
+        "cluster": 4,
+        "n_performances": 288,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.4479
+      },
+      {
+        "song_slug": "hell_in_a_bucket",
+        "title": "Hell In A Bucket",
+        "x": -4.422049,
+        "y": -1.453439,
+        "cluster": 0,
+        "n_performances": 288,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.7292
+      },
+      {
+        "song_slug": "let_it_grow",
+        "title": "Let It Grow",
+        "x": -1.702866,
+        "y": 2.003628,
+        "cluster": 1,
+        "n_performances": 288,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.5347
+      },
+      {
+        "song_slug": "johnny_b_goode",
+        "title": "Johnny B. Goode",
+        "x": 1.477118,
+        "y": 1.179533,
+        "cluster": 2,
+        "n_performances": 287,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3937
+      },
+      {
+        "song_slug": "morning_dew",
+        "title": "Morning Dew",
+        "x": 2.094999,
+        "y": -2.23063,
+        "cluster": 4,
+        "n_performances": 283,
+        "dominant_era": "Primal",
+        "dominant_era_share": 0.3463
+      },
+      {
+        "song_slug": "row_jimmy",
+        "title": "Row Jimmy",
+        "x": 0.091967,
+        "y": 2.325196,
+        "cluster": 2,
+        "n_performances": 277,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3502
+      },
+      {
+        "song_slug": "dark_star",
+        "title": "Dark Star",
+        "x": 2.860524,
+        "y": -3.025232,
+        "cluster": 4,
+        "n_performances": 276,
+        "dominant_era": "Primal",
+        "dominant_era_share": 0.5181
+      },
+      {
+        "song_slug": "cryptical_envelopment",
+        "title": "Cryptical Envelopment",
+        "x": 0.824508,
+        "y": -6.35556,
+        "cluster": 4,
+        "n_performances": 273,
+        "dominant_era": "Primal",
+        "dominant_era_share": 0.8791
+      },
+      {
+        "song_slug": "althea",
+        "title": "Althea",
+        "x": -4.410997,
+        "y": -1.496714,
+        "cluster": 0,
+        "n_performances": 272,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.7794
+      },
+      {
+        "song_slug": "i_need_a_miracle",
+        "title": "I Need A Miracle",
+        "x": -3.747963,
+        "y": 0.304267,
+        "cluster": 1,
+        "n_performances": 272,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.5551
+      },
+      {
+        "song_slug": "little_red_rooster",
+        "title": "Little Red Rooster",
+        "x": -4.411484,
+        "y": -1.494608,
+        "cluster": 0,
+        "n_performances": 272,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.7757
+      },
+      {
+        "song_slug": "touch_of_grey",
+        "title": "Touch Of Grey",
+        "x": -4.420144,
+        "y": -1.452388,
+        "cluster": 0,
+        "n_performances": 267,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.6554
+      },
+      {
+        "song_slug": "peggy_o",
+        "title": "Peggy-O",
+        "x": -2.283285,
+        "y": 1.700773,
+        "cluster": 1,
+        "n_performances": 266,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.4774
+      },
+      {
+        "song_slug": "throwing_stones",
+        "title": "Throwing Stones",
+        "x": -4.417595,
+        "y": -1.464584,
+        "cluster": 0,
+        "n_performances": 266,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.6917
+      },
+      {
+        "song_slug": "feel_like_a_stranger",
+        "title": "Feel Like A Stranger",
+        "x": -4.409619,
+        "y": -1.498186,
+        "cluster": 0,
+        "n_performances": 259,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.7529
+      },
+      {
+        "song_slug": "the_wheel",
+        "title": "The Wheel",
+        "x": -3.746912,
+        "y": 0.223463,
+        "cluster": 1,
+        "n_performances": 258,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.6473
+      },
+      {
+        "song_slug": "fire_on_the_mountain",
+        "title": "Fire On The Mountain",
+        "x": -3.65271,
+        "y": 0.421277,
+        "cluster": 1,
+        "n_performances": 253,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.581
+      },
+      {
+        "song_slug": "the_music_never_stopped",
+        "title": "The Music Never Stopped",
+        "x": -3.520473,
+        "y": 0.649508,
+        "cluster": 1,
+        "n_performances": 247,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.4251
+      },
+      {
+        "song_slug": "cumberland_blues",
+        "title": "Cumberland Blues",
+        "x": 2.127331,
+        "y": -3.455877,
+        "cluster": 4,
+        "n_performances": 242,
+        "dominant_era": "Primal",
+        "dominant_era_share": 0.3099
+      },
+      {
+        "song_slug": "dire_wolf",
+        "title": "Dire Wolf",
+        "x": 1.152644,
+        "y": -1.67469,
+        "cluster": 4,
+        "n_performances": 242,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3843
+      },
+      {
+        "song_slug": "they_love_each_other",
+        "title": "They Love Each Other",
+        "x": -0.199558,
+        "y": 2.059443,
+        "cluster": 2,
+        "n_performances": 230,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.4261
+      },
+      {
+        "song_slug": "ship_of_fools",
+        "title": "Ship Of Fools",
+        "x": -1.956368,
+        "y": 1.707378,
+        "cluster": 1,
+        "n_performances": 226,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.531
+      },
+      {
+        "song_slug": "saint_of_circumstance",
+        "title": "Saint Of Circumstance",
+        "x": -4.398893,
+        "y": -1.53118,
+        "cluster": 0,
+        "n_performances": 224,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.7232
+      },
+      {
+        "song_slug": "franklin_s_tower",
+        "title": "Franklin's Tower",
+        "x": -3.652078,
+        "y": 0.326103,
+        "cluster": 1,
+        "n_performances": 222,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.5901
+      },
+      {
+        "song_slug": "brokedown_palace",
+        "title": "Brokedown Palace",
+        "x": 1.003368,
+        "y": -1.35209,
+        "cluster": 4,
+        "n_performances": 220,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.5409
+      },
+      {
+        "song_slug": "iko_iko",
+        "title": "Iko Iko",
+        "x": -3.911827,
+        "y": -0.271925,
+        "cluster": 0,
+        "n_performances": 214,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.6776
+      },
+      {
+        "song_slug": "alabama_getaway",
+        "title": "Alabama Getaway",
+        "x": -4.305398,
+        "y": -1.903965,
+        "cluster": 0,
+        "n_performances": 208,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.976
+      },
+      {
+        "song_slug": "shakedown_street",
+        "title": "Shakedown Street",
+        "x": -3.782149,
+        "y": -0.021563,
+        "cluster": 1,
+        "n_performances": 204,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.6814
+      },
+      {
+        "song_slug": "saint_stephen",
+        "title": "Saint Stephen",
+        "x": 0.687485,
+        "y": -4.093986,
+        "cluster": 4,
+        "n_performances": 201,
+        "dominant_era": "Primal",
+        "dominant_era_share": 0.7065
+      },
+      {
+        "song_slug": "man_smart_woman_smarter",
+        "title": "Man Smart (Woman Smarter)",
+        "x": -4.380604,
+        "y": -1.600904,
+        "cluster": 0,
+        "n_performances": 200,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.79
+      },
+      {
+        "song_slug": "big_railroad_blues",
+        "title": "Big Railroad Blues",
+        "x": 1.221924,
+        "y": -1.950744,
+        "cluster": 4,
+        "n_performances": 180,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.4556
+      },
+      {
+        "song_slug": "box_of_rain",
+        "title": "Box Of Rain",
+        "x": -0.091704,
+        "y": -0.63773,
+        "cluster": 2,
+        "n_performances": 170,
+        "dominant_era": "Brent",
+        "dominant_era_share": 0.3882
+      }
+    ]
+  },
+  "first_principles_review": {
+    "method": "First-principles claim ledger: deconstruct claims into inputs, constraints, assumptions, evidence artifacts, and limits.",
+    "n_claim_areas": 12,
+    "n_claim_classes": 6,
+    "n_hard_constraints": 12,
+    "n_soft_constraints": 12,
+    "n_assumptions": 12,
+    "n_validation_artifacts": 12,
+    "claim_classes": [
+      "Descriptive",
+      "Structural",
+      "Exploratory",
+      "Formal",
+      "Contextual",
+      "Boundary"
+    ],
+    "artifact_families": [
+      "schema/data",
+      "analysis/report",
+      "figure/data",
+      "validation/test",
+      "citation/prose"
+    ],
+    "matrix": [
+      {
+        "claim_class": "Descriptive",
+        "counts": {
+          "schema/data": 1,
+          "analysis/report": 2,
+          "figure/data": 2,
+          "validation/test": 0,
+          "citation/prose": 0
+        }
+      },
+      {
+        "claim_class": "Structural",
+        "counts": {
+          "schema/data": 0,
+          "analysis/report": 1,
+          "figure/data": 2,
+          "validation/test": 0,
+          "citation/prose": 0
+        }
+      },
+      {
+        "claim_class": "Exploratory",
+        "counts": {
+          "schema/data": 0,
+          "analysis/report": 1,
+          "figure/data": 0,
+          "validation/test": 0,
+          "citation/prose": 0
+        }
+      },
+      {
+        "claim_class": "Formal",
+        "counts": {
+          "schema/data": 0,
+          "analysis/report": 0,
+          "figure/data": 0,
+          "validation/test": 1,
+          "citation/prose": 0
+        }
+      },
+      {
+        "claim_class": "Contextual",
+        "counts": {
+          "schema/data": 0,
+          "analysis/report": 0,
+          "figure/data": 0,
+          "validation/test": 0,
+          "citation/prose": 1
+        }
+      },
+      {
+        "claim_class": "Boundary",
+        "counts": {
+          "schema/data": 0,
+          "analysis/report": 0,
+          "figure/data": 0,
+          "validation/test": 1,
+          "citation/prose": 0
+        }
+      }
+    ],
+    "rows": [
+      {
+        "claim_area": "Corpus scope and identity",
+        "claim_class": "Descriptive",
+        "irreducible_input": "3341 Show rows, 40757 Performance rows, 645 Song rows",
+        "hard_constraint": "Every hard foreign key resolves before analyses run",
+        "soft_constraint": "Venue and song slugs normalize names but do not prove real-world identity",
+        "assumption": "The committed archival snapshot is the publication baseline",
+        "validation_artifact": "completeness_report.json; src/validation.py; raw entity exports",
+        "artifact_family": "schema/data",
+        "interpretation_limit": "Referential completeness is not exhaustive coverage of every concert or optional layer",
+        "figure_or_report": "analysis_report.json::top_line",
+        "manuscript_section": "Data and Scope",
+        "figure_filename": "not-applicable",
+        "report_key": "analysis_report.json::top_line",
+        "test_file": "tests/test_pipeline_integration.py",
+        "claim_status": "audited-descriptive"
+      },
+      {
+        "claim_area": "Setlist-size distribution",
+        "claim_class": "Descriptive",
+        "irreducible_input": "Per-show counts of ordered Performance rows, including zero-row shows",
+        "hard_constraint": "Empty setlists remain in the denominator",
+        "soft_constraint": "Set and position fields are source-derived ordering metadata",
+        "assumption": "A performance row is a setlist-entry unit, not a duration unit",
+        "validation_artifact": "performance_distribution figure dataset and distribution tests",
+        "artifact_family": "analysis/report",
+        "interpretation_limit": "The statistic describes metadata density, not musical length or quality",
+        "figure_or_report": "performance_distribution.png",
+        "manuscript_section": "Descriptive Statistics",
+        "figure_filename": "performance_distribution.png",
+        "report_key": "analysis_report.json::performance_distribution",
+        "test_file": "tests/test_distributions.py",
+        "claim_status": "audited-descriptive"
+      },
+      {
+        "claim_area": "Repertoire ranking",
+        "claim_class": "Descriptive",
+        "irreducible_input": "Song performance counts after generic segment-marker exclusion",
+        "hard_constraint": "drums, space, tuning, feedback, and jam markers are surfaced but excluded from song rankings",
+        "soft_constraint": "Canonical song aliases are conservative and title-based",
+        "assumption": "Segment markers are set structure rather than repertoire items",
+        "validation_artifact": "analysis_report.json::segment_marker_counts; top_songs dataset",
+        "artifact_family": "figure/data",
+        "interpretation_limit": "A high count is not a preference, importance, or aesthetic claim",
+        "figure_or_report": "top_songs.png",
+        "manuscript_section": "Repertoire Shape",
+        "figure_filename": "top_songs.png",
+        "report_key": "analysis_report.json::top_songs",
+        "test_file": "tests/test_stats.py",
+        "claim_status": "audited-descriptive"
+      },
+      {
+        "claim_area": "Concentration metrics",
+        "claim_class": "Descriptive",
+        "irreducible_input": "Ranked song-performance counts and venue-show counts",
+        "hard_constraint": "Gini and top-decile statistics are computed from observed item counts only",
+        "soft_constraint": "Bootstrap intervals resample items with a fixed deterministic seed",
+        "assumption": "Item-level resampling is an uncertainty display, not a population model",
+        "validation_artifact": "concentration_uncertainty_report; bootstrap interval tests",
+        "artifact_family": "analysis/report",
+        "interpretation_limit": "Intervals do not estimate unseen concerts or listener behavior",
+        "figure_or_report": "concentration_uncertainty.png",
+        "manuscript_section": "Concentration and Uncertainty",
+        "figure_filename": "concentration_uncertainty.png",
+        "report_key": "analysis_report.json::concentration_uncertainty",
+        "test_file": "tests/test_distributions.py",
+        "claim_status": "audited-model"
+      },
+      {
+        "claim_area": "Transition model",
+        "claim_class": "Structural",
+        "irreducible_input": "Adjacent within-show Performance rows",
+        "hard_constraint": "Only first-order next-song transitions are modeled",
+        "soft_constraint": "Permutation screening controls false discoveries for supported cells",
+        "assumption": "Within-show adjacency is meaningful setlist structure",
+        "validation_artifact": "transition_significance_summary with Benjamini-Hochberg FDR control",
+        "artifact_family": "analysis/report",
+        "interpretation_limit": "Transition probabilities are not causal or predictive laws",
+        "figure_or_report": "transition_matrix.png",
+        "manuscript_section": "Transitions and Segues",
+        "figure_filename": "transition_matrix.png",
+        "report_key": "analysis_report.json::transition_significance",
+        "test_file": "tests/test_transitions.py",
+        "claim_status": "audited-model"
+      },
+      {
+        "claim_area": "Explicit segue structure",
+        "claim_class": "Structural",
+        "irreducible_input": "16585 source-marked segue_into edges",
+        "hard_constraint": "Only explicit source markers create segue edges",
+        "soft_constraint": "Unmarked adjacency remains visible in the transition model",
+        "assumption": "Source segue notation is sparse but semantically stronger than plain adjacency",
+        "validation_artifact": "segue_edges output and segue_graph figure dataset",
+        "artifact_family": "figure/data",
+        "interpretation_limit": "Unmarked segues and audio-continuity evidence are outside this corpus",
+        "figure_or_report": "segue_graph.png",
+        "manuscript_section": "Transitions and Segues",
+        "figure_filename": "segue_graph.png",
+        "report_key": "analysis_report.json::segues",
+        "test_file": "tests/test_more_analyses.py",
+        "claim_status": "audited-descriptive"
+      },
+      {
+        "claim_area": "Co-occurrence and centrality",
+        "claim_class": "Structural",
+        "irreducible_input": "Show-by-song presence matrix",
+        "hard_constraint": "Centrality uses Jaccard-normalized co-occurrence rather than raw frequency",
+        "soft_constraint": "Top-song heatmaps are size-limited for legibility",
+        "assumption": "Show-level co-presence is a useful association signal",
+        "validation_artifact": "cooccurrence_matrix tests; centrality figure dataset",
+        "artifact_family": "figure/data",
+        "interpretation_limit": "Association centrality is not influence, authorship, or musical similarity",
+        "figure_or_report": "cooccurrence_heatmap.png; centrality_top20.png",
+        "manuscript_section": "Co-occurrence",
+        "figure_filename": "cooccurrence_heatmap.png",
+        "report_key": "analysis_report.json::cooccurrence",
+        "test_file": "tests/test_more_analyses.py",
+        "claim_status": "audited-model"
+      },
+      {
+        "claim_area": "Exploratory repertoire embedding",
+        "claim_class": "Exploratory",
+        "irreducible_input": "Era-by-song log-count profiles with segment markers excluded",
+        "hard_constraint": "Centered SVD and deterministic clustering use fixed seeds and stable tie-breaks",
+        "soft_constraint": "Top-N songs are selected to keep labels readable at manuscript size",
+        "assumption": "Era-weighted count profiles can reveal inspectable repertoire neighborhoods",
+        "validation_artifact": "exploratory_repertoire_report and deterministic clustering tests",
+        "artifact_family": "analysis/report",
+        "interpretation_limit": "Clusters are pattern-discovery aids, not definitive musicological taxonomy",
+        "figure_or_report": "repertoire_embedding.png; era_repertoire_heatmap.png",
+        "manuscript_section": "Exploratory Repertoire Geometry",
+        "figure_filename": "repertoire_embedding.png",
+        "report_key": "analysis_report.json::exploratory_repertoire",
+        "test_file": "tests/test_exploratory.py",
+        "claim_status": "exploratory-noncausal"
+      },
+      {
+        "claim_area": "Category-theoretic abstraction",
+        "claim_class": "Formal",
+        "irreducible_input": "Finite date poset, performance spans, and lineup intervals",
+        "hard_constraint": "Functor monotonicity and naturality checks are machine-evaluated",
+        "soft_constraint": "The abstraction preserves incidence and cumulative cardinality, not audio semantics",
+        "assumption": "Setlists and lineups can be modeled as finite categorical structures",
+        "validation_artifact": "category_theory_report.json and negative-control tests",
+        "artifact_family": "validation/test",
+        "interpretation_limit": "Formal coherence does not prove cultural or musical explanation",
+        "figure_or_report": "functor_cardinalities.png",
+        "manuscript_section": "Categorical Model",
+        "figure_filename": "functor_cardinalities.png",
+        "report_key": "category_theory_report.json",
+        "test_file": "tests/test_category_theory.py",
+        "claim_status": "audited-formalization"
+      },
+      {
+        "claim_area": "Venue geography",
+        "claim_class": "Descriptive",
+        "irreducible_input": "912 venue slugs plus committed geo sidecar rows",
+        "hard_constraint": "Figures use only venues with resolved coordinates",
+        "soft_constraint": "Alias collapse is precision-oriented and intentionally incomplete",
+        "assumption": "Venue-level aggregation is the appropriate unit for geographic views",
+        "validation_artifact": "geo_scatter figure dataset; completeness venue-geo check",
+        "artifact_family": "figure/data",
+        "interpretation_limit": "Slug-level venue counts are lower bounds per physical building when aliases remain",
+        "figure_or_report": "geo_scatter.png",
+        "manuscript_section": "Geography",
+        "figure_filename": "geo_scatter.png",
+        "report_key": "analysis_report.json::venue_geography",
+        "test_file": "tests/test_more_analyses.py",
+        "claim_status": "metadata-limited"
+      },
+      {
+        "claim_area": "Lyrics and review overlays",
+        "claim_class": "Boundary",
+        "irreducible_input": "LyricPointer URLs, curated theme tags, and sourced review sentiment rows",
+        "hard_constraint": "No lyric text or audio features are bundled",
+        "soft_constraint": "Theme and sentiment overlays are curated/partial by design",
+        "assumption": "Pointers can support metadata-level interpretation without reproducing protected text",
+        "validation_artifact": "HonestyBoundary; lyric_themes and sentiment_by_kind datasets",
+        "artifact_family": "validation/test",
+        "interpretation_limit": "Overlay counts are not representative samples of all lyrics or reviews",
+        "figure_or_report": "lyric_themes.png; sentiment_by_kind.png",
+        "manuscript_section": "External Pointer Overlays",
+        "figure_filename": "lyric_themes.png",
+        "report_key": "analysis_report.json::lyrics_reviews",
+        "test_file": "tests/test_lyric_enrichment.py",
+        "claim_status": "pointer-only-limited"
+      },
+      {
+        "claim_area": "Historical and archival context",
+        "claim_class": "Contextual",
+        "irreducible_input": "Stable citation keys and cited contextual milestones",
+        "hard_constraint": "Contextual sources do not create Show, Performance, or Recording rows",
+        "soft_constraint": "Timeline milestones are selected orientation anchors",
+        "assumption": "Official, archival, and scholarly sources are stronger anchors than secondary summaries",
+        "validation_artifact": "references.bib; bibliography parser; rendered citation checks",
+        "artifact_family": "citation/prose",
+        "interpretation_limit": "Contextual overlays explain why dates matter but do not alter computed counts",
+        "figure_or_report": "context_timeline.png; citation_kinds.png",
+        "manuscript_section": "Related Work and Archival Context",
+        "figure_filename": "context_timeline.png",
+        "report_key": "bibliography_report.json",
+        "test_file": "tests/test_fetch_bibliography.py",
+        "claim_status": "citation-supported"
+      }
+    ]
+  },
+  "significant_transitions_n": 1533,
+  "transition_significance": {
+    "n_candidates": 7639,
+    "n_uncorrected": 2284,
+    "n_fdr_significant": 1533,
+    "fdr_q": 0.05,
+    "n_permutations": 200
+  },
+  "transition_sensitivity": {
+    "method": "deterministic descriptive sensitivity; no causal or predictive claim",
+    "support_thresholds": [
+      1,
+      5,
+      10,
+      20,
+      50
+    ],
+    "segment_marker_policies": [
+      {
+        "exclude_segments": false,
+        "min_predecessor_support": 1,
+        "n_songs": 449,
+        "n_observed_transitions": 37698,
+        "n_nonzero_edges": 8431,
+        "n_supported_predecessors": 430,
+        "n_supported_edges": 8431,
+        "top_edges": [
+          {
+            "prev": "drums",
+            "next": "space",
+            "count": 1203,
+            "probability": 0.6777,
+            "predecessor_support": 1775
+          },
+          {
+            "prev": "china_cat_sunflower",
+            "next": "i_know_you_rider",
+            "count": 544,
+            "probability": 0.9461,
+            "predecessor_support": 575
+          },
+          {
+            "prev": "jam",
+            "next": "drums",
+            "count": 240,
+            "probability": 0.7643,
+            "predecessor_support": 314
+          },
+          {
+            "prev": "scarlet_begonias",
+            "next": "fire_on_the_mountain",
+            "count": 238,
+            "probability": 0.7532,
+            "predecessor_support": 316
+          },
+          {
+            "prev": "drums",
+            "next": "the_other_one",
+            "count": 210,
+            "probability": 0.1183,
+            "predecessor_support": 1775
+          }
+        ]
+      },
+      {
+        "exclude_segments": false,
+        "min_predecessor_support": 5,
+        "n_songs": 449,
+        "n_observed_transitions": 37698,
+        "n_nonzero_edges": 8431,
+        "n_supported_predecessors": 264,
+        "n_supported_edges": 8155,
+        "top_edges": [
+          {
+            "prev": "drums",
+            "next": "space",
+            "count": 1203,
+            "probability": 0.6777,
+            "predecessor_support": 1775
+          },
+          {
+            "prev": "china_cat_sunflower",
+            "next": "i_know_you_rider",
+            "count": 544,
+            "probability": 0.9461,
+            "predecessor_support": 575
+          },
+          {
+            "prev": "jam",
+            "next": "drums",
+            "count": 240,
+            "probability": 0.7643,
+            "predecessor_support": 314
+          },
+          {
+            "prev": "scarlet_begonias",
+            "next": "fire_on_the_mountain",
+            "count": 238,
+            "probability": 0.7532,
+            "predecessor_support": 316
+          },
+          {
+            "prev": "drums",
+            "next": "the_other_one",
+            "count": 210,
+            "probability": 0.1183,
+            "predecessor_support": 1775
+          }
+        ]
+      },
+      {
+        "exclude_segments": false,
+        "min_predecessor_support": 10,
+        "n_songs": 449,
+        "n_observed_transitions": 37698,
+        "n_nonzero_edges": 8431,
+        "n_supported_predecessors": 222,
+        "n_supported_edges": 7913,
+        "top_edges": [
+          {
+            "prev": "drums",
+            "next": "space",
+            "count": 1203,
+            "probability": 0.6777,
+            "predecessor_support": 1775
+          },
+          {
+            "prev": "china_cat_sunflower",
+            "next": "i_know_you_rider",
+            "count": 544,
+            "probability": 0.9461,
+            "predecessor_support": 575
+          },
+          {
+            "prev": "jam",
+            "next": "drums",
+            "count": 240,
+            "probability": 0.7643,
+            "predecessor_support": 314
+          },
+          {
+            "prev": "scarlet_begonias",
+            "next": "fire_on_the_mountain",
+            "count": 238,
+            "probability": 0.7532,
+            "predecessor_support": 316
+          },
+          {
+            "prev": "drums",
+            "next": "the_other_one",
+            "count": 210,
+            "probability": 0.1183,
+            "predecessor_support": 1775
+          }
+        ]
+      },
+      {
+        "exclude_segments": false,
+        "min_predecessor_support": 20,
+        "n_songs": 449,
+        "n_observed_transitions": 37698,
+        "n_nonzero_edges": 8431,
+        "n_supported_predecessors": 191,
+        "n_supported_edges": 7639,
+        "top_edges": [
+          {
+            "prev": "drums",
+            "next": "space",
+            "count": 1203,
+            "probability": 0.6777,
+            "predecessor_support": 1775
+          },
+          {
+            "prev": "china_cat_sunflower",
+            "next": "i_know_you_rider",
+            "count": 544,
+            "probability": 0.9461,
+            "predecessor_support": 575
+          },
+          {
+            "prev": "jam",
+            "next": "drums",
+            "count": 240,
+            "probability": 0.7643,
+            "predecessor_support": 314
+          },
+          {
+            "prev": "scarlet_begonias",
+            "next": "fire_on_the_mountain",
+            "count": 238,
+            "probability": 0.7532,
+            "predecessor_support": 316
+          },
+          {
+            "prev": "drums",
+            "next": "the_other_one",
+            "count": 210,
+            "probability": 0.1183,
+            "predecessor_support": 1775
+          }
+        ]
+      },
+      {
+        "exclude_segments": false,
+        "min_predecessor_support": 50,
+        "n_songs": 449,
+        "n_observed_transitions": 37698,
+        "n_nonzero_edges": 8431,
+        "n_supported_predecessors": 145,
+        "n_supported_edges": 6768,
+        "top_edges": [
+          {
+            "prev": "drums",
+            "next": "space",
+            "count": 1203,
+            "probability": 0.6777,
+            "predecessor_support": 1775
+          },
+          {
+            "prev": "china_cat_sunflower",
+            "next": "i_know_you_rider",
+            "count": 544,
+            "probability": 0.9461,
+            "predecessor_support": 575
+          },
+          {
+            "prev": "jam",
+            "next": "drums",
+            "count": 240,
+            "probability": 0.7643,
+            "predecessor_support": 314
+          },
+          {
+            "prev": "scarlet_begonias",
+            "next": "fire_on_the_mountain",
+            "count": 238,
+            "probability": 0.7532,
+            "predecessor_support": 316
+          },
+          {
+            "prev": "drums",
+            "next": "the_other_one",
+            "count": 210,
+            "probability": 0.1183,
+            "predecessor_support": 1775
+          }
+        ]
+      },
+      {
+        "exclude_segments": true,
+        "min_predecessor_support": 1,
+        "n_songs": 445,
+        "n_observed_transitions": 34283,
+        "n_nonzero_edges": 8395,
+        "n_supported_predecessors": 426,
+        "n_supported_edges": 8395,
+        "top_edges": [
+          {
+            "prev": "china_cat_sunflower",
+            "next": "i_know_you_rider",
+            "count": 544,
+            "probability": 0.9461,
+            "predecessor_support": 575
+          },
+          {
+            "prev": "scarlet_begonias",
+            "next": "fire_on_the_mountain",
+            "count": 238,
+            "probability": 0.7532,
+            "predecessor_support": 316
+          },
+          {
+            "prev": "estimated_prophet",
+            "next": "eyes_of_the_world",
+            "count": 178,
+            "probability": 0.4541,
+            "predecessor_support": 392
+          },
+          {
+            "prev": "me_and_my_uncle",
+            "next": "big_river",
+            "count": 176,
+            "probability": 0.2759,
+            "predecessor_support": 638
+          },
+          {
+            "prev": "the_other_one",
+            "next": "wharf_rat",
+            "count": 168,
+            "probability": 0.2549,
+            "predecessor_support": 659
+          }
+        ]
+      },
+      {
+        "exclude_segments": true,
+        "min_predecessor_support": 5,
+        "n_songs": 445,
+        "n_observed_transitions": 34283,
+        "n_nonzero_edges": 8395,
+        "n_supported_predecessors": 260,
+        "n_supported_edges": 8120,
+        "top_edges": [
+          {
+            "prev": "china_cat_sunflower",
+            "next": "i_know_you_rider",
+            "count": 544,
+            "probability": 0.9461,
+            "predecessor_support": 575
+          },
+          {
+            "prev": "scarlet_begonias",
+            "next": "fire_on_the_mountain",
+            "count": 238,
+            "probability": 0.7532,
+            "predecessor_support": 316
+          },
+          {
+            "prev": "estimated_prophet",
+            "next": "eyes_of_the_world",
+            "count": 178,
+            "probability": 0.4541,
+            "predecessor_support": 392
+          },
+          {
+            "prev": "me_and_my_uncle",
+            "next": "big_river",
+            "count": 176,
+            "probability": 0.2759,
+            "predecessor_support": 638
+          },
+          {
+            "prev": "the_other_one",
+            "next": "wharf_rat",
+            "count": 168,
+            "probability": 0.2549,
+            "predecessor_support": 659
+          }
+        ]
+      },
+      {
+        "exclude_segments": true,
+        "min_predecessor_support": 10,
+        "n_songs": 445,
+        "n_observed_transitions": 34283,
+        "n_nonzero_edges": 8395,
+        "n_supported_predecessors": 218,
+        "n_supported_edges": 7876,
+        "top_edges": [
+          {
+            "prev": "china_cat_sunflower",
+            "next": "i_know_you_rider",
+            "count": 544,
+            "probability": 0.9461,
+            "predecessor_support": 575
+          },
+          {
+            "prev": "scarlet_begonias",
+            "next": "fire_on_the_mountain",
+            "count": 238,
+            "probability": 0.7532,
+            "predecessor_support": 316
+          },
+          {
+            "prev": "estimated_prophet",
+            "next": "eyes_of_the_world",
+            "count": 178,
+            "probability": 0.4541,
+            "predecessor_support": 392
+          },
+          {
+            "prev": "me_and_my_uncle",
+            "next": "big_river",
+            "count": 176,
+            "probability": 0.2759,
+            "predecessor_support": 638
+          },
+          {
+            "prev": "the_other_one",
+            "next": "wharf_rat",
+            "count": 168,
+            "probability": 0.2549,
+            "predecessor_support": 659
+          }
+        ]
+      },
+      {
+        "exclude_segments": true,
+        "min_predecessor_support": 20,
+        "n_songs": 445,
+        "n_observed_transitions": 34283,
+        "n_nonzero_edges": 8395,
+        "n_supported_predecessors": 187,
+        "n_supported_edges": 7591,
+        "top_edges": [
+          {
+            "prev": "china_cat_sunflower",
+            "next": "i_know_you_rider",
+            "count": 544,
+            "probability": 0.9461,
+            "predecessor_support": 575
+          },
+          {
+            "prev": "scarlet_begonias",
+            "next": "fire_on_the_mountain",
+            "count": 238,
+            "probability": 0.7532,
+            "predecessor_support": 316
+          },
+          {
+            "prev": "estimated_prophet",
+            "next": "eyes_of_the_world",
+            "count": 178,
+            "probability": 0.4541,
+            "predecessor_support": 392
+          },
+          {
+            "prev": "me_and_my_uncle",
+            "next": "big_river",
+            "count": 176,
+            "probability": 0.2759,
+            "predecessor_support": 638
+          },
+          {
+            "prev": "the_other_one",
+            "next": "wharf_rat",
+            "count": 168,
+            "probability": 0.2549,
+            "predecessor_support": 659
+          }
+        ]
+      },
+      {
+        "exclude_segments": true,
+        "min_predecessor_support": 50,
+        "n_songs": 445,
+        "n_observed_transitions": 34283,
+        "n_nonzero_edges": 8395,
+        "n_supported_predecessors": 141,
+        "n_supported_edges": 6711,
+        "top_edges": [
+          {
+            "prev": "china_cat_sunflower",
+            "next": "i_know_you_rider",
+            "count": 544,
+            "probability": 0.9461,
+            "predecessor_support": 575
+          },
+          {
+            "prev": "scarlet_begonias",
+            "next": "fire_on_the_mountain",
+            "count": 238,
+            "probability": 0.7532,
+            "predecessor_support": 316
+          },
+          {
+            "prev": "estimated_prophet",
+            "next": "eyes_of_the_world",
+            "count": 178,
+            "probability": 0.4541,
+            "predecessor_support": 392
+          },
+          {
+            "prev": "me_and_my_uncle",
+            "next": "big_river",
+            "count": 176,
+            "probability": 0.2759,
+            "predecessor_support": 638
+          },
+          {
+            "prev": "the_other_one",
+            "next": "wharf_rat",
+            "count": 168,
+            "probability": 0.2549,
+            "predecessor_support": 659
+          }
+        ]
+      }
+    ],
+    "era_models": [
+      {
+        "era": "Primal",
+        "n_shows": 681,
+        "n_songs": 186,
+        "n_observed_transitions": 3835,
+        "n_nonzero_edges": 1614,
+        "top_edges": [
+          {
+            "prev": "cryptical_envelopment",
+            "next": "the_other_one",
+            "count": 124,
+            "probability": 0.5299,
+            "predecessor_support": 234
+          },
+          {
+            "prev": "the_other_one",
+            "next": "cryptical_envelopment",
+            "count": 115,
+            "probability": 0.7468,
+            "predecessor_support": 154
+          },
+          {
+            "prev": "china_cat_sunflower",
+            "next": "i_know_you_rider",
+            "count": 92,
+            "probability": 0.7667,
+            "predecessor_support": 120
+          },
+          {
+            "prev": "dark_star",
+            "next": "saint_stephen",
+            "count": 90,
+            "probability": 0.6383,
+            "predecessor_support": 141
+          },
+          {
+            "prev": "saint_stephen",
+            "next": "the_eleven",
+            "count": 79,
+            "probability": 0.5563,
+            "predecessor_support": 142
+          }
+        ],
+        "date_min": "1965-12-04",
+        "date_max": "1971-02-18"
+      },
+      {
+        "era": "Europe 72",
+        "n_shows": 231,
+        "n_songs": 115,
+        "n_observed_transitions": 3904,
+        "n_nonzero_edges": 1407,
+        "top_edges": [
+          {
+            "prev": "china_cat_sunflower",
+            "next": "i_know_you_rider",
+            "count": 104,
+            "probability": 0.9905,
+            "predecessor_support": 105
+          },
+          {
+            "prev": "not_fade_away",
+            "next": "goin_down_the_road_feelin_bad",
+            "count": 80,
+            "probability": 0.5755,
+            "predecessor_support": 139
+          },
+          {
+            "prev": "goin_down_the_road_feelin_bad",
+            "next": "not_fade_away",
+            "count": 78,
+            "probability": 0.8211,
+            "predecessor_support": 95
+          },
+          {
+            "prev": "truckin",
+            "next": "the_other_one",
+            "count": 54,
+            "probability": 0.4091,
+            "predecessor_support": 132
+          },
+          {
+            "prev": "bertha",
+            "next": "me_and_my_uncle",
+            "count": 31,
+            "probability": 0.3131,
+            "predecessor_support": 99
+          }
+        ],
+        "date_min": "1971-02-19",
+        "date_max": "1973-02-28"
+      },
+      {
+        "era": "Wall of Sound",
+        "n_shows": 156,
+        "n_songs": 95,
+        "n_observed_transitions": 2578,
+        "n_nonzero_edges": 996,
+        "top_edges": [
+          {
+            "prev": "china_cat_sunflower",
+            "next": "i_know_you_rider",
+            "count": 67,
+            "probability": 1.0,
+            "predecessor_support": 67
+          },
+          {
+            "prev": "weather_report_suite_part_1",
+            "next": "let_it_grow",
+            "count": 47,
+            "probability": 1.0,
+            "predecessor_support": 47
+          },
+          {
+            "prev": "weather_report_suite_prelude",
+            "next": "weather_report_suite_part_1",
+            "count": 47,
+            "probability": 0.9216,
+            "predecessor_support": 51
+          },
+          {
+            "prev": "he_s_gone",
+            "next": "truckin",
+            "count": 26,
+            "probability": 0.8667,
+            "predecessor_support": 30
+          },
+          {
+            "prev": "el_paso",
+            "next": "row_jimmy",
+            "count": 21,
+            "probability": 0.2333,
+            "predecessor_support": 90
+          }
+        ],
+        "date_min": "1973-03-15",
+        "date_max": "1974-10-20"
+      },
+      {
+        "era": "Hiatus->Return",
+        "n_shows": 335,
+        "n_songs": 104,
+        "n_observed_transitions": 3778,
+        "n_nonzero_edges": 1225,
+        "top_edges": [
+          {
+            "prev": "lazy_lightning",
+            "next": "supplication",
+            "count": 68,
+            "probability": 1.0,
+            "predecessor_support": 68
+          },
+          {
+            "prev": "bertha",
+            "next": "good_lovin",
+            "count": 55,
+            "probability": 0.7534,
+            "predecessor_support": 73
+          },
+          {
+            "prev": "scarlet_begonias",
+            "next": "fire_on_the_mountain",
+            "count": 49,
+            "probability": 0.6712,
+            "predecessor_support": 73
+          },
+          {
+            "prev": "estimated_prophet",
+            "next": "eyes_of_the_world",
+            "count": 44,
+            "probability": 0.449,
+            "predecessor_support": 98
+          },
+          {
+            "prev": "me_and_my_uncle",
+            "next": "big_river",
+            "count": 34,
+            "probability": 0.6071,
+            "predecessor_support": 56
+          }
+        ],
+        "date_min": "1975-03-23",
+        "date_max": "1979-02-17"
+      },
+      {
+        "era": "Brent",
+        "n_shows": 1356,
+        "n_songs": 238,
+        "n_observed_transitions": 14311,
+        "n_nonzero_edges": 3762,
+        "top_edges": [
+          {
+            "prev": "china_cat_sunflower",
+            "next": "i_know_you_rider",
+            "count": 209,
+            "probability": 0.9905,
+            "predecessor_support": 211
+          },
+          {
+            "prev": "lost_sailor",
+            "next": "saint_of_circumstance",
+            "count": 142,
+            "probability": 0.966,
+            "predecessor_support": 147
+          },
+          {
+            "prev": "scarlet_begonias",
+            "next": "fire_on_the_mountain",
+            "count": 138,
+            "probability": 0.8466,
+            "predecessor_support": 163
+          },
+          {
+            "prev": "estimated_prophet",
+            "next": "eyes_of_the_world",
+            "count": 130,
+            "probability": 0.5702,
+            "predecessor_support": 228
+          },
+          {
+            "prev": "me_and_my_uncle",
+            "next": "big_river",
+            "count": 116,
+            "probability": 0.5659,
+            "predecessor_support": 205
+          }
+        ],
+        "date_min": "1979-04-16",
+        "date_max": "1990-07-23"
+      },
+      {
+        "era": "Vince+Bruce",
+        "n_shows": 575,
+        "n_songs": 197,
+        "n_observed_transitions": 5877,
+        "n_nonzero_edges": 2225,
+        "top_edges": [
+          {
+            "prev": "china_cat_sunflower",
+            "next": "i_know_you_rider",
+            "count": 67,
+            "probability": 1.0,
+            "predecessor_support": 67
+          },
+          {
+            "prev": "throwing_stones",
+            "next": "not_fade_away",
+            "count": 54,
+            "probability": 0.6585,
+            "predecessor_support": 82
+          },
+          {
+            "prev": "scarlet_begonias",
+            "next": "fire_on_the_mountain",
+            "count": 51,
+            "probability": 0.9808,
+            "predecessor_support": 52
+          },
+          {
+            "prev": "help_on_the_way",
+            "next": "slipknot",
+            "count": 45,
+            "probability": 1.0,
+            "predecessor_support": 45
+          },
+          {
+            "prev": "slipknot",
+            "next": "franklin_s_tower",
+            "count": 44,
+            "probability": 0.9778,
+            "predecessor_support": 45
+          }
+        ],
+        "date_min": "1990-09-07",
+        "date_max": "1995-07-09"
+      }
+    ]
+  },
+  "significant_transitions_top": [
+    {
+      "prev": "drums",
+      "next": "space",
+      "count": 1203
+    },
+    {
+      "prev": "china_cat_sunflower",
+      "next": "i_know_you_rider",
+      "count": 544
+    },
+    {
+      "prev": "jam",
+      "next": "drums",
+      "count": 240
+    },
+    {
+      "prev": "scarlet_begonias",
+      "next": "fire_on_the_mountain",
+      "count": 238
+    },
+    {
+      "prev": "drums",
+      "next": "the_other_one",
+      "count": 210
+    },
+    {
+      "prev": "space",
+      "next": "the_other_one",
+      "count": 210
+    },
+    {
+      "prev": "space",
+      "next": "the_wheel",
+      "count": 189
+    },
+    {
+      "prev": "eyes_of_the_world",
+      "next": "drums",
+      "count": 188
+    },
+    {
+      "prev": "estimated_prophet",
+      "next": "eyes_of_the_world",
+      "count": 178
+    },
+    {
+      "prev": "me_and_my_uncle",
+      "next": "big_river",
+      "count": 176
+    },
+    {
+      "prev": "playing_in_the_band",
+      "next": "drums",
+      "count": 171
+    },
+    {
+      "prev": "the_other_one",
+      "next": "wharf_rat",
+      "count": 163
+    },
+    {
+      "prev": "throwing_stones",
+      "next": "not_fade_away",
+      "count": 163
+    },
+    {
+      "prev": "lost_sailor",
+      "next": "saint_of_circumstance",
+      "count": 141
+    },
+    {
+      "prev": "he_s_gone",
+      "next": "drums",
+      "count": 135
+    }
+  ],
+  "segue_summary": {
+    "n_distinct_edges": 2751,
+    "top_segue_src": "drums",
+    "top_segue_dst": "space",
+    "top_segue_count": 1197,
+    "top_out_degree_song": "drums",
+    "top_out_degree_count": 1763
+  },
+  "sentiment_by_kind": {
+    "documentary": {
+      "n": 1.0,
+      "mean": 1.0,
+      "stdev": 0.0
+    },
+    "fan": {
+      "n": 1881.0,
+      "mean": 0.7176767676767677,
+      "stdev": 0.12073521995520461
+    },
+    "official": {
+      "n": 2.0,
+      "mean": 0.925,
+      "stdev": 0.03535533905932733
+    },
+    "official-release": {
+      "n": 1.0,
+      "mean": 1.0,
+      "stdev": 0.0
+    },
+    "press": {
+      "n": 3.0,
+      "mean": 0.9,
+      "stdev": 0.1322875655532295
+    }
+  }
+}

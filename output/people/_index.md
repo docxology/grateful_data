@@ -1,0 +1,16 @@
+# People
+
+- [John Perry Barlow](barlow.md)
+- [Tom Constanten](constanten.md)
+- [Jerome John Garcia](garcia.md)
+- [Donna Jean Godchaux](godchaux_d.md)
+- [Keith Godchaux](godchaux_k.md)
+- [Mickey Hart](hart.md)
+- [Bruce Hornsby](hornsby.md)
+- [Robert Hunter](hunter.md)
+- [Bill Kreutzmann](kreutzmann.md)
+- [Philip Chapman Lesh](lesh.md)
+- [Brent Mydland](mydland.md)
+- [Ron McKernan](pigpen.md)
+- [Robert Hall Weir](weir.md)
+- [Vince Welnick](welnick.md)

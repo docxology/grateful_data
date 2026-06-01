@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "audio": 7122,
+    "lyrics": 548
+  },
+  "files": {
+    "audio": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/external/audio_pointers.json",
+    "lyrics": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/external/lyrics_pointers.json",
+    "pipeline_contract": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/external/pipeline_contract.json"
+  },
+  "policy": "Pointer metadata only. Bundled audio, lyric text, transcripts, excerpts, and derived text are rejected.",
+  "schema": "grateful-data-external-pointer-manifest-v1"
+}

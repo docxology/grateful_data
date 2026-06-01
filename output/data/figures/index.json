@@ -1,0 +1,826 @@
+{
+  "datasets": [
+    {
+      "alt_text": "Horizontal bar chart of songs with the widest recurrence gaps.",
+      "caption_hint": "Largest intervening-show gaps between successive performances.",
+      "claim_class": "descriptive",
+      "columns": [
+        "rank",
+        "song_slug",
+        "title",
+        "n_show_performances",
+        "max_gap_shows"
+      ],
+      "csv": "bustouts.csv",
+      "data_source": "Chronological show order and bundled performance rows.",
+      "display_title": "Recurrence Gaps",
+      "exclusion_rule": "Generic segment markers are excluded.",
+      "figure": "bustouts.png",
+      "json": "bustouts.json",
+      "metadata": {},
+      "n_rows": 15,
+      "statistic": "Maximum intervening-show gap between successive performances.",
+      "title": "Recurrence Gaps"
+    },
+    {
+      "alt_text": "Horizontal bars rank non-segment songs by eigenvector centrality on the Jaccard co-occurrence graph.",
+      "caption_hint": "Co-occurrence centrality normalized away from raw frequency.",
+      "claim_class": "exploratory",
+      "columns": [
+        "rank",
+        "song_slug",
+        "title",
+        "eigenvector_centrality"
+      ],
+      "csv": "centrality_top20.csv",
+      "data_source": "Bundled show-level song co-occurrence.",
+      "display_title": "Association Centrality",
+      "exclusion_rule": "Generic segment markers are excluded.",
+      "figure": "centrality_top20.png",
+      "json": "centrality_top20.json",
+      "metadata": {
+        "adjacency": "Jaccard co-occurrence",
+        "exclude_segments": true
+      },
+      "n_rows": 20,
+      "statistic": "Eigenvector centrality over Jaccard-normalized show co-occurrence.",
+      "title": "Association Centrality"
+    },
+    {
+      "alt_text": "Ranked bar chart of bibliography citation kinds.",
+      "caption_hint": "Citation kind mix after bibliography and references merge.",
+      "claim_class": "descriptive",
+      "columns": [
+        "kind",
+        "n_citations",
+        "share_pct"
+      ],
+      "csv": "citation_kinds.csv",
+      "data_source": "Bibliography markdown, BibTeX, and archival citation rows.",
+      "display_title": "Citation Kinds",
+      "exclusion_rule": "Citation rows are metadata pointers; no source text is bundled.",
+      "figure": "citation_kinds.png",
+      "json": "citation_kinds.json",
+      "metadata": {},
+      "n_rows": 6,
+      "statistic": "Citation-kind counts and share of total.",
+      "title": "Citation Kinds"
+    },
+    {
+      "alt_text": "Heatmap counts claim families by claim class and primary validation artifact family, distinguishing corpus, method, boundary, and interpretation claims.",
+      "caption_hint": "Evidence-governance matrix; cells count claim families, not corpus observations.",
+      "claim_class": "validation",
+      "columns": [
+        "claim_class",
+        "artifact_family",
+        "n_claim_families"
+      ],
+      "csv": "claim_evidence_matrix.csv",
+      "data_source": "First-principles claim ledger generated from compendium contracts and reports.",
+      "display_title": "First-Principles Claim Evidence Map",
+      "exclusion_rule": "Counts claim families, not shows, performances, songs, or venues.",
+      "figure": "claim_evidence_matrix.png",
+      "json": "claim_evidence_matrix.json",
+      "metadata": {
+        "method": "claim-ledger governance matrix; counts are claim families, not corpus observations",
+        "n_assumptions": 12,
+        "n_claim_areas": 12,
+        "n_hard_constraints": 12,
+        "n_validation_artifacts": 12
+      },
+      "n_rows": 30,
+      "statistic": "Claim-family counts by claim class and validation artifact family.",
+      "title": "First-Principles Claim Evidence Map"
+    },
+    {
+      "alt_text": "Grouped bars comparing songs written with performance-weighted composer counts.",
+      "caption_hint": "Composer credit counts versus performance-weighted attribution.",
+      "claim_class": "descriptive",
+      "columns": [
+        "composer",
+        "n_songs_written",
+        "n_weighted_performances"
+      ],
+      "csv": "composer_attribution.csv",
+      "data_source": "Bundled song composer fields joined to performance rows.",
+      "display_title": "Composer Attribution",
+      "exclusion_rule": "Songs without composer metadata do not contribute composer-credit rows.",
+      "figure": "composer_attribution.png",
+      "json": "composer_attribution.json",
+      "metadata": {},
+      "n_rows": 12,
+      "statistic": "Songs written versus performance-weighted composer attribution.",
+      "title": "Composer Attribution"
+    },
+    {
+      "alt_text": "Four horizontal error bars show fixed-seed bootstrap intervals for song and venue Gini and top-decile share.",
+      "caption_hint": "Exploratory item-level bootstrap intervals for Gini and top-decile concentration.",
+      "claim_class": "exploratory",
+      "columns": [
+        "family",
+        "metric",
+        "point",
+        "ci_low",
+        "ci_high",
+        "confidence",
+        "n_resamples",
+        "seed"
+      ],
+      "csv": "concentration_uncertainty.csv",
+      "data_source": "Bundled song-performance and venue-show count vectors.",
+      "display_title": "Concentration Uncertainty",
+      "exclusion_rule": "Song rows exclude generic segment markers; venue rows use source-derived venue slugs.",
+      "figure": "concentration_uncertainty.png",
+      "json": "concentration_uncertainty.json",
+      "metadata": {
+        "method": "fixed-seed item-level bootstrap; descriptive uncertainty only"
+      },
+      "n_rows": 4,
+      "statistic": "Fixed-seed bootstrap intervals for Gini and top-decile share.",
+      "title": "Concentration Uncertainty"
+    },
+    {
+      "alt_text": "Shows-per-year bar chart overlaid with selected historical milestones.",
+      "caption_hint": "Computed show counts with cited contextual milestones; milestones are not data rows.",
+      "claim_class": "descriptive",
+      "columns": [
+        "year",
+        "n_shows",
+        "context_marker"
+      ],
+      "csv": "context_timeline.csv",
+      "data_source": "Bundled show table plus checked contextual sources.",
+      "display_title": "Historical Context Timeline",
+      "exclusion_rule": "Context labels are interpretive overlays and are not ingested rows.",
+      "figure": "context_timeline.png",
+      "json": "context_timeline.json",
+      "metadata": {
+        "context_markers_are_interpretive_overlays": true
+      },
+      "n_rows": 31,
+      "statistic": "Annual show counts with selected labelled historical waypoints.",
+      "title": "Historical Context Timeline"
+    },
+    {
+      "alt_text": "Square heatmap compares show-level co-occurrence among top non-segment songs; brighter cells mark song pairs that share more shows.",
+      "caption_hint": "Cell values count shows in which both songs appear.",
+      "claim_class": "descriptive",
+      "columns": [
+        "source_song_slug",
+        "target_song_slug",
+        "n_show_cooccurrences"
+      ],
+      "csv": "cooccurrence_heatmap.csv",
+      "data_source": "Bundled show/performance rows.",
+      "display_title": "Song Co-occurrence Heatmap",
+      "exclusion_rule": "Generic segment markers are excluded.",
+      "figure": "cooccurrence_heatmap.png",
+      "json": "cooccurrence_heatmap.json",
+      "metadata": {
+        "diagonal_is_song_show_count": true,
+        "exclude_segments": true,
+        "top_n": 25
+      },
+      "n_rows": 625,
+      "statistic": "Show-level pairwise co-occurrence counts.",
+      "title": "Song Co-occurrence Heatmap"
+    },
+    {
+      "alt_text": "Year-by-month heatmap of show density.",
+      "caption_hint": "Calendar density across the selected compendium tier.",
+      "claim_class": "descriptive",
+      "columns": [
+        "year",
+        "month",
+        "n_shows"
+      ],
+      "csv": "era_density.csv",
+      "data_source": "Bundled show dates.",
+      "display_title": "Show Density by Month and Year",
+      "exclusion_rule": "No shows are dropped; empty-setlist shows still count as shows.",
+      "figure": "era_density.png",
+      "json": "era_density.json",
+      "metadata": {},
+      "n_rows": 294,
+      "statistic": "Show counts by calendar year and month.",
+      "title": "Show Density by Month and Year"
+    },
+    {
+      "alt_text": "Heatmap shows each era's performance-row share for top non-segment songs, with brighter cells marking era-specific concentration.",
+      "caption_hint": "Era-by-song normalized intensity over non-segment performance rows.",
+      "claim_class": "exploratory",
+      "columns": [
+        "era",
+        "song_slug",
+        "title",
+        "n_performances",
+        "era_share_pct"
+      ],
+      "csv": "era_repertoire_heatmap.csv",
+      "data_source": "Bundled performance rows and era labels.",
+      "display_title": "Era Repertoire Heatmap",
+      "exclusion_rule": "Generic segment markers are excluded.",
+      "figure": "era_repertoire_heatmap.png",
+      "json": "era_repertoire_heatmap.json",
+      "metadata": {
+        "normalization": "within-era performance-row share"
+      },
+      "n_rows": 120,
+      "statistic": "Within-era performance-row share by top song.",
+      "title": "Era Repertoire Heatmap"
+    },
+    {
+      "alt_text": "Two cumulative lines compare setlist growth and active lineup growth over chronological show index.",
+      "caption_hint": "Machine-checked monotone cumulative functor sizes.",
+      "claim_class": "validation",
+      "columns": [
+        "date",
+        "show_index",
+        "cumulative_setlist_size",
+        "cumulative_lineup_size"
+      ],
+      "csv": "functor_cardinalities.csv",
+      "data_source": "Bundled ordered performances and curated personnel intervals.",
+      "display_title": "Functor Cardinalities",
+      "exclusion_rule": "Cumulative functor construction includes all loaded performances and personnel intervals.",
+      "figure": "functor_cardinalities.png",
+      "json": "functor_cardinalities.json",
+      "metadata": {},
+      "n_rows": 2066,
+      "statistic": "Cumulative setlist and lineup cardinalities.",
+      "title": "Functor Cardinalities"
+    },
+    {
+      "alt_text": "Geographic scatterplot of venues sized by show count and colored by region.",
+      "caption_hint": "Venue geo sidecar coverage and regional distribution.",
+      "claim_class": "descriptive",
+      "columns": [
+        "venue_slug",
+        "latitude",
+        "longitude",
+        "region",
+        "n_shows"
+      ],
+      "csv": "geo_scatter.csv",
+      "data_source": "Bundled venue table plus geo sidecar.",
+      "display_title": "Venue Geography",
+      "exclusion_rule": "Only venues with geocoded sidecar rows are plotted.",
+      "figure": "geo_scatter.png",
+      "json": "geo_scatter.json",
+      "metadata": {
+        "geocoded_venues": 912
+      },
+      "n_rows": 912,
+      "statistic": "Geocoded venue points sized by show count.",
+      "title": "Venue Geography"
+    },
+    {
+      "alt_text": "Line chart of active lineup size over show dates.",
+      "caption_hint": "Instantaneous active roster size, not cumulative membership.",
+      "claim_class": "descriptive",
+      "columns": [
+        "date",
+        "active_member_count"
+      ],
+      "csv": "lineup_diversity.csv",
+      "data_source": "Bundled show dates and curated personnel intervals.",
+      "display_title": "Active Lineup Size",
+      "exclusion_rule": "Counts use interval coverage on each date and are not cumulative roster totals.",
+      "figure": "lineup_diversity.png",
+      "json": "lineup_diversity.json",
+      "metadata": {},
+      "n_rows": 2312,
+      "statistic": "Active-member count over distinct show dates.",
+      "title": "Active Lineup Size"
+    },
+    {
+      "alt_text": "Horizontal bar chart of theme tags attached to lyric pointers.",
+      "caption_hint": "Theme frequencies from pointer metadata only.",
+      "claim_class": "descriptive",
+      "columns": [
+        "theme",
+        "n_pointer_tags"
+      ],
+      "csv": "lyric_themes.csv",
+      "data_source": "CMU, dead.net, and curated lyric pointer metadata.",
+      "display_title": "Lyric Pointer Themes",
+      "exclusion_rule": "Lyric text is not bundled, parsed, quoted, or derived.",
+      "figure": "lyric_themes.png",
+      "json": "lyric_themes.json",
+      "metadata": {
+        "source": "lyric pointer metadata only; no lyric text bundled"
+      },
+      "n_rows": 20,
+      "statistic": "Theme-tag frequencies.",
+      "title": "Lyric Pointer Themes"
+    },
+    {
+      "alt_text": "Histogram of non-empty setlist lengths with median and p90 reference lines plus a callout for empty-setlist shows.",
+      "caption_hint": "Show-level setlist-size distribution, including empty setlists.",
+      "claim_class": "descriptive",
+      "columns": [
+        "show_slug",
+        "n_performance_rows"
+      ],
+      "csv": "performance_distribution.csv",
+      "data_source": "Bundled show/performance tables.",
+      "display_title": "Performance Rows per Show",
+      "exclusion_rule": "Histogram bins show non-empty setlists; empty setlists are counted in the callout and dataset.",
+      "figure": "performance_distribution.png",
+      "json": "performance_distribution.json",
+      "metadata": {
+        "n_zero_performance_shows": 282,
+        "per_show": {
+          "iqr": 20.0,
+          "maximum": 37.0,
+          "mean": 12.199,
+          "median": 17.0,
+          "minimum": 0.0,
+          "n": 3341,
+          "p25": 1.0,
+          "p75": 21.0,
+          "p90": 24.0,
+          "stdev": 10.0896
+        }
+      },
+      "n_rows": 3341,
+      "statistic": "Performance rows per show with median, p90, and empty-setlist count.",
+      "title": "Performance Rows per Show"
+    },
+    {
+      "alt_text": "Gantt chart of band-member active intervals.",
+      "caption_hint": "Curated personnel intervals used by lineup analyses.",
+      "claim_class": "descriptive",
+      "columns": [
+        "person_slug",
+        "full_name",
+        "start_date",
+        "end_date",
+        "roles"
+      ],
+      "csv": "personnel_gantt.csv",
+      "data_source": "Curated personnel interval table.",
+      "display_title": "Personnel Timeline",
+      "exclusion_rule": "Only explicit interval metadata is plotted; inferred guest appearances are outside scope.",
+      "figure": "personnel_gantt.png",
+      "json": "personnel_gantt.json",
+      "metadata": {},
+      "n_rows": 15,
+      "statistic": "Membership/role intervals displayed as horizontal date ranges.",
+      "title": "Personnel Timeline"
+    },
+    {
+      "alt_text": "Ranked bar chart of recording source-type counts.",
+      "caption_hint": "Recording metadata source labels in the compendium.",
+      "claim_class": "descriptive",
+      "columns": [
+        "source_type",
+        "n_recordings",
+        "share_pct"
+      ],
+      "csv": "recording_sources.csv",
+      "data_source": "Bundled recording metadata.",
+      "display_title": "Recording Source Types",
+      "exclusion_rule": "Missing source-type labels remain UNKNOWN; source type is not inferred from audio.",
+      "figure": "recording_sources.png",
+      "json": "recording_sources.json",
+      "metadata": {},
+      "n_rows": 4,
+      "statistic": "Recording counts and shares by source-type label.",
+      "title": "Recording Source Types"
+    },
+    {
+      "alt_text": "Timeline scatterplot of releases grouped by kind.",
+      "caption_hint": "Bundled release records by kind and date.",
+      "claim_class": "descriptive",
+      "columns": [
+        "release_slug",
+        "title",
+        "release_date",
+        "kind",
+        "n_track_show_slugs"
+      ],
+      "csv": "releases_timeline.csv",
+      "data_source": "Bundled release metadata.",
+      "display_title": "Release Timeline",
+      "exclusion_rule": "Release rows do not alter performance counts.",
+      "figure": "releases_timeline.png",
+      "json": "releases_timeline.json",
+      "metadata": {},
+      "n_rows": 259,
+      "statistic": "Release dates and counts by release kind.",
+      "title": "Release Timeline"
+    },
+    {
+      "alt_text": "Cumulative curve rises quickly, showing that a small share of ranked non-segment songs accounts for most performance rows.",
+      "caption_hint": "Pareto-style concentration of song-performance rows, excluding generic segments.",
+      "claim_class": "descriptive",
+      "columns": [
+        "rank",
+        "song_slug",
+        "title",
+        "n_performances",
+        "cumulative_share_pct"
+      ],
+      "csv": "repertoire_concentration.csv",
+      "data_source": "Bundled performance rows joined to song metadata.",
+      "display_title": "Repertoire Concentration",
+      "exclusion_rule": "Generic segment markers are excluded.",
+      "figure": "repertoire_concentration.png",
+      "json": "repertoire_concentration.json",
+      "metadata": {
+        "gini": 0.7375,
+        "n_for_50_pct": 44,
+        "n_for_80_pct": 93,
+        "n_items": 445,
+        "pct_items_for_50_pct": 9.89,
+        "pct_items_for_80_pct": 20.9,
+        "top_10_share_pct": 50.61,
+        "total": 37340
+      },
+      "n_rows": 445,
+      "statistic": "Ranked cumulative share, Gini, top-decile share, and 50/80 percent coverage thresholds.",
+      "title": "Repertoire Concentration"
+    },
+    {
+      "alt_text": "Scatterplot places top non-segment songs by centered SVD era-count profiles, with cluster colors and labels only on the highest-count songs.",
+      "caption_hint": "Exploratory pattern-discovery view; axes are SVD components, not causal dimensions.",
+      "claim_class": "exploratory",
+      "columns": [
+        "song_slug",
+        "title",
+        "svd_component_1",
+        "svd_component_2",
+        "cluster",
+        "n_performances",
+        "dominant_era",
+        "dominant_era_share"
+      ],
+      "csv": "repertoire_embedding.csv",
+      "data_source": "Bundled performance rows and era labels.",
+      "display_title": "Exploratory Repertoire Embedding",
+      "exclusion_rule": "Generic segment markers are excluded.",
+      "figure": "repertoire_embedding.png",
+      "json": "repertoire_embedding.json",
+      "metadata": {
+        "component_1_variance_share": 0.4811,
+        "component_2_variance_share": 0.2891,
+        "method_note": "Exploratory pattern-discovery only: fixed preprocessing, centered SVD coordinates, and deterministic k-means-style clustering over era-by-song performance counts; no causal or predictive claim is made.",
+        "n_clusters": 5
+      },
+      "n_rows": 80,
+      "statistic": "Centered SVD coordinates and deterministic cluster labels over era-by-song performance profiles.",
+      "title": "Exploratory Repertoire Embedding"
+    },
+    {
+      "alt_text": "Line and band chart shows how top-N song cuts cover total non-segment performances and how coverage varies across eras.",
+      "caption_hint": "Descriptive sensitivity for alternate top-song cuts.",
+      "claim_class": "exploratory",
+      "columns": [
+        "top_n",
+        "n_available",
+        "selected_performances",
+        "performance_share_pct",
+        "gini_within_cut",
+        "top_10_share_pct_within_cut",
+        "min_era_share_pct",
+        "mean_era_share_pct",
+        "max_era_share_pct"
+      ],
+      "csv": "repertoire_topn_sensitivity.csv",
+      "data_source": "Bundled performance rows and era labels.",
+      "display_title": "Repertoire Top-N Sensitivity",
+      "exclusion_rule": "Generic segment markers are excluded.",
+      "figure": "repertoire_topn_sensitivity.png",
+      "json": "repertoire_topn_sensitivity.json",
+      "metadata": {
+        "exclude_segments": true,
+        "method": "deterministic top-N sensitivity over observed performance counts",
+        "total_non_segment_performances": 37340
+      },
+      "n_rows": 4,
+      "statistic": "Top-N performance share plus minimum, mean, and maximum era coverage.",
+      "title": "Repertoire Top-N Sensitivity"
+    },
+    {
+      "alt_text": "Ranked horizontal bars show explicit source-marked segue edges; Drums to Space and China Cat Sunflower to I Know You Rider dominate.",
+      "caption_hint": "Explicit source-marked segue edges, not inferred adjacency.",
+      "claim_class": "descriptive",
+      "columns": [
+        "rank",
+        "source_song_slug",
+        "target_song_slug",
+        "n_segues"
+      ],
+      "csv": "segue_graph.csv",
+      "data_source": "Ordered performance rows with source-marked segue_into flags.",
+      "display_title": "Most Frequent Segues",
+      "exclusion_rule": "Uses only source-marked segue_into relations; adjacency is not inferred.",
+      "figure": "segue_graph.png",
+      "json": "segue_graph.json",
+      "metadata": {
+        "source": "explicit segue_into markers only"
+      },
+      "n_rows": 15,
+      "statistic": "Explicit segue edge counts.",
+      "title": "Most Frequent Segues"
+    },
+    {
+      "alt_text": "Bar chart of mean review sentiment grouped by source kind.",
+      "caption_hint": "Curated review-pointer sentiment aggregates.",
+      "claim_class": "descriptive",
+      "columns": [
+        "kind",
+        "n_reviews",
+        "mean_sentiment",
+        "stdev_sentiment"
+      ],
+      "csv": "sentiment_by_kind.csv",
+      "data_source": "Bundled review-pointer table.",
+      "display_title": "Review Sentiment by Source Kind",
+      "exclusion_rule": "Reviews without pointer/source metadata are not fabricated.",
+      "figure": "sentiment_by_kind.png",
+      "json": "sentiment_by_kind.json",
+      "metadata": {},
+      "n_rows": 5,
+      "statistic": "Mean sentiment by source kind with support and dispersion.",
+      "title": "Review Sentiment by Source Kind"
+    },
+    {
+      "alt_text": "Bar chart of performance counts by position within set.",
+      "caption_hint": "Distribution of ordered performance positions.",
+      "claim_class": "descriptive",
+      "columns": [
+        "position",
+        "n_performance_rows"
+      ],
+      "csv": "set_positions.csv",
+      "data_source": "Bundled ordered performance rows.",
+      "display_title": "Set-Position Distribution",
+      "exclusion_rule": "All loaded performance rows with positions are counted, including segment markers.",
+      "figure": "set_positions.png",
+      "json": "set_positions.json",
+      "metadata": {},
+      "n_rows": 33,
+      "statistic": "Performance-row counts by within-set position index.",
+      "title": "Set-Position Distribution"
+    },
+    {
+      "alt_text": "Bar chart of show counts by era label.",
+      "caption_hint": "Era labels used for density and flow summaries.",
+      "claim_class": "descriptive",
+      "columns": [
+        "era",
+        "n_shows"
+      ],
+      "csv": "shows_by_era.csv",
+      "data_source": "Bundled show dates and deterministic era windows.",
+      "display_title": "Shows by Era",
+      "exclusion_rule": "Era labels are analytical bins rather than source claims.",
+      "figure": "shows_by_era.png",
+      "json": "shows_by_era.json",
+      "metadata": {},
+      "n_rows": 7,
+      "statistic": "Show counts by era bucket.",
+      "title": "Shows by Era"
+    },
+    {
+      "alt_text": "Yearly bars count shows while an overlaid line counts performance rows, making late-1970s and late-1980s touring intensity visible.",
+      "caption_hint": "Temporal activity in the selected compendium tier.",
+      "claim_class": "descriptive",
+      "columns": [
+        "year",
+        "n_shows",
+        "n_performance_rows"
+      ],
+      "csv": "shows_per_year.csv",
+      "data_source": "Bundled show and performance tables.",
+      "display_title": "Shows and Performances by Year",
+      "exclusion_rule": "No shows are dropped; empty-setlist shows contribute to show counts but not performance-row totals.",
+      "figure": "shows_per_year.png",
+      "json": "shows_per_year.json",
+      "metadata": {},
+      "n_rows": 31,
+      "statistic": "Annual show count and annual performance-row count.",
+      "title": "Shows and Performances by Year"
+    },
+    {
+      "alt_text": "Range chart showing first-to-last performance years for selected songs.",
+      "caption_hint": "First and last performance years for top repertoire items.",
+      "claim_class": "descriptive",
+      "columns": [
+        "song_slug",
+        "title",
+        "first_year",
+        "last_year",
+        "span_years",
+        "n_performances",
+        "debut_era"
+      ],
+      "csv": "song_lifespans.csv",
+      "data_source": "Bundled performance rows and era labels.",
+      "display_title": "Song Lifespans",
+      "exclusion_rule": "Generic segment markers are excluded.",
+      "figure": "song_lifespans.png",
+      "json": "song_lifespans.json",
+      "metadata": {},
+      "n_rows": 25,
+      "statistic": "First-to-last performance year for top songs by performance count.",
+      "title": "Song Lifespans"
+    },
+    {
+      "alt_text": "Horizontal bars rank non-segment songs by stationary probability under the first-order transition model.",
+      "caption_hint": "Long-run mass under the first-order transition model.",
+      "claim_class": "exploratory",
+      "columns": [
+        "rank",
+        "song_slug",
+        "title",
+        "stationary_probability"
+      ],
+      "csv": "stationary_top20.csv",
+      "data_source": "Ordered bundled performance rows.",
+      "display_title": "Markov Stationary Distribution",
+      "exclusion_rule": "Generic segment markers are excluded.",
+      "figure": "stationary_top20.png",
+      "json": "stationary_top20.json",
+      "metadata": {
+        "exclude_segments": true,
+        "model": "first_order_markov_stationary"
+      },
+      "n_rows": 20,
+      "statistic": "Stationary probability under a first-order Markov model.",
+      "title": "Markov Stationary Distribution"
+    },
+    {
+      "alt_text": "Ranked horizontal bars show the top non-segment songs by performance count; the longest bar is Playing in the Band.",
+      "caption_hint": "Top repertoire counts computed from performance rows.",
+      "claim_class": "descriptive",
+      "columns": [
+        "rank",
+        "song_slug",
+        "title",
+        "n_performances"
+      ],
+      "csv": "top_songs.csv",
+      "data_source": "Bundled performance rows joined to song metadata.",
+      "display_title": "Most-Performed Songs",
+      "exclusion_rule": "Generic segment markers are excluded and surfaced separately.",
+      "figure": "top_songs.png",
+      "json": "top_songs.json",
+      "metadata": {
+        "exclude_segments": true,
+        "segment_marker_counts": [
+          {
+            "n_performances": 1777,
+            "song_slug": "drums"
+          },
+          {
+            "n_performances": 76,
+            "song_slug": "feedback"
+          },
+          {
+            "n_performances": 317,
+            "song_slug": "jam"
+          },
+          {
+            "n_performances": 1247,
+            "song_slug": "space"
+          }
+        ]
+      },
+      "n_rows": 15,
+      "statistic": "Top-song performance counts.",
+      "title": "Most-Performed Songs"
+    },
+    {
+      "alt_text": "Horizontal bar chart of top tour labels by show count.",
+      "caption_hint": "Tour labels when available in the loaded data tier.",
+      "claim_class": "descriptive",
+      "columns": [
+        "tour",
+        "n_shows"
+      ],
+      "csv": "tours_top.csv",
+      "data_source": "Bundled show metadata.",
+      "display_title": "Top Tours",
+      "exclusion_rule": "Shows without tour metadata remain in the untagged bucket.",
+      "figure": "tours_top.png",
+      "json": "tours_top.json",
+      "metadata": {},
+      "n_rows": 1,
+      "statistic": "Show counts by displayed tour-label bucket.",
+      "title": "Top Tours"
+    },
+    {
+      "alt_text": "Probability heatmap for first-order song successors among top non-segment songs, with the China Cat Sunflower to I Know You Rider cell brightest.",
+      "caption_hint": "Rows are observed within-show successors normalized to probabilities.",
+      "claim_class": "exploratory",
+      "columns": [
+        "previous_song_slug",
+        "next_song_slug",
+        "n_transitions",
+        "probability"
+      ],
+      "csv": "transition_matrix.csv",
+      "data_source": "Ordered bundled performance rows.",
+      "display_title": "Markov Transition Matrix",
+      "exclusion_rule": "Generic segment markers are excluded; sensitivity is reported separately.",
+      "figure": "transition_matrix.png",
+      "json": "transition_matrix.json",
+      "metadata": {
+        "exclude_segments": true,
+        "model": "first_order_markov",
+        "top_n": 25
+      },
+      "n_rows": 625,
+      "statistic": "First-order within-show transition probability.",
+      "title": "Markov Transition Matrix"
+    },
+    {
+      "alt_text": "Line chart compares how many transition edges and predecessor rows remain as support thresholds increase, with segment markers included versus excluded.",
+      "caption_hint": "Descriptive support-threshold sensitivity for first-order transition models.",
+      "claim_class": "exploratory",
+      "columns": [
+        "exclude_segments",
+        "min_predecessor_support",
+        "n_songs",
+        "n_observed_transitions",
+        "n_nonzero_edges",
+        "n_supported_predecessors",
+        "n_supported_edges",
+        "supported_edge_share_pct",
+        "supported_predecessor_share_pct"
+      ],
+      "csv": "transition_sensitivity.csv",
+      "data_source": "Ordered bundled performance rows and segment-marker policy.",
+      "display_title": "Transition Sensitivity",
+      "exclusion_rule": "Compares generic segment markers included versus excluded.",
+      "figure": "transition_sensitivity.png",
+      "json": "transition_sensitivity.json",
+      "metadata": {
+        "method": "deterministic descriptive sensitivity; no causal or predictive claim"
+      },
+      "n_rows": 10,
+      "statistic": "Supported transition-edge and predecessor-row retention by minimum predecessor support.",
+      "title": "Transition Sensitivity"
+    },
+    {
+      "alt_text": "Cumulative curve shows how ranked venue slugs account for show rows, with reference guides at 50 and 80 percent.",
+      "caption_hint": "Pareto-style concentration of show rows across venue slugs.",
+      "claim_class": "descriptive",
+      "columns": [
+        "rank",
+        "venue_slug",
+        "label",
+        "n_shows",
+        "cumulative_share_pct"
+      ],
+      "csv": "venue_concentration.csv",
+      "data_source": "Bundled show and venue tables.",
+      "display_title": "Venue Concentration",
+      "exclusion_rule": "Uses conservative source-derived venue slugs; venue identity review is report-only.",
+      "figure": "venue_concentration.png",
+      "json": "venue_concentration.json",
+      "metadata": {
+        "gini": 0.5883,
+        "n_for_50_pct": 84,
+        "n_for_80_pct": 345,
+        "n_items": 912,
+        "pct_items_for_50_pct": 9.21,
+        "pct_items_for_80_pct": 37.83,
+        "top_10_share_pct": 51.81,
+        "total": 3341
+      },
+      "n_rows": 912,
+      "statistic": "Ranked cumulative show share, Gini, top-decile share, and 50/80 percent coverage thresholds.",
+      "title": "Venue Concentration"
+    },
+    {
+      "alt_text": "Horizontal bars summarize venue slugs, alias slugs, conservative collapses, and ambiguous same-date canonical collisions.",
+      "caption_hint": "Report-only venue alias and ambiguity diagnostics; no venue rows are rewritten.",
+      "claim_class": "validation",
+      "columns": [
+        "metric",
+        "value"
+      ],
+      "csv": "venue_identity_review.csv",
+      "data_source": "Venue table, show table, performance rows, and curated venue alias map.",
+      "display_title": "Venue Identity Review",
+      "exclusion_rule": "Conservative alias review only; negative controls remain distinct.",
+      "figure": "venue_identity_review.png",
+      "json": "venue_identity_review.json",
+      "metadata": {
+        "mean_collision_setlist_jaccard": 0.047,
+        "method": "reviewed conservative alias map; report-only, no venue rows rewritten",
+        "n_alias_decisions": 20,
+        "n_negative_controls": 6,
+        "policy": "Only hand-verified same-venue spellings collapse. Distinct rooms, stadium/arena splits, and time-renamed venues remain separate unless future review explicitly changes the map."
+      },
+      "n_rows": 5,
+      "statistic": "Venue alias counts, post-canonicalization count, ambiguous collision count, and mean collision Jaccard.",
+      "title": "Venue Identity Review"
+    }
+  ],
+  "n_datasets": 34
+}

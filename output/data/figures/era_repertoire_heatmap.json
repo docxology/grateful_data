@@ -1,0 +1,856 @@
+{
+  "columns": [
+    "era",
+    "song_slug",
+    "title",
+    "n_performances",
+    "era_share_pct"
+  ],
+  "figure": "era_repertoire_heatmap.png",
+  "metadata": {
+    "normalization": "within-era performance-row share"
+  },
+  "rows": [
+    [
+      "Primal",
+      "playing_in_the_band",
+      "Playing In The Band",
+      1,
+      0.08992806
+    ],
+    [
+      "Primal",
+      "not_fade_away",
+      "Not Fade Away",
+      88,
+      7.91366906
+    ],
+    [
+      "Primal",
+      "the_other_one",
+      "The Other One",
+      158,
+      14.20863309
+    ],
+    [
+      "Primal",
+      "me_and_my_uncle",
+      "Me And My Uncle",
+      126,
+      11.33093525
+    ],
+    [
+      "Primal",
+      "sugar_magnolia",
+      "Sugar Magnolia",
+      29,
+      2.60791367
+    ],
+    [
+      "Primal",
+      "jack_straw",
+      "Jack Straw",
+      0,
+      0.0
+    ],
+    [
+      "Primal",
+      "china_cat_sunflower",
+      "China Cat Sunflower",
+      120,
+      10.79136691
+    ],
+    [
+      "Primal",
+      "i_know_you_rider",
+      "I Know You Rider",
+      111,
+      9.98201439
+    ],
+    [
+      "Primal",
+      "truckin",
+      "Truckin'",
+      31,
+      2.78776978
+    ],
+    [
+      "Primal",
+      "good_lovin",
+      "Good Lovin'",
+      178,
+      16.00719424
+    ],
+    [
+      "Primal",
+      "promised_land",
+      "Promised Land",
+      0,
+      0.0
+    ],
+    [
+      "Primal",
+      "bertha",
+      "Bertha",
+      1,
+      0.08992806
+    ],
+    [
+      "Primal",
+      "minglewood_blues",
+      "Minglewood Blues",
+      21,
+      1.88848921
+    ],
+    [
+      "Primal",
+      "mexicali_blues",
+      "Mexicali Blues",
+      0,
+      0.0
+    ],
+    [
+      "Primal",
+      "tennessee_jed",
+      "Tennessee Jed",
+      0,
+      0.0
+    ],
+    [
+      "Primal",
+      "deal",
+      "Deal",
+      0,
+      0.0
+    ],
+    [
+      "Primal",
+      "turn_on_your_lovelight",
+      "Turn On Your Lovelight",
+      242,
+      21.76258993
+    ],
+    [
+      "Primal",
+      "around_and_around",
+      "Around And Around",
+      6,
+      0.53956835
+    ],
+    [
+      "Primal",
+      "looks_like_rain",
+      "Looks Like Rain",
+      0,
+      0.0
+    ],
+    [
+      "Primal",
+      "big_river",
+      "Big River",
+      0,
+      0.0
+    ],
+    [
+      "Europe 72",
+      "playing_in_the_band",
+      "Playing In The Band",
+      154,
+      8.65654862
+    ],
+    [
+      "Europe 72",
+      "not_fade_away",
+      "Not Fade Away",
+      163,
+      9.16245082
+    ],
+    [
+      "Europe 72",
+      "the_other_one",
+      "The Other One",
+      109,
+      6.12703766
+    ],
+    [
+      "Europe 72",
+      "me_and_my_uncle",
+      "Me And My Uncle",
+      129,
+      7.25126476
+    ],
+    [
+      "Europe 72",
+      "sugar_magnolia",
+      "Sugar Magnolia",
+      148,
+      8.31928049
+    ],
+    [
+      "Europe 72",
+      "jack_straw",
+      "Jack Straw",
+      98,
+      5.50871276
+    ],
+    [
+      "Europe 72",
+      "china_cat_sunflower",
+      "China Cat Sunflower",
+      105,
+      5.90219224
+    ],
+    [
+      "Europe 72",
+      "i_know_you_rider",
+      "I Know You Rider",
+      104,
+      5.84598089
+    ],
+    [
+      "Europe 72",
+      "truckin",
+      "Truckin'",
+      135,
+      7.58853288
+    ],
+    [
+      "Europe 72",
+      "good_lovin",
+      "Good Lovin'",
+      60,
+      3.37268128
+    ],
+    [
+      "Europe 72",
+      "promised_land",
+      "Promised Land",
+      90,
+      5.05902192
+    ],
+    [
+      "Europe 72",
+      "bertha",
+      "Bertha",
+      115,
+      6.46430579
+    ],
+    [
+      "Europe 72",
+      "minglewood_blues",
+      "Minglewood Blues",
+      2,
+      0.11242271
+    ],
+    [
+      "Europe 72",
+      "mexicali_blues",
+      "Mexicali Blues",
+      90,
+      5.05902192
+    ],
+    [
+      "Europe 72",
+      "tennessee_jed",
+      "Tennessee Jed",
+      89,
+      5.00281057
+    ],
+    [
+      "Europe 72",
+      "deal",
+      "Deal",
+      84,
+      4.72175379
+    ],
+    [
+      "Europe 72",
+      "turn_on_your_lovelight",
+      "Turn On Your Lovelight",
+      18,
+      1.01180438
+    ],
+    [
+      "Europe 72",
+      "around_and_around",
+      "Around And Around",
+      25,
+      1.40528387
+    ],
+    [
+      "Europe 72",
+      "looks_like_rain",
+      "Looks Like Rain",
+      19,
+      1.06801574
+    ],
+    [
+      "Europe 72",
+      "big_river",
+      "Big River",
+      42,
+      2.3608769
+    ],
+    [
+      "Wall of Sound",
+      "playing_in_the_band",
+      "Playing In The Band",
+      81,
+      7.55597015
+    ],
+    [
+      "Wall of Sound",
+      "not_fade_away",
+      "Not Fade Away",
+      16,
+      1.49253731
+    ],
+    [
+      "Wall of Sound",
+      "the_other_one",
+      "The Other One",
+      35,
+      3.26492537
+    ],
+    [
+      "Wall of Sound",
+      "me_and_my_uncle",
+      "Me And My Uncle",
+      77,
+      7.18283582
+    ],
+    [
+      "Wall of Sound",
+      "sugar_magnolia",
+      "Sugar Magnolia",
+      66,
+      6.15671642
+    ],
+    [
+      "Wall of Sound",
+      "jack_straw",
+      "Jack Straw",
+      82,
+      7.64925373
+    ],
+    [
+      "Wall of Sound",
+      "china_cat_sunflower",
+      "China Cat Sunflower",
+      67,
+      6.25
+    ],
+    [
+      "Wall of Sound",
+      "i_know_you_rider",
+      "I Know You Rider",
+      68,
+      6.34328358
+    ],
+    [
+      "Wall of Sound",
+      "truckin",
+      "Truckin'",
+      65,
+      6.06343284
+    ],
+    [
+      "Wall of Sound",
+      "good_lovin",
+      "Good Lovin'",
+      1,
+      0.09328358
+    ],
+    [
+      "Wall of Sound",
+      "promised_land",
+      "Promised Land",
+      81,
+      7.55597015
+    ],
+    [
+      "Wall of Sound",
+      "bertha",
+      "Bertha",
+      56,
+      5.2238806
+    ],
+    [
+      "Wall of Sound",
+      "minglewood_blues",
+      "Minglewood Blues",
+      0,
+      0.0
+    ],
+    [
+      "Wall of Sound",
+      "mexicali_blues",
+      "Mexicali Blues",
+      85,
+      7.92910448
+    ],
+    [
+      "Wall of Sound",
+      "tennessee_jed",
+      "Tennessee Jed",
+      55,
+      5.13059701
+    ],
+    [
+      "Wall of Sound",
+      "deal",
+      "Deal",
+      52,
+      4.85074627
+    ],
+    [
+      "Wall of Sound",
+      "turn_on_your_lovelight",
+      "Turn On Your Lovelight",
+      0,
+      0.0
+    ],
+    [
+      "Wall of Sound",
+      "around_and_around",
+      "Around And Around",
+      53,
+      4.94402985
+    ],
+    [
+      "Wall of Sound",
+      "looks_like_rain",
+      "Looks Like Rain",
+      43,
+      4.01119403
+    ],
+    [
+      "Wall of Sound",
+      "big_river",
+      "Big River",
+      89,
+      8.30223881
+    ],
+    [
+      "Hiatus->Return",
+      "playing_in_the_band",
+      "Playing In The Band",
+      99,
+      7.31707317
+    ],
+    [
+      "Hiatus->Return",
+      "not_fade_away",
+      "Not Fade Away",
+      86,
+      6.35624538
+    ],
+    [
+      "Hiatus->Return",
+      "the_other_one",
+      "The Other One",
+      58,
+      4.28677014
+    ],
+    [
+      "Hiatus->Return",
+      "me_and_my_uncle",
+      "Me And My Uncle",
+      56,
+      4.13895048
+    ],
+    [
+      "Hiatus->Return",
+      "sugar_magnolia",
+      "Sugar Magnolia",
+      67,
+      4.95195861
+    ],
+    [
+      "Hiatus->Return",
+      "jack_straw",
+      "Jack Straw",
+      81,
+      5.98669623
+    ],
+    [
+      "Hiatus->Return",
+      "china_cat_sunflower",
+      "China Cat Sunflower",
+      5,
+      0.36954915
+    ],
+    [
+      "Hiatus->Return",
+      "i_know_you_rider",
+      "I Know You Rider",
+      5,
+      0.36954915
+    ],
+    [
+      "Hiatus->Return",
+      "truckin",
+      "Truckin'",
+      35,
+      2.58684405
+    ],
+    [
+      "Hiatus->Return",
+      "good_lovin",
+      "Good Lovin'",
+      88,
+      6.50406504
+    ],
+    [
+      "Hiatus->Return",
+      "promised_land",
+      "Promised Land",
+      108,
+      7.98226164
+    ],
+    [
+      "Hiatus->Return",
+      "bertha",
+      "Bertha",
+      87,
+      6.43015521
+    ],
+    [
+      "Hiatus->Return",
+      "minglewood_blues",
+      "Minglewood Blues",
+      114,
+      8.42572062
+    ],
+    [
+      "Hiatus->Return",
+      "mexicali_blues",
+      "Mexicali Blues",
+      39,
+      2.88248337
+    ],
+    [
+      "Hiatus->Return",
+      "tennessee_jed",
+      "Tennessee Jed",
+      78,
+      5.76496674
+    ],
+    [
+      "Hiatus->Return",
+      "deal",
+      "Deal",
+      69,
+      5.09977827
+    ],
+    [
+      "Hiatus->Return",
+      "turn_on_your_lovelight",
+      "Turn On Your Lovelight",
+      0,
+      0.0
+    ],
+    [
+      "Hiatus->Return",
+      "around_and_around",
+      "Around And Around",
+      96,
+      7.09534368
+    ],
+    [
+      "Hiatus->Return",
+      "looks_like_rain",
+      "Looks Like Rain",
+      101,
+      7.46489283
+    ],
+    [
+      "Hiatus->Return",
+      "big_river",
+      "Big River",
+      81,
+      5.98669623
+    ],
+    [
+      "Brent",
+      "playing_in_the_band",
+      "Playing In The Band",
+      322,
+      7.90378007
+    ],
+    [
+      "Brent",
+      "not_fade_away",
+      "Not Fade Away",
+      240,
+      5.8910162
+    ],
+    [
+      "Brent",
+      "the_other_one",
+      "The Other One",
+      228,
+      5.59646539
+    ],
+    [
+      "Brent",
+      "me_and_my_uncle",
+      "Me And My Uncle",
+      205,
+      5.03190967
+    ],
+    [
+      "Brent",
+      "sugar_magnolia",
+      "Sugar Magnolia",
+      224,
+      5.49828179
+    ],
+    [
+      "Brent",
+      "jack_straw",
+      "Jack Straw",
+      243,
+      5.9646539
+    ],
+    [
+      "Brent",
+      "china_cat_sunflower",
+      "China Cat Sunflower",
+      214,
+      5.25282278
+    ],
+    [
+      "Brent",
+      "i_know_you_rider",
+      "I Know You Rider",
+      212,
+      5.20373098
+    ],
+    [
+      "Brent",
+      "truckin",
+      "Truckin'",
+      209,
+      5.13009327
+    ],
+    [
+      "Brent",
+      "good_lovin",
+      "Good Lovin'",
+      177,
+      4.34462445
+    ],
+    [
+      "Brent",
+      "promised_land",
+      "Promised Land",
+      158,
+      3.87825233
+    ],
+    [
+      "Brent",
+      "bertha",
+      "Bertha",
+      162,
+      3.97643594
+    ],
+    [
+      "Brent",
+      "minglewood_blues",
+      "Minglewood Blues",
+      286,
+      7.02012764
+    ],
+    [
+      "Brent",
+      "mexicali_blues",
+      "Mexicali Blues",
+      193,
+      4.73735886
+    ],
+    [
+      "Brent",
+      "tennessee_jed",
+      "Tennessee Jed",
+      152,
+      3.73097693
+    ],
+    [
+      "Brent",
+      "deal",
+      "Deal",
+      179,
+      4.39371625
+    ],
+    [
+      "Brent",
+      "turn_on_your_lovelight",
+      "Turn On Your Lovelight",
+      108,
+      2.65095729
+    ],
+    [
+      "Brent",
+      "around_and_around",
+      "Around And Around",
+      195,
+      4.78645066
+    ],
+    [
+      "Brent",
+      "looks_like_rain",
+      "Looks Like Rain",
+      215,
+      5.27736868
+    ],
+    [
+      "Brent",
+      "big_river",
+      "Big River",
+      152,
+      3.73097693
+    ],
+    [
+      "Vince+Bruce",
+      "playing_in_the_band",
+      "Playing In The Band",
+      95,
+      7.82537068
+    ],
+    [
+      "Vince+Bruce",
+      "not_fade_away",
+      "Not Fade Away",
+      73,
+      6.01317957
+    ],
+    [
+      "Vince+Bruce",
+      "the_other_one",
+      "The Other One",
+      76,
+      6.26029654
+    ],
+    [
+      "Vince+Bruce",
+      "me_and_my_uncle",
+      "Me And My Uncle",
+      52,
+      4.28336079
+    ],
+    [
+      "Vince+Bruce",
+      "sugar_magnolia",
+      "Sugar Magnolia",
+      76,
+      6.26029654
+    ],
+    [
+      "Vince+Bruce",
+      "jack_straw",
+      "Jack Straw",
+      92,
+      7.57825371
+    ],
+    [
+      "Vince+Bruce",
+      "china_cat_sunflower",
+      "China Cat Sunflower",
+      67,
+      5.51894563
+    ],
+    [
+      "Vince+Bruce",
+      "i_know_you_rider",
+      "I Know You Rider",
+      67,
+      5.51894563
+    ],
+    [
+      "Vince+Bruce",
+      "truckin",
+      "Truckin'",
+      67,
+      5.51894563
+    ],
+    [
+      "Vince+Bruce",
+      "good_lovin",
+      "Good Lovin'",
+      33,
+      2.71828666
+    ],
+    [
+      "Vince+Bruce",
+      "promised_land",
+      "Promised Land",
+      67,
+      5.51894563
+    ],
+    [
+      "Vince+Bruce",
+      "bertha",
+      "Bertha",
+      64,
+      5.27182867
+    ],
+    [
+      "Vince+Bruce",
+      "minglewood_blues",
+      "Minglewood Blues",
+      49,
+      4.03624382
+    ],
+    [
+      "Vince+Bruce",
+      "mexicali_blues",
+      "Mexicali Blues",
+      36,
+      2.96540362
+    ],
+    [
+      "Vince+Bruce",
+      "tennessee_jed",
+      "Tennessee Jed",
+      63,
+      5.18945634
+    ],
+    [
+      "Vince+Bruce",
+      "deal",
+      "Deal",
+      47,
+      3.87149918
+    ],
+    [
+      "Vince+Bruce",
+      "turn_on_your_lovelight",
+      "Turn On Your Lovelight",
+      62,
+      5.10708402
+    ],
+    [
+      "Vince+Bruce",
+      "around_and_around",
+      "Around And Around",
+      50,
+      4.11861614
+    ],
+    [
+      "Vince+Bruce",
+      "looks_like_rain",
+      "Looks Like Rain",
+      41,
+      3.37726524
+    ],
+    [
+      "Vince+Bruce",
+      "big_river",
+      "Big River",
+      37,
+      3.04777595
+    ]
+  ],
+  "title": "Era Repertoire Heatmap"
+}

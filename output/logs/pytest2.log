@@ -1,0 +1,170 @@
+warning: `VIRTUAL_ENV=/Users/4d/Documents/GitHub/template/.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead
+   Building grateful-data @ file:///Users/4d/Documents/GitHub/projects/working/grateful_data
+      Built grateful-data @ file:///Users/4d/Documents/GitHub/projects/working/grateful_data
+Uninstalled 1 package in 0.78ms
+Installed 3 packages in 4ms
+============================= test session starts ==============================
+platform darwin -- Python 3.12.13, pytest-9.0.3, pluggy-1.6.0
+rootdir: /Users/4d/Documents/GitHub/projects/working/grateful_data
+configfile: pyproject.toml
+plugins: cov-7.1.0, hypothesis-6.155.1
+collected 265 items
+
+tests/test_analysis.py .....                                             [  1%]
+tests/test_archival_smoke.py ...                                         [  3%]
+tests/test_audit.py .............                                        [  7%]
+tests/test_bustouts_and_coverage.py .................                    [ 14%]
+tests/test_cattheory.py ...............                                  [ 20%]
+tests/test_colimits_and_property.py ...........                          [ 24%]
+tests/test_entity_pages_no_fabrication.py ...                            [ 25%]
+tests/test_export.py ......                                              [ 27%]
+tests/test_fetch_adapters.py .........E...............E...E              [ 38%]
+tests/test_figure_registry.py .....                                      [ 40%]
+tests/test_figure_validation.py ........                                 [ 43%]
+tests/test_honesty.py .......                                            [ 46%]
+tests/test_honesty_and_validation.py ..................                  [ 53%]
+tests/test_honesty_tamper.py ........                                    [ 56%]
+tests/test_ingest.py ...                                                 [ 57%]
+tests/test_ingest_build.py .......                                       [ 60%]
+tests/test_integration.py ....                                           [ 61%]
+tests/test_manuscript_variables.py ......                                [ 63%]
+tests/test_models.py ...............                                     [ 69%]
+tests/test_more_analyses.py .................                            [ 75%]
+tests/test_new_models_and_analyses.py ...........                        [ 80%]
+tests/test_publication_smoke.py ...                                      [ 81%]
+tests/test_remap_curated_refs.py ..                                      [ 81%]
+tests/test_reporting.py .....                                            [ 83%]
+tests/test_seed.py ...                                                   [ 84%]
+tests/test_seed_bundle.py ...                                            [ 86%]
+tests/test_source_reconciliation.py .                                    [ 86%]
+tests/test_sources.py ....................                               [ 93%]
+tests/test_truckin_merge.py E..                                          [ 95%]
+tests/test_validation.py .....                                           [ 96%]
+tests/test_viz_panels.py ....                                            [ 98%]
+tests/test_viz_tier_labels.py ....
+ERROR: Coverage failure: total of 89.35 is less than fail-under=90.00
+                                                                         [100%]
+
+==================================== ERRORS ====================================
+____________ ERROR at setup of test_fetch_lma_recordings_httpserver ____________
+file /Users/4d/Documents/GitHub/template/projects/working/grateful_data/tests/test_fetch_adapters.py, line 139
+  def test_fetch_lma_recordings_httpserver(httpserver, monkeypatch):
+E       fixture 'httpserver' not found
+>       available fixtures: archival_compendium, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, compendium, cov, doctest_namespace, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/Users/4d/Documents/GitHub/template/projects/working/grateful_data/tests/test_fetch_adapters.py:139
+_______________ ERROR at setup of test_gratefulstats_http_error ________________
+file /Users/4d/Documents/GitHub/template/projects/working/grateful_data/tests/test_fetch_adapters.py, line 406
+  def test_gratefulstats_http_error(httpserver, monkeypatch):
+E       fixture 'httpserver' not found
+>       available fixtures: archival_compendium, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, compendium, cov, doctest_namespace, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/Users/4d/Documents/GitHub/template/projects/working/grateful_data/tests/test_fetch_adapters.py:406
+________________ ERROR at setup of test_gratefulstats_api_probe ________________
+file /Users/4d/Documents/GitHub/template/projects/working/grateful_data/tests/test_fetch_adapters.py, line 452
+  def test_gratefulstats_api_probe(httpserver, monkeypatch):
+E       fixture 'httpserver' not found
+>       available fixtures: archival_compendium, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, compendium, cov, doctest_namespace, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/Users/4d/Documents/GitHub/template/projects/working/grateful_data/tests/test_fetch_adapters.py:452
+_________ ERROR at setup of test_ensure_truckin_downloads_when_missing _________
+file /Users/4d/Documents/GitHub/template/projects/working/grateful_data/tests/test_truckin_merge.py, line 43
+  def test_ensure_truckin_downloads_when_missing(tmp_path, httpserver, monkeypatch):
+E       fixture 'httpserver' not found
+>       available fixtures: archival_compendium, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, compendium, cov, doctest_namespace, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, truckin_vendor_db
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/Users/4d/Documents/GitHub/template/projects/working/grateful_data/tests/test_truckin_merge.py:43
+================================ tests coverage ================================
+______________ coverage: platform darwin, python 3.12.13-final-0 _______________
+
+Name                                       Stmts   Miss Branch BrPart   Cover   Missing
+---------------------------------------------------------------------------------------
+src/analysis/bustouts.py                      30      0      6      0 100.00%
+src/analysis/centrality.py                    20      0      6      1  96.15%   23->31
+src/analysis/composers.py                     22      0     12      0 100.00%
+src/analysis/cooccurrence.py                  24      0     10      0 100.00%
+src/analysis/eras.py                          28      0     12      1  97.50%   49->47
+src/analysis/geo.py                           24      0      6      1  96.67%   33->31
+src/analysis/lyrics.py                        29      0     14      0 100.00%
+src/analysis/network.py                       33      0     14      1  97.87%   31->29
+src/analysis/personnel_timeline.py            26      0      8      0 100.00%
+src/analysis/positions.py                     34      0     14      1  97.92%   34->31
+src/analysis/reviews.py                       19      0      6      0 100.00%
+src/analysis/segues.py                        26      0      8      0 100.00%
+src/analysis/stationary.py                    21      0     10      1  96.77%   27->33
+src/analysis/stats.py                         21      0      0      0 100.00%
+src/analysis/timeseries.py                    17      0      6      1  95.65%   16->14
+src/analysis/tours.py                         16      0      6      1  95.45%   22->20
+src/analysis/transitions.py                   32      0      8      0 100.00%
+src/audit.py                                  87      0      6      0 100.00%
+src/cattheory/categories.py                   76     11     36      4  83.04%   48, 53-58, 66, 73-74, 82
+src/cattheory/colimits.py                     15      0      4      0 100.00%
+src/cattheory/enriched.py                     18      0      4      0 100.00%
+src/cattheory/functors.py                     40      1     18      1  96.55%   33
+src/cattheory/natural.py                      16      0      4      0 100.00%
+src/cattheory/opposite.py                      9      0      0      0 100.00%
+src/cattheory/spans.py                        22      0      0      0 100.00%
+src/cattheory/yoneda.py                       13      0      2      0 100.00%
+src/cli.py                                    93      1     20      1  98.23%   160
+src/export.py                                 42      0      0      0 100.00%
+src/honesty.py                                52      0     32      0 100.00%
+src/ingest/_vendor_fetch.py                   31     17      8      1  38.46%   48-64
+src/ingest/_yaml_utils.py                     15      6      8      3  52.17%   10-12, 17, 19, 23
+src/ingest/build.py                           56      5      6      1  87.10%   45-54
+src/ingest/fetch_alex_allan.py                52      6     26      7  83.33%   42->47, 48->59, 61->65, 63->65, 66-75, 77, 79
+src/ingest/fetch_bibliography.py             131      9     56     10  88.77%   42, 50-51, 71, 89, 91, 135, 138, 170, 196->198, 198->200
+src/ingest/fetch_cmu.py                       41      8      8      2  75.51%   34-38, 56, 67-68
+src/ingest/fetch_cmu_lyrics.py                40      7     12      4  75.00%   25, 33-36, 47, 52
+src/ingest/fetch_dead_net.py                  37     10     16      4  66.04%   28-32, 35, 39-40, 45, 48
+src/ingest/fetch_dead_net_songs.py            34      9     12      1  65.22%   40-48
+src/ingest/fetch_gratefulstats.py             30      3      6      0  91.67%   39, 41, 44
+src/ingest/fetch_internet_archive.py          45     34     16      0  18.03%   22-58, 63-74
+src/ingest/fetch_maximinus_reviews.py         55     10     14      4  79.71%   21, 25-26, 30-31, 40, 43, 65-66, 98
+src/ingest/fetch_setlistfm.py                 45     13     10      2  69.09%   28->49, 46, 54-66
+src/ingest/fetch_truckin_db.py                69      8     22      3  85.71%   29-35, 91, 92->95
+src/ingest/fetch_wikipedia.py                 97     31     36     12  61.65%   24-27, 35-37, 48, 52, 55, 66, 69->71, 76, 79, 93-108, 119-134
+src/ingest/gdshowsdb_yaml.py                  72      9     36     12  80.56%   20, 34, 36, 45, 48, 51, 57->59, 84, 88, 91, 103->107, 105->107
+src/ingest/geo_enrich.py                      32      5     10      3  80.95%   70, 103-104, 114-115
+src/ingest/lyric_pointer_enrich.py           102      4     44      8  91.78%   46, 48->50, 51->43, 62, 65, 123, 153->155, 157->161
+src/ingest/merge_sources.py                  343     56    156     37  79.76%   59, 74->65, 91-93, 106->105, 129->137, 139->155, 141->143, 143->145, 145->147, 147->149, 149->151, 151->153, 156->161, 158->161, 172->175, 182->181, 188-189, 192-193, 210-211, 213-214, 224->222, 227->232, 229-230, 240->246, 243-244, 254->253, 260-261, 266-267, 278->276, 282->288, 285-286, 298->297, 302-303, 308-315, 325-326, 329, 330->335, 332-333, 342-343, 347-359, 360->363, 363->372, 365->372, 369-370, 408->414, 412-413, 435
+src/ingest/remap_curated_refs.py              49     13     24      3  69.86%   17, 24, 31-39, 66-67
+src/ingest/write_archival_seed.py             70      5     32      6  89.22%   34->36, 37, 61, 68, 70, 147
+src/integration/aliases.py                     4      0      0      0 100.00%
+src/integration/reconcile.py                  81      1     22      1  98.06%   144
+src/integration/source_reconciliation.py      33      1      6      0  97.44%   26
+src/models.py                                184      1     66      2  98.80%   145, 151->153
+src/reporting/dashboard.py                    65      5     22      1  93.10%   118, 130-133
+src/reporting/entity_pages.py                 75      0     32      3  97.20%   67->69, 88->94, 95->102
+src/reporting/song_pages.py                   48      1     28      3  94.74%   30->35, 36, 51->53
+src/seed.py                                   50      2     10      0  96.67%   85-86
+src/sources/alex_allan.py                     12      0      2      0 100.00%
+src/sources/cmu_setlists.py                   58      1     20      2  96.15%   60, 104->97
+src/sources/dead_net.py                       13      0      0      0 100.00%
+src/sources/gdsets.py                         30      0      6      0 100.00%
+src/sources/gdshowsdb.py                      20      0      0      0 100.00%
+src/sources/internet_archive.py               47      1     12      1  96.61%   64
+src/sources/seed_bundle.py                    30      0      8      0 100.00%
+src/sources/setlist_program.py                55      1     18      1  97.26%   60
+src/sources/setlistfm.py                      40      0      8      0 100.00%
+src/sources/wikipedia.py                      16      0      2      0 100.00%
+src/tier.py                                   16      2      8      3  79.17%   15->17, 19, 25
+src/validation.py                             49      1     22      1  97.18%   41
+src/viz/alluvial.py                           94      7     20      3  91.23%   29-41, 91, 105
+src/viz/compose.py                           104      0     16      7  94.17%   76->79, 90->94, 100->103, 108->111, 119->123, 138->141, 142->146
+src/viz/figures.py                            66      2     12      3  93.59%   96-97, 109->107, 120->118
+src/viz/panels.py                            332      2     46      3  98.68%   51->53, 259, 276
+src/viz/style.py                              51      0     10      1  98.36%   104->106
+src/viz/validate.py                           60      1     10      2  95.71%   74, 80->82
+---------------------------------------------------------------------------------------
+TOTAL                                       3984    310   1236    174  89.35%
+FAIL Required test coverage of 90% not reached. Total coverage: 89.35%
+=========================== short test summary info ============================
+ERROR tests/test_fetch_adapters.py::test_fetch_lma_recordings_httpserver
+ERROR tests/test_fetch_adapters.py::test_gratefulstats_http_error
+ERROR tests/test_fetch_adapters.py::test_gratefulstats_api_probe
+ERROR tests/test_truckin_merge.py::test_ensure_truckin_downloads_when_missing
+======================== 261 passed, 4 errors in 18.21s ========================

@@ -1,0 +1,39 @@
+{
+  "columns": [
+    "era",
+    "n_shows"
+  ],
+  "figure": "shows_by_era.png",
+  "metadata": {},
+  "rows": [
+    [
+      "Primal",
+      681
+    ],
+    [
+      "Europe 72",
+      231
+    ],
+    [
+      "Wall of Sound",
+      156
+    ],
+    [
+      "Hiatus->Return",
+      335
+    ],
+    [
+      "Brent",
+      1356
+    ],
+    [
+      "Vince+Bruce",
+      575
+    ],
+    [
+      "Unknown",
+      7
+    ]
+  ],
+  "title": "Shows by Era"
+}

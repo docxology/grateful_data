@@ -1,0 +1,25 @@
+{
+  "Date category laws": {
+    "ok": true,
+    "n_objects": 2312,
+    "law_check": "sampled",
+    "issues": []
+  },
+  "Show category laws": {
+    "ok": true,
+    "n_objects": 3341,
+    "law_check": "sampled",
+    "issues": []
+  },
+  "setlist_functor monotone": true,
+  "lineup_functor monotone": true,
+  "active_lineup_presheaf expected_non_monotone": true,
+  "active_lineup_presheaf monotone": false,
+  "cardinality_eta naturality_holds": true,
+  "colimit_universal_property_holds": true,
+  "span_projections_commute_with_setlist_functor": true,
+  "yoneda_lemma_holds_for_setlist_at_mid_date": true,
+  "n_performance_spans": 40757,
+  "cumulative_setlist_cardinality_end": 449,
+  "cumulative_lineup_cardinality_end": 14
+}

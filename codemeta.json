@@ -1,0 +1,27 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "The Music Never Stopped — Grateful Data Compendium",
+  "description": "Modular Grateful Dead data compendium with category-theoretic interpretation.",
+  "license": "https://spdx.org/licenses/MIT.html",
+  "version": "1.0.0",
+  "datePublished": "2026-05-31",
+  "codeRepository": "https://github.com/docxology/grateful_data",
+  "programmingLanguage": "Python",
+  "runtimePlatform": "Python 3.10+",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Daniel Ari",
+      "familyName": "Friedman",
+      "@id": "https://orcid.org/0000-0001-6232-9096"
+    }
+  ],
+  "keywords": [
+    "grateful dead",
+    "setlist data",
+    "category theory",
+    "music information retrieval",
+    "data compendium"
+  ]
+}

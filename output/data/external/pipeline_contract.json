@@ -1,0 +1,41 @@
+{
+  "allowed_inputs": [
+    "http(s) URLs",
+    "source identifiers",
+    "optional cryptographic hashes",
+    "compact non-excerpt metadata"
+  ],
+  "allowed_outputs": [
+    "aggregate numeric metadata",
+    "source coverage counts",
+    "hash manifests",
+    "diagnostic logs without protected excerpts"
+  ],
+  "audio_feature_pipeline": [
+    "Resolve URL outside the repository.",
+    "Verify hash when a hash is present.",
+    "Compute external features in a user-controlled cache.",
+    "Export only aggregate metadata and reproducibility pointers."
+  ],
+  "forbidden_outputs": [
+    "audio",
+    "audio_bytes",
+    "audio_file",
+    "audio_path",
+    "derived_text",
+    "excerpt",
+    "local_path",
+    "lyric",
+    "lyric_text",
+    "lyrics",
+    "transcript",
+    "waveform"
+  ],
+  "lyric_annotation_pipeline": [
+    "Resolve lyric URL outside the repository.",
+    "Annotate externally without writing lyric text back to this repo.",
+    "Export only controlled vocabulary labels, counts, and provenance pointers."
+  ],
+  "schema": "grateful-data-external-pipeline-contract-v1",
+  "scope": "Future external audio or lyric analysis must remain pointer-only in this repository."
+}

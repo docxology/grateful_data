@@ -1,0 +1,913 @@
+rank,venue_slug,label,n_shows,cumulative_share_pct
+1,oakland_alameda_county_coliseum_arena_oakland,Oakland Alameda County Coliseum Arena Oakland,66,1.975456
+2,winterland_san_francisco,Winterland San Francisco,59,3.741395
+3,oakland_coliseum_oakland,Oakland Coliseum Oakland,55,5.387609
+4,spectrum_philadelphia,Spectrum Philadelphia,53,6.97396
+5,madison_square_garden_new_york,Madison Square Garden New York,52,8.53038
+6,fillmore_auditorium_san_francisco,Fillmore Auditorium San Francisco,47,9.937145
+7,the_spectrum_philadelphia,The Spectrum Philadelphia,45,11.284047
+8,fillmore_west_san_francisco,Fillmore West San Francisco,43,12.571087
+9,fillmore_east_new_york,Fillmore East New York,42,13.828195
+10,nassau_veterans_memorial_coliseum_uniondale,Nassau Veterans Memorial Coliseum Uniondale,42,15.085304
+11,shoreline_amphitheatre_mountain_view,Shoreline Amphitheatre Mountain View,39,16.252619
+12,nassau_coliseum_uniondale,Nassau Coliseum Uniondale,37,17.360072
+13,henry_j_kaiser_convention_center_oakland,Henry J Kaiser Convention Center Oakland,34,18.377731
+14,winterland_arena_san_francisco,Winterland Arena San Francisco,34,19.395391
+15,avalon_ballroom_san_francisco,Avalon Ballroom San Francisco,30,20.293325
+16,william_randolph_hearst_greek_theatre_uc_berkeley_berkeley,William Randolph Hearst Greek Theatre Uc Berkeley Berkeley,29,21.161329
+17,capital_centre_landover,Capital Centre Landover,26,21.939539
+18,cal_expo_amphitheatre_sacramento,Cal Expo Amphitheatre Sacramento,25,22.687818
+19,boston_garden_boston,Boston Garden Boston,24,23.406166
+20,oakland_auditorium_oakland,Oakland Auditorium Oakland,24,24.124514
+21,the_omni_atlanta,The Omni Atlanta,24,24.842861
+22,berkeley_community_theater_berkeley,Berkeley Community Theater Berkeley,23,25.531278
+23,oakland_auditorium_arena_oakland,Oakland Auditorium Arena Oakland,22,26.189764
+24,greek_theater_u_of_california_berkeley,Greek Theater U of California Berkeley,21,26.818318
+25,hampton_coliseum_hampton,Hampton Coliseum Hampton,21,27.446872
+26,warfield_theater_san_francisco,Warfield Theater San Francisco,21,28.075427
+27,alpine_valley_music_theatre_east_troy,Alpine Valley Music Theatre East Troy,20,28.67405
+28,red_rocks_amphitheater_morrison,Red Rocks Amphitheater Morrison,20,29.272673
+29,red_rocks_amphitheatre_morrison,Red Rocks Amphitheatre Morrison,20,29.871296
+30,warfield_theatre_san_francisco,Warfield Theatre San Francisco,20,30.469919
+31,providence_civic_center_providence,Providence Civic Center Providence,19,31.038611
+32,cal_expo_sacramento,Cal Expo Sacramento,18,31.577372
+33,hartford_civic_center_hartford,Hartford Civic Center Hartford,18,32.116133
+34,carousel_ballroom_san_francisco,Carousel Ballroom San Francisco,17,32.624963
+35,matrix_san_francisco,Matrix San Francisco,17,33.133792
+36,uptown_theater_chicago,Uptown Theater Chicago,17,33.642622
+37,uptown_theatre_chicago,Uptown Theatre Chicago,17,34.151452
+38,caf_au_go_go_new_york,Caf Au Go Go New York,16,34.63035
+39,capitol_theatre_port_chester,Capitol Theatre Port Chester,16,35.109249
+40,family_dog_on_the_great_highway_san_francisco,Family Dog on the Great Highway San Francisco,16,35.588147
+41,meadowlands_arena_east_rutherford,Meadowlands Arena East Rutherford,16,36.067046
+42,irvine_meadows_amphitheatre_irvine,Irvine Meadows Amphitheatre Irvine,15,36.516013
+43,music_hall_boston,Music Hall Boston,15,36.964981
+44,robert_f_kennedy_stadium_washington,Robert F Kennedy Stadium Washington,15,37.413948
+45,deer_creek_music_center_noblesville,Deer Creek Music Center Noblesville,14,37.832984
+46,frost_amphitheatre_stanford_university_palo_alto,Frost Amphitheatre Stanford University Palo Alto,14,38.25202
+47,giants_stadium_east_rutherford,Giants Stadium East Rutherford,14,38.671057
+48,hampton_roads_coliseum_hampton,Hampton Roads Coliseum Hampton,14,39.090093
+49,sam_boyd_silver_bowl_las_vegas,Sam Boyd Silver Bowl Las Vegas,14,39.509129
+50,alpine_valley_music_theater_east_troy,Alpine Valley Music Theater East Troy,13,39.898234
+51,knickerbocker_arena_albany,Knickerbocker Arena Albany,13,40.287339
+52,long_beach_arena_long_beach,Long Beach Arena Long Beach,13,40.676444
+53,mcnichols_sports_arena_denver,Mcnichols Sports Arena Denver,13,41.065549
+54,richfield_coliseum_richfield,Richfield Coliseum Richfield,13,41.454654
+55,rosemont_horizon_rosemont,Rosemont Horizon Rosemont,13,41.843759
+56,centrum_worcester,Centrum Worcester,12,42.202933
+57,charlotte_coliseum_charlotte,Charlotte Coliseum Charlotte,12,42.562107
+58,new_haven_coliseum_veterans_memorial_coliseum_new_haven,New Haven Coliseum Veterans Memorial Coliseum New Haven,11,42.89135
+59,the_centrum_worcester,The Centrum Worcester,11,43.220593
+60,ventura_county_fairgrounds_ventura,Ventura County Fairgrounds Ventura,11,43.549835
+61,veterans_memorial_coliseum_new_haven,Veterans Memorial Coliseum New Haven,11,43.879078
+62,auditorium_theatre_chicago,Auditorium Theatre Chicago,10,44.17839
+63,autzen_stadium_university_of_oregon_eugene,Autzen Stadium University of Oregon Eugene,10,44.477701
+64,capitol_theatre_passaic,Capitol Theatre Passaic,10,44.777013
+65,community_concourse_golden_hall_san_diego,Community Concourse Golden Hall San Diego,10,45.076324
+66,frost_amphitheater_stanford_u_palo_alto,Frost Amphitheater Stanford U Palo Alto,10,45.375636
+67,rochester_community_war_memorial_rochester,Rochester Community War Memorial Rochester,10,45.674948
+68,san_francisco_civic_auditorium_san_francisco,San Francisco Civic Auditorium San Francisco,10,45.974259
+69,san_francisco_civic_san_francisco,San Francisco Civic San Francisco,10,46.273571
+70,springfield_civic_center_arena_springfield,Springfield Civic Center Arena Springfield,10,46.572882
+71,fox_theater_atlanta,Fox Theater Atlanta,9,46.842263
+72,fox_theatre_atlanta,Fox Theatre Atlanta,9,47.111643
+73,irvine_meadows_amphitheater_laguna_hills,Irvine Meadows Amphitheater Laguna Hills,9,47.381024
+74,pittsburgh_civic_arena_pittsburgh,Pittsburgh Civic Arena Pittsburgh,9,47.650404
+75,rfk_stadium_washington,Rfk Stadium Washington,9,47.919784
+76,shrine_exhibition_hall_los_angeles,Shrine Exhibition Hall Los Angeles,9,48.189165
+77,soldier_field_chicago,Soldier Field Chicago,9,48.458545
+78,autzen_stadium_eugene,Autzen Stadium Eugene,8,48.697995
+79,boston_music_hall_boston,Boston Music Hall Boston,8,48.937444
+80,compton_terrace_tempe,Compton Terrace Tempe,8,49.176893
+81,cumberland_county_civic_center_portland,Cumberland County Civic Center Portland,8,49.416342
+82,fox_theatre_st_louis,Fox Theatre St Louis,8,49.655792
+83,golden_hall_san_diego,Golden Hall San Diego,8,49.895241
+84,kinetic_playground_chicago,Kinetic Playground Chicago,8,50.13469
+85,o_keefe_centre_toronto,O Keefe Centre Toronto,8,50.374139
+86,radio_city_music_hall_new_york,Radio City Music Hall New York,8,50.613589
+87,rainbow_theater_london,Rainbow Theater London,8,50.853038
+88,rainbow_theatre_london,Rainbow Theatre London,8,51.092487
+89,soldiers_sailors_memorial_hall_kansas_city,Soldiers Sailors Memorial Hall Kansas City,8,51.331937
+90,springfield_civic_center_springfield,Springfield Civic Center Springfield,8,51.571386
+91,the_palace_auburn_hills,The Palace Auburn Hills,8,51.810835
+92,war_memorial_auditorium_rochester,War Memorial Auditorium Rochester,8,52.050284
+93,academy_of_music_new_york,Academy of Music New York,7,52.259802
+94,brendan_byrne_arena_east_rutherford,Brendan Byrne Arena East Rutherford,7,52.469321
+95,capitol_theater_passaic,Capitol Theater Passaic,7,52.678839
+96,deer_creek_noblesville,Deer Creek Noblesville,7,52.888357
+97,eagles_auditorium_seattle,Eagles Auditorium Seattle,7,53.097875
+98,great_western_forum_inglewood,Great Western Forum Inglewood,7,53.307393
+99,greensboro_coliseum_greensboro,Greensboro Coliseum Greensboro,7,53.516911
+100,henry_j_kaiser_auditorium_oakland,Henry J Kaiser Auditorium Oakland,7,53.726429
+101,kiel_auditorium_st_louis,Kiel Auditorium St Louis,7,53.935947
+102,kings_beach_bowl_lake_tahoe,Kings Beach Bowl Lake Tahoe,7,54.145465
+103,longshoreman_s_hall_san_francisco,Longshoreman S Hall San Francisco,7,54.354984
+104,los_angeles_memorial_sports_arena_los_angeles,Los Angeles Memorial Sports Arena Los Angeles,7,54.564502
+105,onondaga_county_war_memorial_syracuse,Onondaga County War Memorial Syracuse,7,54.77402
+106,roosevelt_stadium_jersey_city,Roosevelt Stadium Jersey City,7,54.983538
+107,shoreline_amphitheater_mountain_view,Shoreline Amphitheater Mountain View,7,55.193056
+108,baltimore_civic_center_baltimore,Baltimore Civic Center Baltimore,6,55.372643
+109,boston_tea_party_boston,Boston Tea Party Boston,6,55.55223
+110,dane_county_coliseum_madison,Dane County Coliseum Madison,6,55.731817
+111,electric_circus_new_york,Electric Circus New York,6,55.911404
+112,irvine_meadows_irvine,Irvine Meadows Irvine,6,56.090991
+113,madison_square_garden_new_york_city,Madison Square Garden New York City,6,56.270578
+114,madison_square_garden_nyc,Madison Square Garden Nyc,6,56.450165
+115,marin_county_veteran_s_auditorium_san_rafael,Marin County Veteran S Auditorium San Rafael,6,56.629752
+116,marin_veterans_memorial_auditorium_san_rafael,Marin Veterans Memorial Auditorium San Rafael,6,56.809339
+117,merriweather_post_pavilion_columbia,Merriweather Post Pavilion Columbia,6,56.988925
+118,miami_arena_miami,Miami Arena Miami,6,57.168512
+119,oakland_coliseum_arena_oakland,Oakland Coliseum Arena Oakland,6,57.348099
+120,orpheum_theatre_san_francisco,Orpheum Theatre San Francisco,6,57.527686
+121,panhandle_golden_gate_park_san_francisco,Panhandle Golden Gate Park San Francisco,6,57.707273
+122,paramount_theatre_portland,Paramount Theatre Portland,6,57.88686
+123,pauley_pavilion_ucla_los_angeles,Pauley Pavilion Ucla Los Angeles,6,58.066447
+124,pritchard_gym_s_u_n_y_stony_brook,Pritchard Gym S U N Y Stony Brook,6,58.246034
+125,sacramento_memorial_auditorium_sacramento,Sacramento Memorial Auditorium Sacramento,6,58.425621
+126,shoreline_mountain_view,Shoreline Mountain View,6,58.605208
+127,silva_concert_hall_hult_center_for_the_performing_arts_eugene,Silva Concert Hall Hult Center For the Performing Arts Eugene,6,58.784795
+128,silva_hall_hult_center_eugene,Silva Hall Hult Center Eugene,6,58.964382
+129,st_paul_civic_center_arena_st_paul,St Paul Civic Center Arena St Paul,6,59.143969
+130,stanley_theatre_pittsburgh,Stanley Theatre Pittsburgh,6,59.323556
+131,the_rock_garden_san_francisco,The Rock Garden San Francisco,6,59.503143
+132,thee_image_sunny_isles_beach,Thee Image Sunny Isles Beach,6,59.68273
+133,whisky_a_go_go_san_francisco,Whisky a Go Go San Francisco,6,59.862317
+134,berkeley_community_theatre_berkeley,Berkeley Community Theatre Berkeley,5,60.011972
+135,buckeye_lake_music_center_thornville,Buckeye Lake Music Center Thornville,5,60.161628
+136,buffalo_memorial_auditorium_buffalo,Buffalo Memorial Auditorium Buffalo,5,60.311284
+137,capitol_centre_landover,Capitol Centre Landover,5,60.46094
+138,civic_convention_hall_auditorium_philadelphia,Civic Convention Hall Auditorium Philadelphia,5,60.610596
+139,compton_terrace_amphitheater_tempe,Compton Terrace Amphitheater Tempe,5,60.760251
+140,compton_terrace_amphitheatre_chandler,Compton Terrace Amphitheatre Chandler,5,60.909907
+141,continental_ballroom_santa_clara,Continental Ballroom Santa Clara,5,61.059563
+142,electric_factory_philadelphia,Electric Factory Philadelphia,5,61.209219
+143,laguna_seca_raceway_salinas,Laguna Seca Raceway Salinas,5,61.358875
+144,manor_downs_austin,Manor Downs Austin,5,61.50853
+145,mcnichols_arena_denver,Mcnichols Arena Denver,5,61.658186
+146,nbc_studios_new_york,Nbc Studios New York,5,61.807842
+147,oakland_alameda_county_coliseum_stadium_oakand,Oakland Alameda County Coliseum Stadium Oakand,5,61.957498
+148,philadelphia_civic_center_philadelphia,Philadelphia Civic Center Philadelphia,5,62.107154
+149,portland_memorial_coliseum_portland,Portland Memorial Coliseum Portland,5,62.256809
+150,rich_stadium_buffalo,Rich Stadium Buffalo,5,62.406465
+151,seattle_center_coliseum_seattle,Seattle Center Coliseum Seattle,5,62.556121
+152,seattle_center_memorial_stadium_seattle,Seattle Center Memorial Stadium Seattle,5,62.705777
+153,soldiers_and_sailors_memorial_hall_kansas_city,Soldiers and Sailors Memorial Hall Kansas City,5,62.855433
+154,st_paul_civic_center_st_paul,St Paul Civic Center St Paul,5,63.005088
+155,the_palladium_new_york,The Palladium New York,5,63.154744
+156,war_memorial_auditorium_buffalo,War Memorial Auditorium Buffalo,5,63.3044
+157,46th_street_rock_palace_brooklyn,46th Street Rock Palace Brooklyn,4,63.424125
+158,alpine_valley_east_troy,Alpine Valley East Troy,4,63.543849
+159,california_exposition_amphitheater_sacramento,California Exposition Amphitheater Sacramento,4,63.663574
+160,cameron_indoor_stadium_duke_university_durham,Cameron Indoor Stadium Duke University Durham,4,63.783298
+161,cleveland_music_hall_cleveland,Cleveland Music Hall Cleveland,4,63.903023
+162,copps_coliseum_hamilton,Copps Coliseum Hamilton,4,64.022748
+163,curtis_hixon_convention_hall_tampa,Curtis Hixon Convention Hall Tampa,4,64.142472
+164,felt_forum_madison_square_garden_new_york,Felt Forum Madison Square Garden New York,4,64.262197
+165,freedom_hall_louisville,Freedom Hall Louisville,4,64.381922
+166,giants_stadium_meadowlands_sports_complex_east_rutherford,Giants Stadium Meadowlands Sports Complex East Rutherford,4,64.501646
+167,glenns_falls_civic_center_glenns_falls,Glenns Falls Civic Center Glenns Falls,4,64.621371
+168,glens_falls_civic_center_glen_falls,Glens Falls Civic Center Glen Falls,4,64.741095
+169,grande_ballroom_detroit,Grande Ballroom Detroit,4,64.86082
+170,greek_theatre_berkeley,Greek Theatre Berkeley,4,64.980545
+171,hollywood_palladium_hollywood,Hollywood Palladium Hollywood,4,65.100269
+172,honolulu_civic_auditorium_honolulu,Honolulu Civic Auditorium Honolulu,4,65.219994
+173,l_a_sports_arena_los_angeles,L a Sports Arena Los Angeles,4,65.339719
+174,lyceum_london,Lyceum London,4,65.459443
+175,magoo_s_pizza_parlor_menlo_park,Magoo S Pizza Parlor Menlo Park,4,65.579168
+176,melodyland_theatre_anaheim,Melodyland Theatre Anaheim,4,65.698893
+177,metropolitan_sports_center_bloomington,Metropolitan Sports Center Bloomington,4,65.818617
+178,orlando_arena_orlando,Orlando Arena Orlando,4,65.938342
+179,paramount_northwest_theatre_seattle,Paramount Northwest Theatre Seattle,4,66.058066
+180,paramount_theater_portland,Paramount Theater Portland,4,66.177791
+181,philadelphia_spectrum_philadelphia,Philadelphia Spectrum Philadelphia,4,66.297516
+182,pine_knob_music_theatre_clarkston,Pine Knob Music Theatre Clarkston,4,66.41724
+183,polo_field_golden_gate_park_san_francisco,Polo Field Golden Gate Park San Francisco,4,66.536965
+184,psychedelic_supermarket_boston,Psychedelic Supermarket Boston,4,66.65669
+185,richmond_coliseum_richmond,Richmond Coliseum Richmond,4,66.776414
+186,riverport_amphitheatre_maryland_heights,Riverport Amphitheatre Maryland Heights,4,66.896139
+187,san_diego_sports_arena_san_diego,San Diego Sports Arena San Diego,4,67.015864
+188,santa_venetia_armory_san_rafael,Santa Venetia Armory San Rafael,4,67.135588
+189,saratoga_performing_arts_center_saratoga_springs,Saratoga Performing Arts Center Saratoga Springs,4,67.255313
+190,seattle_center_arena_seattle,Seattle Center Arena Seattle,4,67.375037
+191,selland_arena_fresno,Selland Arena Fresno,4,67.494762
+192,shrine_auditorium_los_angeles,Shrine Auditorium Los Angeles,4,67.614487
+193,sportatorium_pembroke_pines,Sportatorium Pembroke Pines,4,67.734211
+194,stanley_theater_pittsburgh,Stanley Theater Pittsburgh,4,67.853936
+195,stockton_ballroom_stockton,Stockton Ballroom Stockton,4,67.973661
+196,straight_theater_san_francisco,Straight Theater San Francisco,4,68.093385
+197,swing_auditorium_san_bernardino,Swing Auditorium San Bernardino,4,68.21311
+198,the_sportatorium_hollywood,The Sportatorium Hollywood,4,68.332834
+199,the_strand_lyceum_london,The Strand Lyceum London,4,68.452559
+200,tower_theater_upper_darby,Tower Theater Upper Darby,4,68.572284
+201,utica_memorial_auditorium_utica,Utica Memorial Auditorium Utica,4,68.692008
+202,veterans_memorial_auditorium_santa_rosa,Veterans Memorial Auditorium Santa Rosa,4,68.811733
+203,william_and_mary_hall_college_of_william_and_mary_williamsburg,William and Mary Hall College of William and Mary Williamsburg,4,68.931458
+204,aladdin_theater_las_vegas,Aladdin Theater Las Vegas,3,69.021251
+205,alexandra_palace_london,Alexandra Palace London,3,69.111045
+206,assembly_hall_uiuc_champaign,Assembly Hall Uiuc Champaign,3,69.200838
+207,augusta_civic_center_augusta,Augusta Civic Center Augusta,3,69.290632
+208,austin_municipal_auditorium_austin,Austin Municipal Auditorium Austin,3,69.380425
+209,barton_hall_cornell_u_ithaca,Barton Hall Cornell U Ithaca,3,69.470218
+210,barton_hall_cornell_university_ithaca,Barton Hall Cornell University Ithaca,3,69.560012
+211,blockbuster_desert_sky_pavilion_phoenix,Blockbuster Desert Sky Pavilion Phoenix,3,69.649805
+212,boston_music_mall_boston,Boston Music Mall Boston,3,69.739599
+213,broome_county_arena_binghamton,Broome County Arena Binghamton,3,69.829392
+214,buckeye_lake_music_center_hebron,Buckeye Lake Music Center Hebron,3,69.919186
+215,cap_centre_landover,Cap Centre Landover,3,70.008979
+216,carrier_dome_syracuse_u_syracuse,Carrier Dome Syracuse U Syracuse,3,70.098773
+217,carrier_dome_syracuse_university_syracuse,Carrier Dome Syracuse University Syracuse,3,70.188566
+218,civic_arena_pittsburgh,Civic Arena Pittsburgh,3,70.27836
+219,civic_center_hartford,Civic Center Hartford,3,70.368153
+220,civic_center_roanoke,Civic Center Roanoke,3,70.457947
+221,cleveland_public_hall_cleveland,Cleveland Public Hall Cleveland,3,70.54774
+222,club_melk_weg_amsterdam,Club Melk Weg Amsterdam,3,70.637534
+223,coliseum_hampton,Coliseum Hampton,3,70.727327
+224,crisler_arena_university_of_michigan_ann_arbor,Crisler Arena University of Michigan Ann Arbor,3,70.817121
+225,deer_creek_music_pavillion_noblesville,Deer Creek Music Pavillion Noblesville,3,70.906914
+226,delta_center_salt_lake_city,Delta Center Salt Lake City,3,70.996708
+227,downs_of_santa_fe_santa_fe,Downs of Santa Fe Santa Fe,3,71.086501
+228,embassy_ballroom_a_k_a_banana_grove_ambassador_hotel_los_angeles,Embassy Ballroom a K a Banana Grove Ambassador Hotel Los Angeles,3,71.176295
+229,emu_ballroom_university_of_oregon_eugene,Emu Ballroom University of Oregon Eugene,3,71.266088
+230,fieldhouse_university_of_iowa_iowa_city,Fieldhouse University of Iowa Iowa City,3,71.355881
+231,folsom_field_university_of_colorado_boulder_boulder,Folsom Field University of Colorado Boulder Boulder,3,71.445675
+232,forum_los_angeles,Forum Los Angeles,3,71.535468
+233,freeborn_hall_uc_davis_davis,Freeborn Hall Uc Davis Davis,3,71.625262
+234,gizah_sound_and_light_theater_cairo,Gizah Sound and Light Theater Cairo,3,71.715055
+235,harder_stadium_uc_santa_barbara_goleta,Harder Stadium Uc Santa Barbara Goleta,3,71.804849
+236,hofheinz_pavilion_houston,Hofheinz Pavilion Houston,3,71.894642
+237,hollywood_bowl_hollywood,Hollywood Bowl Hollywood,3,71.984436
+238,hyde_park_teen_center_cincinnati,Hyde Park Teen Center Cincinnati,3,72.074229
+239,i_d_e_s_hall_pescadero,I D E S Hall Pescadero,3,72.164023
+240,jai_alai_fronton_miami,Jai Alai Fronton Miami,3,72.253816
+241,la_forum_los_angeles,La Forum Los Angeles,3,72.34361
+242,lakeland_civic_center_arena_lakeland,Lakeland Civic Center Arena Lakeland,3,72.433403
+243,lakeland_civic_center_lakeland,Lakeland Civic Center Lakeland,3,72.523197
+244,legion_stadium_el_monte,Legion Stadium El Monte,3,72.61299
+245,lion_s_share_san_anselmo,Lion S Share San Anselmo,3,72.702784
+246,los_angeles_sports_arena_los_angeles,Los Angeles Sports Arena Los Angeles,3,72.792577
+247,macarthur_court_university_of_oregon_eugene,Macarthur Court University of Oregon Eugene,3,72.882371
+248,manhattan_center_new_york,Manhattan Center New York,3,72.972164
+249,market_square_arena_indianapolis,Market Square Arena Indianapolis,3,73.061957
+250,oakland_arena_oakland,Oakland Arena Oakland,3,73.151751
+251,onondaga_war_memorial_auditorium_syracuse,Onondaga War Memorial Auditorium Syracuse,3,73.241544
+252,p_n_e_garden_auditorium_vancouver,P N E Garden Auditorium Vancouver,3,73.331338
+253,palm_gardens_new_york,Palm Gardens New York,3,73.421131
+254,pavilion_u_illinois_at_chicago_chicago,Pavilion U Illinois At Chicago Chicago,3,73.510925
+255,rich_stadium_orchard_park,Rich Stadium Orchard Park,3,73.600718
+256,roanoke_civic_center_roanoke,Roanoke Civic Center Roanoke,3,73.690512
+257,robertson_gym_uc_santa_barbara_goleta,Robertson Gym Uc Santa Barbara Goleta,3,73.780305
+258,rose_palace_pasadena,Rose Palace Pasadena,3,73.870099
+259,rosemont_horizon_chicago,Rosemont Horizon Chicago,3,73.959892
+260,saenger_performing_arts_center_new_orleans,Saenger Performing Arts Center New Orleans,3,74.049686
+261,sandstone_amphitheater_bonner_springs,Sandstone Amphitheater Bonner Springs,3,74.139479
+262,santa_fe_downs_santa_fe,Santa Fe Downs Santa Fe,3,74.229273
+263,seattle_center_memorial_coliseum_seattle,Seattle Center Memorial Coliseum Seattle,3,74.319066
+264,seattle_center_seattle,Seattle Center Seattle,3,74.40886
+265,shoreline_amphitheatre_mt_view,Shoreline Amphitheatre Mt View,3,74.498653
+266,shoreline_ampitheatre_mountain_view,Shoreline Ampitheatre Mountain View,3,74.588447
+267,soldiers_field_chicago,Soldiers Field Chicago,3,74.67824
+268,son_et_lumiere_theater_giza,Son Et Lumiere Theater Giza,3,74.768034
+269,springer_s_inn_gresham,Springer S Inn Gresham,3,74.857827
+270,stanley_theatre_jersey_city,Stanley Theatre Jersey City,3,74.94762
+271,starlight_theater_kansas_city,Starlight Theater Kansas City,3,75.037414
+272,starlight_theatre_kansas_city,Starlight Theatre Kansas City,3,75.127207
+273,sullivan_stadium_foxboro,Sullivan Stadium Foxboro,3,75.217001
+274,the_ark_boston,The Ark Boston,3,75.306794
+275,the_bank_torrance,The Bank Torrance,3,75.396588
+276,the_summit_houston,The Summit Houston,3,75.486381
+277,the_warehouse_new_orleans,The Warehouse New Orleans,3,75.576175
+278,thelma_los_angeles,Thelma Los Angeles,3,75.665968
+279,tower_theatre_upper_darby,Tower Theatre Upper Darby,3,75.755762
+280,uic_pavilion_university_of_illinois_chicago_chicago,Uic Pavilion University of Illinois Chicago Chicago,3,75.845555
+281,universal_amphitheatre_universal_city,Universal Amphitheatre Universal City,3,75.935349
+282,usair_arena_landover,Usair Arena Landover,3,76.025142
+283,veterans_memorial_auditorium_columbus,Veterans Memorial Auditorium Columbus,3,76.114936
+284,wembley_arena_london,Wembley Arena London,3,76.204729
+285,west_high_auditorium_anchorage,West High Auditorium Anchorage,3,76.294523
+286,world_amphitheatre_tinley_park,World Amphitheatre Tinley Park,3,76.384316
+287,world_music_theatre_tinley_park,World Music Theatre Tinley Park,3,76.47411
+288,zoo_amphitheater_oklahoma_city,Zoo Amphitheater Oklahoma City,3,76.563903
+289,zoo_amphitheatre_oklahoma_city,Zoo Amphitheatre Oklahoma City,3,76.653696
+290,action_house_island_park,Action House Island Park,2,76.713559
+291,american_institute_of_aeronautics_and_astronautics_hall_los_angeles,American Institute of Aeronautics and Astronautics Hall Los Angeles,2,76.773421
+292,assembly_hall_u_of_illinois_champaign_urbana,Assembly Hall U of Illinois Champaign Urbana,2,76.833283
+293,atwood_hall_clark_university_worcester,Atwood Hall Clark University Worcester,2,76.893146
+294,auditorium_theater_chicago,Auditorium Theater Chicago,2,76.953008
+295,autzen_stadium_u_of_oregon_eugene,Autzen Stadium U of Oregon Eugene,2,77.01287
+296,bayfront_center_arena_st_petersburg,Bayfront Center Arena St Petersburg,2,77.072733
+297,bayfront_center_st_petersburg,Bayfront Center St Petersburg,2,77.132595
+298,beacon_theatre_new_york,Beacon Theatre New York,2,77.192457
+299,birmingham_jefferson_civic_center_coliseum_birmingham,Birmingham Jefferson Civic Center Coliseum Birmingham,2,77.25232
+300,birmingham_jefferson_convention_complex_coliseum_birmingham,Birmingham Jefferson Convention Complex Coliseum Birmingham,2,77.312182
+301,blossom_music_center_cuyahoga_falls,Blossom Music Center Cuyahoga Falls,2,77.372044
+302,boutwell_auditorium_birmingham,Boutwell Auditorium Birmingham,2,77.431907
+303,cal_state_dominguez_hills_carson,Cal State Dominguez Hills Carson,2,77.491769
+304,calavaras_county_fairgrounds_angel_s_camp,Calavaras County Fairgrounds Angel S Camp,2,77.551631
+305,calaveras_county_fairgrounds_angels_camp,Calaveras County Fairgrounds Angels Camp,2,77.611494
+306,california_hall_san_francisco,California Hall San Francisco,2,77.671356
+307,california_state_u_dominguez_hills_carson,California State U Dominguez Hills Carson,2,77.731218
+308,cameron_indoor_stadium_duke_u_durham,Cameron Indoor Stadium Duke U Durham,2,77.791081
+309,cameron_indoor_stadium_durham,Cameron Indoor Stadium Durham,2,77.850943
+310,campus_stadium_uc_santa_barbara_goleta,Campus Stadium Uc Santa Barbara Goleta,2,77.910805
+311,cape_cod_coliseum_south_yarmouth,Cape Cod Coliseum South Yarmouth,2,77.970667
+312,central_park_new_york,Central Park New York,2,78.03053
+313,chrysler_arena_ann_arbor,Chrysler Arena Ann Arbor,2,78.090392
+314,city_island_harrisburg,City Island Harrisburg,2,78.150254
+315,civic_center_arena_springfield,Civic Center Arena Springfield,2,78.210117
+316,civic_center_baltimore,Civic Center Baltimore,2,78.269979
+317,civic_center_music_hall_oklahoma_city,Civic Center Music Hall Oklahoma City,2,78.329841
+318,clifford_s_catering_walnut_creek,Clifford S Catering Walnut Creek,2,78.389704
+319,cobo_arena_detroit,Cobo Arena Detroit,2,78.449566
+320,coronation_park_toronto,Coronation Park Toronto,2,78.509428
+321,cow_palace_daly_city,Cow Palace Daly City,2,78.569291
+322,crystal_ballroom_portland,Crystal Ballroom Portland,2,78.629153
+323,dance_hall_rio_nido,Dance Hall Rio Nido,2,78.689015
+324,dante_s_inferno_vancouver,Dante S Inferno Vancouver,2,78.748878
+325,dean_e_smith_center_unversity_of_north_carolina_chapel_hill,Dean E Smith Center Unversity of North Carolina Chapel Hill,2,78.80874
+326,deer_creek_amphitheater_noblesville,Deer Creek Amphitheater Noblesville,2,78.868602
+327,denver_coliseum_denver,Denver Coliseum Denver,2,78.928465
+328,des_moines_civic_center_des_moines,Des Moines Civic Center Des Moines,2,78.988327
+329,desert_sky_pavilion_phoenix,Desert Sky Pavilion Phoenix,2,79.048189
+330,dillon_stadium_hartford,Dillon Stadium Hartford,2,79.108051
+331,dream_bowl_vallejo,Dream Bowl Vallejo,2,79.167914
+332,eastown_theatre_detroit,Eastown Theatre Detroit,2,79.227776
+333,empire_pool_london,Empire Pool London,2,79.287638
+334,empire_pool_wembley,Empire Pool Wembley,2,79.347501
+335,euphoria_san_rafael,Euphoria San Rafael,2,79.407363
+336,family_dog_denver,Family Dog Denver,2,79.467225
+337,folsom_field_u_of_colorado_boulder,Folsom Field U of Colorado Boulder,2,79.527088
+338,franklin_county_field_highgate,Franklin County Field Highgate,2,79.58695
+339,freedom_hall_lousville,Freedom Hall Lousville,2,79.646812
+340,frost_amphitheatre_stanford,Frost Amphitheatre Stanford,2,79.706675
+341,giant_s_stadium_east_rutherford,Giant S Stadium East Rutherford,2,79.766537
+342,gill_coliseum_oregon_state_university_corvallis,Gill Coliseum Oregon State University Corvallis,2,79.826399
+343,grand_prix_racecourse_watkins_glen,Grand Prix Racecourse Watkins Glen,2,79.886262
+344,gruga_halle_essen,Gruga Halle Essen,2,79.946124
+345,grugahalle_essen,Grugahalle Essen,2,80.005986
+346,harding_theater_san_francisco,Harding Theater San Francisco,2,80.065849
+347,hill_auditorium_ann_arbor,Hill Auditorium Ann Arbor,2,80.125711
+348,hjk,Hjk,2,80.185573
+349,i_c_c_berlin,I C C Berlin,2,80.245435
+350,international_amphitheatre_chicago,International Amphitheatre Chicago,2,80.305298
+351,internationales_congress_centrum_berlin,Internationales Congress Centrum Berlin,2,80.36516
+352,john_f_kennedy_stadium_philadelphia,John F Kennedy Stadium Philadelphia,2,80.425022
+353,kansas_city_municipal_auditorium_kansas_city,Kansas City Municipal Auditorium Kansas City,2,80.484885
+354,kezar_stadium_san_francisco,Kezar Stadium San Francisco,2,80.544747
+355,kingswood_music_theatre_maple,Kingswood Music Theatre Maple,2,80.604609
+356,kpix_tv_studios_san_francisco,Kpix Tv Studios San Francisco,2,80.664472
+357,labor_temple_minneapolis,Labor Temple Minneapolis,2,80.724334
+358,laguna_seca_raceway_monterey,Laguna Seca Raceway Monterey,2,80.784196
+359,laguna_seca_unknown,Laguna Seca Unknown,2,80.844059
+360,las_vegas_convention_center_las_vegas,Las Vegas Convention Center Las Vegas,2,80.903921
+361,lindley_meadow_golden_gate_park_san_francisco,Lindley Meadow Golden Gate Park San Francisco,2,80.963783
+362,lyric_theater_baltimore,Lyric Theater Baltimore,2,81.023646
+363,mammoth_gardens_denver,Mammoth Gardens Denver,2,81.083508
+364,marion_shea_auditorium_paterson_state_college_wayne,Marion Shea Auditorium Paterson State College Wayne,2,81.14337
+365,mcarthur_court_u_of_oregon_eugene,Mcarthur Court U of Oregon Eugene,2,81.203233
+366,mecca_milwaukee,Mecca Milwaukee,2,81.263095
+367,melk_weg_amsterdam,Melk Weg Amsterdam,2,81.322957
+368,memorial_auditorium_utica,Memorial Auditorium Utica,2,81.38282
+369,memorial_hall_kansas_city,Memorial Hall Kansas City,2,81.442682
+370,memorial_stadium_seattle,Memorial Stadium Seattle,2,81.502544
+371,milwaukee_auditorium_milwaukee,Milwaukee Auditorium Milwaukee,2,81.562406
+372,music_hall_municipal_auditorium_kansas_city,Music Hall Municipal Auditorium Kansas City,2,81.622269
+373,nashville_municipal_auditorium_nashville,Nashville Municipal Auditorium Nashville,2,81.682131
+374,national_guard_armory_st_louis,National Guard Armory St Louis,2,81.741993
+375,ny_state_pavilion_flushing_meadows_park_new_york,Ny State Pavilion Flushing Meadows Park New York,2,81.801856
+376,oakland_alameda_co_coliseum_oakland,Oakland Alameda Co Coliseum Oakland,2,81.861718
+377,oakland_coliseum_stadium_oakland,Oakland Coliseum Stadium Oakland,2,81.92158
+378,oklahoma_city_music_hall_oklahoma_city,Oklahoma City Music Hall Oklahoma City,2,81.981443
+379,olympia_halle_munich,Olympia Halle Munich,2,82.041305
+380,olympia_paris,Olympia Paris,2,82.101167
+381,olympia_theater_paris,Olympia Theater Paris,2,82.16103
+382,olympiahalle_munich,Olympiahalle Munich,2,82.220892
+383,omaha_civic_auditorium_omaha,Omaha Civic Auditorium Omaha,2,82.280754
+384,oxford_plains_speedway_oxford,Oxford Plains Speedway Oxford,2,82.340617
+385,p_n_e_coliseum_vancouver,P N E Coliseum Vancouver,2,82.400479
+386,palace_theater_waterbury,Palace Theater Waterbury,2,82.460341
+387,palais_des_sports_paris,Palais Des Sports Paris,2,82.520204
+388,park_west_ski_resort_salt_lake_city,Park West Ski Resort Salt Lake City,2,82.580066
+389,parkwest_ski_resort_park_city,Parkwest Ski Resort Park City,2,82.639928
+390,patrick_field_house_u_of_vermont_burlington,Patrick Field House U of Vermont Burlington,2,82.69979
+391,patrick_gymnasium_university_of_vermont_burlington,Patrick Gymnasium University of Vermont Burlington,2,82.759653
+392,pauley_ballroom_uc_berkeley_berkeley,Pauley Ballroom Uc Berkeley Berkeley,2,82.819515
+393,performing_arts_center_milwaukee,Performing Arts Center Milwaukee,2,82.879377
+394,phoenix_star_theatre_phoenix,Phoenix Star Theatre Phoenix,2,82.93924
+395,pine_knob_music_theater_clarkstown,Pine Knob Music Theater Clarkstown,2,82.999102
+396,pioneer_ballroom_suisun_city,Pioneer Ballroom Suisun City,2,83.058964
+397,pirates_world_dania,Pirates World Dania,2,83.118827
+398,poplar_creek_music_theatre_hoffman_estates,Poplar Creek Music Theatre Hoffman Estates,2,83.178689
+399,poplar_creek_pavilion_poplar_creek,Poplar Creek Pavilion Poplar Creek,2,83.238551
+400,portland_meadows_portland,Portland Meadows Portland,2,83.298414
+401,rancho_olompali_novato,Rancho Olompali Novato,2,83.358276
+402,rec_hall_penn_state_u_state_college,Rec Hall Penn State U State College,2,83.418138
+403,recreation_hall_pennsylvania_state_university_university_park,Recreation Hall Pennsylvania State University University Park,2,83.478001
+404,rfk_stadium_washington_dc,Rfk Stadium Washington Dc,2,83.537863
+405,river_bend_music_center_cincinnati,River Bend Music Center Cincinnati,2,83.597725
+406,riverbend_music_center_cincinnati,Riverbend Music Center Cincinnati,2,83.657588
+407,riverfront_arena_cincinnati,Riverfront Arena Cincinnati,2,83.71745
+408,riverport_amphitheatre_st_louis,Riverport Amphitheatre St Louis,2,83.777312
+409,rock_pile_toronto,Rock Pile Toronto,2,83.837174
+410,salt_palace_salt_lake_city,Salt Palace Salt Lake City,2,83.897037
+411,sam_houston_coliseum_houston,Sam Houston Coliseum Houston,2,83.956899
+412,san_antonio_municipal_auditorium_san_antonio,San Antonio Municipal Auditorium San Antonio,2,84.016761
+413,santa_monica_civic_auditorium_santa_monica,Santa Monica Civic Auditorium Santa Monica,2,84.076624
+414,seminole_indian_village_west_hollywood,Seminole Indian Village West Hollywood,2,84.136486
+415,shoreline_amphitheater,Shoreline Amphitheater,2,84.196348
+416,shoreline_amphitheater_shoreline,Shoreline Amphitheater Shoreline,2,84.256211
+417,silver_stadium_rochester,Silver Stadium Rochester,2,84.316073
+418,southern_illinois_university_mississippi_river_festival_edwardsville,Southern Illinois University Mississippi River Festival Edwardsville,2,84.375935
+419,star_lake_amphitheater_burgettstown,Star Lake Amphitheater Burgettstown,2,84.435798
+420,state_fairgrounds_des_moines,State Fairgrounds Des Moines,2,84.49566
+421,student_union_ballroom_university_of_utah_salt_lake_city,Student Union Ballroom University of Utah Salt Lake City,2,84.555522
+422,the_cheetah_venice,The Cheetah Venice,2,84.615385
+423,the_greek_theatre_berkeley,The Greek Theatre Berkeley,2,84.675247
+424,the_hippodrome_san_diego,The Hippodrome San Diego,2,84.735109
+425,the_hullabaloo_hollywood,The Hullabaloo Hollywood,2,84.794972
+426,the_mecca_milwaukee,The Mecca Milwaukee,2,84.854834
+427,the_music_box_omaha,The Music Box Omaha,2,84.914696
+428,the_palace_theater_waterbury,The Palace Theater Waterbury,2,84.974559
+429,the_palestra_university_of_rochester_rochester,The Palestra University of Rochester Rochester,2,85.034421
+430,the_pyramid_arena_memphis,The Pyramid Arena Memphis,2,85.094283
+431,the_pyramid_memphis,The Pyramid Memphis,2,85.154145
+432,the_sam_boyd_silver_bowl_las_vegas,The Sam Boyd Silver Bowl Las Vegas,2,85.214008
+433,the_zenith_paris,The Zenith Paris,2,85.27387
+434,thee_club_los_angeles,Thee Club Los Angeles,2,85.333732
+435,thee_experience_west_hollywood,Thee Experience West Hollywood,2,85.393595
+436,three_rivers_stadium_pittsburgh,Three Rivers Stadium Pittsburgh,2,85.453457
+437,tivoli_concert_hall_copenhagen,Tivoli Concert Hall Copenhagen,2,85.513319
+438,town_park_telluride,Town Park Telluride,2,85.573182
+439,tyrone_guthrie_theater_minneapolis,Tyrone Guthrie Theater Minneapolis,2,85.633044
+440,ungano_s_night_club_new_york,Ungano S Night Club New York,2,85.692906
+441,university_of_iowa_iowa_city,University of Iowa Iowa City,2,85.752769
+442,village_theater_new_york,Village Theater New York,2,85.812631
+443,virginia_beach_civic_center_virginia_beach,Virginia Beach Civic Center Virginia Beach,2,85.872493
+444,william_and_mary_college_williamsburg,William and Mary College Williamsburg,2,85.932356
+445,william_and_mary_hall_williamsburg,William and Mary Hall Williamsburg,2,85.992218
+446,znith_paris_paris,Znith Paris Paris,2,86.05208
+447,aarhus_university_aarhus,Aarhus University Aarhus,1,86.082011
+448,activity_center_arizona_state_university_tempe,Activity Center Arizona State University Tempe,1,86.111943
+449,activity_center_university_of_colorado_boulder,Activity Center University of Colorado Boulder,1,86.141874
+450,adams_field_house_u_of_montana_missoula,Adams Field House U of Montana Missoula,1,86.171805
+451,adams_field_house_university_of_montana_missoula,Adams Field House University of Montana Missoula,1,86.201736
+452,afterthought_pender_auditorium_vancouver,Afterthought Pender Auditorium Vancouver,1,86.231667
+453,albuquerque_civic_auditorium_albuquerque,Albuquerque Civic Auditorium Albuquerque,1,86.261598
+454,alfond_arena_u_of_maine_orono,Alfond Arena U of Maine Orono,1,86.291529
+455,alfond_arena_university_of_maine_orono,Alfond Arena University of Maine Orono,1,86.321461
+456,allan_kirby_field_house_lafayette_college_easton,Allan Kirby Field House Lafayette College Easton,1,86.351392
+457,allen_theatre_cleveland,Allen Theatre Cleveland,1,86.381323
+458,alligator_alley_gum_u_of_florida_gainesville,Alligator Alley Gum U of Florida Gainesville,1,86.411254
+459,alumni_lawn_vanderbilt_university_nashville,Alumni Lawn Vanderbilt University Nashville,1,86.441185
+460,alumni_stadium_u_of_mass_amherst,Alumni Stadium U of Mass Amherst,1,86.471116
+461,alumni_stadium_university_of_massachusetts_amherst,Alumni Stadium University of Massachusetts Amherst,1,86.501048
+462,american_legion_hall_post_795_south_lake_tahoe,American Legion Hall Post 795 South Lake Tahoe,1,86.530979
+463,american_university_washington,American University Washington,1,86.56091
+464,anaheim_stadium_anaheim,Anaheim Stadium Anaheim,1,86.590841
+465,anderson_theatre_new_york,Anderson Theatre New York,1,86.620772
+466,aquarius_theater_hollywood,Aquarius Theater Hollywood,1,86.650703
+467,arena_u_of_southern_illinois_carbondale,Arena U of Southern Illinois Carbondale,1,86.680635
+468,arizona_state_university_tempe,Arizona State University Tempe,1,86.710566
+469,arlington_theater_santa_barbara,Arlington Theater Santa Barbara,1,86.740497
+470,arlington_theatre_santa_barbara,Arlington Theatre Santa Barbara,1,86.770428
+471,armory_field_house_university_of_cincinnati_cincinnati,Armory Field House University of Cincinnati Cincinnati,1,86.800359
+472,arrowhead_stadium_kansas_city,Arrowhead Stadium Kansas City,1,86.83029
+473,assembly_center_louisiana_state_u_baton_rouge,Assembly Center Louisiana State U Baton Rouge,1,86.860221
+474,assembly_center_louisiana_state_university_baton_rouge,Assembly Center Louisiana State University Baton Rouge,1,86.890153
+475,assembly_hall_indiana_u_bloomington,Assembly Hall Indiana U Bloomington,1,86.920084
+476,assembly_hall_indiana_university_bloomington,Assembly Hall Indiana University Bloomington,1,86.950015
+477,assembly_hall_university_of_illinois_champlain,Assembly Hall University of Illinois Champlain,1,86.979946
+478,athletic_center_rutgers_u_new_brunswick,Athletic Center Rutgers U New Brunswick,1,87.009877
+479,athletic_center_rutgers_university_piscataway,Athletic Center Rutgers University Piscataway,1,87.039808
+480,atlanta_municipal_auditorium_atlanta,Atlanta Municipal Auditorium Atlanta,1,87.06974
+481,atlanta_sports_arena_atlanta,Atlanta Sports Arena Atlanta,1,87.099671
+482,auditorium_coliseum_jacksonville,Auditorium Coliseum Jacksonville,1,87.129602
+483,auditorium_st_paul,Auditorium St Paul,1,87.159533
+484,auditorium_west_palm_beach,Auditorium West Palm Beach,1,87.189464
+485,awalt_pavilion_chester_f_awalt_high_school_mountain_view,Awalt Pavilion Chester F Awalt High School Mountain View,1,87.219395
+486,aztec_bowl_san_diego_state_university_san_diego,Aztec Bowl San Diego State University San Diego,1,87.249327
+487,bakersfield_civic_auditorium_bakersfield,Bakersfield Civic Auditorium Bakersfield,1,87.279258
+488,ballroom_university_of_colorado_boulder,Ballroom University of Colorado Boulder,1,87.309189
+489,bangor_auditorium_bangor,Bangor Auditorium Bangor,1,87.33912
+490,baton_rouge_international_speedway_baton_rouge,Baton Rouge International Speedway Baton Rouge,1,87.369051
+491,beat_club_bremen,Beat Club Bremen,1,87.398982
+492,beaver_hall_portland,Beaver Hall Portland,1,87.428913
+493,betty_nelson_s_organic_raspberry_farm_sultan,Betty Nelson S Organic Raspberry Farm Sultan,1,87.458845
+494,bickershaw_festival_wigan,Bickershaw Festival Wigan,1,87.488776
+495,big_nig_s_house_san_jose,Big Nig S House San Jose,1,87.518707
+496,billerica_forum_billerica,Billerica Forum Billerica,1,87.548638
+497,billerica_forum_north_billerica,Billerica Forum North Billerica,1,87.578569
+498,bob_marley_performing_arts_center_kingston,Bob Marley Performing Arts Center Kingston,1,87.6085
+499,bob_marley_performing_arts_center_montego_bay,Bob Marley Performing Arts Center Montego Bay,1,87.638432
+500,boise_pavillion_boise,Boise Pavillion Boise,1,87.668363
+501,boise_state_university_pavilion_boise,Boise State University Pavilion Boise,1,87.698294
+502,boreal_ridge_ski_resort_donner_s_summit,Boreal Ridge Ski Resort Donner S Summit,1,87.728225
+503,boreal_ridge_ski_resort_donner_summit,Boreal Ridge Ski Resort Donner Summit,1,87.758156
+504,brendan_byrne_arena_e_hazelton,Brendan Byrne Arena E Hazelton,1,87.788087
+505,brendan_byrne_arena_egg_harbor_township,Brendan Byrne Arena Egg Harbor Township,1,87.818019
+506,britt_ballroom_south_oregon_college_gym_ashland,Britt Ballroom South Oregon College Gym Ashland,1,87.84795
+507,buckeye_lake_hebron,Buckeye Lake Hebron,1,87.877881
+508,buckeye_music_center_buckeye_lake,Buckeye Music Center Buckeye Lake,1,87.907812
+509,cal_expo_building_a_sacramento,Cal Expo Building a Sacramento,1,87.937743
+510,camp_randall_field_house_university_of_wisconsin_madison,Camp Randall Field House University of Wisconsin Madison,1,87.967674
+511,campolindo_high_school_moraga,Campolindo High School Moraga,1,87.997606
+512,canadian_national_exhibition_stadium_toronto,Canadian National Exhibition Stadium Toronto,1,88.027537
+513,candlestick_park_san_francisco,Candlestick Park San Francisco,1,88.057468
+514,cap_center_fairfax,Cap Center Fairfax,1,88.087399
+515,capitol_center_landover,Capitol Center Landover,1,88.11733
+516,cardinal_stadium_louisville,Cardinal Stadium Louisville,1,88.147261
+517,carolina_coliseum_arena_univ_of_s_carolina_columbia,Carolina Coliseum Arena Univ of S Carolina Columbia,1,88.177192
+518,carolina_coliseum_u_of_south_carolina_columbia,Carolina Coliseum U of South Carolina Columbia,1,88.207124
+519,carter_finley_raleigh,Carter Finley Raleigh,1,88.237055
+520,carter_finley_stadium_north_carolina_state_university_raleigh,Carter Finley Stadium North Carolina State University Raleigh,1,88.266986
+521,carthay_studios_los_angeles,Carthay Studios Los Angeles,1,88.296917
+522,cassell_coliseum_virginia_tech_blacksburg,Cassell Coliseum Virginia Tech Blacksburg,1,88.326848
+523,catacombs_houston,Catacombs Houston,1,88.356779
+524,catholic_youth_center_scranton,Catholic Youth Center Scranton,1,88.386711
+525,centennial_coliseum_reno,Centennial Coliseum Reno,1,88.416642
+526,century_ii_convention_hall_wichita,Century Ii Convention Hall Wichita,1,88.446573
+527,chalet_inn_room_belmont,Chalet Inn Room Belmont,1,88.476504
+528,chardonnay_hall_napa_county_fairgrounds_napa,Chardonnay Hall Napa County Fairgrounds Napa,1,88.506435
+529,charlotte_charlotte,Charlotte Charlotte,1,88.536366
+530,charlotte_nc,Charlotte Nc,1,88.566298
+531,chateau_d_herouville_herouville,Chateau D Herouville Herouville,1,88.596229
+532,cheetah_new_york,Cheetah New York,1,88.62616
+533,chelsea_hotel_roof_new_york,Chelsea Hotel Roof New York,1,88.656091
+534,chrysler_arena_u_of_michigan_ann_arbor,Chrysler Arena U of Michigan Ann Arbor,1,88.686022
+535,cincinnati_gardens_cincinnati,Cincinnati Gardens Cincinnati,1,88.715953
+536,city_hall_newcastle,City Hall Newcastle,1,88.745884
+537,city_park_denver,City Park Denver,1,88.775816
+538,civic_auditorium_omaha,Civic Auditorium Omaha,1,88.805747
+539,civic_auditorium_san_antonio,Civic Auditorium San Antonio,1,88.835678
+540,civic_auditorium_san_jose,Civic Auditorium San Jose,1,88.865609
+541,civic_center_providence,Civic Center Providence,1,88.89554
+542,civic_hall_rotterdam,Civic Hall Rotterdam,1,88.925471
+543,cleveland_convention_center_cleveland,Cleveland Convention Center Cleveland,1,88.955403
+544,club_agora_columbus,Club Agora Columbus,1,88.985334
+545,colden_auditorium_queens_college_queens,Colden Auditorium Queens College Queens,1,89.015265
+546,cole_field_house_u_of_maryland_college_park,Cole Field House U of Maryland College Park,1,89.045196
+547,cole_field_house_university_of_maryland_college_park,Cole Field House University of Maryland College Park,1,89.075127
+548,coliseum_charlotte,Coliseum Charlotte,1,89.105058
+549,coliseum_west_virginia_university_morgantown,Coliseum West Virginia University Morgantown,1,89.13499
+550,college_center_ballroom_portland_state_college_portland,College Center Ballroom Portland State College Portland,1,89.164921
+551,colt_park_hartford,Colt Park Hartford,1,89.194852
+552,commons_san_francisco_state_university_san_francisco,Commons San Francisco State University San Francisco,1,89.224783
+553,community_war_memorial_rochester,Community War Memorial Rochester,1,89.254714
+554,concertgebouw_amsterdam,Concertgebouw Amsterdam,1,89.284645
+555,convention_center_cleveland,Convention Center Cleveland,1,89.314576
+556,cotterell_gym_colgate_university_hamilton,Cotterell Gym Colgate University Hamilton,1,89.344508
+557,cotterrell_gym_colgate_u_hamilton,Cotterrell Gym Colgate U Hamilton,1,89.374439
+558,county_coliseum_el_paso,County Coliseum El Paso,1,89.40437
+559,dallas_convention_center_arena_dallas,Dallas Convention Center Arena Dallas,1,89.434301
+560,dallas_convention_center_dallas,Dallas Convention Center Dallas,1,89.464232
+561,dallas_memorial_auditorium_dallas,Dallas Memorial Auditorium Dallas,1,89.494163
+562,danielmeyer_coliseum_texas_christian_university_fort_worth,Danielmeyer Coliseum Texas Christian University Fort Worth,1,89.524095
+563,danish_center_los_angeles,Danish Center Los Angeles,1,89.554026
+564,david_mead_field_house_allegheny_college_meadville,David Mead Field House Allegheny College Meadville,1,89.583957
+565,davis_gym_bucknell_university_lewisburg,Davis Gym Bucknell University Lewisburg,1,89.613888
+566,deer_creek_in,Deer Creek in,1,89.643819
+567,del_mar_fairgrounds_del_mar,Del Mar Fairgrounds Del Mar,1,89.67375
+568,deutsches_museum_halle_munich,Deutsches Museum Halle Munich,1,89.703682
+569,devore_field_southwestern_college_chula_vista,Devore Field Southwestern College Chula Vista,1,89.733613
+570,devore_field_southwestern_u_chula_vista,Devore Field Southwestern U Chula Vista,1,89.763544
+571,diamond_gym_college_of_marin_kentfield,Diamond Gym College of Marin Kentfield,1,89.793475
+572,dijon_dijon,Dijon Dijon,1,89.823406
+573,dillon_gym_princeton_university_princeton,Dillon Gym Princeton University Princeton,1,89.853337
+574,dupont_gym_mit_cambridge,Dupont Gym Mit Cambridge,1,89.883268
+575,earl_warren_showgrounds_santa_barbara,Earl Warren Showgrounds Santa Barbara,1,89.9132
+576,edmundson_pavilion_u_of_washington_seattle,Edmundson Pavilion U of Washington Seattle,1,89.943131
+577,el_camino_park_palo_alto,El Camino Park Palo Alto,1,89.973062
+578,el_paso_county_coliseum_el_paso,El Paso County Coliseum El Paso,1,90.002993
+579,el_roach_tavern_seattle,El Roach Tavern Seattle,1,90.032924
+580,elysian_park_los_angeles,Elysian Park Los Angeles,1,90.062855
+581,empire_studios_los_angeles,Empire Studios Los Angeles,1,90.092787
+582,eureka_municipal_auditorium_eureka,Eureka Municipal Auditorium Eureka,1,90.122718
+583,evans_field_house_northern_illinois_university_dekalb,Evans Field House Northern Illinois University Dekalb,1,90.152649
+584,events_center_u_of_colorado_boulder,Events Center U of Colorado Boulder,1,90.18258
+585,expo_milwaukee_convention_center_milwaukee,Expo Milwaukee Convention Center Milwaukee,1,90.212511
+586,fairgrounds_arena_oklahoma_city,Fairgrounds Arena Oklahoma City,1,90.242442
+587,fairgrounds_lille,Fairgrounds Lille,1,90.272374
+588,farrell_hall_suny_delhi,Farrell Hall Suny Delhi,1,90.302305
+589,ferris_booth_hall_terrace_columbia_university_new_york,Ferris Booth Hall Terrace Columbia University New York,1,90.332236
+590,festhalle_frankfurt,Festhalle Frankfurt,1,90.362167
+591,feyline_field_tempe,Feyline Field Tempe,1,90.392098
+592,field_house_northern_illinois_u_de_kalb,Field House Northern Illinois U De Kalb,1,90.422029
+593,field_house_rensselaer_polytechnic_institute_troy,Field House Rensselaer Polytechnic Institute Troy,1,90.45196
+594,field_house_seneca_college_toronto,Field House Seneca College Toronto,1,90.481892
+595,fiesta_hall_county_fairgrounds_san_mateo,Fiesta Hall County Fairgrounds San Mateo,1,90.511823
+596,fiesta_hall_san_mateo_county_fairgrounds_san_mateo,Fiesta Hall San Mateo County Fairgrounds San Mateo,1,90.541754
+597,five_seasons_center_cedar_rapids,Five Seasons Center Cedar Rapids,1,90.571685
+598,florida_gymnasium_university_of_florida_gainesville,Florida Gymnasium University of Florida Gainesville,1,90.601616
+599,folsom_field_boulder,Folsom Field Boulder,1,90.631547
+600,ford_auditorium_detroit,Ford Auditorium Detroit,1,90.661479
+601,forum_theater_copenhagen,Forum Theater Copenhagen,1,90.69141
+602,forum_theatre_copenhagen,Forum Theatre Copenhagen,1,90.721341
+603,foss_hill_wesleyan_university_middletown,Foss Hill Wesleyan University Middletown,1,90.751272
+604,foxboro_foxboro,Foxboro Foxboro,1,90.781203
+605,franklin_co_airport_field_highgate,Franklin Co Airport Field Highgate,1,90.811134
+606,franklin_county_airport_highgate,Franklin County Airport Highgate,1,90.841066
+607,frenchy_s_hayward,Frenchy S Hayward,1,90.870997
+608,frost_amphitheater_palo_alto,Frost Amphitheater Palo Alto,1,90.900928
+609,frost_ampitheatre_stanford,Frost Ampitheatre Stanford,1,90.930859
+610,fugazi_hall_san_francisco,Fugazi Hall San Francisco,1,90.96079
+611,gaelic_park_bronx,Gaelic Park Bronx,1,90.990721
+612,gallaher_estate_norwalk,Gallaher Estate Norwalk,1,91.020652
+613,glen_helen_regional_park_devore,Glen Helen Regional Park Devore,1,91.050584
+614,golden_gardens_park_seattle,Golden Gardens Park Seattle,1,91.080515
+615,governor_s_hall_state_fairgrounds_sacramento,Governor S Hall State Fairgrounds Sacramento,1,91.110446
+616,grand_center_grand_rapids,Grand Center Grand Rapids,1,91.140377
+617,great_american_music_hall_san_francisco,Great American Music Hall San Francisco,1,91.170308
+618,green_lake_aqua_theatre_seattle,Green Lake Aqua Theatre Seattle,1,91.200239
+619,greynolds_park_north_miami_beach,Greynolds Park North Miami Beach,1,91.230171
+620,grote_zaal_de_doelen_rotterdam,Grote Zaal De Doelen Rotterdam,1,91.260102
+621,gulfstream_park_racetrack_hallandale,Gulfstream Park Racetrack Hallandale,1,91.290033
+622,gymnasium_lane_community_college_eugene,Gymnasium Lane Community College Eugene,1,91.319964
+623,gymnasium_las_lomas_high_school_walnut_creek,Gymnasium Las Lomas High School Walnut Creek,1,91.349895
+624,haight_street_san_francisco,Haight Street San Francisco,1,91.379826
+625,hall_of_flowers_san_mateo_county_fairgrounds_san_mateo,Hall of Flowers San Mateo County Fairgrounds San Mateo,1,91.409758
+626,hara_arena_dayton,Hara Arena Dayton,1,91.439689
+627,harmon_gym_uc_berkeley_berkeley,Harmon Gym Uc Berkeley Berkeley,1,91.46962
+628,harrington_auditorium_worcester_polytechnic_institute_worcester,Harrington Auditorium Worcester Polytechnic Institute Worcester,1,91.499551
+629,haywood_bandstand_vancouver,Haywood Bandstand Vancouver,1,91.529482
+630,hec_s_edmundson_pavilion_university_of_washington_seattle,Hec S Edmundson Pavilion University of Washington Seattle,1,91.559413
+631,hemisfair_arena_san_antonio,Hemisfair Arena San Antonio,1,91.589345
+632,henry_j_kaiser_convention_center_mardi_gras,Henry J Kaiser Convention Center Mardi Gras,1,91.619276
+633,henry_j_kaiser_oakland,Henry J Kaiser Oakland,1,91.649207
+634,hershey_park_stadium_hershey,Hershey Park Stadium Hershey,1,91.679138
+635,hile_high_stadium_denver,Hile High Stadium Denver,1,91.709069
+636,hilton_hotel_san_francisco,Hilton Hotel San Francisco,1,91.739
+637,hippodrome_de_pantin_paris,Hippodrome De Pantin Paris,1,91.768931
+638,hippy_hill_golden_gate_park_san_francisco,Hippy Hill Golden Gate Park San Francisco,1,91.798863
+639,hjk_unknown,Hjk Unknown,1,91.828794
+640,holleder_memorial_stadium_rochester,Holleder Memorial Stadium Rochester,1,91.858725
+641,holleder_stadium_rochester,Holleder Stadium Rochester,1,91.888656
+642,holly_wood_newcastle_under_lyme_leycett,Holly Wood Newcastle Under Lyme Leycett,1,91.918587
+643,hollywood_bowl_los_angeles,Hollywood Bowl Los Angeles,1,91.948518
+644,horton_field_house_illinois_state_u_normal,Horton Field House Illinois State U Normal,1,91.97845
+645,horton_field_house_illinois_state_university_normal,Horton Field House Illinois State University Normal,1,92.008381
+646,hubert_h_humphrey_metrodome_minneapolis,Hubert H Humphrey Metrodome Minneapolis,1,92.038312
+647,hubert_h_humphrey_metrodome_minniapolis,Hubert H Humphrey Metrodome Minniapolis,1,92.068243
+648,huntington_civic_center_huntington,Huntington Civic Center Huntington,1,92.098174
+649,ice_palace_las_vegas,Ice Palace Las Vegas,1,92.128105
+650,indiana_convention_center_indianapolis,Indiana Convention Center Indianapolis,1,92.158037
+651,indianapolis_convention_center_indianapolis,Indianapolis Convention Center Indianapolis,1,92.187968
+652,indianapolis_sports_center_indianapolis,Indianapolis Sports Center Indianapolis,1,92.217899
+653,international_amphiteater_chicago,International Amphiteater Chicago,1,92.24783
+654,international_amphitheater_chicago,International Amphitheater Chicago,1,92.277761
+655,international_room_san_francisco_state_university_san_francisco,International Room San Francisco State University San Francisco,1,92.307692
+656,irvine_auditorium_university_of_pennsylvania_philadelphia,Irvine Auditorium University of Pennsylvania Philadelphia,1,92.337623
+657,istadium_stockholm,Istadium Stockholm,1,92.367555
+658,jahrhundert_halle_frankfurt,Jahrhundert Halle Frankfurt,1,92.397486
+659,jahrhunderthalle_frankfurt,Jahrhunderthalle Frankfurt,1,92.427417
+660,jenison_field_house_michigan_state_university_east_lansing,Jenison Field House Michigan State University East Lansing,1,92.457348
+661,jfk_stadium_philadelphia,Jfk Stadium Philadelphia,1,92.487279
+662,joe_louis_arena_detroit,Joe Louis Arena Detroit,1,92.51721
+663,johanneshov_isstadion_stockholm,Johanneshov Isstadion Stockholm,1,92.547142
+664,kiefer_lakefront_arena_university_of_new_orleans_new_orleans,Kiefer Lakefront Arena University of New Orleans New Orleans,1,92.577073
+665,kiel_opera_house_st_louis,Kiel Opera House St Louis,1,92.607004
+666,kingswood_music_theater_toronto,Kingswood Music Theater Toronto,1,92.636935
+667,kingswood_theater_maple,Kingswood Theater Maple,1,92.666866
+668,kirby_fieldhouse_lafayette_college_easton,Kirby Fieldhouse Lafayette College Easton,1,92.696797
+669,kleinhans_music_hall_buffalo,Kleinhans Music Hall Buffalo,1,92.726729
+670,knight_s_hall_bellarmine_college_louisville,Knight S Hall Bellarmine College Louisville,1,92.75666
+671,kongresssaal_deutsches_museum_munich,Kongresssaal Deutsches Museum Munich,1,92.786591
+672,kresge_plaza_massachusetts_institute_of_technology_cambridge,Kresge Plaza Massachusetts Institute of Technology Cambridge,1,92.816522
+673,l_a_memorial_coliseum_los_angeles,L a Memorial Coliseum Los Angeles,1,92.846453
+674,la_dolphine_hillsborough,La Dolphine Hillsborough,1,92.876384
+675,ladera_school_ladera,Ladera School Ladera,1,92.906315
+676,laguna_seca,Laguna Seca,1,92.936247
+677,lakefront_arena_new_orleans,Lakefront Arena New Orleans,1,92.966178
+678,lanai_theater_crockett,Lanai Theater Crockett,1,92.996109
+679,lille_fairgrounds_lille,Lille Fairgrounds Lille,1,93.02604
+680,lindley_meadows_golden_gate_park_san_francisco,Lindley Meadows Golden Gate Park San Francisco,1,93.055971
+681,lloyd_noble_center_u_of_oklahoma_norman,Lloyd Noble Center U of Oklahoma Norman,1,93.085902
+682,lloyd_noble_center_university_of_oklahoma_norman,Lloyd Noble Center University of Oklahoma Norman,1,93.115834
+683,location_unknown,Location Unknown,1,93.145765
+684,loma_prieta_room_student_union_san_jose_state_university_san_jose,Loma Prieta Room Student Union San Jose State University San Jose,1,93.175696
+685,long_beach_long_beach,Long Beach Long Beach,1,93.205627
+686,los_angeles_memorial_coliseum_los_angeles,Los Angeles Memorial Coliseum Los Angeles,1,93.235558
+687,lusk_field_house_suny_cortland,Lusk Field House Suny Cortland,1,93.265489
+688,mackay_stadium_university_of_nevada_reno,Mackay Stadium University of Nevada Reno,1,93.295421
+689,maine_state_fairgrounds_lewiston,Maine State Fairgrounds Lewiston,1,93.325352
+690,marigold_ballroom_fresno,Marigold Ballroom Fresno,1,93.355283
+691,masonic_temple_detroit,Masonic Temple Detroit,1,93.385214
+692,masonic_temple_portland,Masonic Temple Portland,1,93.415145
+693,max_yasgur_s_farm_bethel,Max Yasgur S Farm Bethel,1,93.445076
+694,mayser_center_franklin_marshall_college_lancaster,Mayser Center Franklin Marshall College Lancaster,1,93.475007
+695,mcdonough_arena_georgetown_university_washington,Mcdonough Arena Georgetown University Washington,1,93.504939
+696,mcfarlin_auditorium_southern_methodist_university_smu_dallas,Mcfarlin Auditorium Southern Methodist University Smu Dallas,1,93.53487
+697,mcgaw_hall_northwestern_university_evanston,Mcgaw Hall Northwestern University Evanston,1,93.564801
+698,mcgaw_memorial_hall_evanston,Mcgaw Memorial Hall Evanston,1,93.594732
+699,mcmahon_stadium_calgary,Mcmahon Stadium Calgary,1,93.624663
+700,memorial_auditorium_dallas,Memorial Auditorium Dallas,1,93.654594
+701,memorial_auditorium_ohio_university_athens,Memorial Auditorium Ohio University Athens,1,93.684526
+702,memorial_auditorium_sacramento,Memorial Auditorium Sacramento,1,93.714457
+703,memorial_coliseum_portland,Memorial Coliseum Portland,1,93.744388
+704,memorial_coliseum_state_fairgrounds_jackson,Memorial Coliseum State Fairgrounds Jackson,1,93.774319
+705,memorial_coliseum_u_of_alabama_tuscaloosa,Memorial Coliseum U of Alabama Tuscaloosa,1,93.80425
+706,memorial_union_ballroom_purdue_university_lafayette,Memorial Union Ballroom Purdue University Lafayette,1,93.834181
+707,meramec_community_college_st_louis,Meramec Community College St Louis,1,93.864113
+708,mershon_auditorium_ohio_state_university_columbus,Mershon Auditorium Ohio State University Columbus,1,93.894044
+709,met_center_minneapolis,Met Center Minneapolis,1,93.923975
+710,metropolitan_center_minneapolis,Metropolitan Center Minneapolis,1,93.953906
+711,miami_fl_miami,Miami Fl Miami,1,93.983837
+712,miami_hollywood_speedway_park_pembroke_pines,Miami Hollywood Speedway Park Pembroke Pines,1,94.013768
+713,miami_miami,Miami Miami,1,94.043699
+714,mid_south_coliseum_memphis,Mid South Coliseum Memphis,1,94.073631
+715,middlesex_county_community_college_edison,Middlesex County Community College Edison,1,94.103562
+716,mile_high_stadium_denver,Mile High Stadium Denver,1,94.133493
+717,mill_valley_recreation_center_mill_valley,Mill Valley Recreation Center Mill Valley,1,94.163424
+718,mississippi_coliseum_jackson,Mississippi Coliseum Jackson,1,94.193355
+719,mississippi_river_festival_edwardsville,Mississippi River Festival Edwardsville,1,94.223286
+720,monterey_county_fairgrounds_monterey,Monterey County Fairgrounds Monterey,1,94.253218
+721,monterey_peninsula_college_monterey,Monterey Peninsula College Monterey,1,94.283149
+722,moody_coliseum_smu_dallas,Moody Coliseum Smu Dallas,1,94.31308
+723,moody_coliseum_southern_methodist_university_smu_dallas,Moody Coliseum Southern Methodist University Smu Dallas,1,94.343011
+724,morgantown_civic_center_morgantown,Morgantown Civic Center Morgantown,1,94.372942
+725,moscone_center_san_francisco,Moscone Center San Francisco,1,94.402873
+726,moscone_convention_center_san_francisco,Moscone Convention Center San Francisco,1,94.432805
+727,mosque_richmond,Mosque Richmond,1,94.462736
+728,mount_tamalpais_cushing_memorial_amphitheatre_marin_county,Mount Tamalpais Cushing Memorial Amphitheatre Marin County,1,94.492667
+729,muir_beach_lodge_muir_beach,Muir Beach Lodge Muir Beach,1,94.522598
+730,municipal_auditorium_austin,Municipal Auditorium Austin,1,94.552529
+731,music_hall_cincinnati,Music Hall Cincinnati,1,94.58246
+732,music_mall_cincinnati,Music Mall Cincinnati,1,94.612391
+733,musikhalle_hamburg,Musikhalle Hamburg,1,94.642323
+734,naumburg_bandshell_central_park_new_york,Naumburg Bandshell Central Park New York,1,94.672254
+735,nevada_county_fairgrounds_grass_valley,Nevada County Fairgrounds Grass Valley,1,94.702185
+736,niagara_falls_convention_center_niagara_falls,Niagara Falls Convention Center Niagara Falls,1,94.732116
+737,niagra_falls_convention_center_niagra_falls,Niagra Falls Convention Center Niagra Falls,1,94.762047
+738,northrop_auditorium_university_of_minnesota_minneapolis,Northrop Auditorium University of Minnesota Minneapolis,1,94.791978
+739,oakland_alameda_county_stadium_oakland,Oakland Alameda County Stadium Oakland,1,94.82191
+740,ohio_theatre_columbus,Ohio Theatre Columbus,1,94.851841
+741,oklahoma_city_fairgrounds_arena_oklahoma_city,Oklahoma City Fairgrounds Arena Oklahoma City,1,94.881772
+742,old_renaissance_faire_grounds_veneta,Old Renaissance Faire Grounds Veneta,1,94.911703
+743,olympic_center_lake_placid,Olympic Center Lake Placid,1,94.941634
+744,omaha_auditorium_omaha,Omaha Auditorium Omaha,1,94.971565
+745,omni_coliseum_atlanta,Omni Coliseum Atlanta,1,95.001497
+746,onondaga_war_memorial_aud_syracuse,Onondaga War Memorial Aud Syracuse,1,95.031428
+747,orange_county_fairgrounds_costa_mesa,Orange County Fairgrounds Costa Mesa,1,95.061359
+748,orchard_park_rich_orchard_park,Orchard Park Rich Orchard Park,1,95.09129
+749,oregon_country_fairgrounds_veneta,Oregon Country Fairgrounds Veneta,1,95.121221
+750,oregon_county_fair_site_veneta,Oregon County Fair Site Veneta,1,95.151152
+751,orvis_student_activities_center_gymnasium_state_university_of_new_york_college_of_technology_at_alfred_alfred,Orvis Student Activities Center Gymnasium State University of New York College of Technology At Alfred Alfred,1,95.181084
+752,p_n_e_agradome_vancouver,P N E Agradome Vancouver,1,95.211015
+753,palace_of_fine_arts_theatre_san_francisco,Palace of Fine Arts Theatre San Francisco,1,95.240946
+754,palau_dels_esports_de_barcelona_barcelona,Palau Dels Esports De Barcelona Barcelona,1,95.270877
+755,panther_hall_fort_worth,Panther Hall Fort Worth,1,95.300808
+756,paramount_northeast_seattle,Paramount Northeast Seattle,1,95.330739
+757,paramount_northwest_seattle,Paramount Northwest Seattle,1,95.36067
+758,parc_des_expositions_dijon,Parc Des Expositions Dijon,1,95.390602
+759,pasadena_civic_auditorium_pasadena,Pasadena Civic Auditorium Pasadena,1,95.420533
+760,pauley_pavilion_los_angeles,Pauley Pavilion Los Angeles,1,95.450464
+761,pelletier_farm_st_helens,Pelletier Farm St Helens,1,95.480395
+762,pershing_auditorium_lincoln,Pershing Auditorium Lincoln,1,95.510326
+763,pershing_municipal_auditorium_lincoln,Pershing Municipal Auditorium Lincoln,1,95.540257
+764,philadelphia_jfk_philadelphia,Philadelphia Jfk Philadelphia,1,95.570189
+765,piedmont_park_atlanta,Piedmont Park Atlanta,1,95.60012
+766,pittsburg_pittsburg,Pittsburg Pittsburg,1,95.630051
+767,place_ville_marie_montreal,Place Ville Marie Montreal,1,95.659982
+768,playboy_club_los_angeles,Playboy Club Los Angeles,1,95.689913
+769,playhouse_theater_edinburgh,Playhouse Theater Edinburgh,1,95.719844
+770,playhouse_theatre_edinburgh,Playhouse Theatre Edinburgh,1,95.749776
+771,polo_field_san_francisco,Polo Field San Francisco,1,95.779707
+772,portland_international_raceway_portland,Portland International Raceway Portland,1,95.809638
+773,portland_international_speedway_portland,Portland International Speedway Portland,1,95.839569
+774,public_hall_cleveland,Public Hall Cleveland,1,95.8695
+775,quadrangle_washington_university_st_louis,Quadrangle Washington University St Louis,1,95.899431
+776,raceway_park_englishtown,Raceway Park Englishtown,1,95.929362
+777,radio_luxembourg_luxembourg,Radio Luxembourg Luxembourg,1,95.959294
+778,radio_luxembourg_xlux,Radio Luxembourg Xlux,1,95.989225
+779,recreation_center_mill_valley,Recreation Center Mill Valley,1,96.019156
+780,recreation_hall_uc_davis_davis,Recreation Hall Uc Davis Davis,1,96.049087
+781,reed_hollow_ranch_franktown,Reed Hollow Ranch Franktown,1,96.079018
+782,reno_centennial_coliseum_reno,Reno Centennial Coliseum Reno,1,96.108949
+783,reunion_arena_dallas,Reunion Arena Dallas,1,96.138881
+784,rfk_stadium_washington_d_c,Rfk Stadium Washington D C,1,96.168812
+785,rheinhalle_dusseldorf,Rheinhalle Dusseldorf,1,96.198743
+786,rhode_island_auditorium_providence,Rhode Island Auditorium Providence,1,96.228674
+787,river_front_coliseum_cincinnati,River Front Coliseum Cincinnati,1,96.258605
+788,riverfront_coliseum_cincinnati,Riverfront Coliseum Cincinnati,1,96.288536
+789,rochester_silver_stadium_rochester,Rochester Silver Stadium Rochester,1,96.318468
+790,roscoe_maples_pavilion_stanford_u_palo_alto,Roscoe Maples Pavilion Stanford U Palo Alto,1,96.348399
+791,roscoe_maples_pavilion_stanford_university_palo_alto,Roscoe Maples Pavilion Stanford University Palo Alto,1,96.37833
+792,rpi_fieldhouse_rensselaer_polytechnic_institute_troy,Rpi Fieldhouse Rensselaer Polytechnic Institute Troy,1,96.408261
+793,rubber_bowl_akron,Rubber Bowl Akron,1,96.438192
+794,rubber_bowl_university_of_akron_akron,Rubber Bowl University of Akron Akron,1,96.468123
+795,rupp_arena_lexington_center_lexington,Rupp Arena Lexington Center Lexington,1,96.498054
+796,rupp_arena_university_of_kentucky_lexington,Rupp Arena University of Kentucky Lexington,1,96.527986
+797,san_jose_civic_auditorium_san_jose,San Jose Civic Auditorium San Jose,1,96.557917
+798,san_quentin_state_prison_san_quentin,San Quentin State Prison San Quentin,1,96.587848
+799,sandstone_amphitheatre_bonner_springs,Sandstone Amphitheatre Bonner Springs,1,96.617779
+800,sandstone_aphitheatre_bonner_springs,Sandstone Aphitheatre Bonner Springs,1,96.64771
+801,sandstone_bonner_springs,Sandstone Bonner Springs,1,96.677641
+802,santa_clara_county_fairgrounds_san_jose,Santa Clara County Fairgrounds San Jose,1,96.707573
+803,santa_cruz_county_fairgrounds_watsonville,Santa Cruz County Fairgrounds Watsonville,1,96.737504
+804,santa_rosa_fairgrounds_santa_rosa,Santa Rosa Fairgrounds Santa Rosa,1,96.767435
+805,saratoga_performing_arts_saratoga,Saratoga Performing Arts Saratoga,1,96.797366
+806,sargent_gym_boston_university_boston,Sargent Gym Boston University Boston,1,96.827297
+807,saturday_night_live_nbc_studios_new_york,Saturday Night Live Nbc Studios New York,1,96.857228
+808,scope_norfolk,Scope Norfolk,1,96.88716
+809,shea_s_buffalo_theater_buffalo,Shea S Buffalo Theater Buffalo,1,96.917091
+810,shea_s_theater_buffalo,Shea S Theater Buffalo,1,96.947022
+811,shoreline_amphitheater_unknown,Shoreline Amphitheater Unknown,1,96.976953
+812,shoreline_amphitheatre_mtn_view,Shoreline Amphitheatre Mtn View,1,97.006884
+813,shoreline_ampitheatre_mtn,Shoreline Ampitheatre Mtn,1,97.036815
+814,sierra_college_rocklin,Sierra College Rocklin,1,97.066746
+815,silver_dollar_fairgrounds_chico,Silver Dollar Fairgrounds Chico,1,97.096678
+816,siu_arena_southern_illinois_university_carbondale,Siu Arena Southern Illinois University Carbondale,1,97.126609
+817,soccer_field_american_university_washington,Soccer Field American University Washington,1,97.15654
+818,sokol_hall_san_francisco,Sokol Hall San Francisco,1,97.186471
+819,soldier_s_field_chicago,Soldier S Field Chicago,1,97.216402
+820,southern_star_amphitheater_houston,Southern Star Amphitheater Houston,1,97.246333
+821,spartan_stadium_san_jose,Spartan Stadium San Jose,1,97.276265
+822,spartan_stadium_san_jose_state_university_san_jose,Spartan Stadium San Jose State University San Jose,1,97.306196
+823,speedway_meadows_golden_gate_park_san_francisco,Speedway Meadows Golden Gate Park San Francisco,1,97.336127
+824,spokane_coliseum_spokane,Spokane Coliseum Spokane,1,97.366058
+825,sporthalle_hamburg,Sporthalle Hamburg,1,97.395989
+826,sports_and_music_center_indianapolis,Sports and Music Center Indianapolis,1,97.42592
+827,sports_palace_barcelona,Sports Palace Barcelona,1,97.455852
+828,sportsahala_hamburg,Sportsahala Hamburg,1,97.485783
+829,spreckles_temple_of_music_bandshell_golden_gate_park_san_francisco,Spreckles Temple of Music Bandshell Golden Gate Park San Francisco,1,97.515714
+830,st_john_s_arena_columbus,St John S Arena Columbus,1,97.545645
+831,st_louis_arena_st_louis,St Louis Arena St Louis,1,97.575576
+832,stabler_arena_lehigh_u_bethlehem,Stabler Arena Lehigh U Bethlehem,1,97.605507
+833,stabler_arena_lehigh_university_bethlehem,Stabler Arena Lehigh University Bethlehem,1,97.635438
+834,stadium_santa_barbara,Stadium Santa Barbara,1,97.66537
+835,stadt_halle_bremen,Stadt Halle Bremen,1,97.695301
+836,stadthalle_iv_bremen,Stadthalle Iv Bremen,1,97.725232
+837,stakladen_cafeteria_aarhus_university_aarhus,Stakladen Cafeteria Aarhus University Aarhus,1,97.755163
+838,stanislaus_county_fairgrounds_turlock,Stanislaus County Fairgrounds Turlock,1,97.785094
+839,state_fair_coliseum_detroit,State Fair Coliseum Detroit,1,97.815025
+840,state_fair_coliseum_indianapolis,State Fair Coliseum Indianapolis,1,97.844957
+841,state_fairgrounds_lewiston,State Fairgrounds Lewiston,1,97.874888
+842,stockton_civic_aud_stockton,Stockton Civic Aud Stockton,1,97.904819
+843,stockton_civic_auditorium_stockton,Stockton Civic Auditorium Stockton,1,97.93475
+844,strawberry_canyon_berkeley,Strawberry Canyon Berkeley,1,97.964681
+845,student_center_modesto_jr_college_modesto,Student Center Modesto Jr College Modesto,1,97.994612
+846,studio_rehersal_unknown,Studio Rehersal Unknown,1,98.024544
+847,summit_arena_houston,Summit Arena Houston,1,98.054475
+848,sun_dome_tampa,Sun Dome Tampa,1,98.084406
+849,sun_dome_university_of_south_florida_tampa,Sun Dome University of South Florida Tampa,1,98.114337
+850,tacoma_dome_tacoma,Tacoma Dome Tacoma,1,98.144268
+851,taft_auditorium_cincinnati,Taft Auditorium Cincinnati,1,98.174199
+852,tampa_stadium_tampa,Tampa Stadium Tampa,1,98.20413
+853,temple_stadium_temple_university_philadelphia,Temple Stadium Temple University Philadelphia,1,98.234062
+854,terminal_island_correctional_facility_san_pedro,Terminal Island Correctional Facility San Pedro,1,98.263993
+855,terrace_ballroom_salt_lake_city,Terrace Ballroom Salt Lake City,1,98.293924
+856,the_big_beat_club_palo_alto,The Big Beat Club Palo Alto,1,98.323855
+857,the_dean_dome_chapel_hill,The Dean Dome Chapel Hill,1,98.353786
+858,the_dean_dome_university_of_nc_chapel_hill,The Dean Dome University of Nc Chapel Hill,1,98.383717
+859,the_fabulous_forum_inglewood,The Fabulous Forum Inglewood,1,98.413649
+860,the_heliport_sausalito,The Heliport Sausalito,1,98.44358
+861,the_hippodrome_paris,The Hippodrome Paris,1,98.473511
+862,the_met_center_bloomington,The Met Center Bloomington,1,98.503442
+863,the_mosque_richmond,The Mosque Richmond,1,98.533373
+864,the_north_face_ski_shop_san_francisco,The North Face Ski Shop San Francisco,1,98.563304
+865,the_old_cheese_factory_san_francisco,The Old Cheese Factory San Francisco,1,98.593236
+866,the_palace_at_auburn_hills_aubern_hills,The Palace At Auburn Hills Aubern Hills,1,98.623167
+867,the_palace_at_auburn_hills_auburn_hills,The Palace At Auburn Hills Auburn Hills,1,98.653098
+868,the_scope_norfolk,The Scope Norfolk,1,98.683029
+869,the_syndrome_chicago,The Syndrome Chicago,1,98.71296
+870,thompson_arena_dartmouth_college_hanover,Thompson Arena Dartmouth College Hanover,1,98.742891
+871,tivoli_gardens_copenhagen,Tivoli Gardens Copenhagen,1,98.772823
+872,tivoli_theater_copenhagen,Tivoli Theater Copenhagen,1,98.802754
+873,tivoli_theatre_copenhagen,Tivoli Theatre Copenhagen,1,98.832685
+874,tompkins_square_park_new_york,Tompkins Square Park New York,1,98.862616
+875,tressider_memorial_union_tmu_deck_stanford_university_palo_alto,Tressider Memorial Union Tmu Deck Stanford University Palo Alto,1,98.892547
+876,trouper_s_hall_los_angeles,Trouper S Hall Los Angeles,1,98.922478
+877,tulsa_fairgrounds_pavilion_tulsa,Tulsa Fairgrounds Pavilion Tulsa,1,98.952409
+878,uni_dome_university_of_northern_iowa_cedar_falls,Uni Dome University of Northern Iowa Cedar Falls,1,98.982341
+879,unicorn_theater_la_jolla,Unicorn Theater La Jolla,1,99.012272
+880,university_arena_university_of_new_mexico_albuquerque,University Arena University of New Mexico Albuquerque,1,99.042203
+881,university_auditorium_university_of_arizona_tucson,University Auditorium University of Arizona Tucson,1,99.072134
+882,university_hall_university_of_virginia_charlottesville,University Hall University of Virginia Charlottesville,1,99.102065
+883,university_of_alabama_memorial_coliseum_tuscaloosa,University of Alabama Memorial Coliseum Tuscaloosa,1,99.131996
+884,university_of_nevada_reno_reno,University of Nevada Reno Reno,1,99.161928
+885,university_of_new_mexico_albuquerque,University of New Mexico Albuquerque,1,99.191859
+886,university_of_virginia_charlottesville,University of Virginia Charlottesville,1,99.22179
+887,unknown_lincoln,Unknown Lincoln,1,99.251721
+888,unknown_none,Unknown None,1,99.281652
+889,utica_memorial_coliseum_utica,Utica Memorial Coliseum Utica,1,99.311583
+890,valley_unitarian_universalist_church_north_hills,Valley Unitarian Universalist Church North Hills,1,99.341515
+891,vanderbilt_university_nashville,Vanderbilt University Nashville,1,99.371446
+892,veterans_memorial_coliseum_hartford,Veterans Memorial Coliseum Hartford,1,99.401377
+893,veterans_memorial_coliseum_jacksonville,Veterans Memorial Coliseum Jacksonville,1,99.431308
+894,veterans_memorial_hall_berkeley,Veterans Memorial Hall Berkeley,1,99.461239
+895,veterans_memorial_hall_columbus,Veterans Memorial Hall Columbus,1,99.49117
+896,virginia_polytechnic_university_blacksburg,Virginia Polytechnic University Blacksburg,1,99.521101
+897,volunteer_park_seattle,Volunteer Park Seattle,1,99.551033
+898,wallace_wade_stadium_duke_university_durham,Wallace Wade Stadium Duke University Durham,1,99.580964
+899,walter_kbel_halle_rsselsheim,Walter Kbel Halle Rsselsheim,1,99.610895
+900,walter_koebel_halle_russelsheim,Walter Koebel Halle Russelsheim,1,99.640826
+901,war_memorial_aud_rochester,War Memorial Aud Rochester,1,99.670757
+902,washington_rfk_washington,Washington Rfk Washington,1,99.700688
+903,west_gym_harpur_college_binghamton,West Gym Harpur College Binghamton,1,99.73062
+904,west_palm_beach_auditorium_west_palm_beach,West Palm Beach Auditorium West Palm Beach,1,99.760551
+905,west_park_ann_arbor,West Park Ann Arbor,1,99.790482
+906,winnipeg_fairgrounds_winnipeg,Winnipeg Fairgrounds Winnipeg,1,99.820413
+907,winteriand_arena_san_francisco,Winteriand Arena San Francisco,1,99.850344
+908,women_s_gym_san_francisco_state_university_san_francisco,Women S Gym San Francisco State University San Francisco,1,99.880275
+909,yale_bowl_new_haven,Yale Bowl New Haven,1,99.910207
+910,york_farm_poynette,York Farm Poynette,1,99.940138
+911,youth_opportunities_center_compton,Youth Opportunities Center Compton,1,99.970069
+912,youth_pavilion_expo_67_montreal,Youth Pavilion Expo 67 Montreal,1,100.0

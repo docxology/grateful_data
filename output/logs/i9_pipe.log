@@ -1,0 +1,88 @@
+warning: `VIRTUAL_ENV=/Users/4d/Documents/GitHub/template/.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead
+
+=== 01_build_compendium.py ===
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/shows.csv
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/performances.csv
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/songs.csv
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/compendium.json
+
+=== 02_analyze.py ===
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/reports/analysis_report.json
+
+=== 03_category_theory.py ===
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/reports/category_theory_report.json
+
+=== 13_audit_completeness.py ===
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/reports/completeness_report.json
+complete=True dangling=0 geo=100.0%
+scope: archival compendium: 3341 ingested shows (1965-05-05 … 1995-07-09); community literature cites ~2318 canonical concerts
+
+=== 15_export_raw.py ===
+shows: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/raw/shows.csv
+performances: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/raw/performances.csv
+songs: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/raw/songs.csv
+venues: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/raw/venues.csv
+personnel: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/raw/personnel.csv
+recordings: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/raw/recordings.csv
+releases: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/raw/releases.csv
+citations: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/raw/citations.csv
+reviews: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/raw/reviews.csv
+lyric_pointers: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/raw/lyric_pointers.csv
+venue_geo: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/raw/venue_geo.csv
+segues: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/raw/segues.csv
+compendium_full.json: /Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/raw/compendium_full.json
+
+=== 17_reconcile_sources.py ===
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/reports/source_reconciliation.json
+lyric_gaps=0 shows_empty=282 ia_dropped_date=1
+
+=== 16_archival_bundle.py ===
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/archival/manifest.json
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/archival/grateful_data_archival.tar.gz
+
+=== 04_figures.py ===
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/shows_per_year.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/top_songs.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/cooccurrence_heatmap.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/functor_cardinalities.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/transition_matrix.png
+
+=== 05_extended_figures.py ===
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/composer_attribution.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/segue_graph.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/era_density.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/personnel_gantt.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/sentiment_by_kind.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/citation_kinds.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/recording_sources.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/shows_by_era.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/lyric_themes.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/lineup_diversity.png
+
+=== 06_mosaic.py ===
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/mosaic.png
+
+=== 08_more_figures.py ===
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/geo_scatter.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/set_positions.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/stationary_top20.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/centrality_top20.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/releases_timeline.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/tours_top.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/bustouts.png
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/song_lifespans.png
+
+=== 07_dashboard.py ===
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/dashboard.html
+
+=== 10_alluvial.py ===
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/figures/alluvial_composer_song_era.png
+
+=== 14_validate_figures.py ===
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/reports/figure_validation.json
+figures ok=25/25 missing=0 all_ok=True
+
+=== z_generate_manuscript_variables.py ===
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/manuscript_variables.json
+Resolved 11 manuscript file(s) to /Users/4d/Documents/GitHub/projects/working/grateful_data/output/manuscript
+/Users/4d/Documents/GitHub/projects/working/grateful_data/output/manuscript

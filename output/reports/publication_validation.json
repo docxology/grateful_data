@@ -1,0 +1,113 @@
+{
+  "all_ok": true,
+  "checks": [
+    {
+      "detail": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/pdf/grateful_data_combined.pdf",
+      "name": "combined_pdf_exists",
+      "ok": true
+    },
+    {
+      "detail": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/web/index.html",
+      "name": "web_index_exists",
+      "ok": true
+    },
+    {
+      "detail": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/dashboard.html",
+      "name": "dashboard_exists",
+      "ok": true
+    },
+    {
+      "detail": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/reports/figure_validation.json",
+      "name": "figure_validation_exists",
+      "ok": true
+    },
+    {
+      "detail": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/reports/completeness_report.json",
+      "name": "completeness_report_exists",
+      "ok": true
+    },
+    {
+      "detail": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/figures/index.json",
+      "name": "figure_data_index_exists",
+      "ok": true
+    },
+    {
+      "detail": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/reports/first_principles_review.json",
+      "name": "first_principles_report_exists",
+      "ok": true
+    },
+    {
+      "detail": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/provenance/provenance.json",
+      "name": "provenance_sidecar_exists",
+      "ok": true
+    },
+    {
+      "detail": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/external/external_manifest_summary.json",
+      "name": "external_manifest_summary_exists",
+      "ok": true
+    },
+    {
+      "detail": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/data/external/pipeline_contract.json",
+      "name": "external_pipeline_contract_exists",
+      "ok": true
+    },
+    {
+      "detail": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/explorer/index.html",
+      "name": "explorer_exists",
+      "ok": true
+    },
+    {
+      "detail": "/Users/4d/Documents/GitHub/projects/working/grateful_data/output/reports/peer_review_dossier.json",
+      "name": "peer_review_dossier_exists",
+      "ok": true
+    },
+    {
+      "detail": "scanned 24 text files",
+      "name": "no_unresolved_tokens",
+      "ok": true
+    },
+    {
+      "detail": "scanned 13 rendered files",
+      "name": "no_raw_markdown_citations_in_rendered_outputs",
+      "ok": true
+    },
+    {
+      "detail": "n_ok=36 n_figures=36",
+      "name": "figure_validation_all_ok",
+      "ok": true
+    },
+    {
+      "detail": "dangling_total=0",
+      "name": "completeness_dangling_total_zero",
+      "ok": true
+    },
+    {
+      "detail": "missing=[] expected=34 indexed=34",
+      "name": "figure_data_index_complete",
+      "ok": true
+    },
+    {
+      "detail": "missing=[]",
+      "name": "figure_data_files_exist",
+      "ok": true
+    },
+    {
+      "detail": "missing=[]",
+      "name": "figure_data_index_documentation_complete",
+      "ok": true
+    },
+    {
+      "detail": "missing=[]",
+      "name": "dashboard_raw_data_links_complete",
+      "ok": true
+    },
+    {
+      "detail": "hits=[]",
+      "name": "pdf_log_no_unresolved_latex",
+      "ok": true
+    }
+  ],
+  "n_checks": 21,
+  "n_failed": 0,
+  "schema": "grateful-data-publication-validation-v1"
+}

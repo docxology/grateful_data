@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>03_category_theory.md.web</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <script defer=""
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+</head>
+<body>
+<h1 id="category-theoretic-interpretation">Category-theoretic
+interpretation</h1>
+<h2 id="why-category-theory">Why category theory</h2>
+<p>Category theory gives us a vocabulary for <em>structure that survives
+change of representation</em>. The four constructions below identify
+structure that does not depend on which source we drew the data from or
+on which subset of the corpus we are looking at: they are stable in
+exactly the sense category theory was built to express.</p>
+<p>The point is not to claim that setlists require category theory. The
+point is to make the data model’s relations explicit. Lewin’s
+transformational theory famously shifts attention from musical objects
+to transformations among objects [lewin_gmit]; NIST’s music case study
+shows category theory used as an ontology and integration framework for
+musical knowledge [padi_category_music_case_study]; and recent work on
+hidden categories in Lewinian GIS and Klumpenhouwer networks makes the
+categorical connection literal [popoff_hidden_categories]. Those works
+license the <em>kind</em> of move being made here – a shift from objects
+to relations and an ontology whose diagrams can be checked – but they do
+not make the Grateful Dead corpus categorically interesting by
+association. Our use is narrower: shows, songs, dates, and performances
+form a small relational system whose laws can be checked directly
+against the compendium.</p>
+<p><strong>Scope of these claims.</strong> <span
+class="math inline">\(\mathbf{Date}\)</span> is a <em>thin</em> poset
+category, so associativity holds automatically and the Yoneda statement
+is the elementary poset case rather than a deep theorem. We therefore
+present the mechanized checks below — law sampling, the colimit
+universal property, the Yoneda bijection, the span/functor commutation —
+as <em>encoding and sanity checks</em>: they verify that the schema
+faithfully instantiates these categorical structures and that the
+corresponding properties hold on the real corpus (each with a negative
+control that fails on broken input), not that a non-trivial mathematical
+theorem about the Grateful Dead has been proved. Their value is that the
+data model is demonstrably the categorical object we claim it is — which
+is what licenses the representation-independent reading — not
+mathematical novelty or a claim that categorical music theory explains
+the band’s musical choices.</p>
+<h2 id="the-date-poset-and-the-show-category">The date poset and the
+show category</h2>
+<p>Let <span class="math inline">\(\mathbf{Date}\)</span> be the small
+category whose objects are the distinct performance dates in the
+compendium and whose morphisms <span class="math inline">\(d_1 \to
+d_2\)</span> exist iff <span class="math inline">\(d_1 \le d_2\)</span>.
+<span class="math inline">\(\mathbf{Date}\)</span> is a thin poset
+category; identities and associativity hold by construction. Let <span
+class="math inline">\(\mathbf{Show}\)</span> be the discrete category
+whose objects are the show slugs. Both categories’ laws are checked
+mechanically in
+<code>src/cattheory/categories.py::Category.check_laws</code>. Small
+categories are verified exhaustively; at archival scale the <span
+class="math inline">\(\mathbf{Date}\)</span> poset has 2312 objects, so
+an exhaustive associativity sweep is intractable. The checker instead
+verifies every identity and samples a fixed (seeded) set of random
+composable triples, checking both associativity and
+<strong>closure</strong> (that each sampled composite arrow is present
+in the table). Because the <span
+class="math inline">\(\mathbf{Date}\)</span> <code>compose</code> is
+order-preserving string composition, its associativity holds by
+construction; the data-reachable defect is a non-transitively-closed
+arrow table, which the sampled closure check catches with high
+probability. This is a <em>regression guard</em> — the laws hold by
+construction; the check is a sampled probe of systematic corruption, not
+a proof — paired with a negative control that fails on a deliberately
+non-closed table.</p>
+<h2 id="the-setlist-functor">The setlist functor</h2>
+<p>Define <span class="math inline">\(F_{\text{setlist}} : \mathbf{Date}
+\to \mathbf{Set}\)</span> by sending each date <span
+class="math inline">\(d\)</span> to the set of song slugs ever performed
+on or before <span class="math inline">\(d\)</span>, and each arrow
+<span class="math inline">\(d_1 \le d_2\)</span> to the inclusion of
+sets. <span class="math inline">\(F_{\text{setlist}}\)</span> is a
+covariant functor because the cumulative-songs set is monotone in <span
+class="math inline">\(d\)</span>.
+<code>cattheory/functors.py::setlist_functor</code> returns the explicit
+representation; <code>is_monotone</code> checks the functor law on the
+compendium.</p>
+<h2 id="the-lineup-functor-and-the-active-roster-presheaf">The lineup
+functor and the active-roster presheaf</h2>
+<p>Define <span class="math inline">\(F_{\text{lineup}} : \mathbf{Date}
+\to \mathbf{Set}\)</span> by sending each date <span
+class="math inline">\(d\)</span> to the set of personnel who have been
+in the band on or before <span class="math inline">\(d\)</span>, and
+each arrow to the inclusion. <span
+class="math inline">\(F_{\text{lineup}}\)</span> is again a monotone
+covariant functor.</p>
+<p>The <em>active-roster</em> assignment <span
+class="math inline">\(P_{\text{active}}(d) = \{p \mid p\ \text{is
+in the band on}\ d\}\)</span> is also natural, but it is <em>not</em>
+monotone: when Pigpen leaves the band in 1972 [ucr_lineup_changes;
+dead_net_official], the active set shrinks, so <span
+class="math inline">\(P_{\text{active}}\)</span> fails the
+covariant-functor law. It is, however, a perfectly good presheaf:
+contravariantly, the “forgetting” arrow <span class="math inline">\(d_2
+\to d_1\)</span> can be sent to the restriction of the active set. We
+make both views available (<code>setlist_functor</code>,
+<code>lineup_functor</code>, <code>active_lineup_presheaf</code>) and
+check that one is monotone and the other is not. The categorical content
+matches the historical fact: cumulative views grow; instantaneous views
+oscillate.</p>
+<h2
+id="performances-as-spans-with-fibers-over-shows-and-songs">Performances
+as spans, with fibers over shows and songs</h2>
+<p>For each performance <span class="math inline">\(p = (\text{show},
+\text{song}, \text{set}, \text{pos})\)</span>, define a (2-leg)
+span:</p>
+<p><span class="math display">\[\mathrm{Show}\
+\xleftarrow{\pi_{\text{show}}}\ p\ \xrightarrow{\pi_{\text{song}}}\
+\mathrm{Song}.\]</span></p>
+<p>In <code>cattheory/spans.py</code>, <code>PerformanceSpan</code>
+exposes the two projections explicitly. The <em>fiber</em> of <span
+class="math inline">\(\pi_{\text{show}}\)</span> over a fixed show <span
+class="math inline">\(s\)</span> — the preimage <span
+class="math inline">\(\pi_{\text{show}}^{-1}(s)\)</span>, equivalently
+the wide pullback of all spans pinned on the left to <span
+class="math inline">\(s\)</span> in the discrete fibration sense —
+recovers the show’s setlist in canonical order. Symmetrically, the fiber
+of <span class="math inline">\(\pi_{\text{song}}\)</span> over a fixed
+song recovers the song’s performance history. We use “fiber / multi-leg
+span” rather than “wide pullback” in the strict universal-property
+sense; the discrete-base setting collapses the distinction. This
+construction shows that the performance primitive is not a derived field
+of the schema; it <em>is</em> the apex linking shows and songs, and the
+two projections commute by definition with the cumulative setlist
+functor.</p>
+<p>The categorical content is small but real:</p>
+<ul>
+<li>No data is lost going either direction along a span; both
+projections are total.</li>
+<li>The two wide-pullback constructions give the two natural
+“transposes” of the performance table — show-major and song-major —
+without privileging either.</li>
+<li>Composition of spans (in the bicategory of spans) corresponds
+exactly to the relational operation “show A and show B both played a
+song C” — useful for cross-show similarity measures.</li>
+</ul>
+<h2 id="audio-enrichment">Audio enrichment</h2>
+<p>Following the precedent of the <code>fifteen-songs-dataset</code>
+[fifteen_songs_dataset] and the broader MIR problem of identifying and
+segmenting live concert songs [wang_setlist_segmentation], pairs of
+performances of the <em>same song</em> could carry a similarity weight
+in <span class="math inline">\([0, 1]\)</span>. The category whose
+objects are performances and whose hom-objects are these weights is
+enriched over the unit-interval monoid <span class="math inline">\(([0,
+1], \max, 0)\)</span>.
+<code>cattheory/enriched.py::AudioEnrichedHom</code> captures the
+abstraction: the constructor enforces the weight constraint and the
+same-song precondition; identity homs at weight <span
+class="math inline">\(1.0\)</span> behave as required in the
+enrichment.</p>
+<p>We do not bundle audio. The enrichment is structural; concrete
+weights are expected to come from a downstream pipeline against the
+<code>fifteen-songs-dataset</code>.</p>
+<h2 id="coproducts-and-colimits">Coproducts and colimits</h2>
+<p><code>cattheory/colimits.py</code> exposes two constructions: the
+binary coproduct of two <code>Compendium</code> fragments, which by the
+reconciliation rules collapses into the disjoint-union compendium, and
+the colimit of the cumulative setlist functor on the compendium, which
+equals the set of all songs ever performed in the bundled data.
+Crucially, the colimit check verifies the <em>universal property</em>,
+not merely that each <span class="math inline">\(F(d)\)</span> is a
+subset of the union: <code>colimit_cone_factors</code> confirms that a
+strictly larger cocone vertex admits the unique mediating map and — as a
+built-in negative control — that a vertex <em>strictly smaller</em> than
+<span class="math inline">\(\bigcup F\)</span> fails to receive the
+colimit. A check that only asserted <span class="math inline">\(F(d)
+\subseteq \bigcup F\)</span> would be vacuous (true for any family);
+requiring the negative control to fail is what gives it teeth. The test
+<code>test_coproduct_disjoint_union</code> additionally asserts that
+splitting the shows and re-merging via the coproduct returns the
+original show set — a structural reproducibility witness for the
+reconciliation layer itself.</p>
+<h2 id="natural-transformations">Natural transformations</h2>
+<p>The cardinality assignment <code>η_d = |F(d)|</code> is a natural
+transformation <code>F ⟹ \mathrm{Card} \circ F</code> for any monotone
+covariant functor <code>F : \mathbf{Date} \to \mathbf{Set}</code>. The
+naturality square reduces (on this thin poset) to
+<code>|F(d_1)| \le |F(d_2)|</code> whenever <code>d_1 \le d_2</code>.
+<code>src/cattheory/natural.py</code> exposes
+<code>naturality_square_holds</code> and the two concrete instances
+<code>setlist_cardinality_transformation</code>,
+<code>lineup_cardinality_transformation</code>; both pass on the
+compendium and both are tested against a hand-crafted broken-cardinality
+functor as a negative control. This is small but real categorical
+machinery — it lets us reason about <em>several</em> functors in
+parallel through a single shared transformation.</p>
+<h2 id="representability-yoneda-over-the-date-poset">Representability
+(Yoneda) over the date poset</h2>
+<p>In the <em>discrete</em> show category the Yoneda embedding collapses
+to an equality indicator and is a near-tautology. The non-degenerate
+statement lives over the <span
+class="math inline">\(\mathbf{Date}\)</span> <strong>poset</strong>. For
+a fixed date <span class="math inline">\(d\)</span> the covariant
+representable <span class="math inline">\(\mathrm{Hom}(d, -)\)</span>
+sends each date <span class="math inline">\(e\)</span> to a singleton
+when <span class="math inline">\(d \le e\)</span> and to <span
+class="math inline">\(\varnothing\)</span> otherwise. A natural
+transformation <span class="math inline">\(\mathrm{Hom}(d, -)
+\Rightarrow F_{\text{setlist}}\)</span> assigns the arrow <span
+class="math inline">\(d \to e\)</span> an element of <span
+class="math inline">\(F_{\text{setlist}}(e)\)</span>, and naturality
+with the inclusion legs forces a single element that must lie in <span
+class="math inline">\(F_{\text{setlist}}(e)\)</span> for <em>every</em>
+<span class="math inline">\(e \ge d\)</span>. Because the setlist
+functor is monotone, that condition holds exactly for the elements of
+<span class="math inline">\(F_{\text{setlist}}(d)\)</span>, giving the
+Yoneda bijection <span
+class="math inline">\(\mathrm{Nat}(\mathrm{Hom}(d, -),
+F_{\text{setlist}}) \cong F_{\text{setlist}}(d)\)</span>: <em>the songs
+played by date <span class="math inline">\(d\)</span> are the natural
+transformations into the setlist functor.</em>
+<code>cattheory/yoneda.py::yoneda_lemma_holds_for_setlist</code> checks
+this on the corpus, and <code>count_yoneda_naturals</code> has a
+negative control — on a non-monotone functor an element that later drops
+out is correctly rejected and the bijection fails.</p>
+<h2 id="what-the-construction-buys">What the construction buys</h2>
+<p>The payoff is that <strong>the question “what songs were played when,
+by whom?”</strong> decomposes as a fibered relation in the compendium
+category: the span projections commute with the cumulative setlist
+functor, and the fiber over a fixed show date gives back exactly that
+show’s setlist for exactly that lineup. This is not asserted but
+<em>checked</em> —
+<code>cattheory/spans.py::projections_commute_with_setlist_functor</code>
+verifies, over the whole corpus, that the union of show-fibers up to
+each date equals the setlist functor’s value there. The compendium
+primitive is the apex of the span, not a derived join — which is what
+the categorical reading makes explicit, and what allows seamless
+extension to any other performance corpus with the same shape.</p>
+</body>
+</html>

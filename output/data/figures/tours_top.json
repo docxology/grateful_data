@@ -1,0 +1,15 @@
+{
+  "columns": [
+    "tour",
+    "n_shows"
+  ],
+  "figure": "tours_top.png",
+  "metadata": {},
+  "rows": [
+    [
+      "(untagged)",
+      3341
+    ]
+  ],
+  "title": "Top Tours"
+}

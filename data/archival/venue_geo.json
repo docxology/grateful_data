@@ -1,0 +1,5474 @@
+[
+  {
+    "venue_slug": "46th_street_rock_palace_brooklyn",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "aarhus_university_aarhus",
+    "lat": 39.094,
+    "lon": -97.99,
+    "region": "West"
+  },
+  {
+    "venue_slug": "academy_of_music_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "action_house_island_park",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "activity_center_arizona_state_university_tempe",
+    "lat": 33.729759,
+    "lon": -111.431221,
+    "region": "West"
+  },
+  {
+    "venue_slug": "activity_center_university_of_colorado_boulder",
+    "lat": 39.059811,
+    "lon": -105.311104,
+    "region": "West"
+  },
+  {
+    "venue_slug": "adams_field_house_u_of_montana_missoula",
+    "lat": 46.921925,
+    "lon": -110.454353,
+    "region": "West"
+  },
+  {
+    "venue_slug": "adams_field_house_university_of_montana_missoula",
+    "lat": 46.921925,
+    "lon": -110.454353,
+    "region": "West"
+  },
+  {
+    "venue_slug": "afterthought_pender_auditorium_vancouver",
+    "lat": 39.093,
+    "lon": -97.963,
+    "region": "West"
+  },
+  {
+    "venue_slug": "aladdin_theater_las_vegas",
+    "lat": 38.313515,
+    "lon": -117.055374,
+    "region": "West"
+  },
+  {
+    "venue_slug": "albuquerque_civic_auditorium_albuquerque",
+    "lat": 34.840515,
+    "lon": -106.248482,
+    "region": "West"
+  },
+  {
+    "venue_slug": "alexandra_palace_london",
+    "lat": 39.06,
+    "lon": -97.951,
+    "region": "West"
+  },
+  {
+    "venue_slug": "alfond_arena_u_of_maine_orono",
+    "lat": 44.693947,
+    "lon": -69.381927,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "alfond_arena_university_of_maine_orono",
+    "lat": 44.693947,
+    "lon": -69.381927,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "allan_kirby_field_house_lafayette_college_easton",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "allen_theatre_cleveland",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "alligator_alley_gum_u_of_florida_gainesville",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "alpine_valley_east_troy",
+    "lat": 44.268543,
+    "lon": -89.616508,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "alpine_valley_music_theater_east_troy",
+    "lat": 44.268543,
+    "lon": -89.616508,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "alpine_valley_music_theatre_east_troy",
+    "lat": 42.7575,
+    "lon": -88.4061,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "alumni_lawn_vanderbilt_university_nashville",
+    "lat": 35.747845,
+    "lon": -86.692345,
+    "region": "South"
+  },
+  {
+    "venue_slug": "alumni_stadium_u_of_mass_amherst",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "alumni_stadium_university_of_massachusetts_amherst",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "american_institute_of_aeronautics_and_astronautics_hall_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "american_legion_hall_post_795_south_lake_tahoe",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "american_university_washington",
+    "lat": 38.897438,
+    "lon": -77.026817,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "anaheim_stadium_anaheim",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "anderson_theatre_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "aquarius_theater_hollywood",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "arena_u_of_southern_illinois_carbondale",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "arizona_state_university_tempe",
+    "lat": 33.729759,
+    "lon": -111.431221,
+    "region": "West"
+  },
+  {
+    "venue_slug": "arlington_theater_santa_barbara",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "arlington_theatre_santa_barbara",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "armory_field_house_university_of_cincinnati_cincinnati",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "arrowhead_stadium_kansas_city",
+    "lat": 38.456085,
+    "lon": -92.288368,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "assembly_center_louisiana_state_u_baton_rouge",
+    "lat": 31.169546,
+    "lon": -91.867805,
+    "region": "South"
+  },
+  {
+    "venue_slug": "assembly_center_louisiana_state_university_baton_rouge",
+    "lat": 31.169546,
+    "lon": -91.867805,
+    "region": "South"
+  },
+  {
+    "venue_slug": "assembly_hall_indiana_u_bloomington",
+    "lat": 39.849426,
+    "lon": -86.258278,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "assembly_hall_indiana_university_bloomington",
+    "lat": 39.849426,
+    "lon": -86.258278,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "assembly_hall_u_of_illinois_champaign_urbana",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "assembly_hall_uiuc_champaign",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "assembly_hall_university_of_illinois_champlain",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "athletic_center_rutgers_u_new_brunswick",
+    "lat": 40.298904,
+    "lon": -74.521011,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "athletic_center_rutgers_university_piscataway",
+    "lat": 40.298904,
+    "lon": -74.521011,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "atlanta_municipal_auditorium_atlanta",
+    "lat": 33.040619,
+    "lon": -83.643074,
+    "region": "South"
+  },
+  {
+    "venue_slug": "atlanta_sports_arena_atlanta",
+    "lat": 33.040619,
+    "lon": -83.643074,
+    "region": "South"
+  },
+  {
+    "venue_slug": "atwood_hall_clark_university_worcester",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "auditorium_coliseum_jacksonville",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "auditorium_st_paul",
+    "lat": 45.694454,
+    "lon": -93.900192,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "auditorium_theater_chicago",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "auditorium_theatre_chicago",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "auditorium_west_palm_beach",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "augusta_civic_center_augusta",
+    "lat": 44.693947,
+    "lon": -69.381927,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "austin_municipal_auditorium_austin",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "autzen_stadium_eugene",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "autzen_stadium_u_of_oregon_eugene",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "autzen_stadium_university_of_oregon_eugene",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "avalon_ballroom_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "awalt_pavilion_chester_f_awalt_high_school_mountain_view",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "aztec_bowl_san_diego_state_university_san_diego",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "bakersfield_civic_auditorium_bakersfield",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "ballroom_university_of_colorado_boulder",
+    "lat": 39.059811,
+    "lon": -105.311104,
+    "region": "West"
+  },
+  {
+    "venue_slug": "baltimore_civic_center_baltimore",
+    "lat": 39.063946,
+    "lon": -76.802101,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "bangor_auditorium_bangor",
+    "lat": 44.693947,
+    "lon": -69.381927,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "barton_hall_cornell_u_ithaca",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "barton_hall_cornell_university_ithaca",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "baton_rouge_international_speedway_baton_rouge",
+    "lat": 31.169546,
+    "lon": -91.867805,
+    "region": "South"
+  },
+  {
+    "venue_slug": "bayfront_center_arena_st_petersburg",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "bayfront_center_st_petersburg",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "beacon_theatre_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "beat_club_bremen",
+    "lat": 39.095,
+    "lon": -97.939,
+    "region": "West"
+  },
+  {
+    "venue_slug": "beaver_hall_portland",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "berkeley_community_theater_berkeley",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "berkeley_community_theatre_berkeley",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "betty_nelson_s_organic_raspberry_farm_sultan",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "bickershaw_festival_wigan",
+    "lat": 39.069,
+    "lon": -97.903,
+    "region": "West"
+  },
+  {
+    "venue_slug": "big_nig_s_house_san_jose",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "billerica_forum_billerica",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "billerica_forum_north_billerica",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "birmingham_jefferson_civic_center_coliseum_birmingham",
+    "lat": 32.806671,
+    "lon": -86.79113,
+    "region": "South"
+  },
+  {
+    "venue_slug": "birmingham_jefferson_convention_complex_coliseum_birmingham",
+    "lat": 32.806671,
+    "lon": -86.79113,
+    "region": "South"
+  },
+  {
+    "venue_slug": "blockbuster_desert_sky_pavilion_phoenix",
+    "lat": 33.729759,
+    "lon": -111.431221,
+    "region": "West"
+  },
+  {
+    "venue_slug": "blossom_music_center_cuyahoga_falls",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "bob_marley_performing_arts_center_kingston",
+    "lat": 39.021,
+    "lon": -97.918,
+    "region": "West"
+  },
+  {
+    "venue_slug": "bob_marley_performing_arts_center_montego_bay",
+    "lat": 39.038,
+    "lon": -97.953,
+    "region": "West"
+  },
+  {
+    "venue_slug": "boise_pavillion_boise",
+    "lat": 44.240459,
+    "lon": -114.478828,
+    "region": "West"
+  },
+  {
+    "venue_slug": "boise_state_university_pavilion_boise",
+    "lat": 44.240459,
+    "lon": -114.478828,
+    "region": "West"
+  },
+  {
+    "venue_slug": "boreal_ridge_ski_resort_donner_s_summit",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "boreal_ridge_ski_resort_donner_summit",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "boston_garden_boston",
+    "lat": 42.3662,
+    "lon": -71.0621,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "boston_music_hall_boston",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "boston_music_mall_boston",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "boston_tea_party_boston",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "boutwell_auditorium_birmingham",
+    "lat": 32.806671,
+    "lon": -86.79113,
+    "region": "South"
+  },
+  {
+    "venue_slug": "brendan_byrne_arena_e_hazelton",
+    "lat": 40.298904,
+    "lon": -74.521011,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "brendan_byrne_arena_east_rutherford",
+    "lat": 40.298904,
+    "lon": -74.521011,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "brendan_byrne_arena_egg_harbor_township",
+    "lat": 40.298904,
+    "lon": -74.521011,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "britt_ballroom_south_oregon_college_gym_ashland",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "broome_county_arena_binghamton",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "buckeye_lake_hebron",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "buckeye_lake_music_center_hebron",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "buckeye_lake_music_center_thornville",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "buckeye_music_center_buckeye_lake",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "buffalo_memorial_auditorium_buffalo",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "caf_au_go_go_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "cal_expo_amphitheatre_sacramento",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "cal_expo_building_a_sacramento",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "cal_expo_sacramento",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "cal_state_dominguez_hills_carson",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "calavaras_county_fairgrounds_angel_s_camp",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "calaveras_county_fairgrounds_angels_camp",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "california_exposition_amphitheater_sacramento",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "california_hall_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "california_state_u_dominguez_hills_carson",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "cameron_indoor_stadium_duke_u_durham",
+    "lat": 35.630066,
+    "lon": -79.806419,
+    "region": "South"
+  },
+  {
+    "venue_slug": "cameron_indoor_stadium_duke_university_durham",
+    "lat": 35.630066,
+    "lon": -79.806419,
+    "region": "South"
+  },
+  {
+    "venue_slug": "cameron_indoor_stadium_durham",
+    "lat": 35.630066,
+    "lon": -79.806419,
+    "region": "South"
+  },
+  {
+    "venue_slug": "camp_randall_field_house_university_of_wisconsin_madison",
+    "lat": 44.268543,
+    "lon": -89.616508,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "campolindo_high_school_moraga",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "campus_stadium_uc_santa_barbara_goleta",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "canadian_national_exhibition_stadium_toronto",
+    "lat": 39.022,
+    "lon": -97.984,
+    "region": "West"
+  },
+  {
+    "venue_slug": "candlestick_park_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "cap_center_fairfax",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "region": "South"
+  },
+  {
+    "venue_slug": "cap_centre_landover",
+    "lat": 39.063946,
+    "lon": -76.802101,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "cape_cod_coliseum_south_yarmouth",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "capital_centre_landover",
+    "lat": 38.9131,
+    "lon": -76.8517,
+    "region": "South"
+  },
+  {
+    "venue_slug": "capitol_center_landover",
+    "lat": 39.063946,
+    "lon": -76.802101,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "capitol_centre_landover",
+    "lat": 39.063946,
+    "lon": -76.802101,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "capitol_theater_passaic",
+    "lat": 40.298904,
+    "lon": -74.521011,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "capitol_theatre_passaic",
+    "lat": 40.298904,
+    "lon": -74.521011,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "capitol_theatre_port_chester",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "cardinal_stadium_louisville",
+    "lat": 37.66814,
+    "lon": -84.670067,
+    "region": "South"
+  },
+  {
+    "venue_slug": "carolina_coliseum_arena_univ_of_s_carolina_columbia",
+    "lat": 33.856892,
+    "lon": -80.945007,
+    "region": "South"
+  },
+  {
+    "venue_slug": "carolina_coliseum_u_of_south_carolina_columbia",
+    "lat": 33.856892,
+    "lon": -80.945007,
+    "region": "South"
+  },
+  {
+    "venue_slug": "carousel_ballroom_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "carrier_dome_syracuse_u_syracuse",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "carrier_dome_syracuse_university_syracuse",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "carter_finley_raleigh",
+    "lat": 35.630066,
+    "lon": -79.806419,
+    "region": "South"
+  },
+  {
+    "venue_slug": "carter_finley_stadium_north_carolina_state_university_raleigh",
+    "lat": 35.630066,
+    "lon": -79.806419,
+    "region": "South"
+  },
+  {
+    "venue_slug": "carthay_studios_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "cassell_coliseum_virginia_tech_blacksburg",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "region": "South"
+  },
+  {
+    "venue_slug": "catacombs_houston",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "catholic_youth_center_scranton",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "centennial_coliseum_reno",
+    "lat": 38.313515,
+    "lon": -117.055374,
+    "region": "West"
+  },
+  {
+    "venue_slug": "central_park_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "centrum_worcester",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "century_ii_convention_hall_wichita",
+    "lat": 38.5266,
+    "lon": -96.726486,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "chalet_inn_room_belmont",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "chardonnay_hall_napa_county_fairgrounds_napa",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "charlotte_charlotte",
+    "lat": 35.630066,
+    "lon": -79.806419,
+    "region": "South"
+  },
+  {
+    "venue_slug": "charlotte_coliseum_charlotte",
+    "lat": 35.630066,
+    "lon": -79.806419,
+    "region": "South"
+  },
+  {
+    "venue_slug": "charlotte_nc",
+    "lat": 35.630066,
+    "lon": -79.806419,
+    "region": "South"
+  },
+  {
+    "venue_slug": "chateau_d_herouville_herouville",
+    "lat": 39.069,
+    "lon": -97.926,
+    "region": "West"
+  },
+  {
+    "venue_slug": "cheetah_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "chelsea_hotel_roof_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "chrysler_arena_ann_arbor",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "chrysler_arena_u_of_michigan_ann_arbor",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "cincinnati_gardens_cincinnati",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "city_hall_newcastle",
+    "lat": 39.048,
+    "lon": -97.944,
+    "region": "West"
+  },
+  {
+    "venue_slug": "city_island_harrisburg",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "city_park_denver",
+    "lat": 39.059811,
+    "lon": -105.311104,
+    "region": "West"
+  },
+  {
+    "venue_slug": "civic_arena_pittsburgh",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "civic_auditorium_omaha",
+    "lat": 39.027,
+    "lon": -97.997,
+    "region": "West"
+  },
+  {
+    "venue_slug": "civic_auditorium_san_antonio",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "civic_auditorium_san_jose",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "civic_center_arena_springfield",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "civic_center_baltimore",
+    "lat": 39.063946,
+    "lon": -76.802101,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "civic_center_hartford",
+    "lat": 41.597782,
+    "lon": -72.755371,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "civic_center_music_hall_oklahoma_city",
+    "lat": 35.565342,
+    "lon": -96.928917,
+    "region": "South"
+  },
+  {
+    "venue_slug": "civic_center_providence",
+    "lat": 41.680893,
+    "lon": -71.51178,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "civic_center_roanoke",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "region": "South"
+  },
+  {
+    "venue_slug": "civic_convention_hall_auditorium_philadelphia",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "civic_hall_rotterdam",
+    "lat": 39.044,
+    "lon": -97.974,
+    "region": "West"
+  },
+  {
+    "venue_slug": "cleveland_convention_center_cleveland",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "cleveland_music_hall_cleveland",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "cleveland_public_hall_cleveland",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "clifford_s_catering_walnut_creek",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "club_agora_columbus",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "club_melk_weg_amsterdam",
+    "lat": 39.025,
+    "lon": -97.991,
+    "region": "West"
+  },
+  {
+    "venue_slug": "cobo_arena_detroit",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "colden_auditorium_queens_college_queens",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "cole_field_house_u_of_maryland_college_park",
+    "lat": 39.063946,
+    "lon": -76.802101,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "cole_field_house_university_of_maryland_college_park",
+    "lat": 39.063946,
+    "lon": -76.802101,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "coliseum_charlotte",
+    "lat": 35.630066,
+    "lon": -79.806419,
+    "region": "South"
+  },
+  {
+    "venue_slug": "coliseum_hampton",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "region": "South"
+  },
+  {
+    "venue_slug": "coliseum_west_virginia_university_morgantown",
+    "lat": 38.491226,
+    "lon": -80.954453,
+    "region": "South"
+  },
+  {
+    "venue_slug": "college_center_ballroom_portland_state_college_portland",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "colt_park_hartford",
+    "lat": 41.597782,
+    "lon": -72.755371,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "commons_san_francisco_state_university_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "community_concourse_golden_hall_san_diego",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "community_war_memorial_rochester",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "compton_terrace_amphitheater_tempe",
+    "lat": 33.729759,
+    "lon": -111.431221,
+    "region": "West"
+  },
+  {
+    "venue_slug": "compton_terrace_amphitheatre_chandler",
+    "lat": 33.729759,
+    "lon": -111.431221,
+    "region": "West"
+  },
+  {
+    "venue_slug": "compton_terrace_tempe",
+    "lat": 33.729759,
+    "lon": -111.431221,
+    "region": "West"
+  },
+  {
+    "venue_slug": "concertgebouw_amsterdam",
+    "lat": 39.062,
+    "lon": -97.993,
+    "region": "West"
+  },
+  {
+    "venue_slug": "continental_ballroom_santa_clara",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "convention_center_cleveland",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "copps_coliseum_hamilton",
+    "lat": 39.053,
+    "lon": -97.921,
+    "region": "West"
+  },
+  {
+    "venue_slug": "coronation_park_toronto",
+    "lat": 39.09,
+    "lon": -97.912,
+    "region": "West"
+  },
+  {
+    "venue_slug": "cotterell_gym_colgate_university_hamilton",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "cotterrell_gym_colgate_u_hamilton",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "county_coliseum_el_paso",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "cow_palace_daly_city",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "crisler_arena_university_of_michigan_ann_arbor",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "crystal_ballroom_portland",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "cumberland_county_civic_center_portland",
+    "lat": 44.693947,
+    "lon": -69.381927,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "curtis_hixon_convention_hall_tampa",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "dallas_convention_center_arena_dallas",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "dallas_convention_center_dallas",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "dallas_memorial_auditorium_dallas",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "dance_hall_rio_nido",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "dane_county_coliseum_madison",
+    "lat": 44.268543,
+    "lon": -89.616508,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "danielmeyer_coliseum_texas_christian_university_fort_worth",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "danish_center_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "dante_s_inferno_vancouver",
+    "lat": 39.027,
+    "lon": -97.936,
+    "region": "West"
+  },
+  {
+    "venue_slug": "david_mead_field_house_allegheny_college_meadville",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "davis_gym_bucknell_university_lewisburg",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "dean_e_smith_center_unversity_of_north_carolina_chapel_hill",
+    "lat": 35.630066,
+    "lon": -79.806419,
+    "region": "South"
+  },
+  {
+    "venue_slug": "deer_creek_amphitheater_noblesville",
+    "lat": 39.849426,
+    "lon": -86.258278,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "deer_creek_in",
+    "lat": 39.849426,
+    "lon": -86.258278,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "deer_creek_music_center_noblesville",
+    "lat": 39.987,
+    "lon": -85.9911,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "deer_creek_music_pavillion_noblesville",
+    "lat": 39.849426,
+    "lon": -86.258278,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "deer_creek_noblesville",
+    "lat": 39.849426,
+    "lon": -86.258278,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "del_mar_fairgrounds_del_mar",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "delta_center_salt_lake_city",
+    "lat": 40.150032,
+    "lon": -111.862434,
+    "region": "West"
+  },
+  {
+    "venue_slug": "denver_coliseum_denver",
+    "lat": 39.059811,
+    "lon": -105.311104,
+    "region": "West"
+  },
+  {
+    "venue_slug": "des_moines_civic_center_des_moines",
+    "lat": 42.011539,
+    "lon": -93.210526,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "desert_sky_pavilion_phoenix",
+    "lat": 34.969704,
+    "lon": -92.373123,
+    "region": "South"
+  },
+  {
+    "venue_slug": "deutsches_museum_halle_munich",
+    "lat": 39.046,
+    "lon": -97.911,
+    "region": "West"
+  },
+  {
+    "venue_slug": "devore_field_southwestern_college_chula_vista",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "devore_field_southwestern_u_chula_vista",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "diamond_gym_college_of_marin_kentfield",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "dijon_dijon",
+    "lat": 39.025,
+    "lon": -97.982,
+    "region": "West"
+  },
+  {
+    "venue_slug": "dillon_gym_princeton_university_princeton",
+    "lat": 40.298904,
+    "lon": -74.521011,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "dillon_stadium_hartford",
+    "lat": 41.597782,
+    "lon": -72.755371,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "downs_of_santa_fe_santa_fe",
+    "lat": 34.840515,
+    "lon": -106.248482,
+    "region": "West"
+  },
+  {
+    "venue_slug": "dream_bowl_vallejo",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "dupont_gym_mit_cambridge",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "eagles_auditorium_seattle",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "earl_warren_showgrounds_santa_barbara",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "eastown_theatre_detroit",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "edmundson_pavilion_u_of_washington_seattle",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "el_camino_park_palo_alto",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "el_paso_county_coliseum_el_paso",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "el_roach_tavern_seattle",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "electric_circus_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "electric_factory_philadelphia",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "elysian_park_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "embassy_ballroom_a_k_a_banana_grove_ambassador_hotel_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "empire_pool_london",
+    "lat": 39.017,
+    "lon": -97.984,
+    "region": "West"
+  },
+  {
+    "venue_slug": "empire_pool_wembley",
+    "lat": 39.024,
+    "lon": -97.944,
+    "region": "West"
+  },
+  {
+    "venue_slug": "empire_studios_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "emu_ballroom_university_of_oregon_eugene",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "euphoria_san_rafael",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "eureka_municipal_auditorium_eureka",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "evans_field_house_northern_illinois_university_dekalb",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "events_center_u_of_colorado_boulder",
+    "lat": 39.059811,
+    "lon": -105.311104,
+    "region": "West"
+  },
+  {
+    "venue_slug": "expo_milwaukee_convention_center_milwaukee",
+    "lat": 44.268543,
+    "lon": -89.616508,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "fairgrounds_arena_oklahoma_city",
+    "lat": 35.565342,
+    "lon": -96.928917,
+    "region": "South"
+  },
+  {
+    "venue_slug": "fairgrounds_lille",
+    "lat": 39.006,
+    "lon": -97.982,
+    "region": "West"
+  },
+  {
+    "venue_slug": "family_dog_denver",
+    "lat": 39.059811,
+    "lon": -105.311104,
+    "region": "West"
+  },
+  {
+    "venue_slug": "family_dog_on_the_great_highway_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "farrell_hall_suny_delhi",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "felt_forum_madison_square_garden_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "ferris_booth_hall_terrace_columbia_university_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "festhalle_frankfurt",
+    "lat": 39.057,
+    "lon": -97.907,
+    "region": "West"
+  },
+  {
+    "venue_slug": "feyline_field_tempe",
+    "lat": 33.729759,
+    "lon": -111.431221,
+    "region": "West"
+  },
+  {
+    "venue_slug": "field_house_northern_illinois_u_de_kalb",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "field_house_rensselaer_polytechnic_institute_troy",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "field_house_seneca_college_toronto",
+    "lat": 39.095,
+    "lon": -97.944,
+    "region": "West"
+  },
+  {
+    "venue_slug": "fieldhouse_university_of_iowa_iowa_city",
+    "lat": 42.011539,
+    "lon": -93.210526,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "fiesta_hall_county_fairgrounds_san_mateo",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "fiesta_hall_san_mateo_county_fairgrounds_san_mateo",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "fillmore_auditorium_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "fillmore_east_new_york",
+    "lat": 40.7295,
+    "lon": -73.989,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "fillmore_west_san_francisco",
+    "lat": 37.7749,
+    "lon": -122.4194,
+    "region": "West"
+  },
+  {
+    "venue_slug": "five_seasons_center_cedar_rapids",
+    "lat": 42.011539,
+    "lon": -93.210526,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "florida_gymnasium_university_of_florida_gainesville",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "folsom_field_boulder",
+    "lat": 39.059811,
+    "lon": -105.311104,
+    "region": "West"
+  },
+  {
+    "venue_slug": "folsom_field_u_of_colorado_boulder",
+    "lat": 39.059811,
+    "lon": -105.311104,
+    "region": "West"
+  },
+  {
+    "venue_slug": "folsom_field_university_of_colorado_boulder_boulder",
+    "lat": 39.059811,
+    "lon": -105.311104,
+    "region": "West"
+  },
+  {
+    "venue_slug": "ford_auditorium_detroit",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "forum_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "forum_theater_copenhagen",
+    "lat": 39.086,
+    "lon": -97.992,
+    "region": "West"
+  },
+  {
+    "venue_slug": "forum_theatre_copenhagen",
+    "lat": 39.022,
+    "lon": -97.981,
+    "region": "West"
+  },
+  {
+    "venue_slug": "foss_hill_wesleyan_university_middletown",
+    "lat": 41.597782,
+    "lon": -72.755371,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "fox_theater_atlanta",
+    "lat": 33.040619,
+    "lon": -83.643074,
+    "region": "South"
+  },
+  {
+    "venue_slug": "fox_theatre_atlanta",
+    "lat": 33.040619,
+    "lon": -83.643074,
+    "region": "South"
+  },
+  {
+    "venue_slug": "fox_theatre_st_louis",
+    "lat": 38.456085,
+    "lon": -92.288368,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "foxboro_foxboro",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "franklin_co_airport_field_highgate",
+    "lat": 44.045876,
+    "lon": -72.710686,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "franklin_county_airport_highgate",
+    "lat": 44.045876,
+    "lon": -72.710686,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "franklin_county_field_highgate",
+    "lat": 44.045876,
+    "lon": -72.710686,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "freeborn_hall_uc_davis_davis",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "freedom_hall_louisville",
+    "lat": 37.66814,
+    "lon": -84.670067,
+    "region": "South"
+  },
+  {
+    "venue_slug": "freedom_hall_lousville",
+    "lat": 37.66814,
+    "lon": -84.670067,
+    "region": "South"
+  },
+  {
+    "venue_slug": "frenchy_s_hayward",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "frost_amphitheater_palo_alto",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "frost_amphitheater_stanford_u_palo_alto",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "frost_amphitheatre_stanford",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "frost_amphitheatre_stanford_university_palo_alto",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "frost_ampitheatre_stanford",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "fugazi_hall_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "gaelic_park_bronx",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "gallaher_estate_norwalk",
+    "lat": 41.597782,
+    "lon": -72.755371,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "giant_s_stadium_east_rutherford",
+    "lat": 40.298904,
+    "lon": -74.521011,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "giants_stadium_east_rutherford",
+    "lat": 40.298904,
+    "lon": -74.521011,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "giants_stadium_meadowlands_sports_complex_east_rutherford",
+    "lat": 40.298904,
+    "lon": -74.521011,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "gill_coliseum_oregon_state_university_corvallis",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "gizah_sound_and_light_theater_cairo",
+    "lat": 39.035,
+    "lon": -97.92,
+    "region": "West"
+  },
+  {
+    "venue_slug": "glen_helen_regional_park_devore",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "glenns_falls_civic_center_glenns_falls",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "glens_falls_civic_center_glen_falls",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "golden_gardens_park_seattle",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "golden_hall_san_diego",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "governor_s_hall_state_fairgrounds_sacramento",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "grand_center_grand_rapids",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "grand_prix_racecourse_watkins_glen",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "grande_ballroom_detroit",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "great_american_music_hall_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "great_western_forum_inglewood",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "greek_theater_u_of_california_berkeley",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "greek_theatre_berkeley",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "green_lake_aqua_theatre_seattle",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "greensboro_coliseum_greensboro",
+    "lat": 35.630066,
+    "lon": -79.806419,
+    "region": "South"
+  },
+  {
+    "venue_slug": "greynolds_park_north_miami_beach",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "grote_zaal_de_doelen_rotterdam",
+    "lat": 39.08,
+    "lon": -97.928,
+    "region": "West"
+  },
+  {
+    "venue_slug": "gruga_halle_essen",
+    "lat": 39.024,
+    "lon": -97.996,
+    "region": "West"
+  },
+  {
+    "venue_slug": "grugahalle_essen",
+    "lat": 39.07,
+    "lon": -98.0,
+    "region": "West"
+  },
+  {
+    "venue_slug": "gulfstream_park_racetrack_hallandale",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "gymnasium_lane_community_college_eugene",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "gymnasium_las_lomas_high_school_walnut_creek",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "haight_street_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "hall_of_flowers_san_mateo_county_fairgrounds_san_mateo",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "hampton_coliseum_hampton",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "region": "South"
+  },
+  {
+    "venue_slug": "hampton_roads_coliseum_hampton",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "region": "South"
+  },
+  {
+    "venue_slug": "hara_arena_dayton",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "harder_stadium_uc_santa_barbara_goleta",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "harding_theater_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "harmon_gym_uc_berkeley_berkeley",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "harrington_auditorium_worcester_polytechnic_institute_worcester",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "hartford_civic_center_hartford",
+    "lat": 41.597782,
+    "lon": -72.755371,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "haywood_bandstand_vancouver",
+    "lat": 39.001,
+    "lon": -97.914,
+    "region": "West"
+  },
+  {
+    "venue_slug": "hec_s_edmundson_pavilion_university_of_washington_seattle",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "hemisfair_arena_san_antonio",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "henry_j_kaiser_auditorium_oakland",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "henry_j_kaiser_convention_center_mardi_gras",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "henry_j_kaiser_convention_center_oakland",
+    "lat": 37.8004,
+    "lon": -122.2607,
+    "region": "West"
+  },
+  {
+    "venue_slug": "henry_j_kaiser_oakland",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "hershey_park_stadium_hershey",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "hile_high_stadium_denver",
+    "lat": 39.059811,
+    "lon": -105.311104,
+    "region": "West"
+  },
+  {
+    "venue_slug": "hill_auditorium_ann_arbor",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "hilton_hotel_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "hippodrome_de_pantin_paris",
+    "lat": 39.063,
+    "lon": -97.988,
+    "region": "West"
+  },
+  {
+    "venue_slug": "hippy_hill_golden_gate_park_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "hjk",
+    "lat": 39.085,
+    "lon": -97.943,
+    "region": "West"
+  },
+  {
+    "venue_slug": "hjk_unknown",
+    "lat": 39.021,
+    "lon": -97.991,
+    "region": "West"
+  },
+  {
+    "venue_slug": "hofheinz_pavilion_houston",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "holleder_memorial_stadium_rochester",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "holleder_stadium_rochester",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "holly_wood_newcastle_under_lyme_leycett",
+    "lat": 39.078,
+    "lon": -97.957,
+    "region": "West"
+  },
+  {
+    "venue_slug": "hollywood_bowl_hollywood",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "hollywood_bowl_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "hollywood_palladium_hollywood",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "honolulu_civic_auditorium_honolulu",
+    "lat": 21.094318,
+    "lon": -157.498337,
+    "region": "West"
+  },
+  {
+    "venue_slug": "horton_field_house_illinois_state_u_normal",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "horton_field_house_illinois_state_university_normal",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "hubert_h_humphrey_metrodome_minneapolis",
+    "lat": 45.694454,
+    "lon": -93.900192,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "hubert_h_humphrey_metrodome_minniapolis",
+    "lat": 45.694454,
+    "lon": -93.900192,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "huntington_civic_center_huntington",
+    "lat": 38.491226,
+    "lon": -80.954453,
+    "region": "South"
+  },
+  {
+    "venue_slug": "hyde_park_teen_center_cincinnati",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "i_c_c_berlin",
+    "lat": 39.067,
+    "lon": -97.901,
+    "region": "West"
+  },
+  {
+    "venue_slug": "i_d_e_s_hall_pescadero",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "ice_palace_las_vegas",
+    "lat": 38.313515,
+    "lon": -117.055374,
+    "region": "West"
+  },
+  {
+    "venue_slug": "indiana_convention_center_indianapolis",
+    "lat": 39.849426,
+    "lon": -86.258278,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "indianapolis_convention_center_indianapolis",
+    "lat": 39.849426,
+    "lon": -86.258278,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "indianapolis_sports_center_indianapolis",
+    "lat": 39.849426,
+    "lon": -86.258278,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "international_amphiteater_chicago",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "international_amphitheater_chicago",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "international_amphitheatre_chicago",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "international_room_san_francisco_state_university_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "internationales_congress_centrum_berlin",
+    "lat": 39.028,
+    "lon": -97.975,
+    "region": "West"
+  },
+  {
+    "venue_slug": "irvine_auditorium_university_of_pennsylvania_philadelphia",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "irvine_meadows_amphitheater_laguna_hills",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "irvine_meadows_amphitheatre_irvine",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "irvine_meadows_irvine",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "istadium_stockholm",
+    "lat": 39.032,
+    "lon": -97.972,
+    "region": "West"
+  },
+  {
+    "venue_slug": "jahrhundert_halle_frankfurt",
+    "lat": 39.084,
+    "lon": -97.901,
+    "region": "West"
+  },
+  {
+    "venue_slug": "jahrhunderthalle_frankfurt",
+    "lat": 39.07,
+    "lon": -97.976,
+    "region": "West"
+  },
+  {
+    "venue_slug": "jai_alai_fronton_miami",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "jenison_field_house_michigan_state_university_east_lansing",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "jfk_stadium_philadelphia",
+    "lat": 39.9028,
+    "lon": -75.1683,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "joe_louis_arena_detroit",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "johanneshov_isstadion_stockholm",
+    "lat": 39.083,
+    "lon": -97.904,
+    "region": "West"
+  },
+  {
+    "venue_slug": "john_f_kennedy_stadium_philadelphia",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "kansas_city_municipal_auditorium_kansas_city",
+    "lat": 38.456085,
+    "lon": -92.288368,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "kezar_stadium_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "kiefer_lakefront_arena_university_of_new_orleans_new_orleans",
+    "lat": 31.169546,
+    "lon": -91.867805,
+    "region": "South"
+  },
+  {
+    "venue_slug": "kiel_auditorium_st_louis",
+    "lat": 38.456085,
+    "lon": -92.288368,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "kiel_opera_house_st_louis",
+    "lat": 38.456085,
+    "lon": -92.288368,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "kinetic_playground_chicago",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "kings_beach_bowl_lake_tahoe",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "kingswood_music_theater_toronto",
+    "lat": 39.014,
+    "lon": -97.907,
+    "region": "West"
+  },
+  {
+    "venue_slug": "kingswood_music_theatre_maple",
+    "lat": 39.033,
+    "lon": -97.91,
+    "region": "West"
+  },
+  {
+    "venue_slug": "kingswood_theater_maple",
+    "lat": 39.014,
+    "lon": -97.929,
+    "region": "West"
+  },
+  {
+    "venue_slug": "kirby_fieldhouse_lafayette_college_easton",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "kleinhans_music_hall_buffalo",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "knickerbocker_arena_albany",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "knight_s_hall_bellarmine_college_louisville",
+    "lat": 37.66814,
+    "lon": -84.670067,
+    "region": "South"
+  },
+  {
+    "venue_slug": "kongresssaal_deutsches_museum_munich",
+    "lat": 39.08,
+    "lon": -97.986,
+    "region": "West"
+  },
+  {
+    "venue_slug": "kpix_tv_studios_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "kresge_plaza_massachusetts_institute_of_technology_cambridge",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "l_a_memorial_coliseum_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "l_a_sports_arena_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "la_dolphine_hillsborough",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "la_forum_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "labor_temple_minneapolis",
+    "lat": 45.694454,
+    "lon": -93.900192,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "ladera_school_ladera",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "laguna_seca",
+    "lat": 39.022,
+    "lon": -97.959,
+    "region": "West"
+  },
+  {
+    "venue_slug": "laguna_seca_raceway_monterey",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "laguna_seca_raceway_salinas",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "laguna_seca_unknown",
+    "lat": 39.027,
+    "lon": -97.976,
+    "region": "West"
+  },
+  {
+    "venue_slug": "lakefront_arena_new_orleans",
+    "lat": 31.169546,
+    "lon": -91.867805,
+    "region": "South"
+  },
+  {
+    "venue_slug": "lakeland_civic_center_arena_lakeland",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "lakeland_civic_center_lakeland",
+    "lat": 28.0395,
+    "lon": -81.9498,
+    "region": "South"
+  },
+  {
+    "venue_slug": "lanai_theater_crockett",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "las_vegas_convention_center_las_vegas",
+    "lat": 38.313515,
+    "lon": -117.055374,
+    "region": "West"
+  },
+  {
+    "venue_slug": "legion_stadium_el_monte",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "lille_fairgrounds_lille",
+    "lat": 39.02,
+    "lon": -97.937,
+    "region": "West"
+  },
+  {
+    "venue_slug": "lindley_meadow_golden_gate_park_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "lindley_meadows_golden_gate_park_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "lion_s_share_san_anselmo",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "lloyd_noble_center_u_of_oklahoma_norman",
+    "lat": 35.565342,
+    "lon": -96.928917,
+    "region": "South"
+  },
+  {
+    "venue_slug": "lloyd_noble_center_university_of_oklahoma_norman",
+    "lat": 35.565342,
+    "lon": -96.928917,
+    "region": "South"
+  },
+  {
+    "venue_slug": "location_unknown",
+    "lat": 39.038,
+    "lon": -97.959,
+    "region": "West"
+  },
+  {
+    "venue_slug": "loma_prieta_room_student_union_san_jose_state_university_san_jose",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "long_beach_arena_long_beach",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "long_beach_long_beach",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "longshoreman_s_hall_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "los_angeles_memorial_coliseum_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "los_angeles_memorial_sports_arena_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "los_angeles_sports_arena_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "lusk_field_house_suny_cortland",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "lyceum_london",
+    "lat": 39.078,
+    "lon": -97.939,
+    "region": "West"
+  },
+  {
+    "venue_slug": "lyric_theater_baltimore",
+    "lat": 39.063946,
+    "lon": -76.802101,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "macarthur_court_university_of_oregon_eugene",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "mackay_stadium_university_of_nevada_reno",
+    "lat": 38.313515,
+    "lon": -117.055374,
+    "region": "West"
+  },
+  {
+    "venue_slug": "madison_square_garden_new_york",
+    "lat": 40.7505,
+    "lon": -73.9934,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "madison_square_garden_new_york_city",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "madison_square_garden_nyc",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "magoo_s_pizza_parlor_menlo_park",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "maine_state_fairgrounds_lewiston",
+    "lat": 44.693947,
+    "lon": -69.381927,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "mammoth_gardens_denver",
+    "lat": 39.059811,
+    "lon": -105.311104,
+    "region": "West"
+  },
+  {
+    "venue_slug": "manhattan_center_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "manor_downs_austin",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "marigold_ballroom_fresno",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "marin_county_veteran_s_auditorium_san_rafael",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "marin_veterans_memorial_auditorium_san_rafael",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "marion_shea_auditorium_paterson_state_college_wayne",
+    "lat": 40.298904,
+    "lon": -74.521011,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "market_square_arena_indianapolis",
+    "lat": 39.849426,
+    "lon": -86.258278,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "masonic_temple_detroit",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "masonic_temple_portland",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "matrix_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "max_yasgur_s_farm_bethel",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "mayser_center_franklin_marshall_college_lancaster",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "mcarthur_court_u_of_oregon_eugene",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "mcdonough_arena_georgetown_university_washington",
+    "lat": 38.897438,
+    "lon": -77.026817,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "mcfarlin_auditorium_southern_methodist_university_smu_dallas",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "mcgaw_hall_northwestern_university_evanston",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "mcgaw_memorial_hall_evanston",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "mcmahon_stadium_calgary",
+    "lat": 39.076,
+    "lon": -97.999,
+    "region": "West"
+  },
+  {
+    "venue_slug": "mcnichols_arena_denver",
+    "lat": 39.059811,
+    "lon": -105.311104,
+    "region": "West"
+  },
+  {
+    "venue_slug": "mcnichols_sports_arena_denver",
+    "lat": 39.059811,
+    "lon": -105.311104,
+    "region": "West"
+  },
+  {
+    "venue_slug": "meadowlands_arena_east_rutherford",
+    "lat": 40.298904,
+    "lon": -74.521011,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "mecca_milwaukee",
+    "lat": 44.268543,
+    "lon": -89.616508,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "melk_weg_amsterdam",
+    "lat": 39.073,
+    "lon": -97.934,
+    "region": "West"
+  },
+  {
+    "venue_slug": "melodyland_theatre_anaheim",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "memorial_auditorium_dallas",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "memorial_auditorium_ohio_university_athens",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "memorial_auditorium_sacramento",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "memorial_auditorium_utica",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "memorial_coliseum_portland",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "memorial_coliseum_state_fairgrounds_jackson",
+    "lat": 32.741646,
+    "lon": -89.678696,
+    "region": "South"
+  },
+  {
+    "venue_slug": "memorial_coliseum_u_of_alabama_tuscaloosa",
+    "lat": 32.806671,
+    "lon": -86.79113,
+    "region": "South"
+  },
+  {
+    "venue_slug": "memorial_hall_kansas_city",
+    "lat": 38.456085,
+    "lon": -92.288368,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "memorial_stadium_seattle",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "memorial_union_ballroom_purdue_university_lafayette",
+    "lat": 39.849426,
+    "lon": -86.258278,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "meramec_community_college_st_louis",
+    "lat": 38.456085,
+    "lon": -92.288368,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "merriweather_post_pavilion_columbia",
+    "lat": 39.063946,
+    "lon": -76.802101,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "mershon_auditorium_ohio_state_university_columbus",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "met_center_minneapolis",
+    "lat": 45.694454,
+    "lon": -93.900192,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "metropolitan_center_minneapolis",
+    "lat": 45.694454,
+    "lon": -93.900192,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "metropolitan_sports_center_bloomington",
+    "lat": 45.694454,
+    "lon": -93.900192,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "miami_arena_miami",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "miami_fl_miami",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "miami_hollywood_speedway_park_pembroke_pines",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "miami_miami",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "mid_south_coliseum_memphis",
+    "lat": 35.747845,
+    "lon": -86.692345,
+    "region": "South"
+  },
+  {
+    "venue_slug": "middlesex_county_community_college_edison",
+    "lat": 40.298904,
+    "lon": -74.521011,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "mile_high_stadium_denver",
+    "lat": 39.059811,
+    "lon": -105.311104,
+    "region": "West"
+  },
+  {
+    "venue_slug": "mill_valley_recreation_center_mill_valley",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "milwaukee_auditorium_milwaukee",
+    "lat": 44.268543,
+    "lon": -89.616508,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "mississippi_coliseum_jackson",
+    "lat": 32.741646,
+    "lon": -89.678696,
+    "region": "South"
+  },
+  {
+    "venue_slug": "mississippi_river_festival_edwardsville",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "monterey_county_fairgrounds_monterey",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "monterey_peninsula_college_monterey",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "moody_coliseum_smu_dallas",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "moody_coliseum_southern_methodist_university_smu_dallas",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "morgantown_civic_center_morgantown",
+    "lat": 38.491226,
+    "lon": -80.954453,
+    "region": "South"
+  },
+  {
+    "venue_slug": "moscone_center_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "moscone_convention_center_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "mosque_richmond",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "region": "South"
+  },
+  {
+    "venue_slug": "mount_tamalpais_cushing_memorial_amphitheatre_marin_county",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "muir_beach_lodge_muir_beach",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "municipal_auditorium_austin",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "music_hall_boston",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "music_hall_cincinnati",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "music_hall_municipal_auditorium_kansas_city",
+    "lat": 38.456085,
+    "lon": -92.288368,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "music_mall_cincinnati",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "musikhalle_hamburg",
+    "lat": 39.099,
+    "lon": -97.949,
+    "region": "West"
+  },
+  {
+    "venue_slug": "nashville_municipal_auditorium_nashville",
+    "lat": 35.747845,
+    "lon": -86.692345,
+    "region": "South"
+  },
+  {
+    "venue_slug": "nassau_coliseum_uniondale",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "nassau_veterans_memorial_coliseum_uniondale",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "national_guard_armory_st_louis",
+    "lat": 38.456085,
+    "lon": -92.288368,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "naumburg_bandshell_central_park_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "nbc_studios_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "nevada_county_fairgrounds_grass_valley",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "new_haven_coliseum_veterans_memorial_coliseum_new_haven",
+    "lat": 41.597782,
+    "lon": -72.755371,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "niagara_falls_convention_center_niagara_falls",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "niagra_falls_convention_center_niagra_falls",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "northrop_auditorium_university_of_minnesota_minneapolis",
+    "lat": 45.694454,
+    "lon": -93.900192,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "ny_state_pavilion_flushing_meadows_park_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "o_keefe_centre_toronto",
+    "lat": 39.027,
+    "lon": -97.918,
+    "region": "West"
+  },
+  {
+    "venue_slug": "oakland_alameda_co_coliseum_oakland",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "oakland_alameda_county_coliseum_arena_oakland",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "oakland_alameda_county_coliseum_stadium_oakand",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "oakland_alameda_county_stadium_oakland",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "oakland_arena_oakland",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "oakland_auditorium_arena_oakland",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "oakland_auditorium_oakland",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "oakland_coliseum_arena_oakland",
+    "lat": 37.7508,
+    "lon": -122.203,
+    "region": "West"
+  },
+  {
+    "venue_slug": "oakland_coliseum_oakland",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "oakland_coliseum_stadium_oakland",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "ohio_theatre_columbus",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "oklahoma_city_fairgrounds_arena_oklahoma_city",
+    "lat": 35.565342,
+    "lon": -96.928917,
+    "region": "South"
+  },
+  {
+    "venue_slug": "oklahoma_city_music_hall_oklahoma_city",
+    "lat": 35.565342,
+    "lon": -96.928917,
+    "region": "South"
+  },
+  {
+    "venue_slug": "old_renaissance_faire_grounds_veneta",
+    "lat": 44.049,
+    "lon": -123.3504,
+    "region": "West"
+  },
+  {
+    "venue_slug": "olympia_halle_munich",
+    "lat": 39.086,
+    "lon": -97.993,
+    "region": "West"
+  },
+  {
+    "venue_slug": "olympia_paris",
+    "lat": 39.033,
+    "lon": -97.98,
+    "region": "West"
+  },
+  {
+    "venue_slug": "olympia_theater_paris",
+    "lat": 39.052,
+    "lon": -97.919,
+    "region": "West"
+  },
+  {
+    "venue_slug": "olympiahalle_munich",
+    "lat": 39.054,
+    "lon": -97.991,
+    "region": "West"
+  },
+  {
+    "venue_slug": "olympic_center_lake_placid",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "omaha_auditorium_omaha",
+    "lat": 41.12537,
+    "lon": -98.268082,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "omaha_civic_auditorium_omaha",
+    "lat": 41.12537,
+    "lon": -98.268082,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "omni_coliseum_atlanta",
+    "lat": 33.040619,
+    "lon": -83.643074,
+    "region": "South"
+  },
+  {
+    "venue_slug": "onondaga_county_war_memorial_syracuse",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "onondaga_war_memorial_aud_syracuse",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "onondaga_war_memorial_auditorium_syracuse",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "orange_county_fairgrounds_costa_mesa",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "orchard_park_rich_orchard_park",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "oregon_country_fairgrounds_veneta",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "oregon_county_fair_site_veneta",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "orlando_arena_orlando",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "orpheum_theatre_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "orvis_student_activities_center_gymnasium_state_university_of_new_york_college_of_technology_at_alfred_alfred",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "oxford_plains_speedway_oxford",
+    "lat": 44.693947,
+    "lon": -69.381927,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "p_n_e_agradome_vancouver",
+    "lat": 39.043,
+    "lon": -97.912,
+    "region": "West"
+  },
+  {
+    "venue_slug": "p_n_e_coliseum_vancouver",
+    "lat": 39.04,
+    "lon": -97.963,
+    "region": "West"
+  },
+  {
+    "venue_slug": "p_n_e_garden_auditorium_vancouver",
+    "lat": 39.065,
+    "lon": -97.944,
+    "region": "West"
+  },
+  {
+    "venue_slug": "palace_of_fine_arts_theatre_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "palace_theater_waterbury",
+    "lat": 41.597782,
+    "lon": -72.755371,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "palais_des_sports_paris",
+    "lat": 39.093,
+    "lon": -97.969,
+    "region": "West"
+  },
+  {
+    "venue_slug": "palau_dels_esports_de_barcelona_barcelona",
+    "lat": 39.083,
+    "lon": -97.962,
+    "region": "West"
+  },
+  {
+    "venue_slug": "palm_gardens_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "panhandle_golden_gate_park_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "panther_hall_fort_worth",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "paramount_northeast_seattle",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "paramount_northwest_seattle",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "paramount_northwest_theatre_seattle",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "paramount_theater_portland",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "paramount_theatre_portland",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "parc_des_expositions_dijon",
+    "lat": 39.066,
+    "lon": -97.921,
+    "region": "West"
+  },
+  {
+    "venue_slug": "park_west_ski_resort_salt_lake_city",
+    "lat": 40.150032,
+    "lon": -111.862434,
+    "region": "West"
+  },
+  {
+    "venue_slug": "parkwest_ski_resort_park_city",
+    "lat": 40.150032,
+    "lon": -111.862434,
+    "region": "West"
+  },
+  {
+    "venue_slug": "pasadena_civic_auditorium_pasadena",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "patrick_field_house_u_of_vermont_burlington",
+    "lat": 44.045876,
+    "lon": -72.710686,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "patrick_gymnasium_university_of_vermont_burlington",
+    "lat": 44.045876,
+    "lon": -72.710686,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "pauley_ballroom_uc_berkeley_berkeley",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "pauley_pavilion_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "pauley_pavilion_ucla_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "pavilion_u_illinois_at_chicago_chicago",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "pelletier_farm_st_helens",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "performing_arts_center_milwaukee",
+    "lat": 44.268543,
+    "lon": -89.616508,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "pershing_auditorium_lincoln",
+    "lat": 41.12537,
+    "lon": -98.268082,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "pershing_municipal_auditorium_lincoln",
+    "lat": 39.099,
+    "lon": -97.988,
+    "region": "West"
+  },
+  {
+    "venue_slug": "philadelphia_civic_center_philadelphia",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "philadelphia_jfk_philadelphia",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "philadelphia_spectrum_philadelphia",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "phoenix_star_theatre_phoenix",
+    "lat": 33.729759,
+    "lon": -111.431221,
+    "region": "West"
+  },
+  {
+    "venue_slug": "piedmont_park_atlanta",
+    "lat": 33.040619,
+    "lon": -83.643074,
+    "region": "South"
+  },
+  {
+    "venue_slug": "pine_knob_music_theater_clarkstown",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "pine_knob_music_theatre_clarkston",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "pioneer_ballroom_suisun_city",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "pirates_world_dania",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "pittsburg_pittsburg",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "pittsburgh_civic_arena_pittsburgh",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "place_ville_marie_montreal",
+    "lat": 39.04,
+    "lon": -97.984,
+    "region": "West"
+  },
+  {
+    "venue_slug": "playboy_club_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "playhouse_theater_edinburgh",
+    "lat": 39.08,
+    "lon": -97.949,
+    "region": "West"
+  },
+  {
+    "venue_slug": "playhouse_theatre_edinburgh",
+    "lat": 39.096,
+    "lon": -97.988,
+    "region": "West"
+  },
+  {
+    "venue_slug": "polo_field_golden_gate_park_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "polo_field_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "poplar_creek_music_theatre_hoffman_estates",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "poplar_creek_pavilion_poplar_creek",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "portland_international_raceway_portland",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "portland_international_speedway_portland",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "portland_meadows_portland",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "portland_memorial_coliseum_portland",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "pritchard_gym_s_u_n_y_stony_brook",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "providence_civic_center_providence",
+    "lat": 41.680893,
+    "lon": -71.51178,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "psychedelic_supermarket_boston",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "public_hall_cleveland",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "quadrangle_washington_university_st_louis",
+    "lat": 38.456085,
+    "lon": -92.288368,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "raceway_park_englishtown",
+    "lat": 40.298904,
+    "lon": -74.521011,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "radio_city_music_hall_new_york",
+    "lat": 40.76,
+    "lon": -73.9799,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "radio_luxembourg_luxembourg",
+    "lat": 39.004,
+    "lon": -97.977,
+    "region": "West"
+  },
+  {
+    "venue_slug": "radio_luxembourg_xlux",
+    "lat": 39.052,
+    "lon": -97.965,
+    "region": "West"
+  },
+  {
+    "venue_slug": "rainbow_theater_london",
+    "lat": 39.036,
+    "lon": -97.988,
+    "region": "West"
+  },
+  {
+    "venue_slug": "rainbow_theatre_london",
+    "lat": 39.039,
+    "lon": -97.939,
+    "region": "West"
+  },
+  {
+    "venue_slug": "rancho_olompali_novato",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "rec_hall_penn_state_u_state_college",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "recreation_center_mill_valley",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "recreation_hall_pennsylvania_state_university_university_park",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "recreation_hall_uc_davis_davis",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "red_rocks_amphitheater_morrison",
+    "lat": 39.059811,
+    "lon": -105.311104,
+    "region": "West"
+  },
+  {
+    "venue_slug": "red_rocks_amphitheatre_morrison",
+    "lat": 39.6655,
+    "lon": -105.2056,
+    "region": "West"
+  },
+  {
+    "venue_slug": "reed_hollow_ranch_franktown",
+    "lat": 39.059811,
+    "lon": -105.311104,
+    "region": "West"
+  },
+  {
+    "venue_slug": "reno_centennial_coliseum_reno",
+    "lat": 38.313515,
+    "lon": -117.055374,
+    "region": "West"
+  },
+  {
+    "venue_slug": "reunion_arena_dallas",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "rfk_stadium_washington",
+    "lat": 38.8895,
+    "lon": -76.9712,
+    "region": "South"
+  },
+  {
+    "venue_slug": "rfk_stadium_washington_d_c",
+    "lat": 38.897438,
+    "lon": -77.026817,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "rfk_stadium_washington_dc",
+    "lat": 38.897438,
+    "lon": -77.026817,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "rheinhalle_dusseldorf",
+    "lat": 39.075,
+    "lon": -97.968,
+    "region": "West"
+  },
+  {
+    "venue_slug": "rhode_island_auditorium_providence",
+    "lat": 41.680893,
+    "lon": -71.51178,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "rich_stadium_buffalo",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "rich_stadium_orchard_park",
+    "lat": 42.7738,
+    "lon": -78.7869,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "richfield_coliseum_richfield",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "richmond_coliseum_richmond",
+    "lat": 37.5419,
+    "lon": -77.436,
+    "region": "South"
+  },
+  {
+    "venue_slug": "river_bend_music_center_cincinnati",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "river_front_coliseum_cincinnati",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "riverbend_music_center_cincinnati",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "riverfront_arena_cincinnati",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "riverfront_coliseum_cincinnati",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "riverport_amphitheatre_maryland_heights",
+    "lat": 38.456085,
+    "lon": -92.288368,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "riverport_amphitheatre_st_louis",
+    "lat": 38.456085,
+    "lon": -92.288368,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "roanoke_civic_center_roanoke",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "region": "South"
+  },
+  {
+    "venue_slug": "robert_f_kennedy_stadium_washington",
+    "lat": 38.897438,
+    "lon": -77.026817,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "robertson_gym_uc_santa_barbara_goleta",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "rochester_community_war_memorial_rochester",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "rochester_silver_stadium_rochester",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "rock_pile_toronto",
+    "lat": 39.043,
+    "lon": -97.967,
+    "region": "West"
+  },
+  {
+    "venue_slug": "roosevelt_stadium_jersey_city",
+    "lat": 40.298904,
+    "lon": -74.521011,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "roscoe_maples_pavilion_stanford_u_palo_alto",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "roscoe_maples_pavilion_stanford_university_palo_alto",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "rose_palace_pasadena",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "rosemont_horizon_chicago",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "rosemont_horizon_rosemont",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "rpi_fieldhouse_rensselaer_polytechnic_institute_troy",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "rubber_bowl_akron",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "rubber_bowl_university_of_akron_akron",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "rupp_arena_lexington_center_lexington",
+    "lat": 37.66814,
+    "lon": -84.670067,
+    "region": "South"
+  },
+  {
+    "venue_slug": "rupp_arena_university_of_kentucky_lexington",
+    "lat": 37.66814,
+    "lon": -84.670067,
+    "region": "South"
+  },
+  {
+    "venue_slug": "sacramento_memorial_auditorium_sacramento",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "saenger_performing_arts_center_new_orleans",
+    "lat": 31.169546,
+    "lon": -91.867805,
+    "region": "South"
+  },
+  {
+    "venue_slug": "salt_palace_salt_lake_city",
+    "lat": 40.150032,
+    "lon": -111.862434,
+    "region": "West"
+  },
+  {
+    "venue_slug": "sam_boyd_silver_bowl_las_vegas",
+    "lat": 38.313515,
+    "lon": -117.055374,
+    "region": "West"
+  },
+  {
+    "venue_slug": "sam_houston_coliseum_houston",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "san_antonio_municipal_auditorium_san_antonio",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "san_diego_sports_arena_san_diego",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "san_francisco_civic_auditorium_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "san_francisco_civic_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "san_jose_civic_auditorium_san_jose",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "san_quentin_state_prison_san_quentin",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "sandstone_amphitheater_bonner_springs",
+    "lat": 38.5266,
+    "lon": -96.726486,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "sandstone_amphitheatre_bonner_springs",
+    "lat": 38.5266,
+    "lon": -96.726486,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "sandstone_aphitheatre_bonner_springs",
+    "lat": 38.5266,
+    "lon": -96.726486,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "sandstone_bonner_springs",
+    "lat": 38.5266,
+    "lon": -96.726486,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "santa_clara_county_fairgrounds_san_jose",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "santa_cruz_county_fairgrounds_watsonville",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "santa_fe_downs_santa_fe",
+    "lat": 34.840515,
+    "lon": -106.248482,
+    "region": "West"
+  },
+  {
+    "venue_slug": "santa_monica_civic_auditorium_santa_monica",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "santa_rosa_fairgrounds_santa_rosa",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "santa_venetia_armory_san_rafael",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "saratoga_performing_arts_center_saratoga_springs",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "saratoga_performing_arts_saratoga",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "sargent_gym_boston_university_boston",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "saturday_night_live_nbc_studios_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "scope_norfolk",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "region": "South"
+  },
+  {
+    "venue_slug": "seattle_center_arena_seattle",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "seattle_center_coliseum_seattle",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "seattle_center_memorial_coliseum_seattle",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "seattle_center_memorial_stadium_seattle",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "seattle_center_seattle",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "selland_arena_fresno",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "seminole_indian_village_west_hollywood",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "shea_s_buffalo_theater_buffalo",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "shea_s_theater_buffalo",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "shoreline_amphitheater",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "shoreline_amphitheater_mountain_view",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "shoreline_amphitheater_shoreline",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "shoreline_amphitheater_unknown",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "shoreline_amphitheatre_mountain_view",
+    "lat": 37.4267,
+    "lon": -122.0807,
+    "region": "West"
+  },
+  {
+    "venue_slug": "shoreline_amphitheatre_mt_view",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "shoreline_amphitheatre_mtn_view",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "shoreline_ampitheatre_mountain_view",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "shoreline_ampitheatre_mtn",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "shoreline_mountain_view",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "shrine_auditorium_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "shrine_exhibition_hall_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "sierra_college_rocklin",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "silva_concert_hall_hult_center_for_the_performing_arts_eugene",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "silva_hall_hult_center_eugene",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "silver_dollar_fairgrounds_chico",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "silver_stadium_rochester",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "siu_arena_southern_illinois_university_carbondale",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "soccer_field_american_university_washington",
+    "lat": 38.897438,
+    "lon": -77.026817,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "sokol_hall_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "soldier_field_chicago",
+    "lat": 41.8623,
+    "lon": -87.6167,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "soldier_s_field_chicago",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "soldiers_and_sailors_memorial_hall_kansas_city",
+    "lat": 38.5266,
+    "lon": -96.726486,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "soldiers_field_chicago",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "soldiers_sailors_memorial_hall_kansas_city",
+    "lat": 38.5266,
+    "lon": -96.726486,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "son_et_lumiere_theater_giza",
+    "lat": 39.009,
+    "lon": -97.916,
+    "region": "West"
+  },
+  {
+    "venue_slug": "southern_illinois_university_mississippi_river_festival_edwardsville",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "southern_star_amphitheater_houston",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "spartan_stadium_san_jose",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "spartan_stadium_san_jose_state_university_san_jose",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "spectrum_philadelphia",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "speedway_meadows_golden_gate_park_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "spokane_coliseum_spokane",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "sportatorium_pembroke_pines",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "sporthalle_hamburg",
+    "lat": 39.078,
+    "lon": -97.901,
+    "region": "West"
+  },
+  {
+    "venue_slug": "sports_and_music_center_indianapolis",
+    "lat": 39.849426,
+    "lon": -86.258278,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "sports_palace_barcelona",
+    "lat": 39.029,
+    "lon": -97.981,
+    "region": "West"
+  },
+  {
+    "venue_slug": "sportsahala_hamburg",
+    "lat": 39.094,
+    "lon": -97.952,
+    "region": "West"
+  },
+  {
+    "venue_slug": "spreckles_temple_of_music_bandshell_golden_gate_park_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "springer_s_inn_gresham",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "region": "West"
+  },
+  {
+    "venue_slug": "springfield_civic_center_arena_springfield",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "springfield_civic_center_springfield",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "st_john_s_arena_columbus",
+    "lat": 39.004,
+    "lon": -97.955,
+    "region": "West"
+  },
+  {
+    "venue_slug": "st_louis_arena_st_louis",
+    "lat": 38.456085,
+    "lon": -92.288368,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "st_paul_civic_center_arena_st_paul",
+    "lat": 45.694454,
+    "lon": -93.900192,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "st_paul_civic_center_st_paul",
+    "lat": 45.694454,
+    "lon": -93.900192,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "stabler_arena_lehigh_u_bethlehem",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "stabler_arena_lehigh_university_bethlehem",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "stadium_santa_barbara",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "stadt_halle_bremen",
+    "lat": 39.002,
+    "lon": -97.992,
+    "region": "West"
+  },
+  {
+    "venue_slug": "stadthalle_iv_bremen",
+    "lat": 39.045,
+    "lon": -97.901,
+    "region": "West"
+  },
+  {
+    "venue_slug": "stakladen_cafeteria_aarhus_university_aarhus",
+    "lat": 39.041,
+    "lon": -97.924,
+    "region": "West"
+  },
+  {
+    "venue_slug": "stanislaus_county_fairgrounds_turlock",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "stanley_theater_pittsburgh",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "stanley_theatre_jersey_city",
+    "lat": 40.298904,
+    "lon": -74.521011,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "stanley_theatre_pittsburgh",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "star_lake_amphitheater_burgettstown",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "starlight_theater_kansas_city",
+    "lat": 38.456085,
+    "lon": -92.288368,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "starlight_theatre_kansas_city",
+    "lat": 38.456085,
+    "lon": -92.288368,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "state_fair_coliseum_detroit",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "state_fair_coliseum_indianapolis",
+    "lat": 39.849426,
+    "lon": -86.258278,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "state_fairgrounds_des_moines",
+    "lat": 42.011539,
+    "lon": -93.210526,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "state_fairgrounds_lewiston",
+    "lat": 44.693947,
+    "lon": -69.381927,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "stockton_ballroom_stockton",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "stockton_civic_aud_stockton",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "stockton_civic_auditorium_stockton",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "straight_theater_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "strawberry_canyon_berkeley",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "student_center_modesto_jr_college_modesto",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "student_union_ballroom_university_of_utah_salt_lake_city",
+    "lat": 40.150032,
+    "lon": -111.862434,
+    "region": "West"
+  },
+  {
+    "venue_slug": "studio_rehersal_unknown",
+    "lat": 39.066,
+    "lon": -97.912,
+    "region": "West"
+  },
+  {
+    "venue_slug": "sullivan_stadium_foxboro",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "summit_arena_houston",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "sun_dome_tampa",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "sun_dome_university_of_south_florida_tampa",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "swing_auditorium_san_bernardino",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "tacoma_dome_tacoma",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "taft_auditorium_cincinnati",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "tampa_stadium_tampa",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "temple_stadium_temple_university_philadelphia",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "terminal_island_correctional_facility_san_pedro",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "terrace_ballroom_salt_lake_city",
+    "lat": 40.150032,
+    "lon": -111.862434,
+    "region": "West"
+  },
+  {
+    "venue_slug": "the_ark_boston",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "the_bank_torrance",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "the_big_beat_club_palo_alto",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "the_centrum_worcester",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "the_cheetah_venice",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "the_dean_dome_chapel_hill",
+    "lat": 35.630066,
+    "lon": -79.806419,
+    "region": "South"
+  },
+  {
+    "venue_slug": "the_dean_dome_university_of_nc_chapel_hill",
+    "lat": 35.630066,
+    "lon": -79.806419,
+    "region": "South"
+  },
+  {
+    "venue_slug": "the_fabulous_forum_inglewood",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "the_greek_theatre_berkeley",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "the_heliport_sausalito",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "the_hippodrome_paris",
+    "lat": 39.004,
+    "lon": -97.91,
+    "region": "West"
+  },
+  {
+    "venue_slug": "the_hippodrome_san_diego",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "the_hullabaloo_hollywood",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "the_mecca_milwaukee",
+    "lat": 44.268543,
+    "lon": -89.616508,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "the_met_center_bloomington",
+    "lat": 45.694454,
+    "lon": -93.900192,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "the_mosque_richmond",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "region": "South"
+  },
+  {
+    "venue_slug": "the_music_box_omaha",
+    "lat": 41.12537,
+    "lon": -98.268082,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "the_north_face_ski_shop_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "the_old_cheese_factory_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "the_omni_atlanta",
+    "lat": 33.040619,
+    "lon": -83.643074,
+    "region": "South"
+  },
+  {
+    "venue_slug": "the_palace_at_auburn_hills_aubern_hills",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "the_palace_at_auburn_hills_auburn_hills",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "the_palace_auburn_hills",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "the_palace_theater_waterbury",
+    "lat": 41.597782,
+    "lon": -72.755371,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "the_palestra_university_of_rochester_rochester",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "the_palladium_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "the_pyramid_arena_memphis",
+    "lat": 35.747845,
+    "lon": -86.692345,
+    "region": "South"
+  },
+  {
+    "venue_slug": "the_pyramid_memphis",
+    "lat": 35.747845,
+    "lon": -86.692345,
+    "region": "South"
+  },
+  {
+    "venue_slug": "the_rock_garden_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "the_sam_boyd_silver_bowl_las_vegas",
+    "lat": 38.313515,
+    "lon": -117.055374,
+    "region": "West"
+  },
+  {
+    "venue_slug": "the_scope_norfolk",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "region": "South"
+  },
+  {
+    "venue_slug": "the_spectrum_philadelphia",
+    "lat": 39.9013,
+    "lon": -75.1719,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "the_sportatorium_hollywood",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "the_strand_lyceum_london",
+    "lat": 39.069,
+    "lon": -97.995,
+    "region": "West"
+  },
+  {
+    "venue_slug": "the_summit_houston",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "region": "South"
+  },
+  {
+    "venue_slug": "the_syndrome_chicago",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "the_warehouse_new_orleans",
+    "lat": 31.169546,
+    "lon": -91.867805,
+    "region": "South"
+  },
+  {
+    "venue_slug": "the_zenith_paris",
+    "lat": 39.08,
+    "lon": -97.911,
+    "region": "West"
+  },
+  {
+    "venue_slug": "thee_club_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "thee_experience_west_hollywood",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "thee_image_sunny_isles_beach",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "thelma_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "thompson_arena_dartmouth_college_hanover",
+    "lat": 43.452492,
+    "lon": -71.563896,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "three_rivers_stadium_pittsburgh",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "tivoli_concert_hall_copenhagen",
+    "lat": 39.0,
+    "lon": -97.916,
+    "region": "West"
+  },
+  {
+    "venue_slug": "tivoli_gardens_copenhagen",
+    "lat": 39.066,
+    "lon": -97.959,
+    "region": "West"
+  },
+  {
+    "venue_slug": "tivoli_theater_copenhagen",
+    "lat": 39.019,
+    "lon": -97.95,
+    "region": "West"
+  },
+  {
+    "venue_slug": "tivoli_theatre_copenhagen",
+    "lat": 39.055,
+    "lon": -97.915,
+    "region": "West"
+  },
+  {
+    "venue_slug": "tompkins_square_park_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "tower_theater_upper_darby",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "tower_theatre_upper_darby",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "town_park_telluride",
+    "lat": 39.059811,
+    "lon": -105.311104,
+    "region": "West"
+  },
+  {
+    "venue_slug": "tressider_memorial_union_tmu_deck_stanford_university_palo_alto",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "trouper_s_hall_los_angeles",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "tulsa_fairgrounds_pavilion_tulsa",
+    "lat": 35.565342,
+    "lon": -96.928917,
+    "region": "South"
+  },
+  {
+    "venue_slug": "tyrone_guthrie_theater_minneapolis",
+    "lat": 45.694454,
+    "lon": -93.900192,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "uic_pavilion_university_of_illinois_chicago_chicago",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "ungano_s_night_club_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "uni_dome_university_of_northern_iowa_cedar_falls",
+    "lat": 42.011539,
+    "lon": -93.210526,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "unicorn_theater_la_jolla",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "universal_amphitheatre_universal_city",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "university_arena_university_of_new_mexico_albuquerque",
+    "lat": 34.840515,
+    "lon": -106.248482,
+    "region": "West"
+  },
+  {
+    "venue_slug": "university_auditorium_university_of_arizona_tucson",
+    "lat": 33.729759,
+    "lon": -111.431221,
+    "region": "West"
+  },
+  {
+    "venue_slug": "university_hall_university_of_virginia_charlottesville",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "region": "South"
+  },
+  {
+    "venue_slug": "university_of_alabama_memorial_coliseum_tuscaloosa",
+    "lat": 32.806671,
+    "lon": -86.79113,
+    "region": "South"
+  },
+  {
+    "venue_slug": "university_of_iowa_iowa_city",
+    "lat": 42.011539,
+    "lon": -93.210526,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "university_of_nevada_reno_reno",
+    "lat": 38.313515,
+    "lon": -117.055374,
+    "region": "West"
+  },
+  {
+    "venue_slug": "university_of_new_mexico_albuquerque",
+    "lat": 34.840515,
+    "lon": -106.248482,
+    "region": "West"
+  },
+  {
+    "venue_slug": "university_of_virginia_charlottesville",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "region": "South"
+  },
+  {
+    "venue_slug": "unknown_lincoln",
+    "lat": 41.12537,
+    "lon": -98.268082,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "unknown_none",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "uptown_theater_chicago",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "uptown_theatre_chicago",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "usair_arena_landover",
+    "lat": 39.063946,
+    "lon": -76.802101,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "utica_memorial_auditorium_utica",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "utica_memorial_coliseum_utica",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "valley_unitarian_universalist_church_north_hills",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "vanderbilt_university_nashville",
+    "lat": 35.747845,
+    "lon": -86.692345,
+    "region": "South"
+  },
+  {
+    "venue_slug": "ventura_county_fairgrounds_ventura",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "veterans_memorial_auditorium_columbus",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "veterans_memorial_auditorium_santa_rosa",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "veterans_memorial_coliseum_hartford",
+    "lat": 41.597782,
+    "lon": -72.755371,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "veterans_memorial_coliseum_jacksonville",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "veterans_memorial_coliseum_new_haven",
+    "lat": 41.3083,
+    "lon": -72.9279,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "veterans_memorial_hall_berkeley",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "veterans_memorial_hall_columbus",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "village_theater_new_york",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "virginia_beach_civic_center_virginia_beach",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "region": "South"
+  },
+  {
+    "venue_slug": "virginia_polytechnic_university_blacksburg",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "region": "South"
+  },
+  {
+    "venue_slug": "volunteer_park_seattle",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "region": "West"
+  },
+  {
+    "venue_slug": "wallace_wade_stadium_duke_university_durham",
+    "lat": 35.630066,
+    "lon": -79.806419,
+    "region": "South"
+  },
+  {
+    "venue_slug": "walter_kbel_halle_rsselsheim",
+    "lat": 39.054,
+    "lon": -97.937,
+    "region": "West"
+  },
+  {
+    "venue_slug": "walter_koebel_halle_russelsheim",
+    "lat": 39.035,
+    "lon": -97.989,
+    "region": "West"
+  },
+  {
+    "venue_slug": "war_memorial_aud_rochester",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "war_memorial_auditorium_buffalo",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "war_memorial_auditorium_rochester",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "warfield_theater_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "warfield_theatre_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "washington_rfk_washington",
+    "lat": 38.897438,
+    "lon": -77.026817,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "wembley_arena_london",
+    "lat": 39.037,
+    "lon": -97.973,
+    "region": "West"
+  },
+  {
+    "venue_slug": "west_gym_harpur_college_binghamton",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "west_high_auditorium_anchorage",
+    "lat": 61.370716,
+    "lon": -152.404419,
+    "region": "West"
+  },
+  {
+    "venue_slug": "west_palm_beach_auditorium_west_palm_beach",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "region": "South"
+  },
+  {
+    "venue_slug": "west_park_ann_arbor",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "whisky_a_go_go_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "william_and_mary_college_williamsburg",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "region": "South"
+  },
+  {
+    "venue_slug": "william_and_mary_hall_college_of_william_and_mary_williamsburg",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "region": "South"
+  },
+  {
+    "venue_slug": "william_and_mary_hall_williamsburg",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "region": "South"
+  },
+  {
+    "venue_slug": "william_randolph_hearst_greek_theatre_uc_berkeley_berkeley",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "winnipeg_fairgrounds_winnipeg",
+    "lat": 39.077,
+    "lon": -97.909,
+    "region": "West"
+  },
+  {
+    "venue_slug": "winteriand_arena_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "winterland_arena_san_francisco",
+    "lat": 37.7826,
+    "lon": -122.4348,
+    "region": "West"
+  },
+  {
+    "venue_slug": "winterland_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "women_s_gym_san_francisco_state_university_san_francisco",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "world_amphitheatre_tinley_park",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "world_music_theatre_tinley_park",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "yale_bowl_new_haven",
+    "lat": 41.597782,
+    "lon": -72.755371,
+    "region": "Northeast"
+  },
+  {
+    "venue_slug": "york_farm_poynette",
+    "lat": 44.268543,
+    "lon": -89.616508,
+    "region": "Midwest"
+  },
+  {
+    "venue_slug": "youth_opportunities_center_compton",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "region": "West"
+  },
+  {
+    "venue_slug": "youth_pavilion_expo_67_montreal",
+    "lat": 39.024,
+    "lon": -97.997,
+    "region": "West"
+  },
+  {
+    "venue_slug": "znith_paris_paris",
+    "lat": 39.069,
+    "lon": -97.975,
+    "region": "West"
+  },
+  {
+    "venue_slug": "zoo_amphitheater_oklahoma_city",
+    "lat": 35.565342,
+    "lon": -96.928917,
+    "region": "South"
+  },
+  {
+    "venue_slug": "zoo_amphitheatre_oklahoma_city",
+    "lat": 35.565342,
+    "lon": -96.928917,
+    "region": "South"
+  }
+]

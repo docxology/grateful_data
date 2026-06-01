@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>04b_segue_structure.md.web</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <script defer=""
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+</head>
+<body>
+<h1 id="segue-and-transition-structure">Segue and transition
+structure</h1>
+<p></p>
+<p>The Grateful Dead’s setlists are not a bag of songs but a
+<em>sequenced</em> object: certain songs flow into certain others, often
+without pause, and those flows are as much a part of the band’s identity
+as the songs themselves. The compendium captures this at two distinct
+levels of evidence, and keeping them separate is the point of this
+section. That separation also aligns with MIR work on full-concert
+setlist segmentation: audio-level identification must contend with
+banter, applause, covers, transitions, and live-version variation
+[wang_setlist_segmentation], while this compendium starts from curated
+setlist rows and explicit editorial segue markers.</p>
+<h2 id="two-notions-of-what-follows-what">Two notions of “what follows
+what”</h2>
+<p>A <strong>transition</strong> is positional: song <span
+class="math inline">\(B\)</span> immediately follows song <span
+class="math inline">\(A\)</span> within a set, whether or not the band
+marked a musical link. These are what the first-order Markov model in
+Section <span class="math inline">\(\ref{sec:results}\)</span> counts,
+and the permutation-null screen retains 1533 of them as significant
+under false-discovery-rate control (out of 7639 eligible ordered
+pairs).</p>
+<p>A <strong>segue</strong> is explicit: the source data marks a “-&gt;”
+/ “&gt;” link between two performances, encoded in the compendium as a
+<code>segue_into</code> edge. There are 16585 such markers spanning 2751
+distinct directed song pairs. A segue is therefore a <em>curated
+subset</em> of the transitions — the ones a setlist editor judged to be
+a genuine musical continuation — and carries stronger evidentiary weight
+than mere adjacency.</p>
+<p>The two notions agree where it matters and diverge informatively. The
+FDR-significant transitions and the top segues share their podium in
+this archival build — “China Cat Sunflower” -&gt; “I Know You Rider” and
+“Scarlet Begonias” -&gt; “Fire on the Mountain” top both lists — which
+is reassuring: the explicit editorial judgement and the blind
+statistical screen converge on the same canonical pairings. Where they
+diverge, the transition view sees adjacencies that were never marked as
+segues (e.g. an encore break that the Markov model cannot distinguish
+from a continuation), which is exactly why the segue markers are the
+higher-confidence signal.</p>
+<h2 id="the-most-frequent-segues">The most frequent segues</h2>
+<p>Figure <span class="math inline">\(\ref{fig:segue}\)</span> ranks the
+segues directly. The single most frequent is “drums” -&gt; “space” with
+1197 occurrences — the canonical “Drums” -&gt; “Space” passage that
+anchors the second-set improvisational core for most of the band’s
+career. That this structural segment, rather than any song, is the
+corpus’s most frequent segue is not an artefact: it reflects a real
+feature of the music, and it is reported honestly here precisely because
+the segment markers are <em>kept</em> in the transition/segue analyses
+(they are excluded only from the repertoire ranking of Section <span
+class="math inline">\(\ref{sec:results}\)</span>, where they are not
+compositions). Below the segment core, the ranking is a tour of the
+band’s signature pairings — the “China Cat” -&gt; “Rider” fusion, the
+“Scarlet” -&gt; “Fire” suite, the “Estimated Prophet” -&gt; “Eyes of the
+World” flow — recovered from the markers alone, with no title-based
+inference.</p>
+<h2 id="segue-hubs">Segue hubs</h2>
+<p>Out-degree in the segue graph identifies <em>launch points</em> —
+songs that most often flow into something else. The highest is ``drums’’
+(1763 outgoing segues), consistent with the structural role of the
+“Drums”/“Space” core as a hinge between composed material: the band
+exits the improvisational segment into a wide variety of songs, so it
+accumulates a large, fan-shaped out-degree rather than a single dominant
+successor. Composed songs, by contrast, tend to have concentrated
+out-degree — a song like “Scarlet Begonias” overwhelmingly segues into
+one partner — which is the graph-theoretic signature of a fixed suite
+versus an improvisational junction.</p>
+<h2 id="what-this-does-and-does-not-establish">What this does and does
+not establish</h2>
+<p>These are descriptive structures over the ingested setlists, not
+causal or exhaustive claims. The segue markers are only as complete as
+the source editors’ annotations; an unmarked continuation is invisible
+to the segue view and appears only as a (weaker) transition. The Markov
+model is first-order by construction, so longer signature chains — “Help
+on the Way” -&gt; “Slipknot!” -&gt; “Franklin’s Tower” — are visible
+only as their pairwise links, not as a single third-order object. The
+taping and trading literature is a useful guardrail here: recordings and
+setlists are co-curated cultural records [dead_net_taping_dead;
+wallace_cocreation_sound_archive], so this section reports what the
+encoded record says rather than what the band “really” intended in every
+performance. Both limitations are inherent to the representation and are
+revisited in the limitations of Section <span
+class="math inline">\(\ref{sec:results}\)</span>.</p>
+</body>
+</html>

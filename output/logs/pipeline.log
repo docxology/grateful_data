@@ -1,0 +1,2 @@
+[2026-05-29 12:25:21,152] [INFO] Executing core pipeline for project 'grateful_data'
+[2026-05-29 12:25:27,656] [ERROR] ❌ [PIPELINE_STAGE_FAILED] Pipeline failed at stage 3: Project Tests — Check stage logs for details

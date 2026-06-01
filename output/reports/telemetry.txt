@@ -1,0 +1,20 @@
+========================================================================
+ TELEMETRY REPORT: grateful_data
+========================================================================
+
+Total Duration : 6.5s
+Total Stages   : 3
+Failed Stages  : 1
+
+Stage                                   Time   Mem MB   CPU%   Status
+------------------------------------------------------------------------
+Clean Output Directories                0.0s       0   0.0     ✓ OK
+Environment Setup                       0.8s       0   0.0     ✓ OK
+Project Tests                           5.6s       0   0.0   ✗ FAIL
+
+Performance Warnings (1):
+------------------------------------------------------------------------
+  ⚠ [slow_stage] Stage 'Project Tests' took 5.6s (2.0× the average 0.4s)
+    → Consider optimizing this stage or running it in parallel
+
+========================================================================

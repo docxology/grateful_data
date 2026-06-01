@@ -1,0 +1,363 @@
+\begin{thebibliography}{51}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[bil()]{billboard_lyric_book}
+The complete annotated grateful dead lyrics (billboard review).
+\newblock URL
+  \url{https://www.billboard.com/culture/product-recommendations/grateful-dead-lyric-book-buy-online-1235812793/}.
+\newblock Review of David Dodd's annotated lyrics.
+
+\bibitem[bri()]{britannica_gd}
+Grateful dead --- encyclopaedia britannica.
+\newblock URL \url{https://www.britannica.com/topic/Grateful-Dead}.
+
+\bibitem[dea()]{dead_net_official}
+Grateful dead --- band members (official).
+\newblock URL \url{https://www.dead.net/band}.
+\newblock Official band-members page on dead.net.
+
+\bibitem[fif()]{fifteen_songs_dataset}
+Fifteen-songs dataset.
+\newblock URL
+  \url{https://github.com/grateful-dead-live/fifteen-songs-dataset}.
+\newblock 2617 SBD recordings of 15 songs from the Live Music Archive.
+
+\bibitem[gds({\natexlab{a}})]{gdsets_com}
+Gdsets.com, {\natexlab{a}}.
+\newblock URL \url{https://gdsets.com}.
+\newblock Setlists, ticket stubs, and stage-pass scans for the Grateful Dead
+  and related projects.
+
+\bibitem[gds({\natexlab{b}})]{gdsets_dead}
+Gdsets --- grateful dead, {\natexlab{b}}.
+\newblock URL \url{https://gdsets.com/grateful-dead.htm}.
+
+\bibitem[git()]{github_topic_gratefuldead}
+Github topic: gratefuldead.
+\newblock URL \url{https://github.com/topics/gratefuldead}.
+\newblock Meta-index of Grateful Dead data projects.
+
+\bibitem[gra()]{grateful_stats}
+Grateful stats.
+\newblock URL \url{https://www.gratefulstats.com}.
+\newblock Aggregated show/tune/venue statistics front-end.
+
+\bibitem[int()]{internet_archive_lma}
+Internet archive --- live music archive (grateful dead).
+\newblock URL \url{https://archive.org/details/GratefulDead}.
+\newblock Primary source for show recordings.
+
+\bibitem[red({\natexlab{a}})]{reddit_data_sets}
+Grateful dead data sets: Any good sources?, {\natexlab{a}}.
+\newblock URL
+  \url{https://www.reddit.com/r/gratefuldead/comments/10w2rh2/grateful_dead_data_sets_any_good_sources/}.
+\newblock r/gratefuldead discussion thread linking community data sets.
+
+\bibitem[red({\natexlab{b}})]{reddit_lyrics_attribution}
+Did jerry or bobby write the words to any of these?, {\natexlab{b}}.
+\newblock URL
+  \url{https://www.reddit.com/r/gratefuldead/comments/1r4azkm/did_jerry_or_bobby_write_the_words_to_any_of/}.
+\newblock r/gratefuldead community discussion of Hunter/Barlow attribution.
+
+\bibitem[red({\natexlab{c}})]{reddit_setlist_db}
+Best setlist databases?, {\natexlab{c}}.
+\newblock URL
+  \url{https://www.reddit.com/r/gratefuldead/comments/1e4z60l/best_setlist_databases/}.
+
+\bibitem[red({\natexlab{d}})]{reddit_spreadsheet_archive}
+Does anyone still have the spreadsheet file with [...], {\natexlab{d}}.
+\newblock URL
+  \url{https://www.reddit.com/r/gratefuldead/comments/1qb5aec/does_anyone_still_have_the_spreadsheet_file_with/}.
+
+\bibitem[set({\natexlab{a}})]{setlistfm_gd}
+Setlist.fm --- grateful dead, {\natexlab{a}}.
+\newblock URL \url{https://www.setlist.fm/setlists/grateful-dead-bd6ad4a.html}.
+\newblock Crowd-curated setlist registry with REST API; Grateful Dead
+  MusicBrainz identifier 6faa7ca7-0d99-4a5e-bfa6-1fd5037520c6.
+
+\bibitem[set({\natexlab{b}})]{setlists_net_program}
+The setlist program (setlists.net), {\natexlab{b}}.
+\newblock URL \url{https://www.setlists.net}.
+\newblock Searchable setlists 1965--1995.
+
+\bibitem[ucr()]{ucr_lineup_changes}
+Grateful dead lineup changes: A complete guide.
+\newblock URL
+  \url{https://ultimateclassicrock.com/grateful-dead-lineup-changes/}.
+\newblock Ultimate Classic Rock chronological narrative.
+
+\bibitem[wik({\natexlab{a}})]{wikipedia_discography}
+Grateful dead discography, {\natexlab{a}}.
+\newblock URL \url{https://en.wikipedia.org/wiki/Grateful_Dead_discography}.
+
+\bibitem[wik({\natexlab{b}})]{wikipedia_gd}
+Grateful dead, {\natexlab{b}}.
+\newblock URL \url{https://en.wikipedia.org/wiki/Grateful_Dead}.
+\newblock Wikipedia entry, including founding lineup and key changes.
+
+\bibitem[Adams and Sardiello(2000)]{adams_deadhead_social_science}
+Rebecca~G. Adams and Robert Sardiello, editors.
+\newblock \emph{Deadhead Social Science: You Ain't Gonna Learn What You Don't
+  Want to Know}.
+\newblock AltaMira Press, Walnut Creek, CA, 2000.
+\newblock ISBN 9780742502512.
+\newblock URL
+  \url{https://www.bloomsbury.com/us/deadhead-social-science-9780742502512/}.
+
+\bibitem[Allan()]{whitegum_alex_allan}
+Alex Allan.
+\newblock Grateful dead lyric and song finder.
+\newblock URL \url{https://www.whitegum.com/intro.htm}.
+\newblock Searchable index of every song the Dead played, with attribution.
+
+\bibitem[Blance()]{jerry_pycia}
+Andrew Blance.
+\newblock jerrypycia.
+\newblock URL \url{https://github.com/andrewblance/jerryPycia}.
+\newblock Python library for exploring Dead live show data.
+
+\bibitem[Brackett(2023)]{brackett_live_dead}
+John Brackett.
+\newblock \emph{Live Dead: The Grateful Dead, Live Recordings, and the Ideology
+  of Liveness}.
+\newblock Duke University Press, Durham, NC, 2023.
+\newblock ISBN 9781478025481.
+\newblock \doi{10.1215/9781478027614}.
+\newblock URL \url{https://www.dukeupress.edu/live-dead}.
+\newblock Studies in the Grateful Dead series; eISBN 9781478027614.
+
+\bibitem[Daily(2015)]{jstor_daily_tape_trading}
+JSTOR Daily.
+\newblock The grateful dead, tape trading, and the music industry, 2015.
+\newblock URL
+  \url{https://daily.jstor.org/grateful-dead-tape-trading-music-industry/}.
+\newblock Public-facing synthesis of tape trading scholarship with links to
+  underlying JSTOR sources.
+
+\bibitem[Dodd and Trist(2005)]{dodd_annotated_lyrics}
+David~G. Dodd and Alan Trist.
+\newblock \emph{The Complete Annotated Grateful Dead Lyrics}.
+\newblock Free Press, New York, 2005.
+\newblock ISBN 9780743277471.
+\newblock URL
+  \url{https://www.simonandschuster.com/books/The-Complete-Annotated-Grateful-Dead-Lyrics/David-G-Dodd/9781439103340}.
+\newblock Official publisher page for the electronic edition; this project
+  stores pointers only, not lyric text.
+
+\bibitem[Dodd and Weiner(1997)]{dodd_weiner_annotated_bibliography}
+David~G. Dodd and Robert~G. Weiner.
+\newblock \emph{The Grateful Dead and the Deadheads: An Annotated
+  Bibliography}.
+\newblock Music Reference Collection. Greenwood Press, Westport, CT, 1997.
+\newblock ISBN 9780313301414.
+\newblock URL
+  \url{https://www.bloomsbury.com/us/grateful-dead-and-the-deadheads-9780313301414/}.
+
+\bibitem[{Encyclopaedia Britannica}()]{britannica_jerry_garcia}
+{Encyclopaedia Britannica}.
+\newblock Jerry garcia.
+\newblock URL \url{https://www.britannica.com/biography/Jerry-Garcia}.
+\newblock Editorial reference entry used only for contextual biography.
+
+\bibitem[Gorstein()]{noah_truckin_through_time}
+Noah Gorstein.
+\newblock Truckin' through time.
+\newblock URL \url{https://noahgorstein.com/blog/truckin-through-time/}.
+\newblock Scraper plus SQLite database derived from the CMU setlist archive.
+
+\bibitem[{Grateful Dead}()]{dead_net_biography}
+{Grateful Dead}.
+\newblock Biography.
+\newblock URL \url{https://www.dead.net/biography}.
+\newblock Official band biography and historical overview.
+
+\bibitem[Greene(2015)]{rolling_stone_robert_hunter_interview}
+Andy Greene.
+\newblock Robert hunter on grateful dead's early days, wild tours, sacred
+  songs, 2015.
+\newblock URL
+  \url{https://www.rollingstone.com/feature/robert-hunter-on-grateful-deads-early-days-wild-tours-sacred-songs-37978/}.
+\newblock Interview context for Hunter's songwriting and band-history
+  recollections; not a data-bearing source.
+
+\bibitem[Highways(2020)]{americana_highways_workingmans_american_beauty}
+Americana Highways.
+\newblock The grateful dead's reissues of workingman's dead and american
+  beauty, 2020.
+\newblock URL
+  \url{https://americanahighways.org/2020/11/18/review-the-grateful-deads-reissues-of-workingmans-dead-and-american-beauty-are-impeccable/}.
+\newblock Reception context for the 1970 studio-songwriting pivot and
+  anniversary reissues; not a data-bearing source.
+
+\bibitem[{Internet Archive Help
+  Center}(2018)]{internet_archive_gd_collection_policy}
+{Internet Archive Help Center}.
+\newblock The grateful dead collection, 2018.
+\newblock URL
+  \url{https://help.archive.org/help/the-grateful-dead-collection/}.
+\newblock Collection policy and metadata guidance: audience recordings are
+  downloadable, soundboards are stream-only at band request, and public uploads
+  are closed.
+
+\bibitem[{John F. Kennedy Center for the Performing
+  Arts}(2024)]{kennedy_center_honors_2024}
+{John F. Kennedy Center for the Performing Arts}.
+\newblock The kennedy center announces 47th class of honorees, 2024.
+\newblock URL
+  \url{https://www.kennedy-center.org/globalassets/news-room/press-release-pdfs/2024/press-release---kennedy-center-announces-47th-kennedy-center-honors-slate.pdf}.
+\newblock Official press release naming the Grateful Dead among the 2024
+  Kennedy Center Honorees.
+
+\bibitem[Leone({\natexlab{a}})]{cmu_leone_lyrics}
+Mark Leone.
+\newblock Grateful dead lyrics (cmu), {\natexlab{a}}.
+\newblock URL \url{https://www.cs.cmu.edu/~mleone/dead-lyrics.html}.
+\newblock Lyrics index, pointing to the original Stratton database.
+
+\bibitem[Leone({\natexlab{b}})]{cmu_leone_setlists}
+Mark Leone.
+\newblock Grateful dead setlists (cmu), {\natexlab{b}}.
+\newblock URL \url{https://www.cs.cmu.edu/~mleone/gs.html}.
+\newblock Legacy archive; derivative of the Jerry Stratton database (1972--).
+
+\bibitem[Lewin(2007)]{lewin_gmit}
+David Lewin.
+\newblock \emph{Generalized Musical Intervals and Transformations}.
+\newblock Oxford University Press, New York, 2007.
+\newblock ISBN 9780195317138.
+\newblock \doi{10.1093/acprof:oso/9780195317138.001.0001}.
+\newblock URL \url{https://academic.oup.com/book/4583}.
+\newblock Oxford Academic edition; original Yale University Press edition
+  published in 1987.
+
+\bibitem[Marshall(2003)]{marshall_bootleg_collectors}
+Lee Marshall.
+\newblock For and against the record industry: An introduction to bootleg
+  collectors and tape traders.
+\newblock \emph{Popular Music}, 22\penalty0 (1):\penalty0 57--72, 2003.
+\newblock \doi{10.1017/S0261143003003040}.
+\newblock URL \url{https://doi.org/10.1017/S0261143003003040}.
+
+\bibitem[maximinus()]{gd_reviews_corpus}
+maximinus.
+\newblock grateful-dead-reviews.
+\newblock URL
+  \url{https://github.com/maximinus/grateful-dead-reviews/blob/master/dead_reviews.txt}.
+\newblock Long-form fan review corpus.
+
+\bibitem[{McIntosh Laboratory}(2025)]{mcintosh_wall_of_sound}
+{McIntosh Laboratory}.
+\newblock Bringing the grateful dead's wall of sound to life, 2025.
+\newblock URL
+  \url{https://www.mcintoshlabs.com/about/news/mcintosh-and-the-grateful-deads-wall-of-sound}.
+\newblock Manufacturer history of the Wall of Sound and MC2300 amplifier
+  system.
+
+\bibitem[Meriwether(2015)]{dead_net_taping_dead}
+Nicholas Meriwether.
+\newblock Documenting the dead: Taping the dead, 2015.
+\newblock URL
+  \url{https://www.dead.net/features/documenting-dead/documenting-dead-taping-dead}.
+\newblock Official dead.net archive essay on taping, trading, and Deadhead
+  archival practice.
+
+\bibitem[Padi et~al.(2017)Padi, Breiner, Subrahmanian, and
+  Sriram]{padi_category_music_case_study}
+Sarala Padi, Spencer~J. Breiner, Eswaran Subrahmanian, and Ram~D. Sriram.
+\newblock A category theoretic approach to modeling and analysis using music as
+  a case study.
+\newblock Technical Report NISTIR 8092, National Institute of Standards and
+  Technology, Gaithersburg, MD, 2017.
+\newblock URL
+  \url{https://www.nist.gov/publications/category-theoretic-approach-modeling-and-analysis-using-music-case-study}.
+\newblock NIST Interagency/Internal Report applying OLOG/category theory to
+  Carnatic music and reproducible music-analysis integration.
+
+\bibitem[Popoff and Andreatta(2023)]{popoff_hidden_categories}
+Alexandre Popoff and Moreno Andreatta.
+\newblock Hidden categories: A new perspective on lewin's generalized interval
+  systems and klumpenhouwer networks.
+\newblock 2023.
+\newblock \doi{10.48550/arXiv.2311.18371}.
+\newblock URL \url{https://arxiv.org/abs/2311.18371}.
+
+\bibitem[{Recording Academy}(2007)]{grammy_lifetime_achievement}
+{Recording Academy}.
+\newblock Lifetime achievement award, 2007.
+\newblock URL \url{https://www.grammy.com/awards/lifetime-achievement-awards}.
+\newblock Official recipient list including the Grateful Dead.
+
+\bibitem[{Rock and Roll Hall of Fame}(1994)]{rockhall_grateful_dead}
+{Rock and Roll Hall of Fame}.
+\newblock The grateful dead, 1994.
+\newblock URL \url{https://rockhall.com/inductees/grateful-dead/}.
+\newblock Official inductee page.
+
+\bibitem[Seconds(2016)]{grateful_seconds_touring_revenues}
+Grateful Seconds.
+\newblock Grateful dead touring revenues 1965--1995, 2016.
+\newblock URL
+  \url{http://www.gratefulseconds.com/2016/01/grateful-dead-touring-revenues-1965-1995.html}.
+\newblock Community reconstruction of touring revenue estimates; used only as
+  contextual business-history evidence, not as a quantitative compendium input.
+
+\bibitem[Smith()]{gdshowsdb}
+Jeff Smith.
+\newblock gdshowsdb.
+\newblock URL \url{https://github.com/jefmsmit/gdshowsdb}.
+\newblock Relational schema and Ruby gem for canonical show data.
+
+\bibitem[{Smithsonian Institution}(2024)]{smithsonian_institutionally_dead}
+{Smithsonian Institution}.
+\newblock Institutionally dead, 2024.
+\newblock URL \url{https://avpreservation.si.edu/institutionally-dead}.
+\newblock Audiovisual Media Preservation Initiative essay on Grateful
+  Dead-related Smithsonian holdings.
+
+\bibitem[Thered()]{grateful_data_tutorial}
+Scotty Thered.
+\newblock Grateful data: Etl tutorial.
+\newblock URL \url{https://github.com/scottythered/gratefuldata}.
+\newblock Tutorial pipeline using the Internet Archive and ASCAP ACE.
+
+\bibitem[{University of California, Santa Cruz University
+  Library}(2025)]{ucsc_grateful_dead_archive}
+{University of California, Santa Cruz University Library}.
+\newblock The grateful dead archive, 2025.
+\newblock URL \url{https://guides.library.ucsc.edu/gratefuldeadarchive}.
+\newblock Official UCSC library guide for the Grateful Dead Archive and
+  Grateful Dead Archive Online.
+
+\bibitem[Wallace(2009)]{wallace_cocreation_sound_archive}
+David~A. Wallace.
+\newblock Co-creation of the grateful dead sound archive: control, access and
+  curation communities.
+\newblock In Jeannette~A. Bastian and Ben Alexander, editors, \emph{Community
+  Archives: The Shaping of Memory}, pages 169--194. Facet, 2009.
+\newblock \doi{10.29085/9781856049047.012}.
+\newblock URL
+  \url{https://www.cambridge.org/core/books/abs/community-archives/cocreation-of-the-grateful-dead-sound-archive-control-access-and-curation-communities/1428A421FA4D0D7353C5418099303029}.
+
+\bibitem[Wang et~al.(2014)Wang, Yen, Yang, and Wang]{wang_setlist_segmentation}
+Ju-Chiang Wang, Ming-Chi Yen, Yi-Hsuan Yang, and Hsin-Min Wang.
+\newblock Automatic set list identification and song segmentation for
+  full-length concert videos.
+\newblock In \emph{Proceedings of the 15th International Society for Music
+  Information Retrieval Conference}, pages 239--244, 2014.
+\newblock URL \url{https://archives.ismir.net/ismir2014/paper/000211.pdf}.
+\newblock ISMIR archive copy; licensed CC BY 4.0 in the proceedings PDF.
+
+\bibitem[Weir(2011)]{foundsf_weir_psychedelic_sf}
+Bob Weir.
+\newblock Bob weir on psychedelic san francisco and the birth of the grateful
+  dead, 2011.
+\newblock URL
+  \url{https://www.foundsf.org/Bob_Weir_on_Psychedelic_San_Francisco_and_the_Birth_of_the_Grateful_Dead}.
+\newblock FoundSF interview context on formation, Acid Tests, and San Francisco
+  counterculture.
+
+\end{thebibliography}

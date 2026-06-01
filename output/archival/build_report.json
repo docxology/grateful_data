@@ -1,0 +1,55 @@
+{
+  "built_at": "2026-05-29T16:37:08.989169+00:00",
+  "sources_used": [
+    "gdshowsdb",
+    "curated_seed",
+    "bibliography_combined",
+    "whitegum_alex_allan",
+    "cmu_leone_lyrics (cache:/Users/4d/Documents/GitHub/projects/working/grateful_data/data/vendor/cmu/dead-lyrics.html)",
+    "maximinus_reviews",
+    "truckin_through_time_sqlite",
+    "wikipedia_gd",
+    "internet_archive_lma",
+    "curated_lyric_overlay",
+    "dead_net_lyric_gaps (239)",
+    "song_lyricist_propagation (43)"
+  ],
+  "skipped": [
+    "cmu_leone_setlists: all fetch URLs failed for cmu/gs.html: http://www.cs.cmu.edu/~mleone/gs.html: HTTP Error 404: Not Found; https://web.archive.org/web/20150107095256id_/http://www.cs.cmu.edu/~mleone/gs.html: HTTP Error 404: NOT FOUND; https://web.archive.org/web/20150107095256/http://www.cs.cmu.edu/~mleone/gs.html: HTTP Error 404: NOT FOUND; https://web.archive.org/web/20240101000000/http://www.cs.cmu.edu/~mleone/gs.html: HTTP Error 404: NOT FOUND; https://web.archive.org/web/20220101000000/http://www.cs.cmu.edu/~mleone/gs.html: HTTP Error 404: NOT FOUND",
+    "dead_net_songs: all fetch URLs failed for dead_net/songs.html: https://www.dead.net/songs: HTTP Error 403: Forbidden",
+    "gratefulstats_api: GRATEFULSTATS_API_KEY not set",
+    "setlistfm_gd: SETLISTFM_API_KEY not set"
+  ],
+  "entity_counts": {
+    "shows": 3341,
+    "venues": 912,
+    "songs": 645,
+    "people": 14,
+    "performances": 40757,
+    "recordings": 7122,
+    "releases": 259,
+    "citations": 114,
+    "lyric_pointers": 548,
+    "reviews": 1888
+  },
+  "ingest_stats": {
+    "truckin_gap_shows": 983,
+    "overlayed": 21,
+    "lyricists_propagated": 43,
+    "dead_net_added": 239,
+    "total": 573,
+    "with_lyricist": 102,
+    "with_themes": 46,
+    "recordings_dropped_show": 100,
+    "recordings_dropped_date": 1
+  },
+  "corpus_scope": "archival tier: 3341 shows (~144.1% of ~2318-show estimate) from gdshowsdb + curated layers",
+  "coverage_pct": 144.13287316652287,
+  "archival_dir": "/Users/4d/Documents/GitHub/projects/working/grateful_data/data/archival",
+  "curated_overlays": {
+    "reviews": "data/seed/reviews.json \u2014 curated exemplar; archival online adds maximinus corpus",
+    "citations": "data/seed/citations.json \u2014 curated exemplar; archival adds bibliography_combined (MD + references.bib)",
+    "lyric_pointers": "data/seed/lyric_pointers.json \u2014 pointer metadata; archival online adds CMU lyrics index, curated theme overlay, dead.net gap-fill",
+    "personnel": "data/seed/personnel.json \u2014 authoritative intervals when present"
+  }
+}

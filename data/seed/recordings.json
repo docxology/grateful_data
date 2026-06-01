@@ -1,0 +1,8 @@
+[
+  {"identifier": "gd1977-05-08.sbd.miller.110987.flac16",   "date": "1977-05-08", "venue": "Barton Hall",                     "coverage": "Ithaca, NY",        "source": "SBD"},
+  {"identifier": "gd1972-08-27.sbd.olson.20879.flac16",     "date": "1972-08-27", "venue": "Old Renaissance Faire Grounds",   "coverage": "Veneta, OR",        "source": "SBD"},
+  {"identifier": "gd1969-02-27.sbd.boyhan.5249.flac16",     "date": "1969-02-27", "venue": "Fillmore West",                   "coverage": "San Francisco, CA", "source": "SBD"},
+  {"identifier": "gd1978-08-31.sbd.kleyne.16472.flac16",    "date": "1978-08-31", "venue": "Red Rocks Amphitheatre",          "coverage": "Morrison, CO",      "source": "SBD"},
+  {"identifier": "gd1989-07-07.sbd.bertrando.105037.flac16","date": "1989-07-07", "venue": "JFK Stadium",                     "coverage": "Philadelphia, PA",  "source": "SBD"},
+  {"identifier": "gd1995-07-09.aud.unknown.30901.flac16",   "date": "1995-07-09", "venue": "Soldier Field",                   "coverage": "Chicago, IL",       "source": "AUD"}
+]

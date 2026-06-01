@@ -1,0 +1,94 @@
+This is BibTeX, Version 0.99e (TeX Live 2026)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: _combined_manuscript.aux
+The style file: plainnat.bst
+Database file #1: references.bib
+Warning--to sort, need author or key in internet_archive_lma
+Warning--to sort, need author or key in setlistfm_gd
+Warning--to sort, need author or key in setlists_net_program
+Warning--to sort, need author or key in gdsets_com
+Warning--to sort, need author or key in gdsets_dead
+Warning--to sort, need author or key in github_topic_gratefuldead
+Warning--to sort, need author or key in fifteen_songs_dataset
+Warning--to sort, need author or key in dead_net_official
+Warning--to sort, need author or key in wikipedia_gd
+Warning--to sort, need author or key in wikipedia_discography
+Warning--to sort, need author or key in britannica_gd
+Warning--to sort, need author or key in ucr_lineup_changes
+Warning--to sort, need author or key in grateful_stats
+Warning--to sort, need author or key in reddit_data_sets
+Warning--to sort, need author or key in reddit_lyrics_attribution
+Warning--to sort, need author or key in reddit_setlist_db
+Warning--to sort, need author or key in reddit_spreadsheet_archive
+Warning--to sort, need author or key in billboard_lyric_book
+Warning--empty year in billboard_lyric_book
+Warning--empty year in britannica_gd
+Warning--empty year in dead_net_official
+Warning--empty year in fifteen_songs_dataset
+Warning--empty year in gdsets_com
+Warning--empty year in gdsets_dead
+Warning--empty year in github_topic_gratefuldead
+Warning--empty year in grateful_stats
+Warning--empty year in internet_archive_lma
+Warning--empty year in reddit_data_sets
+Warning--empty year in reddit_lyrics_attribution
+Warning--empty year in reddit_setlist_db
+Warning--empty year in reddit_spreadsheet_archive
+Warning--empty year in setlistfm_gd
+Warning--empty year in setlists_net_program
+Warning--empty year in ucr_lineup_changes
+Warning--empty year in wikipedia_discography
+Warning--empty year in wikipedia_gd
+Warning--empty year in whitegum_alex_allan
+Warning--empty year in jerry_pycia
+Warning--empty year in britannica_jerry_garcia
+Warning--empty year in noah_truckin_through_time
+Warning--empty year in dead_net_biography
+Warning--empty year in cmu_leone_lyrics
+Warning--empty year in cmu_leone_setlists
+Warning--empty year in gd_reviews_corpus
+Warning--empty journal in popoff_hidden_categories
+Warning--empty year in gdshowsdb
+Warning--empty year in grateful_data_tutorial
+You've used 51 entries,
+            2773 wiz_defined-function locations,
+            869 strings with 15774 characters,
+and the built_in function-call counts, 16014 in all, are:
+= -- 1516
+> -- 441
+< -- 34
++ -- 189
+- -- 131
+* -- 989
+:= -- 2168
+add.period$ -- 198
+call.type$ -- 51
+change.case$ -- 191
+chr.to.int$ -- 44
+cite$ -- 167
+duplicate$ -- 839
+empty$ -- 1732
+format.name$ -- 172
+if$ -- 3562
+int.to.chr$ -- 8
+int.to.str$ -- 1
+missing$ -- 13
+newline$ -- 306
+num.names$ -- 135
+pop$ -- 684
+preamble$ -- 1
+purify$ -- 145
+quote$ -- 0
+skip$ -- 619
+stack$ -- 0
+substring$ -- 203
+swap$ -- 81
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 536
+warning$ -- 47
+while$ -- 108
+width$ -- 0
+write$ -- 700
+(There were 47 warnings)

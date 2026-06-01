@@ -1,0 +1,32 @@
+{
+  "columns": [
+    "source_type",
+    "n_recordings",
+    "share_pct"
+  ],
+  "figure": "recording_sources.png",
+  "metadata": {},
+  "rows": [
+    [
+      "UNKNOWN",
+      7110,
+      99.8315
+    ],
+    [
+      "SBD",
+      10,
+      0.1404
+    ],
+    [
+      "AUD",
+      1,
+      0.014
+    ],
+    [
+      "MTX",
+      1,
+      0.014
+    ]
+  ],
+  "title": "Recording Source Types"
+}

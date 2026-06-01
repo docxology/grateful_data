@@ -1,0 +1,2021 @@
+{
+  "entries": [
+    {
+      "contract_match": false,
+      "path": "output/.DS_Store",
+      "sha256": "06420df2678df639d66e12cf29922efe350b93de416edaf24d069b9ab536eef6",
+      "size_bytes": 6148,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/SUMMARY.md",
+      "sha256": "d25d9c46acdf2b73c5240e2f6de95f4ab00996dd92b24626c03a6e620f04a34c",
+      "size_bytes": 2487,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/archival/build_report.json",
+      "sha256": "4965039359b21720128591707c4e8bac0d0c574dbc242a3079944b68f44b2018",
+      "size_bytes": 2581,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/archival/grateful_data_archival.tar.gz",
+      "sha256": "d329e94fa792f28e9b581709ad84b4cd09893a101af9449fa1acc11dbf3fd677",
+      "size_bytes": 1395424,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/archival/manifest.json",
+      "sha256": "a24eaf39ff8d3207515506d5b6f988107fe1cc2d60031bd42edebacf0225357e",
+      "size_bytes": 2052,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/dashboard.html",
+      "sha256": "55ec7279335fd11623ad3f5a7a596536a970f449d186eb2cabd442eb9aef2b20",
+      "size_bytes": 429627,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/compendium.json",
+      "sha256": "0af959d2bb17a536c9b2fd8585914f183061ef89ba81d6a8b12de769f2b77d82",
+      "size_bytes": 149,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/fetch_manifest.json",
+      "sha256": "5c9582f91fbb768ac71ed5eb208fc4865c33029824b1ef5e29900dfd1c6021a4",
+      "size_bytes": 2589,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/manuscript_variables.json",
+      "sha256": "3c9e25bb33c6df12938c7a10a74ed5d477776ed625df5f46dc460553c49a8cc7",
+      "size_bytes": 1219,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/performances.csv",
+      "sha256": "65b18f6ddff4b626f9456f5cdef64ad181352555ab027f4ea2a5127f2a6a1186",
+      "size_bytes": 2846019,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/raw/citations.csv",
+      "sha256": "d649a1c4ea40604c7d68eb2abe227d1b24480ac2e1712706af1628a439e6bdb2",
+      "size_bytes": 18908,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/raw/compendium_full.json",
+      "sha256": "bcc04ad575f569b5284ef43fe43774b151deef202d15b1d337b97c5d36a14e30",
+      "size_bytes": 13641803,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/raw/lyric_pointers.csv",
+      "sha256": "ec9cb3f1555b281ce85de7cacb39f467d3cbbd93bda067c1cb6fb658235781d3",
+      "size_bytes": 57668,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/raw/performances.csv",
+      "sha256": "a33f624f7ac69716b1dcc41211dc0faf17837faf004bcae4bbee314254538986",
+      "size_bytes": 2886782,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/raw/personnel.csv",
+      "sha256": "17801e0b150322e315f17d437921bce95b2a481468a45d213ad463f3aaa41f55",
+      "size_bytes": 1082,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/raw/recordings.csv",
+      "sha256": "41ca7b41c151ad62060cd9b29171f6b3a221e7442e9bf2cb6ab9399970e2639c",
+      "size_bytes": 1267263,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/raw/releases.csv",
+      "sha256": "c7a1e9c744541e2353ef76c71be37be354dcfc4753f1ba38cae8ccf93cbeb4a2",
+      "size_bytes": 19138,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/raw/reviews.csv",
+      "sha256": "6d3d272085ccb3f4193a0bdb7ae241f07a80f1f69c1ff497883378680b2f2239",
+      "size_bytes": 460887,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/raw/segues.csv",
+      "sha256": "0a8bb1cec6188c6718da5561b90b29277d498d2d2df7400992dbe280d98cb144",
+      "size_bytes": 92410,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/raw/shows.csv",
+      "sha256": "d537752f9f17947642aaee7eeacf3c9279a2ba92bbb16fcf5ba7253fcd007444",
+      "size_bytes": 295714,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/raw/songs.csv",
+      "sha256": "041a87907aec1710ca12953563f4a61108d5be2cb888bbce9be2db0260943e33",
+      "size_bytes": 29435,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/raw/venue_geo.csv",
+      "sha256": "91ff68581cff01f7d5c4cc24e3bedef68e1c678f94495faa7d69b0b11f76e0e5",
+      "size_bytes": 55610,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/raw/venues.csv",
+      "sha256": "c84065b396c65ffce0517f379d807b517cb4eff302be456a8d18b16b20c08e57",
+      "size_bytes": 67527,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/shows.csv",
+      "sha256": "4c6df62571b6c300d8ff3d1abe0582b09b5593fcec736ca06eec51ce96bbd9e5",
+      "size_bytes": 292367,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/data/songs.csv",
+      "sha256": "ae1ff9afb3a7c034f2d8ae43ed48d1f3d0a6771172baa3a9532c5394de81959a",
+      "size_bytes": 26395,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/eras/_index.md",
+      "sha256": "84e71256b19c66dc6da001ce2b75ea6fcd1d0e662766e8d5e48f78237d843451",
+      "size_bytes": 142,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/eras/brent.md",
+      "sha256": "3969ab84afcd55fbdb472fa3b70afe3c4ad82fd04b46fc2eb1ffb8f4e91d43ee",
+      "size_bytes": 1897,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/eras/europe_72.md",
+      "sha256": "8b48c8434ba3995a8416e12b2f94528d0813f775d8b5bb80ab21def96f2a4c29",
+      "size_bytes": 963,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/eras/hiatustoreturn.md",
+      "sha256": "6d56f34f3439347e813eeb2ed6098c3fe4b439b7a38dbfbf4fc5dd599ad50742",
+      "size_bytes": 1055,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/eras/primal.md",
+      "sha256": "37bdbfa35cca4525e2522c596f12895342a90ed3dcbda4c1a35af4d43afe8a1a",
+      "size_bytes": 790,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/eras/vince_bruce.md",
+      "sha256": "5cba6ef4b3c28f67e96f02c9916094e25c7eccfe2ea8f1c4a941f4124d808f68",
+      "size_bytes": 1272,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/eras/wall_of_sound.md",
+      "sha256": "410eab47a78e00de917d10af056d39e8e7b8ab0f15c310325507b852dd3d5a36",
+      "size_bytes": 534,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/alluvial_composer_song_era.png",
+      "sha256": "9416e511db2e6ced39c76ab1e4e66c5021a8afdf17d9fb50d7ee52264bd829c2",
+      "size_bytes": 144003,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/bustouts.png",
+      "sha256": "cc16515ebba83350ddb4b415e3337f97ce4a43705de38af762b663a01e1c6cb0",
+      "size_bytes": 65613,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/centrality_top20.png",
+      "sha256": "fcc4cac34592dbb111b1da17ab61a6abd2db63bec6e954199f2da054bf2bcfe4",
+      "size_bytes": 62332,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/citation_kinds.png",
+      "sha256": "80e1fac33e1ffc29b91d3cce9bd8ddc21183b79592dc65567e5ae8a9805bd992",
+      "size_bytes": 42517,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/composer_attribution.png",
+      "sha256": "6bc4552b94f3cff81ee9dc11763a59534f6318c3bba88595ac7942576878f068",
+      "size_bytes": 59709,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/cooccurrence_heatmap.png",
+      "sha256": "64fb7913374b43dcffe504c5c36bd5466da17b71f857a025a7c3130684b50914",
+      "size_bytes": 136455,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/era_density.png",
+      "sha256": "61643b1b1c88f5162fa58776a1f8c1664ece570913d649052dbe10d8886f610a",
+      "size_bytes": 68390,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/functor_cardinalities.png",
+      "sha256": "cd25e66fad1b6b293feca53eced31804a6fc1fafab402380ffa783a95cf536e1",
+      "size_bytes": 52906,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/geo_scatter.png",
+      "sha256": "d2da511cb72cdc4376f4b04511d2c1f23f515b566bad86c116aa990008770a1b",
+      "size_bytes": 143028,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/lineup_diversity.png",
+      "sha256": "f5e3dc01728ac269245aa7a57d79edec6e84aa22dfb244db919385180e12fc57",
+      "size_bytes": 39826,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/lyric_themes.png",
+      "sha256": "3850b1de8b0b467f8e1d0e09fad0da2977901cfdae8816af8e5024642b45a95c",
+      "size_bytes": 55371,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/mosaic.png",
+      "sha256": "5c3b6dbdf5f0b70bf16591e84a1d99e2db7bd7d4a9b4b503458c76a824392cd1",
+      "size_bytes": 1345372,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/personnel_gantt.png",
+      "sha256": "c7892f76bff82461483b4596592733025ffe4ba3c70a78d8cb7b3c1013183f13",
+      "size_bytes": 40187,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/recording_sources.png",
+      "sha256": "23c0469a5efd370a7e261bddb00be366f562cd0da6b591d0d8c5f11d45710529",
+      "size_bytes": 36703,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/releases_timeline.png",
+      "sha256": "1e00fb83efb110da4ddbe29927dc6874ca1a9358f59ad7137f3b91872dd43d9f",
+      "size_bytes": 64797,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/segue_graph.png",
+      "sha256": "89c16877555d923707f56f59c2e48dffe63f1747851a36403c3a97e98db8b745",
+      "size_bytes": 32157,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/sentiment_by_kind.png",
+      "sha256": "19e8fe9632d04b82a9038a15dba1655ef5e01d5b97685f87e23a42dbfc90e33c",
+      "size_bytes": 34384,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/set_positions.png",
+      "sha256": "f57549f83e76e03f9104a113a12a13e127850f08b0a31b1d152693748e2333ba",
+      "size_bytes": 32388,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/shows_by_era.png",
+      "sha256": "1c188b4ca7c7809c1813711c7d03ba1452842f0f880d27d7c7d8fbe11bb2b1d3",
+      "size_bytes": 43523,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/shows_per_year.png",
+      "sha256": "f008b272374523a4a83e5d2017ac626e66eafafeecd8f1bcebaa6e59922be131",
+      "size_bytes": 74601,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/stationary_top20.png",
+      "sha256": "4e4c415cf4b453cf089a37d856b71462b615ac947e15a1a152f53eb99865f962",
+      "size_bytes": 69099,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/top_songs.png",
+      "sha256": "5c5c9bcb48da67e769bccc97e02c63c4759ef7920b9b56f24530d7070981857c",
+      "size_bytes": 56666,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/tours_top.png",
+      "sha256": "d80630c090e28d10c16ad09d0e4f33adfb22acabc0b6175c6446980913f794c4",
+      "size_bytes": 29235,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/figures/transition_matrix.png",
+      "sha256": "9c641660136e491eb5e4074cf47272a698fbce5e8562fced170865c89d8419f0",
+      "size_bytes": 124614,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/manuscript/00_abstract.md",
+      "sha256": "27830ca813570e1fc480ad553f723c5ce4b4f1d1625818a2c983fb89726dfed4",
+      "size_bytes": 2695,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/manuscript/01_introduction.md",
+      "sha256": "883740dc8a69022ea24b1307839468a4f9d33aba545edb33a90a8a8ecb9c6355",
+      "size_bytes": 4626,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/manuscript/02_methodology.md",
+      "sha256": "e775b4c52de208cbcf926a42f934ab2ab3e20da8e2d1f3c4f1ce14477835a737",
+      "size_bytes": 4255,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/manuscript/03_category_theory.md",
+      "sha256": "0f2412d976178b46cc8768b25b27a31f06f47007dd8da512805b971ab3a5ea91",
+      "size_bytes": 6657,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/manuscript/04_results.md",
+      "sha256": "b083039152639cca60c744facfb6799cfadb457ecf88054f6541cc3af94aa3ca",
+      "size_bytes": 16026,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/manuscript/05_conclusion.md",
+      "sha256": "ddb6f4e581b10521e78e349e0c94d1163e0e25d0c7c7fff2ddf583dd148da033",
+      "size_bytes": 2104,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/manuscript/06_reproducibility.md",
+      "sha256": "cf0e02857e6bb530a0dc1fdbe356122dcbf89380a6c1dad94d4516102e13f402",
+      "size_bytes": 3370,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/manuscript/07_honesty_boundary.md",
+      "sha256": "dd3fc415c17ca7ae989230bd72bc8ede74c9561e6baa17b3d357f27b91534a53",
+      "size_bytes": 3573,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/manuscript/99_references.md",
+      "sha256": "a98dfb078c8cbf8bc39293e2b8d130f2f3b2f00a75cc18e92db46ed84e76a078",
+      "size_bytes": 83,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/manuscript/config.yaml",
+      "sha256": "ce97d11e78563040c95a8bda7655b74efda03e8dd7b37ec0e851bb12ea1fb3b7",
+      "size_bytes": 643,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/manuscript/preamble.md",
+      "sha256": "b05762e865a482ec22bf3db902ffc7f2c8852c732de4ab7713db87b73366e7fb",
+      "size_bytes": 96,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/manuscript/references.bib",
+      "sha256": "f444a556a93facac624d4d9bda77adf103ee4aa85f5cd46420c6739fab83465e",
+      "size_bytes": 5616,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/pdf/_combined_manuscript.bbl",
+      "sha256": "0d587fcd352e2151347dcee9a20d11b2116651edf2bac4fd78944b111224cbe6",
+      "size_bytes": 5850,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/pdf/_combined_manuscript.blg",
+      "sha256": "c665ef98c05c5769aeb510ef8270185bc89c097645f9ebc76029837b492ba69a",
+      "size_bytes": 3073,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/pdf/_combined_manuscript.md",
+      "sha256": "78eaa44510df46f5924b689f865042fbe30b1f136a4da247918905769c1d60d6",
+      "size_bytes": 43457,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/pdf/_combined_manuscript.tex",
+      "sha256": "5b579f1583dbb147b4428b8e40d9c6dd31c9a0cf8b4404f55f6e0a074edf83c6",
+      "size_bytes": 55802,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/pdf/grateful_data_combined.pdf",
+      "sha256": "05beacc51739fd3f2413ff0221a7b0127a4309fa33a7817f7ccc4b39680918f7",
+      "size_bytes": 3018923,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/pdf/references.bib",
+      "sha256": "f444a556a93facac624d4d9bda77adf103ee4aa85f5cd46420c6739fab83465e",
+      "size_bytes": 5616,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/people/_index.md",
+      "sha256": "a210c911aef22462cb8d997e3ea122a369a73b90c4a853d8479a100283cdf4eb",
+      "size_bytes": 454,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/people/barlow.md",
+      "sha256": "98868dbc77ba4c4967d7788420b263b472bc09dad1f378e2b04aa13b3183321e",
+      "size_bytes": 1471,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/people/constanten.md",
+      "sha256": "563ee43da10f4eeefb06fc16ca6ad42188648587e0c888f30b016b311f7ac7cf",
+      "size_bytes": 313,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/people/garcia.md",
+      "sha256": "142b205b3cd8caa08cf9d4826fa65bc5972bff919c9c9c242593cde6a45b58a1",
+      "size_bytes": 1489,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/people/godchaux_d.md",
+      "sha256": "e8a39aae1ff99b5d6ea6d34e2b6c395e20695497251d535fc32d6df9ecc8d951",
+      "size_bytes": 1128,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/people/godchaux_k.md",
+      "sha256": "4f74834a26d28e89d62868cfa5cacac762ea0eedb2f55ae09e912239ad2bb8a7",
+      "size_bytes": 1168,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/people/hart.md",
+      "sha256": "8f1cd8c9b62bcccbcf4e394608b15bad811532ef3c70418555cc06285a089aa0",
+      "size_bytes": 1513,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/people/hornsby.md",
+      "sha256": "165d41e20e9e9552a1451fe0bf12aa16f78f1f953c53611fbcd426c77afc369e",
+      "size_bytes": 432,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/people/hunter.md",
+      "sha256": "529f223e160a230551c0afd0d7d392ee5e74f4910b56a02cef80cc5abd26d5e2",
+      "size_bytes": 1445,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/people/kreutzmann.md",
+      "sha256": "2cc3c3888788d276be40298ba9f23824c3a95ced6d737d71f323b79429c67ce0",
+      "size_bytes": 1448,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/people/lesh.md",
+      "sha256": "9647f6f06776e9473d7df024bb9cae15f82afbec59c1efcd888cbd4ae41335c5",
+      "size_bytes": 1481,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/people/mydland.md",
+      "sha256": "f6827258617fded85e965616b287a9b563d45b7881a4a5cd851246fbd88e1ece",
+      "size_bytes": 1571,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/people/pigpen.md",
+      "sha256": "74d0f2c9fb788b55b418d2e70dfb3a3c7b007a0d1d0020d23fee3a7b930f663a",
+      "size_bytes": 821,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/people/weir.md",
+      "sha256": "a592b9abba0608688549e94371e0b6530fd017a9140acc9355f672bd4af9bc79",
+      "size_bytes": 1487,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/people/welnick.md",
+      "sha256": "c686d12d712e2d1d63050b01fe1dfcfa9b686ed3784cfe20d2e53bb74c8cce31",
+      "size_bytes": 1134,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/reports/analysis_report.json",
+      "sha256": "e12338fdf9f943305d0e8da0d0e3aae7be5e42cde9c846104b6ff01d9a9ddc00",
+      "size_bytes": 3666,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/reports/category_theory_report.json",
+      "sha256": "572c8202e8318c06a0a6144e3c45eb533c6bb852b4828254f065f8abb0f83663",
+      "size_bytes": 511,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/reports/completeness_report.json",
+      "sha256": "3e730630a2d32ab8c402f71f7fb9bddf7024b3f6147e9e684a67b1e3a88f87ad",
+      "size_bytes": 14681,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/reports/figure_validation.json",
+      "sha256": "b92c815a2975930b8d2ad133857e1ed87fa45b094210f0168dc49f609ba81700",
+      "size_bytes": 7010,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/reports/manuscript_counts.json",
+      "sha256": "3c9e25bb33c6df12938c7a10a74ed5d477776ed625df5f46dc460553c49a8cc7",
+      "size_bytes": 1219,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/reports/output_statistics.json",
+      "sha256": "2779e45d861b29625b845b0d392e3763ad7de337c10df2b4f98859f04d0f1c55",
+      "size_bytes": 6217,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/reports/output_statistics.txt",
+      "sha256": "aa20f86612fce484ec7a937f1a995964b1b4547008679cddd66be4c8e3b97703",
+      "size_bytes": 980,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/reports/source_reconciliation.json",
+      "sha256": "785acced814001d1e9624258a27b368c2e0c0261ff422d00d4299d2b88fdda0d",
+      "size_bytes": 16425,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/slides/_slides_math_header.tex",
+      "sha256": "afdfb7576b414be14b82cd9a589a14504ed11b45710659e0aa13ec6a6b9f51bb",
+      "size_bytes": 1264,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/_index.md",
+      "sha256": "47a348b7e3b4dce1d837d9040e118779bc9d50d33093ecaaa7e93723e9d21d3a",
+      "size_bytes": 3362,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/althea.md",
+      "sha256": "b3c071d0c2bcded785cacef891c79726bf058f98a81a357d71aba5157f3fa7d6",
+      "size_bytes": 735,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/around_and_around.md",
+      "sha256": "e3373b1b97568bf467162c6fa167a7a310d5b39d58f6ef70d46f65e958dd0db0",
+      "size_bytes": 189,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/attics_of_my_life.md",
+      "sha256": "31d355d69b43949b198fdd00868e2c2bd3bc30a39e17035d06c287561dcb04da",
+      "size_bytes": 189,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/bertha.md",
+      "sha256": "9f4032552be844966237540b7b9ecf6f813058f0f19e39a8dd88e6b8f42540a0",
+      "size_bytes": 1185,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/bird_song.md",
+      "sha256": "9d8449ac2f817a9c7dbbf80c90229d3298985d42032262aa98c89537c5f37211",
+      "size_bytes": 392,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/black_muddy_river.md",
+      "sha256": "02ef3aba679e00f2c38a339d772aa7b1f102fb0c4ffe1b608879dc8fdd2f13ed",
+      "size_bytes": 559,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/black_peter.md",
+      "sha256": "8afad96844a51daa696994c44c1a6236a184cba90d90ea00f803524c900ed5a9",
+      "size_bytes": 177,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/black_throated_wind.md",
+      "sha256": "b00cc6cd97b964dac3b26cecf77066c5aa87adabaf3cc0dc78c03f775e274faa",
+      "size_bytes": 388,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/box_of_rain.md",
+      "sha256": "d5271ee6c5feb584c046c18dd3bb479ed37ee681c9855a9a0dd2ec9297327457",
+      "size_bytes": 678,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/brokedown_palace.md",
+      "sha256": "8b5682c913d40a8ca94a568d211bff7a947e7a425827495252b243bb96081d16",
+      "size_bytes": 536,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/brown_eyed_women.md",
+      "sha256": "bcaf68c6345e292fc67b611f56415699178cb4f1e9ee66fe080716b965bba7a6",
+      "size_bytes": 500,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/built_to_last.md",
+      "sha256": "3b58ca8801bdb33f41f9233d78efa3b04e654ddfc5709d738f3c685f8f2a70a9",
+      "size_bytes": 398,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/candyman.md",
+      "sha256": "289bcd205fc63f9737104fa1a48e3b3fca414e0d6f8da600c765d7428057026b",
+      "size_bytes": 681,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/casey_jones.md",
+      "sha256": "e3f7275611bf2899f2f47792acba1cb956179daf24bf4ae6ee963f68fc517e43",
+      "size_bytes": 319,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/cassidy.md",
+      "sha256": "ce3f1e1b38a232453ed83e800cffb1e01e3f90386cb8ef3b476c2c1a2ec22caf",
+      "size_bytes": 764,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/china_cat_sunflower.md",
+      "sha256": "1098e6ade6bd7a859294bc627ca273a5b6c7c1d8ef57926b14318ab3ca305cd0",
+      "size_bytes": 492,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/cumberland_blues.md",
+      "sha256": "65e2588e355e32e5f97048ef1d9114b561c9cc88592aa778e355f52f7919413c",
+      "size_bytes": 379,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/dark_star.md",
+      "sha256": "2ec3e5712e7fb535518ac8f5c2087deb3dd6ae1fec3dff9594c96068754c2551",
+      "size_bytes": 1156,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/days_between.md",
+      "sha256": "5177e2242f0396d3cc348c8d59f165e288f385c2e1b9583676dbd61a000af5f4",
+      "size_bytes": 548,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/deal.md",
+      "sha256": "cbba22970e215d90942b4bdcda710ef4e8ec813af18ec1721b4b779a0f8d21e6",
+      "size_bytes": 539,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/drums.md",
+      "sha256": "128a335e07d38bb6e97f2e6214bb82578c07a16205a09fd8cd83568b37798ddd",
+      "size_bytes": 625,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/estimated_prophet.md",
+      "sha256": "1d87906cffa5873510e0023cadf3833bc53eb6d3125b9be629ae28cb76e10930",
+      "size_bytes": 2550,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/eyes_of_the_world.md",
+      "sha256": "1b14926f172e96bcea67bc3809645e5a3a5b076a3d5f8e5e723d68c63b447d99",
+      "size_bytes": 3406,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/far_from_me.md",
+      "sha256": "968a4ae5eb217e7b148729aa574072bb539686d5ad493040a0957971286153e7",
+      "size_bytes": 390,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/feel_like_a_stranger.md",
+      "sha256": "7cf043b2365c92be42ceecdd6a9ba3c00ebbd7d313666f6f9f3290a837edfb98",
+      "size_bytes": 556,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/fire_on_the_mountain.md",
+      "sha256": "41be6a6ec1a6314821a156376bbef076d47f3610dff5b3ef96cba2e5ef1bbb9a",
+      "size_bytes": 1323,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/foolish_heart.md",
+      "sha256": "557dbff7fc2b2eff36d3bfde627e1dbac986c0c4ba1bdfba8d4f9a652b54ca1a",
+      "size_bytes": 630,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/franklin_s_tower.md",
+      "sha256": "3a1172113afaef9c6491762bac57b244bd5fa714769cd4778da1d8ac1aa4224e",
+      "size_bytes": 596,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/friend_of_the_devil.md",
+      "sha256": "21b1f78151ccea587004322d692440b0283109ce353635b097b678588584ee8b",
+      "size_bytes": 787,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/gimme_some_lovin.md",
+      "sha256": "b8586607d03bc3ad3eafc0cfd6b8b0d76276513c711b3f6c69b8b595eeaea16f",
+      "size_bytes": 452,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/greatest_story_ever_told.md",
+      "sha256": "1b381ec73ba25357c5f8f6584b2a61d00ac87a4ee81851339fff64eb8f12d87e",
+      "size_bytes": 429,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/hard_to_handle.md",
+      "sha256": "2f4805616faa822c5cca8b6876e433761ce45dd245ae3e7d09bffc88828b2378",
+      "size_bytes": 429,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/he_s_gone.md",
+      "sha256": "ba0fb8b5fa21d3e141724964fe66c1f3a2841e6f882567b9e69ee73d19518c9c",
+      "size_bytes": 176,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/hell_in_a_bucket.md",
+      "sha256": "0eedc5d504965b18ce63ab835c0d490097e3f6d71cbab263957c0ffaaa3112ee",
+      "size_bytes": 2317,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/help_on_the_way.md",
+      "sha256": "8da646df74a97158a7bb46381a19ddb16e637bcd0551d952bcc3a5b8ca777f3a",
+      "size_bytes": 578,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/i_know_you_rider.md",
+      "sha256": "df8c15befa34adeb897449fa2b55784d49621f3bef42c20a3248868a24f488f8",
+      "size_bytes": 473,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/i_will_take_you_home.md",
+      "sha256": "54792c27663fc331c6e075c2754b0df0cc403efdaaf4a0dec013152ffbdd6de3",
+      "size_bytes": 440,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/jack_straw.md",
+      "sha256": "ec5705cb5f64bcfab29d93aa1d6e24f84ae5b9d1a182dcf0157ec8f0fd79ffb7",
+      "size_bytes": 988,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/johnny_b_goode.md",
+      "sha256": "8b5bbc32bfa132f7a97b01b2b548cf9e5fe8cb00f58c8d0d8aaec07b08c1ed25",
+      "size_bytes": 181,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/just_a_little_light.md",
+      "sha256": "385595edfbba4c6e6acd04549d29c57e0e8717862a48a01927d7286f0cce37f5",
+      "size_bytes": 425,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/lazy_river_road.md",
+      "sha256": "b67e2c7c958bffc6066dbbc6a2574d56daa507ab6d96b09f709dce89513b2bfc",
+      "size_bytes": 623,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/liberty.md",
+      "sha256": "1742b4ef6e412052d8c1c405da10eb050f5555043397b90109247ce61cbfffc1",
+      "size_bytes": 400,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/looks_like_rain.md",
+      "sha256": "00836fc7d18b101fe5f8cda431d3cf90a37b622f48942addd90f6cd0cb4c440c",
+      "size_bytes": 384,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/loose_lucy.md",
+      "sha256": "981bffbefceac279e866fcb13aa6d246de84333e50380c5eaa97cf30b9c750aa",
+      "size_bytes": 400,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/loser.md",
+      "sha256": "71f17492b8fe456cc64f87e1250c8e3e78cf41f57fd92414298ce1eda3b9a316",
+      "size_bytes": 401,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/lost_sailor.md",
+      "sha256": "765c0bbe1bde5c748d42f819cb99009621becc45c28b84e3237d4e99844810fc",
+      "size_bytes": 395,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/mexicali_blues.md",
+      "sha256": "256710fe33a65bd3b712cdaeab7b1f101a45196e7f93084f33267b188c305ec5",
+      "size_bytes": 186,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/minglewood_blues.md",
+      "sha256": "8a04bf8b423d16315311fdffb5679a3266b9caf54ecfe575d99bf13c02fa48b5",
+      "size_bytes": 218,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/mississippi_half_step_uptown_toodeloo.md",
+      "sha256": "d3cffa06f49dbbdeb67b02c26d50cd901a26eb8517b5f5a2ee8055c59b6cfd95",
+      "size_bytes": 530,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/morning_dew.md",
+      "sha256": "e16d983c1902fba1577349cf8b14484a3f8a223662bbb8807ea159ab3a49a045",
+      "size_bytes": 991,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/mr_charlie.md",
+      "sha256": "51b2970b0bd3195f9c59f443b19c1fe7776dae5431cc80a9b41b72b60c6249f7",
+      "size_bytes": 774,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/not_fade_away.md",
+      "sha256": "a37076d3e4aa4372eacb4fedddcafa2b6f4bb1a83396114274449527115db513",
+      "size_bytes": 987,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/one_more_saturday_night.md",
+      "sha256": "0703325dfda805da5e2407a97b0f3639d749759895a0e1202ae9586d259d85c0",
+      "size_bytes": 728,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/operator.md",
+      "sha256": "54ef58d1812ada02685aad348605d230833fca3f161ff6c77ce02d6556da05f2",
+      "size_bytes": 170,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/picasso_moon.md",
+      "sha256": "88292680a22a6155df982846231ec450b734d295a04f8cbe900b9380b0fbeb63",
+      "size_bytes": 494,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/playing_in_the_band.md",
+      "sha256": "1adc0a415aa3caa7690c1d1ef24285f61b27a7e9f8a80a6919549f269d0729bc",
+      "size_bytes": 714,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/promised_land.md",
+      "sha256": "53274e3f6dd85751248c032d8cb6acc2baed4093b5d3ec9f4c6dde1125c9cdf5",
+      "size_bytes": 659,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/ramble_on_rose.md",
+      "sha256": "9f9bd5b8dfea6dcc87655215d3940cf348d12c12817aff592fb5375d8382ad95",
+      "size_bytes": 405,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/ripple.md",
+      "sha256": "5c977d54419f01ac195b7b3e3ddff47449a78a84920a982819bd450a2e2a9685",
+      "size_bytes": 312,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/row_jimmy.md",
+      "sha256": "ac2ef30fb21f841351aed4c3e7d60236936f5440806d239dde681ddac49779eb",
+      "size_bytes": 399,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/saint_of_circumstance.md",
+      "sha256": "967529286e05386a754c74799bd01ebe51516d2e4bd8058e5090bc46fcb9542e",
+      "size_bytes": 405,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/samson_and_delilah.md",
+      "sha256": "7872fbe6077b078d5568d604dae4d6716a1de7d81417c9a65198981a9353cac7",
+      "size_bytes": 471,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/scarlet_begonias.md",
+      "sha256": "fac48ed7344c2c26fc26f8d32ff9d7b3fcaa6fee60398445a64a13d7c6a784c4",
+      "size_bytes": 1352,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/shakedown_street.md",
+      "sha256": "198855861245582b5fffea8863753200b1eeaa865493c02bb4b53f4eedad7ee5",
+      "size_bytes": 407,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/slipknot.md",
+      "sha256": "ca692b454ddc49a0bf432d5bd08af5daf2a09cedeb4b0ba5de9e3a265c843017",
+      "size_bytes": 595,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/so_many_roads.md",
+      "sha256": "dacfa59ffdaa8a34c3b465646b58ac250824aec75974c66e2c413575919c13a0",
+      "size_bytes": 634,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/space.md",
+      "sha256": "d0c69c5cd1c69d65fca0830130a9c95b34f37c6b03a5e9edcedbe5ed9e406bfb",
+      "size_bytes": 596,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/st_stephen.md",
+      "sha256": "b0788c752914fa13d12945355252e75b5c8dbfe3221d468d8e1abe2c2de3be61",
+      "size_bytes": 1022,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/standing_on_the_moon.md",
+      "sha256": "becf4716802c4f7493f52c2ae72c00ab232acc4ea70ccee24136e97457c19018",
+      "size_bytes": 435,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/stella_blue.md",
+      "sha256": "4206b11efec8c8f0319e8a2079fd4c0f4687d89952ac18353e2053b7c27215b3",
+      "size_bytes": 875,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/sugar_magnolia.md",
+      "sha256": "d98867d73cafed00a9bd2578bf1ccb59bb6e4250ee3165cb920df362b68f0a92",
+      "size_bytes": 639,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/sugaree.md",
+      "sha256": "71eb0bd9568453dd6ee0dec53a503a7ee0b01b19448bd853e1c3a4f6ffeb8a37",
+      "size_bytes": 1910,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/sugaree_long_jam.md",
+      "sha256": "1bc13daf7a492cfb47b2ad01d9fe479d467da2e07b0ddc2875ced87684d3dcad",
+      "size_bytes": 215,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/sunrise.md",
+      "sha256": "1733c1c7f829bcce310b084fc664a8d10efa96823bd0271015af0489cdf1112e",
+      "size_bytes": 415,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/tennessee_jed.md",
+      "sha256": "457e63589c52d68dc9ab1098df542aaa5706cebeca43d453bd9ea43aff7d7d4c",
+      "size_bytes": 777,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/terrapin_station.md",
+      "sha256": "db27b41a6ebe961d6d4497efb842a0d6aff46ef3ad5eb25e0f3a77cf5413eac7",
+      "size_bytes": 522,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/the_eleven.md",
+      "sha256": "a8b5a7c8811997c5a95f18b31699212fa02d57328740014b2cc154597c2d4ca5",
+      "size_bytes": 387,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/the_music_never_stopped.md",
+      "sha256": "a1a7311cd498dbf77bea759ea15029cfbe0425790df3dd8a36fbd6aeea741834",
+      "size_bytes": 654,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/the_other_one.md",
+      "sha256": "610c46d08ca374142773e75cab6fd3ecff67dce10ca8ec39c95f86ee219fcdb1",
+      "size_bytes": 378,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/throwing_stones.md",
+      "sha256": "d65c1ee99cf6e3df68f262f011f94d518acba8d259ff770fbdd0b89534acc7fe",
+      "size_bytes": 326,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/til_the_morning_comes.md",
+      "sha256": "f08733b434d756bd632bd1fe20787995cad7242dbd8ad7294c1bac41a5994f0f",
+      "size_bytes": 197,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/tomorrow_is_forever.md",
+      "sha256": "378fd11d30ce4c6750d868b77c871ac140daa79f72465b662cad0f03ee755982",
+      "size_bytes": 195,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/touch_of_grey.md",
+      "sha256": "0c94439b7b79982a2125ba66c8b0a3001272514e27bd29130f4888aa238bdfd0",
+      "size_bytes": 1666,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/truckin.md",
+      "sha256": "675cd1e036400c9e373bb682d834634c13af9ed7185c82c3eacce7984bfb8729",
+      "size_bytes": 1193,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/turn_on_your_lovelight.md",
+      "sha256": "031c153593abd0a6412d407f009db06f7228e410d55be34a03f6926757e9344e",
+      "size_bytes": 447,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/uncle_john_s_band.md",
+      "sha256": "a81f3e3f400918ae6f5e1b5188afecd4cdf2898e302c8c925b84a416c1a7e8ae",
+      "size_bytes": 369,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/wharf_rat.md",
+      "sha256": "0d92fa03e12c9d004a93f8a9cb401829bfc0b551f71ef6c9b2232ae943213217",
+      "size_bytes": 687,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/songs/when_i_paint_my_masterpiece.md",
+      "sha256": "20ae86e3368bcba00b71363c0769228bcb67db18af50fe00f1785f5de3b477b0",
+      "size_bytes": 429,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/_index.md",
+      "sha256": "0dc7fcb066848d94450cb454e2cd9f85c2c0d793fa207bbc4bf71c3c9217cab3",
+      "size_bytes": 1730,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/alpine_valley_music_theatre_east_troy.md",
+      "sha256": "1953757223365a64a44f3eec3a3dc3366eb2d96078900f3fcfa64863be5953f5",
+      "size_bytes": 270,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/barton_hall_ithaca.md",
+      "sha256": "4f0b3940ee936c3f45c6dd44ff6a3c786e2e1ddd670f4ae347f6739b8363fc9f",
+      "size_bytes": 245,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/boston_garden_boston.md",
+      "sha256": "b9cc1e0812781ed3ae40544c6108218442f76bf4d7023f8194f078dde6a51b49",
+      "size_bytes": 294,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/capital_centre_landover.md",
+      "sha256": "c6b2bb478027f14fcf240450a2d639e9b6bec55e8d12c44378c3cbb9a4573b23",
+      "size_bytes": 240,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/deer_creek_music_center_noblesville.md",
+      "sha256": "7e1807a73da2cef78a0fd2e3d90b6d33c510927d27b2fecfc7277a6d710cad3b",
+      "size_bytes": 265,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/fillmore_east_new_york.md",
+      "sha256": "b5ce24f9cf15c264744529909f3e1b700468db45171aedeb435697306b367076",
+      "size_bytes": 395,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/fillmore_west_san_francisco.md",
+      "sha256": "ee823a58e1889d172a7033a640e06bb3c6df802946b52cb6db7ff55087351429",
+      "size_bytes": 273,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/frost_amphitheater_stanford.md",
+      "sha256": "0211dde6408fc684add66bfbb22d8ea5e3f073169b56d77d87e75cc5d9ef7f5b",
+      "size_bytes": 177,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/henry_j_kaiser_convention_center_oakland.md",
+      "sha256": "06352b466275e11c2e7005dc2010957496badc05cbe54e9b545389ee471451ee",
+      "size_bytes": 364,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/jfk_stadium_philadelphia.md",
+      "sha256": "a74b3ff5b5eb1957f9d7d3344cdcbc4be23c9bb22f16352aeed25b3c9ec2b104",
+      "size_bytes": 305,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/lakeland_civic_center_lakeland.md",
+      "sha256": "74b3a1830d7808ac64d19f865163b4cdbac3ef985b218cb3e21857ed3e6f51b0",
+      "size_bytes": 183,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/madison_square_garden_new_york.md",
+      "sha256": "e771dae62771bf8ac4d284923329ab8b45287db9ec4bba9dcc75feba1f57e59f",
+      "size_bytes": 364,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/oakland_coliseum_arena_oakland.md",
+      "sha256": "1338f3d1c2c1f0e4888f9e1557a4d14f673049fd2468a550c04b0114ecfb838d",
+      "size_bytes": 447,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/old_renaissance_faire_grounds_veneta.md",
+      "sha256": "87624bc641cd958a39ec047f66eaa091f43267e9db3396e39c0375c58b8bfeb9",
+      "size_bytes": 271,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/radio_city_music_hall_new_york.md",
+      "sha256": "9a771f11e50df0506788178108865aec168c0ef4a8c127c8a35be7f076b2d951",
+      "size_bytes": 257,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/red_rocks_amphitheatre_morrison.md",
+      "sha256": "65c9bfd93c362592eabfd626be596c3ca3c1e5418bf110f3e05601854731dad5",
+      "size_bytes": 300,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/rfk_stadium_washington.md",
+      "sha256": "ad0955730ee51b3940c4d61827f739fe9e69c70a569cf0bc62774b462457098d",
+      "size_bytes": 238,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/rich_stadium_orchard_park.md",
+      "sha256": "2a1af934efe810d45002a77b42f81f8bb36d85ecba93abb3f0792bca58c5dbfe",
+      "size_bytes": 309,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/richmond_coliseum_richmond.md",
+      "sha256": "0028ee31c5150cc8ceadf5d1841a6c3d53b1ae4215250ab65f88f1fd8681ae20",
+      "size_bytes": 305,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/shoreline_amphitheatre_mountain_view.md",
+      "sha256": "7800e986fe1b79785219ebe711639be59c55a7cbb2b8763a620aef528c71ec2d",
+      "size_bytes": 333,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/soldier_field_chicago.md",
+      "sha256": "ad745d1c65d1c21c04158ae1250cec2c5f3d2f84365cafe533e1368561945207",
+      "size_bytes": 264,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/the_spectrum_philadelphia.md",
+      "sha256": "e3e6984a6da0d55b561878b67daedb70510a6584ff56cb06497af7a29dd05766",
+      "size_bytes": 490,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/the_warfield_san_francisco.md",
+      "sha256": "5c34796c7238c867c13abb6ddd88131f786fb94da01d125844694aaf181121fc",
+      "size_bytes": 790,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/veterans_memorial_coliseum_new_haven.md",
+      "sha256": "70f008945c4649b0d445a041de11f76b38e3c8e8d7de50eaef8edd9d3f9a664f",
+      "size_bytes": 269,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/venues/winterland_arena_san_francisco.md",
+      "sha256": "7edac7d28cb536d83495c182cfac92430b3eb353397c436cb44445edec94decf",
+      "size_bytes": 346,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/web/_combined_manuscript.md",
+      "sha256": "d6a6a15ab0fc400f40a17ef95e6caf21c9084b7f6a90573931d8fff0e5150608",
+      "size_bytes": 43297,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/web/index.html",
+      "sha256": "8b4e6cfc0bb7f364307e9d7e31db10d1b28616d76962cebcc18578d4205d6ad0",
+      "size_bytes": 74633,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/web/manuscript__00_abstract.html",
+      "sha256": "2b22aecf9d736b0a610501437696540f62ebecb5470a025c88792da9b31563a5",
+      "size_bytes": 7658,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/web/manuscript__01_introduction.html",
+      "sha256": "7f5a5704589e84a78ea70b6979421e45f46835f9264eb7ee632f0de1e3726d2a",
+      "size_bytes": 10434,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/web/manuscript__02_methodology.html",
+      "sha256": "2633b5b90a3f178aaa1fbee5dad93cee0fe7eec9c07a9a752c30775388014de0",
+      "size_bytes": 9767,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/web/manuscript__03_category_theory.html",
+      "sha256": "a71c1385dca930e80140933de8d785efeab517a7556661608c943b7c06521c51",
+      "size_bytes": 12488,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/web/manuscript__04_results.html",
+      "sha256": "45c10fb03faed5b974dfc5aa55b2d9a7e1e2cf2a4ccfe4f38d165ebd89ed5200",
+      "size_bytes": 16136,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/web/manuscript__05_conclusion.html",
+      "sha256": "2544c96e14400d885ef9ca06543485a498ebb09918c40f8a366b2813c5b0817f",
+      "size_bytes": 6284,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/web/manuscript__06_reproducibility.html",
+      "sha256": "62e7364beac78e12980118e19eb71dc76299f187fe01f9e65b490ddb66e87058",
+      "size_bytes": 14254,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/web/manuscript__07_honesty_boundary.html",
+      "sha256": "1a2aae468694637145c2edc1221f69d57ca67f4aa87a65b1989c8519f23f74b0",
+      "size_bytes": 8246,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    },
+    {
+      "contract_match": false,
+      "path": "output/web/manuscript__99_references.html",
+      "sha256": "910b963ede25357ad0d8e6c59bf780690dedbf111622016bc856cf2f7b42fc2e",
+      "size_bytes": 3882,
+      "stage_name": "Clean Output Directories",
+      "stage_num": 1,
+      "timestamp": "2026-05-29T19:25:21+00:00"
+    }
+  ],
+  "issues": []
+}

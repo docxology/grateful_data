@@ -1,0 +1,6 @@
+metric,value
+venue_slugs,912
+alias_slugs_present,20
+venues_after_canonicalization,892
+venues_collapsed,20
+ambiguous_same_date_collisions,311

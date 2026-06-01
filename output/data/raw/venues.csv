@@ -1,0 +1,913 @@
+slug,name,city,state_or_region,country
+46th_street_rock_palace_brooklyn,46th Street Rock Palace,Brooklyn,NY,USA
+aarhus_university_aarhus,Aarhus University,Aarhus,,USA
+academy_of_music_new_york,Academy of Music,New York,NY,USA
+action_house_island_park,Action House,Island Park,NY,USA
+activity_center_arizona_state_university_tempe,"Activity Center, Arizona State University",Tempe,AZ,USA
+activity_center_university_of_colorado_boulder,"Activity Center, University of Colorado",Boulder,CO,USA
+adams_field_house_u_of_montana_missoula,Adams Field House (U of Montana),Missoula,MT,USA
+adams_field_house_university_of_montana_missoula,"Adams Field House, University of Montana",Missoula,MT,USA
+afterthought_pender_auditorium_vancouver,"Afterthought, Pender Auditorium",Vancouver,None,USA
+aladdin_theater_las_vegas,Aladdin Theater,Las Vegas,NV,USA
+albuquerque_civic_auditorium_albuquerque,Albuquerque Civic Auditorium,Albuquerque,NM,USA
+alexandra_palace_london,Alexandra Palace,London,None,USA
+alfond_arena_u_of_maine_orono,Alfond Arena (U of Maine),Orono,ME,USA
+alfond_arena_university_of_maine_orono,"Alfond Arena, University of Maine",Orono,ME,USA
+allan_kirby_field_house_lafayette_college_easton,Allan Kirby Field House (Lafayette College),Easton,PA,USA
+allen_theatre_cleveland,Allen Theatre,Cleveland,OH,USA
+alligator_alley_gum_u_of_florida_gainesville,Alligator Alley Gum (U of Florida),Gainesville,FL,USA
+alpine_valley_east_troy,Alpine Valley,East Troy,Wis.,USA
+alpine_valley_music_theater_east_troy,Alpine Valley Music Theater,East Troy,WI,USA
+alpine_valley_music_theatre_east_troy,Alpine Valley Music Theatre,East Troy,WI,USA
+alumni_lawn_vanderbilt_university_nashville,"Alumni Lawn, Vanderbilt University",Nashville,TN,USA
+alumni_stadium_u_of_mass_amherst,Alumni Stadium (U of Mass),Amherst,MA,USA
+alumni_stadium_university_of_massachusetts_amherst,"Alumni Stadium, University of Massachusetts",Amherst,MA,USA
+american_institute_of_aeronautics_and_astronautics_hall_los_angeles,American Institute of Aeronautics and Astronautics Hall,Los Angeles,CA,USA
+american_legion_hall_post_795_south_lake_tahoe,American Legion Hall Post 795,South Lake Tahoe,CA,USA
+american_university_washington,American University,Washington,DC,USA
+anaheim_stadium_anaheim,Anaheim Stadium,Anaheim,CA,USA
+anderson_theatre_new_york,Anderson Theatre,New York,NY,USA
+aquarius_theater_hollywood,Aquarius Theater,Hollywood,CA,USA
+arena_u_of_southern_illinois_carbondale,Arena (U of Southern Illinois),Carbondale,IL,USA
+arizona_state_university_tempe,Arizona State University,Tempe,AZ,USA
+arlington_theater_santa_barbara,Arlington Theater,Santa Barbara,CA,USA
+arlington_theatre_santa_barbara,Arlington Theatre,Santa Barbara,CA,USA
+armory_field_house_university_of_cincinnati_cincinnati,"Armory Field House, University of Cincinnati",Cincinnati,OH,USA
+arrowhead_stadium_kansas_city,Arrowhead Stadium,Kansas City,MO,USA
+assembly_center_louisiana_state_u_baton_rouge,Assembly Center (Louisiana State U),Baton Rouge,LA,USA
+assembly_center_louisiana_state_university_baton_rouge,"Assembly Center, Louisiana State University",Baton Rouge,LA,USA
+assembly_hall_indiana_u_bloomington,Assembly Hall (Indiana U),Bloomington,IN,USA
+assembly_hall_indiana_university_bloomington,"Assembly Hall, Indiana University",Bloomington,IN,USA
+assembly_hall_u_of_illinois_champaign_urbana,Assembly Hall (U of Illinois),Champaign-Urbana,IL,USA
+assembly_hall_uiuc_champaign,"Assembly Hall, UIUC",Champaign,IL,USA
+assembly_hall_university_of_illinois_champlain,Assembly Hall (University of Illinois),Champlain,IL,USA
+athletic_center_rutgers_u_new_brunswick,Athletic Center (Rutgers U),New Brunswick,NJ,USA
+athletic_center_rutgers_university_piscataway,"Athletic Center, Rutgers University",Piscataway,NJ,USA
+atlanta_municipal_auditorium_atlanta,Atlanta Municipal Auditorium,Atlanta,GA,USA
+atlanta_sports_arena_atlanta,Atlanta Sports Arena,Atlanta,GA,USA
+atwood_hall_clark_university_worcester,"Atwood Hall, Clark University",Worcester,MA,USA
+auditorium_coliseum_jacksonville,Auditorium Coliseum,Jacksonville,FL,USA
+auditorium_st_paul,Auditorium,St. Paul,MN,USA
+auditorium_theater_chicago,Auditorium Theater,Chicago,IL,USA
+auditorium_theatre_chicago,Auditorium Theatre,Chicago,IL,USA
+auditorium_west_palm_beach,Auditorium,West Palm Beach,FL,USA
+augusta_civic_center_augusta,Augusta Civic Center,Augusta,ME,USA
+austin_municipal_auditorium_austin,Austin Municipal Auditorium,Austin,TX,USA
+autzen_stadium_eugene,Autzen Stadium,Eugene,OR,USA
+autzen_stadium_u_of_oregon_eugene,Autzen Stadium (U of Oregon),Eugene,OR,USA
+autzen_stadium_university_of_oregon_eugene,"Autzen Stadium, University of Oregon",Eugene,OR,USA
+avalon_ballroom_san_francisco,Avalon Ballroom,San Francisco,CA,USA
+awalt_pavilion_chester_f_awalt_high_school_mountain_view,"Awalt Pavilion, Chester F. Awalt High School",Mountain View,CA,USA
+aztec_bowl_san_diego_state_university_san_diego,"Aztec Bowl, San Diego State University",San Diego,CA,USA
+bakersfield_civic_auditorium_bakersfield,Bakersfield Civic Auditorium,Bakersfield,CA,USA
+ballroom_university_of_colorado_boulder,"Ballroom, University of Colorado",Boulder,CO,USA
+baltimore_civic_center_baltimore,Baltimore Civic Center,Baltimore,MD,USA
+bangor_auditorium_bangor,Bangor Auditorium,Bangor,ME,USA
+barton_hall_cornell_u_ithaca,Barton Hall (Cornell U),Ithaca,NY,USA
+barton_hall_cornell_university_ithaca,"Barton Hall, Cornell University",Ithaca,NY,USA
+baton_rouge_international_speedway_baton_rouge,Baton Rouge International Speedway,Baton Rouge,LA,USA
+bayfront_center_arena_st_petersburg,Bayfront Center Arena,St. Petersburg,FL,USA
+bayfront_center_st_petersburg,Bayfront Center,St. Petersburg,FL,USA
+beacon_theatre_new_york,Beacon Theatre,New York,NY,USA
+beat_club_bremen,Beat Club,Bremen,None,USA
+beaver_hall_portland,Beaver Hall,Portland,OR,USA
+berkeley_community_theater_berkeley,Berkeley Community Theater,Berkeley,CA,USA
+berkeley_community_theatre_berkeley,Berkeley Community Theatre,Berkeley,CA,USA
+betty_nelson_s_organic_raspberry_farm_sultan,Betty Nelson's Organic Raspberry Farm,Sultan,WA,USA
+bickershaw_festival_wigan,Bickershaw Festival,Wigan,None,USA
+big_nig_s_house_san_jose,Big Nig's House,San Jose,CA,USA
+billerica_forum_billerica,Billerica Forum,Billerica,MA,USA
+billerica_forum_north_billerica,Billerica Forum,North Billerica,MA,USA
+birmingham_jefferson_civic_center_coliseum_birmingham,Birmingham-Jefferson Civic Center Coliseum,Birmingham,AL,USA
+birmingham_jefferson_convention_complex_coliseum_birmingham,Birmingham Jefferson Convention Complex Coliseum,Birmingham,AL,USA
+blockbuster_desert_sky_pavilion_phoenix,Blockbuster Desert Sky Pavilion,Phoenix,AZ,USA
+blossom_music_center_cuyahoga_falls,Blossom Music Center,Cuyahoga Falls,OH,USA
+bob_marley_performing_arts_center_kingston,Bob Marley Performing Arts Center,Kingston,None,USA
+bob_marley_performing_arts_center_montego_bay,Bob Marley Performing Arts Center,Montego Bay,,USA
+boise_pavillion_boise,Boise Pavillion,Boise,ID,USA
+boise_state_university_pavilion_boise,Boise State University Pavilion,Boise,ID,USA
+boreal_ridge_ski_resort_donner_s_summit,Boreal Ridge Ski Resort,Donner's Summit,CA,USA
+boreal_ridge_ski_resort_donner_summit,Boreal Ridge Ski Resort,Donner Summit,CA,USA
+boston_garden_boston,Boston Garden,Boston,MA,USA
+boston_music_hall_boston,Boston Music Hall,Boston,MA,USA
+boston_music_mall_boston,Boston Music Mall,Boston,MA,USA
+boston_tea_party_boston,Boston Tea Party,Boston,MA,USA
+boutwell_auditorium_birmingham,Boutwell Auditorium,Birmingham,AL,USA
+brendan_byrne_arena_e_hazelton,Brendan Byrne Arena,E Hazelton,NJ,USA
+brendan_byrne_arena_east_rutherford,Brendan Byrne Arena,East Rutherford,NJ,USA
+brendan_byrne_arena_egg_harbor_township,Brendan Byrne Arena,Egg Harbor Township,NJ,USA
+britt_ballroom_south_oregon_college_gym_ashland,"Britt Ballroom, South Oregon College Gym",Ashland,OR,USA
+broome_county_arena_binghamton,Broome County Arena,Binghamton,NY,USA
+buckeye_lake_hebron,Buckeye Lake,Hebron,OH,USA
+buckeye_lake_music_center_hebron,Buckeye Lake Music Center,Hebron,OH,USA
+buckeye_lake_music_center_thornville,Buckeye Lake Music Center,Thornville,OH,USA
+buckeye_music_center_buckeye_lake,Buckeye Music Center,Buckeye Lake,OH,USA
+buffalo_memorial_auditorium_buffalo,Buffalo Memorial Auditorium,Buffalo,NY,USA
+caf_au_go_go_new_york,Caf� au Go-Go,New York,NY,USA
+cal_expo_amphitheatre_sacramento,Cal Expo Amphitheatre,Sacramento,CA,USA
+cal_expo_building_a_sacramento,"Cal Expo, Building A",Sacramento,CA,USA
+cal_expo_sacramento,Cal Expo,Sacramento,CA,USA
+cal_state_dominguez_hills_carson,Cal State Dominguez Hills,Carson,CA,USA
+calavaras_county_fairgrounds_angel_s_camp,Calavaras County Fairgrounds,Angel's Camp,CA,USA
+calaveras_county_fairgrounds_angels_camp,Calaveras County Fairgrounds,Angels Camp,CA,USA
+california_exposition_amphitheater_sacramento,California Exposition Amphitheater,Sacramento,CA,USA
+california_hall_san_francisco,California Hall,San Francisco,CA,USA
+california_state_u_dominguez_hills_carson,California State U. Dominguez Hills,Carson,CA,USA
+cameron_indoor_stadium_duke_u_durham,Cameron Indoor Stadium (Duke U),Durham,NC,USA
+cameron_indoor_stadium_duke_university_durham,"Cameron Indoor Stadium, Duke University",Durham,NC,USA
+cameron_indoor_stadium_durham,Cameron Indoor Stadium,Durham,NC,USA
+camp_randall_field_house_university_of_wisconsin_madison,"Camp Randall Field House, University of Wisconsin",Madison,WI,USA
+campolindo_high_school_moraga,Campolindo High School,Moraga,CA,USA
+campus_stadium_uc_santa_barbara_goleta,Campus Stadium (UC Santa Barbara),Goleta,CA,USA
+canadian_national_exhibition_stadium_toronto,Canadian National Exhibition Stadium,Toronto,None,USA
+candlestick_park_san_francisco,Candlestick Park,San Francisco,CA,USA
+cap_center_fairfax,Cap Center,Fairfax,VA,USA
+cap_centre_landover,Cap Centre,Landover,MD,USA
+cape_cod_coliseum_south_yarmouth,Cape Cod Coliseum,South Yarmouth,MA,USA
+capital_centre_landover,Capital Centre,Landover,MD,USA
+capitol_center_landover,Capitol Center,Landover,MD,USA
+capitol_centre_landover,Capitol Centre,Landover,MD,USA
+capitol_theater_passaic,Capitol Theater,Passaic,NJ,USA
+capitol_theatre_passaic,Capitol Theatre,Passaic,NJ,USA
+capitol_theatre_port_chester,Capitol Theatre,Port Chester,NY,USA
+cardinal_stadium_louisville,Cardinal Stadium,Louisville,KY,USA
+carolina_coliseum_arena_univ_of_s_carolina_columbia,"Carolina Coliseum Arena, Univ. of S. Carolina",Columbia,SC,USA
+carolina_coliseum_u_of_south_carolina_columbia,Carolina Coliseum (U of South Carolina),Columbia,SC,USA
+carousel_ballroom_san_francisco,Carousel Ballroom,San Francisco,CA,USA
+carrier_dome_syracuse_u_syracuse,Carrier Dome (Syracuse U),Syracuse,NY,USA
+carrier_dome_syracuse_university_syracuse,"Carrier Dome, Syracuse University",Syracuse,NY,USA
+carter_finley_raleigh,Carter Finley,Raleigh,NC,USA
+carter_finley_stadium_north_carolina_state_university_raleigh,"Carter-Finley Stadium, North Carolina State University",Raleigh,NC,USA
+carthay_studios_los_angeles,Carthay Studios,Los Angeles,CA,USA
+cassell_coliseum_virginia_tech_blacksburg,"Cassell Coliseum, Virginia Tech",Blacksburg,VA,USA
+catacombs_houston,Catacombs,Houston,TX,USA
+catholic_youth_center_scranton,Catholic Youth Center,Scranton,PA,USA
+centennial_coliseum_reno,Centennial Coliseum,Reno,NV,USA
+central_park_new_york,Central Park,New York,NY,USA
+centrum_worcester,Centrum,Worcester,MA,USA
+century_ii_convention_hall_wichita,Century II Convention Hall,Wichita,KS,USA
+chalet_inn_room_belmont,Chalet Inn Room,Belmont,CA,USA
+chardonnay_hall_napa_county_fairgrounds_napa,"Chardonnay Hall, Napa County Fairgrounds",Napa,CA,USA
+charlotte_charlotte,Charlotte,Charlotte,NC,USA
+charlotte_coliseum_charlotte,Charlotte Coliseum,Charlotte,NC,USA
+charlotte_nc,Charlotte,NC,NC,USA
+chateau_d_herouville_herouville,Chateau d'Herouville,Herouville,None,USA
+cheetah_new_york,Cheetah,New York,NY,USA
+chelsea_hotel_roof_new_york,Chelsea Hotel Roof,New York,NY,USA
+chrysler_arena_ann_arbor,Chrysler Arena,Ann Arbor,MI,USA
+chrysler_arena_u_of_michigan_ann_arbor,Chrysler Arena (U of Michigan),Ann Arbor,MI,USA
+cincinnati_gardens_cincinnati,Cincinnati Gardens,Cincinnati,OH,USA
+city_hall_newcastle,City Hall,Newcastle,None,USA
+city_island_harrisburg,City Island,Harrisburg,PA,USA
+city_park_denver,City Park,Denver,CO,USA
+civic_arena_pittsburgh,Civic Arena,Pittsburgh,PA,USA
+civic_auditorium_omaha,Civic Auditorium,Omaha,NB,USA
+civic_auditorium_san_antonio,Civic Auditorium,San Antonio,TX,USA
+civic_auditorium_san_jose,Civic Auditorium,San Jose,CA,USA
+civic_center_arena_springfield,Civic Center Arena,Springfield,MA,USA
+civic_center_baltimore,Civic Center,Baltimore,MD,USA
+civic_center_hartford,Civic Center,Hartford,CT,USA
+civic_center_music_hall_oklahoma_city,Civic Center Music Hall,Oklahoma City,OK,USA
+civic_center_providence,Civic Center,Providence,RI,USA
+civic_center_roanoke,Civic Center,Roanoke,VA,USA
+civic_convention_hall_auditorium_philadelphia,Civic Convention Hall Auditorium,Philadelphia,PA,USA
+civic_hall_rotterdam,Civic Hall,Rotterdam,,USA
+cleveland_convention_center_cleveland,Cleveland Convention Center,Cleveland,OH,USA
+cleveland_music_hall_cleveland,Cleveland Music Hall,Cleveland,OH,USA
+cleveland_public_hall_cleveland,Cleveland Public Hall,Cleveland,OH,USA
+clifford_s_catering_walnut_creek,Clifford's Catering,Walnut Creek,CA,USA
+club_agora_columbus,Club Agora,Columbus,OH,USA
+club_melk_weg_amsterdam,Club Melk Weg,Amsterdam,,USA
+cobo_arena_detroit,Cobo Arena,Detroit,MI,USA
+colden_auditorium_queens_college_queens,"Colden Auditorium, Queens College",Queens,NY,USA
+cole_field_house_u_of_maryland_college_park,Cole Field House (U of Maryland),College Park,MD,USA
+cole_field_house_university_of_maryland_college_park,"Cole Field House, University of Maryland",College Park,MD,USA
+coliseum_charlotte,Coliseum,Charlotte,NC,USA
+coliseum_hampton,Coliseum,Hampton,VA,USA
+coliseum_west_virginia_university_morgantown,"Coliseum, West Virginia University",Morgantown,WV,USA
+college_center_ballroom_portland_state_college_portland,"College Center Ballroom, Portland State College",Portland,OR,USA
+colt_park_hartford,Colt Park,Hartford,CT,USA
+commons_san_francisco_state_university_san_francisco,"Commons, San Francisco State University",San Francisco,CA,USA
+community_concourse_golden_hall_san_diego,Community Concourse Golden Hall,San Diego,CA,USA
+community_war_memorial_rochester,Community War Memorial,Rochester,NY,USA
+compton_terrace_amphitheater_tempe,Compton Terrace Amphitheater,Tempe,AZ,USA
+compton_terrace_amphitheatre_chandler,Compton Terrace Amphitheatre,Chandler,AZ,USA
+compton_terrace_tempe,Compton Terrace,Tempe,AZ,USA
+concertgebouw_amsterdam,Concertgebouw,Amsterdam,None,USA
+continental_ballroom_santa_clara,Continental Ballroom,Santa Clara,CA,USA
+convention_center_cleveland,Convention Center,Cleveland,OH,USA
+copps_coliseum_hamilton,Copps Coliseum,Hamilton,None,USA
+coronation_park_toronto,Coronation Park,Toronto,None,USA
+cotterell_gym_colgate_university_hamilton,"Cotterell Gym, Colgate University",Hamilton,NY,USA
+cotterrell_gym_colgate_u_hamilton,Cotterrell Gym (Colgate U),Hamilton,NY,USA
+county_coliseum_el_paso,County Coliseum,El Paso,TX,USA
+cow_palace_daly_city,Cow Palace,Daly City,CA,USA
+crisler_arena_university_of_michigan_ann_arbor,"Crisler Arena, University of Michigan",Ann Arbor,MI,USA
+crystal_ballroom_portland,Crystal Ballroom,Portland,OR,USA
+cumberland_county_civic_center_portland,Cumberland County Civic Center,Portland,ME,USA
+curtis_hixon_convention_hall_tampa,Curtis Hixon Convention Hall,Tampa,FL,USA
+dallas_convention_center_arena_dallas,Dallas Convention Center Arena,Dallas,TX,USA
+dallas_convention_center_dallas,Dallas Convention Center,Dallas,TX,USA
+dallas_memorial_auditorium_dallas,Dallas Memorial Auditorium,Dallas,TX,USA
+dance_hall_rio_nido,Dance Hall,Rio Nido,CA,USA
+dane_county_coliseum_madison,Dane County Coliseum,Madison,WI,USA
+danielmeyer_coliseum_texas_christian_university_fort_worth,"Daniel�Meyer Coliseum, Texas Christian University",Fort Worth,TX,USA
+danish_center_los_angeles,Danish Center,Los Angeles,CA,USA
+dante_s_inferno_vancouver,Dante's Inferno,Vancouver,None,USA
+david_mead_field_house_allegheny_college_meadville,"David Mead Field House, Allegheny College",Meadville,PA,USA
+davis_gym_bucknell_university_lewisburg,"Davis Gym, Bucknell University",Lewisburg,PA,USA
+dean_e_smith_center_unversity_of_north_carolina_chapel_hill,"Dean E. Smith Center, Unversity of North Carolina",Chapel Hill,NC,USA
+deer_creek_amphitheater_noblesville,Deer Creek Amphitheater,Noblesville,IN,USA
+deer_creek_in,Deer Creek,IN,IN,USA
+deer_creek_music_center_noblesville,Deer Creek Music Center,Noblesville,IN,USA
+deer_creek_music_pavillion_noblesville,Deer Creek Music Pavillion,Noblesville,IN,USA
+deer_creek_noblesville,Deer Creek,Noblesville,IN,USA
+del_mar_fairgrounds_del_mar,Del Mar Fairgrounds,Del Mar,CA,USA
+delta_center_salt_lake_city,Delta Center,Salt Lake City,UT,USA
+denver_coliseum_denver,Denver Coliseum,Denver,CO,USA
+des_moines_civic_center_des_moines,Des Moines Civic Center,Des Moines,IA,USA
+desert_sky_pavilion_phoenix,Desert Sky Pavilion,Phoenix,Arizona,USA
+deutsches_museum_halle_munich,Deutsches Museum Halle,Munich,,USA
+devore_field_southwestern_college_chula_vista,"Devore Field, Southwestern College",Chula Vista,CA,USA
+devore_field_southwestern_u_chula_vista,Devore Field (Southwestern U),Chula Vista,CA,USA
+diamond_gym_college_of_marin_kentfield,"Diamond Gym, College of Marin",Kentfield,CA,USA
+dijon_dijon,Dijon,Dijon,,USA
+dillon_gym_princeton_university_princeton,"Dillon Gym, Princeton University",Princeton,NJ,USA
+dillon_stadium_hartford,Dillon Stadium,Hartford,CT,USA
+downs_of_santa_fe_santa_fe,Downs of Santa Fe,Santa Fe,NM,USA
+dream_bowl_vallejo,Dream Bowl,Vallejo,CA,USA
+dupont_gym_mit_cambridge,"DuPont Gym, MIT",Cambridge,MA,USA
+eagles_auditorium_seattle,Eagles Auditorium,Seattle,WA,USA
+earl_warren_showgrounds_santa_barbara,Earl Warren Showgrounds,Santa Barbara,CA,USA
+eastown_theatre_detroit,Eastown Theatre,Detroit,MI,USA
+edmundson_pavilion_u_of_washington_seattle,Edmundson Pavilion (U of Washington),Seattle,WA,USA
+el_camino_park_palo_alto,El Camino Park,Palo Alto,CA,USA
+el_paso_county_coliseum_el_paso,El Paso County Coliseum,El Paso,TX,USA
+el_roach_tavern_seattle,El Roach Tavern,Seattle,WA,USA
+electric_circus_new_york,Electric Circus,New York,NY,USA
+electric_factory_philadelphia,Electric Factory,Philadelphia,PA,USA
+elysian_park_los_angeles,Elysian Park,Los Angeles,CA,USA
+embassy_ballroom_a_k_a_banana_grove_ambassador_hotel_los_angeles,"Embassy Ballroom (a.k.a. ""Banana Grove""), Ambassador Hotel",Los Angeles,CA,USA
+empire_pool_london,Empire Pool,London,None,USA
+empire_pool_wembley,Empire Pool,Wembley,,USA
+empire_studios_los_angeles,Empire Studios,Los Angeles,CA,USA
+emu_ballroom_university_of_oregon_eugene,"EMU Ballroom, University of Oregon",Eugene,OR,USA
+euphoria_san_rafael,Euphoria,San Rafael,CA,USA
+eureka_municipal_auditorium_eureka,Eureka Municipal Auditorium,Eureka,CA,USA
+evans_field_house_northern_illinois_university_dekalb,"Evans Field House, Northern Illinois University",Dekalb,IL,USA
+events_center_u_of_colorado_boulder,Events Center (U of Colorado),Boulder,CO,USA
+expo_milwaukee_convention_center_milwaukee,Expo Milwaukee Convention Center,Milwaukee,WI,USA
+fairgrounds_arena_oklahoma_city,Fairgrounds Arena,Oklahoma City,OK,USA
+fairgrounds_lille,Fairgrounds,Lille,,USA
+family_dog_denver,Family Dog,Denver,CO,USA
+family_dog_on_the_great_highway_san_francisco,Family Dog On The Great Highway,San Francisco,CA,USA
+farrell_hall_suny_delhi,"Farrell Hall, SUNY",Delhi,NY,USA
+felt_forum_madison_square_garden_new_york,"Felt Forum, Madison Square Garden",New York,NY,USA
+ferris_booth_hall_terrace_columbia_university_new_york,"Ferris Booth Hall terrace, Columbia University",New York,NY,USA
+festhalle_frankfurt,Festhalle,Frankfurt,None,USA
+feyline_field_tempe,Feyline Field,Tempe,AZ,USA
+field_house_northern_illinois_u_de_kalb,Field House (Northern Illinois U),De Kalb,IL,USA
+field_house_rensselaer_polytechnic_institute_troy,Field House (Rensselaer Polytechnic Institute),Troy,NY,USA
+field_house_seneca_college_toronto,"Field House, Seneca College",Toronto,None,USA
+fieldhouse_university_of_iowa_iowa_city,"Fieldhouse, University of Iowa",Iowa City,IA,USA
+fiesta_hall_county_fairgrounds_san_mateo,Fiesta Hall (County Fairgrounds),San Mateo,CA,USA
+fiesta_hall_san_mateo_county_fairgrounds_san_mateo,"Fiesta Hall, San Mateo County Fairgrounds",San Mateo,CA,USA
+fillmore_auditorium_san_francisco,Fillmore Auditorium,San Francisco,CA,USA
+fillmore_east_new_york,Fillmore East,New York,NY,USA
+fillmore_west_san_francisco,Fillmore West,San Francisco,CA,USA
+five_seasons_center_cedar_rapids,Five Seasons Center,Cedar Rapids,IA,USA
+florida_gymnasium_university_of_florida_gainesville,"Florida Gymnasium, University of Florida",Gainesville,FL,USA
+folsom_field_boulder,Folsom Field,Boulder,CO,USA
+folsom_field_u_of_colorado_boulder,Folsom Field (U of Colorado),Boulder,CO,USA
+folsom_field_university_of_colorado_boulder_boulder,"Folsom Field, University of Colorado Boulder",Boulder,CO,USA
+ford_auditorium_detroit,Ford Auditorium,Detroit,MI,USA
+forum_los_angeles,Forum,Los Angeles,CA,USA
+forum_theater_copenhagen,Forum Theater,Copenhagen,,USA
+forum_theatre_copenhagen,Forum Theatre,Copenhagen,None,USA
+foss_hill_wesleyan_university_middletown,"Foss Hill, Wesleyan University",Middletown,CT,USA
+fox_theater_atlanta,Fox Theater,Atlanta,GA,USA
+fox_theatre_atlanta,Fox Theatre,Atlanta,GA,USA
+fox_theatre_st_louis,Fox Theatre,St. Louis,MO,USA
+foxboro_foxboro,Foxboro,Foxboro,MA,USA
+franklin_co_airport_field_highgate,Franklin Co. Airport Field,Highgate,VT,USA
+franklin_county_airport_highgate,Franklin County Airport,Highgate,VT,USA
+franklin_county_field_highgate,Franklin County Field,Highgate,VT,USA
+freeborn_hall_uc_davis_davis,"Freeborn Hall, UC Davis",Davis,CA,USA
+freedom_hall_louisville,Freedom Hall,Louisville,KY,USA
+freedom_hall_lousville,Freedom Hall,Lousville,KY,USA
+frenchy_s_hayward,Frenchy's,Hayward,CA,USA
+frost_amphitheater_palo_alto,Frost Amphitheater,Palo Alto,CA,USA
+frost_amphitheater_stanford_u_palo_alto,Frost Amphitheater (Stanford U),Palo Alto,CA,USA
+frost_amphitheatre_stanford,Frost Amphitheatre,Stanford,CA,USA
+frost_amphitheatre_stanford_university_palo_alto,"Frost Amphitheatre, Stanford University",Palo Alto,CA,USA
+frost_ampitheatre_stanford,Frost Ampitheatre,Stanford,CA,USA
+fugazi_hall_san_francisco,Fugazi Hall,San Francisco,CA,USA
+gaelic_park_bronx,Gaelic Park,Bronx,NY,USA
+gallaher_estate_norwalk,Gallaher Estate,Norwalk,CT,USA
+giant_s_stadium_east_rutherford,Giant's Stadium,East Rutherford,NJ,USA
+giants_stadium_east_rutherford,Giants Stadium,East Rutherford,NJ,USA
+giants_stadium_meadowlands_sports_complex_east_rutherford,Giants Stadium (Meadowlands Sports Complex),East Rutherford,NJ,USA
+gill_coliseum_oregon_state_university_corvallis,"Gill Coliseum, Oregon State University",Corvallis,OR,USA
+gizah_sound_and_light_theater_cairo,Gizah Sound and Light Theater,Cairo,None,USA
+glen_helen_regional_park_devore,Glen Helen Regional Park,Devore,CA,USA
+glenns_falls_civic_center_glenns_falls,Glenns Falls Civic Center,Glenns Falls,NY,USA
+glens_falls_civic_center_glen_falls,Glens Falls Civic Center,Glen Falls,NY,USA
+golden_gardens_park_seattle,Golden Gardens Park,Seattle,WA,USA
+golden_hall_san_diego,Golden Hall,San Diego,CA,USA
+governor_s_hall_state_fairgrounds_sacramento,"Governor's Hall, State Fairgrounds",Sacramento,CA,USA
+grand_center_grand_rapids,Grand Center,Grand Rapids,MI,USA
+grand_prix_racecourse_watkins_glen,Grand Prix Racecourse,Watkins Glen,NY,USA
+grande_ballroom_detroit,Grande Ballroom,Detroit,MI,USA
+great_american_music_hall_san_francisco,Great American Music Hall,San Francisco,CA,USA
+great_western_forum_inglewood,Great Western Forum,Inglewood,CA,USA
+greek_theater_u_of_california_berkeley,Greek Theater (U of California),Berkeley,CA,USA
+greek_theatre_berkeley,Greek Theatre,Berkeley,CA,USA
+green_lake_aqua_theatre_seattle,Green Lake Aqua Theatre,Seattle,WA,USA
+greensboro_coliseum_greensboro,Greensboro Coliseum,Greensboro,NC,USA
+greynolds_park_north_miami_beach,Greynolds Park,North Miami Beach,FL,USA
+grote_zaal_de_doelen_rotterdam,"Grote Zaal, De Doelen",Rotterdam,None,USA
+gruga_halle_essen,Gruga Halle,Essen,,USA
+grugahalle_essen,Grugahalle,Essen,None,USA
+gulfstream_park_racetrack_hallandale,Gulfstream Park Racetrack,Hallandale,FL,USA
+gymnasium_lane_community_college_eugene,"Gymnasium, Lane Community College",Eugene,OR,USA
+gymnasium_las_lomas_high_school_walnut_creek,"Gymnasium, Las Lomas High School",Walnut Creek,CA,USA
+haight_street_san_francisco,Haight Street,San Francisco,CA,USA
+hall_of_flowers_san_mateo_county_fairgrounds_san_mateo,"Hall Of Flowers, San Mateo County Fairgrounds",San Mateo,CA,USA
+hampton_coliseum_hampton,Hampton Coliseum,Hampton,VA,USA
+hampton_roads_coliseum_hampton,Hampton Roads Coliseum,Hampton,VA,USA
+hara_arena_dayton,Hara Arena,Dayton,OH,USA
+harder_stadium_uc_santa_barbara_goleta,"Harder Stadium, UC Santa Barbara",Goleta,CA,USA
+harding_theater_san_francisco,Harding Theater,San Francisco,CA,USA
+harmon_gym_uc_berkeley_berkeley,"Harmon Gym, UC Berkeley",Berkeley,CA,USA
+harrington_auditorium_worcester_polytechnic_institute_worcester,"Harrington Auditorium, Worcester Polytechnic Institute",Worcester,MA,USA
+hartford_civic_center_hartford,Hartford Civic Center,Hartford,CT,USA
+haywood_bandstand_vancouver,Haywood Bandstand,Vancouver,None,USA
+hec_s_edmundson_pavilion_university_of_washington_seattle,"Hec S. Edmundson Pavilion, University of Washington",Seattle,WA,USA
+hemisfair_arena_san_antonio,Hemisfair Arena,San Antonio,TX,USA
+henry_j_kaiser_auditorium_oakland,Henry J. Kaiser Auditorium,Oakland,CA,USA
+henry_j_kaiser_convention_center_mardi_gras,Henry J. Kaiser Convention Center,Mardi Gras,CA,USA
+henry_j_kaiser_convention_center_oakland,Henry J. Kaiser Convention Center,Oakland,CA,USA
+henry_j_kaiser_oakland,Henry J Kaiser,Oakland,CA,USA
+hershey_park_stadium_hershey,Hershey Park Stadium,Hershey,PA,USA
+hile_high_stadium_denver,Hile High Stadium,Denver,CO,USA
+hill_auditorium_ann_arbor,Hill Auditorium,Ann Arbor,MI,USA
+hilton_hotel_san_francisco,Hilton Hotel,San Francisco,CA,USA
+hippodrome_de_pantin_paris,Hippodrome de Pantin,Paris,None,USA
+hippy_hill_golden_gate_park_san_francisco,"Hippy Hill, Golden Gate Park",San Francisco,CA,USA
+hjk,HJK,,,USA
+hjk_unknown,HJK,unknown,,USA
+hofheinz_pavilion_houston,Hofheinz Pavilion,Houston,TX,USA
+holleder_memorial_stadium_rochester,Holleder Memorial Stadium,Rochester,NY,USA
+holleder_stadium_rochester,Holleder Stadium,Rochester,NY,USA
+holly_wood_newcastle_under_lyme_leycett,Holly Wood (Newcastle-Under-Lyme),Leycett,None,USA
+hollywood_bowl_hollywood,Hollywood Bowl,Hollywood,CA,USA
+hollywood_bowl_los_angeles,Hollywood Bowl,Los Angeles,CA,USA
+hollywood_palladium_hollywood,Hollywood Palladium,Hollywood,CA,USA
+honolulu_civic_auditorium_honolulu,Honolulu Civic Auditorium,Honolulu,HI,USA
+horton_field_house_illinois_state_u_normal,Horton Field House (Illinois State U),Normal,IL,USA
+horton_field_house_illinois_state_university_normal,"Horton Field House, Illinois State University",Normal,IL,USA
+hubert_h_humphrey_metrodome_minneapolis,Hubert H. Humphrey Metrodome,Minneapolis,MN,USA
+hubert_h_humphrey_metrodome_minniapolis,Hubert H. Humphrey Metrodome,Minniapolis,MN,USA
+huntington_civic_center_huntington,Huntington Civic Center,Huntington,WV,USA
+hyde_park_teen_center_cincinnati,Hyde Park Teen Center,Cincinnati,OH,USA
+i_c_c_berlin,I.C.C.,Berlin,,USA
+i_d_e_s_hall_pescadero,I.D.E.S. Hall,Pescadero,CA,USA
+ice_palace_las_vegas,Ice Palace,Las Vegas,NV,USA
+indiana_convention_center_indianapolis,Indiana Convention Center,Indianapolis,IN,USA
+indianapolis_convention_center_indianapolis,Indianapolis Convention Center,Indianapolis,IN,USA
+indianapolis_sports_center_indianapolis,Indianapolis Sports Center,Indianapolis,IN,USA
+international_amphiteater_chicago,International Amphiteater,Chicago,IL,USA
+international_amphitheater_chicago,International Amphitheater,Chicago,IL,USA
+international_amphitheatre_chicago,International Amphitheatre,Chicago,IL,USA
+international_room_san_francisco_state_university_san_francisco,"International Room, San Francisco State University",San Francisco,CA,USA
+internationales_congress_centrum_berlin,Internationales Congress Centrum,Berlin,None,USA
+irvine_auditorium_university_of_pennsylvania_philadelphia,"Irvine Auditorium, University of Pennsylvania",Philadelphia,PA,USA
+irvine_meadows_amphitheater_laguna_hills,Irvine Meadows Amphitheater,Laguna Hills,CA,USA
+irvine_meadows_amphitheatre_irvine,Irvine Meadows Amphitheatre,Irvine,CA,USA
+irvine_meadows_irvine,Irvine Meadows,Irvine,CA,USA
+istadium_stockholm,Istadium,Stockholm,,USA
+jahrhundert_halle_frankfurt,Jahrhundert Halle,Frankfurt,,USA
+jahrhunderthalle_frankfurt,Jahrhunderthalle,Frankfurt,None,USA
+jai_alai_fronton_miami,Jai-Alai Fronton,Miami,FL,USA
+jenison_field_house_michigan_state_university_east_lansing,"Jenison Field House, Michigan State University",East Lansing,MI,USA
+jfk_stadium_philadelphia,JFK Stadium,Philadelphia,PA,USA
+joe_louis_arena_detroit,Joe Louis Arena,Detroit,MI,USA
+johanneshov_isstadion_stockholm,Johanneshov Isstadion,Stockholm,None,USA
+john_f_kennedy_stadium_philadelphia,John F. Kennedy Stadium,Philadelphia,PA,USA
+kansas_city_municipal_auditorium_kansas_city,Kansas City Municipal Auditorium,Kansas City,MO,USA
+kezar_stadium_san_francisco,Kezar Stadium,San Francisco,CA,USA
+kiefer_lakefront_arena_university_of_new_orleans_new_orleans,"Kiefer Lakefront Arena, University of New Orleans",New Orleans,LA,USA
+kiel_auditorium_st_louis,Kiel Auditorium,St. Louis,MO,USA
+kiel_opera_house_st_louis,Kiel Opera House,St. Louis,MO,USA
+kinetic_playground_chicago,Kinetic Playground,Chicago,IL,USA
+kings_beach_bowl_lake_tahoe,Kings Beach Bowl,Lake Tahoe,CA,USA
+kingswood_music_theater_toronto,Kingswood Music Theater,Toronto,,USA
+kingswood_music_theatre_maple,Kingswood Music Theatre,Maple,None,USA
+kingswood_theater_maple,Kingswood Theater,Maple,X,USA
+kirby_fieldhouse_lafayette_college_easton,"Kirby Fieldhouse, Lafayette College",Easton,PA,USA
+kleinhans_music_hall_buffalo,Kleinhans Music Hall,Buffalo,NY,USA
+knickerbocker_arena_albany,Knickerbocker Arena,Albany,NY,USA
+knight_s_hall_bellarmine_college_louisville,"Knight's Hall, Bellarmine College",Louisville,KY,USA
+kongresssaal_deutsches_museum_munich,"Kongresssaal, Deutsches Museum",Munich,None,USA
+kpix_tv_studios_san_francisco,KPIX-TV Studios,San Francisco,CA,USA
+kresge_plaza_massachusetts_institute_of_technology_cambridge,"Kresge Plaza, Massachusetts Institute of Technology",Cambridge,MA,USA
+l_a_memorial_coliseum_los_angeles,L.A. Memorial Coliseum,Los Angeles,CA,USA
+l_a_sports_arena_los_angeles,L.A. Sports Arena,Los Angeles,CA,USA
+la_dolphine_hillsborough,La Dolphine,Hillsborough,CA,USA
+la_forum_los_angeles,LA Forum,Los Angeles,CA,USA
+labor_temple_minneapolis,Labor Temple,Minneapolis,MN,USA
+ladera_school_ladera,Ladera School,Ladera,CA,USA
+laguna_seca,Laguna Seca,,,USA
+laguna_seca_raceway_monterey,Laguna Seca Raceway,Monterey,CA,USA
+laguna_seca_raceway_salinas,Laguna Seca Raceway,Salinas,CA,USA
+laguna_seca_unknown,Laguna Seca,Unknown,,USA
+lakefront_arena_new_orleans,Lakefront Arena,New Orleans,LA,USA
+lakeland_civic_center_arena_lakeland,Lakeland Civic Center Arena,Lakeland,FL,USA
+lakeland_civic_center_lakeland,Lakeland Civic Center,Lakeland,FL,USA
+lanai_theater_crockett,Lanai Theater,Crockett,CA,USA
+las_vegas_convention_center_las_vegas,Las Vegas Convention Center,Las Vegas,NV,USA
+legion_stadium_el_monte,Legion Stadium,El Monte,CA,USA
+lille_fairgrounds_lille,Lille Fairgrounds,Lille,None,USA
+lindley_meadow_golden_gate_park_san_francisco,"Lindley Meadow, Golden Gate Park",San Francisco,CA,USA
+lindley_meadows_golden_gate_park_san_francisco,Lindley Meadows (Golden Gate Park),San Francisco,CA,USA
+lion_s_share_san_anselmo,Lion's Share,San Anselmo,CA,USA
+lloyd_noble_center_u_of_oklahoma_norman,Lloyd Noble Center (U of Oklahoma),Norman,OK,USA
+lloyd_noble_center_university_of_oklahoma_norman,"Lloyd Noble Center, University of Oklahoma",Norman,OK,USA
+location_unknown,[location unknown],,,USA
+loma_prieta_room_student_union_san_jose_state_university_san_jose,"Loma Prieta Room, Student Union, San Jose State University",San Jose,CA,USA
+long_beach_arena_long_beach,Long Beach Arena,Long Beach,CA,USA
+long_beach_long_beach,Long Beach,Long Beach,CA,USA
+longshoreman_s_hall_san_francisco,Longshoreman's Hall,San Francisco,CA,USA
+los_angeles_memorial_coliseum_los_angeles,Los Angeles Memorial Coliseum,Los Angeles,CA,USA
+los_angeles_memorial_sports_arena_los_angeles,Los Angeles Memorial Sports Arena,Los Angeles,CA,USA
+los_angeles_sports_arena_los_angeles,Los Angeles Sports Arena,Los Angeles,CA,USA
+lusk_field_house_suny_cortland,"Lusk Field House, SUNY",Cortland,NY,USA
+lyceum_london,Lyceum,London,None,USA
+lyric_theater_baltimore,Lyric Theater,Baltimore,MD,USA
+macarthur_court_university_of_oregon_eugene,"MacArthur Court, University of Oregon",Eugene,OR,USA
+mackay_stadium_university_of_nevada_reno,"Mackay Stadium, University of Nevada",Reno,NV,USA
+madison_square_garden_new_york,Madison Square Garden,New York,NY,USA
+madison_square_garden_new_york_city,Madison Square Garden,New York City,NY,USA
+madison_square_garden_nyc,Madison Square Garden,NYC,NY,USA
+magoo_s_pizza_parlor_menlo_park,Magoo's Pizza Parlor,Menlo Park,CA,USA
+maine_state_fairgrounds_lewiston,Maine State Fairgrounds,Lewiston,ME,USA
+mammoth_gardens_denver,Mammoth Gardens,Denver,CO,USA
+manhattan_center_new_york,Manhattan Center,New York,NY,USA
+manor_downs_austin,Manor Downs,Austin,TX,USA
+marigold_ballroom_fresno,Marigold Ballroom,Fresno,CA,USA
+marin_county_veteran_s_auditorium_san_rafael,Marin County Veteran's Auditorium,San Rafael,CA,USA
+marin_veterans_memorial_auditorium_san_rafael,Marin Veterans Memorial Auditorium,San Rafael,CA,USA
+marion_shea_auditorium_paterson_state_college_wayne,"Marion Shea Auditorium, Paterson State College",Wayne,NJ,USA
+market_square_arena_indianapolis,Market Square Arena,Indianapolis,IN,USA
+masonic_temple_detroit,Masonic Temple,Detroit,MI,USA
+masonic_temple_portland,Masonic Temple,Portland,OR,USA
+matrix_san_francisco,Matrix,San Francisco,CA,USA
+max_yasgur_s_farm_bethel,Max Yasgur's Farm,Bethel,NY,USA
+mayser_center_franklin_marshall_college_lancaster,"Mayser Center, Franklin & Marshall College",Lancaster,PA,USA
+mcarthur_court_u_of_oregon_eugene,McArthur Court (U of Oregon),Eugene,OR,USA
+mcdonough_arena_georgetown_university_washington,"McDonough Arena, Georgetown University",Washington,DC,USA
+mcfarlin_auditorium_southern_methodist_university_smu_dallas,"McFarlin Auditorium, Southern Methodist University (SMU)",Dallas,TX,USA
+mcgaw_hall_northwestern_university_evanston,"McGaw Hall, Northwestern University",Evanston,IL,USA
+mcgaw_memorial_hall_evanston,McGaw Memorial Hall,Evanston,IL,USA
+mcmahon_stadium_calgary,McMahon Stadium,Calgary,None,USA
+mcnichols_arena_denver,McNichols Arena,Denver,CO,USA
+mcnichols_sports_arena_denver,McNichols Sports Arena,Denver,CO,USA
+meadowlands_arena_east_rutherford,Meadowlands Arena,East Rutherford,NJ,USA
+mecca_milwaukee,Mecca,Milwaukee,WI,USA
+melk_weg_amsterdam,Melk Weg,Amsterdam,None,USA
+melodyland_theatre_anaheim,Melodyland Theatre,Anaheim,CA,USA
+memorial_auditorium_dallas,Memorial Auditorium,Dallas,TX,USA
+memorial_auditorium_ohio_university_athens,"Memorial Auditorium, Ohio University",Athens,OH,USA
+memorial_auditorium_sacramento,Memorial Auditorium,Sacramento,CA,USA
+memorial_auditorium_utica,Memorial Auditorium,Utica,NY,USA
+memorial_coliseum_portland,Memorial Coliseum,Portland,OR,USA
+memorial_coliseum_state_fairgrounds_jackson,Memorial Coliseum (State Fairgrounds),Jackson,MS,USA
+memorial_coliseum_u_of_alabama_tuscaloosa,Memorial Coliseum (U of Alabama),Tuscaloosa,AL,USA
+memorial_hall_kansas_city,Memorial Hall,Kansas City,MO,USA
+memorial_stadium_seattle,Memorial Stadium,Seattle,WA,USA
+memorial_union_ballroom_purdue_university_lafayette,"Memorial Union Ballroom, Purdue University",Lafayette,IN,USA
+meramec_community_college_st_louis,Meramec Community College,St. Louis,MO,USA
+merriweather_post_pavilion_columbia,Merriweather Post Pavilion,Columbia,MD,USA
+mershon_auditorium_ohio_state_university_columbus,"Mershon Auditorium, Ohio State University",Columbus,OH,USA
+met_center_minneapolis,Met Center,Minneapolis,MN,USA
+metropolitan_center_minneapolis,Metropolitan Center,Minneapolis,MN,USA
+metropolitan_sports_center_bloomington,Metropolitan Sports Center,Bloomington,MN,USA
+miami_arena_miami,Miami Arena,Miami,FL,USA
+miami_fl_miami,Miami FL,Miami,FL,USA
+miami_hollywood_speedway_park_pembroke_pines,Miami-Hollywood Speedway Park,Pembroke Pines,FL,USA
+miami_miami,Miami,Miami,FL,USA
+mid_south_coliseum_memphis,Mid-South Coliseum,Memphis,TN,USA
+middlesex_county_community_college_edison,Middlesex County Community College,Edison,NJ,USA
+mile_high_stadium_denver,Mile High Stadium,Denver,CO,USA
+mill_valley_recreation_center_mill_valley,Mill Valley Recreation Center,Mill Valley,CA,USA
+milwaukee_auditorium_milwaukee,Milwaukee Auditorium,Milwaukee,WI,USA
+mississippi_coliseum_jackson,Mississippi Coliseum,Jackson,MS,USA
+mississippi_river_festival_edwardsville,Mississippi River Festival,Edwardsville,IL,USA
+monterey_county_fairgrounds_monterey,Monterey County Fairgrounds,Monterey,CA,USA
+monterey_peninsula_college_monterey,Monterey Peninsula College,Monterey,CA,USA
+moody_coliseum_smu_dallas,Moody Coliseum (SMU),Dallas,TX,USA
+moody_coliseum_southern_methodist_university_smu_dallas,"Moody Coliseum, Southern Methodist University (SMU)",Dallas,TX,USA
+morgantown_civic_center_morgantown,Morgantown Civic Center,Morgantown,WV,USA
+moscone_center_san_francisco,Moscone Center,San Francisco,CA,USA
+moscone_convention_center_san_francisco,Moscone Convention Center,San Francisco,CA,USA
+mosque_richmond,Mosque,Richmond,VA,USA
+mount_tamalpais_cushing_memorial_amphitheatre_marin_county,"Mount Tamalpais, Cushing Memorial Amphitheatre",Marin County,CA,USA
+muir_beach_lodge_muir_beach,Muir Beach Lodge,Muir Beach,CA,USA
+municipal_auditorium_austin,Municipal Auditorium,Austin,TX,USA
+music_hall_boston,Music Hall,Boston,MA,USA
+music_hall_cincinnati,Music Hall,Cincinnati,OH,USA
+music_hall_municipal_auditorium_kansas_city,Music Hall (Municipal Auditorium),Kansas City,MO,USA
+music_mall_cincinnati,Music Mall,Cincinnati,OH,USA
+musikhalle_hamburg,Musikhalle,Hamburg,None,USA
+nashville_municipal_auditorium_nashville,Nashville Municipal Auditorium,Nashville,TN,USA
+nassau_coliseum_uniondale,Nassau Coliseum,Uniondale,NY,USA
+nassau_veterans_memorial_coliseum_uniondale,Nassau Veterans Memorial Coliseum,Uniondale,NY,USA
+national_guard_armory_st_louis,National Guard Armory,St. Louis,MO,USA
+naumburg_bandshell_central_park_new_york,"Naumburg Bandshell, Central Park",New York,NY,USA
+nbc_studios_new_york,NBC Studios,New York,NY,USA
+nevada_county_fairgrounds_grass_valley,Nevada County Fairgrounds,Grass Valley,CA,USA
+new_haven_coliseum_veterans_memorial_coliseum_new_haven,New Haven Coliseum Veterans Memorial Coliseum,New Haven,CT,USA
+niagara_falls_convention_center_niagara_falls,Niagara Falls Convention Center,Niagara Falls,NY,USA
+niagra_falls_convention_center_niagra_falls,Niagra Falls Convention Center,Niagra Falls,NY,USA
+northrop_auditorium_university_of_minnesota_minneapolis,"Northrop Auditorium, University of Minnesota",Minneapolis,MN,USA
+ny_state_pavilion_flushing_meadows_park_new_york,"NY State Pavilion, Flushing Meadows Park",New York,NY,USA
+o_keefe_centre_toronto,O'Keefe Centre,Toronto,None,USA
+oakland_alameda_co_coliseum_oakland,Oakland-Alameda Co. Coliseum,Oakland,CA,USA
+oakland_alameda_county_coliseum_arena_oakland,Oakland-Alameda County Coliseum Arena,Oakland,CA,USA
+oakland_alameda_county_coliseum_stadium_oakand,Oakland-Alameda County Coliseum Stadium,Oakand,CA,USA
+oakland_alameda_county_stadium_oakland,Oakland-Alameda County Stadium,Oakland,CA,USA
+oakland_arena_oakland,Oakland Arena,Oakland,CA,USA
+oakland_auditorium_arena_oakland,Oakland Auditorium Arena,Oakland,CA,USA
+oakland_auditorium_oakland,Oakland Auditorium,Oakland,CA,USA
+oakland_coliseum_arena_oakland,Oakland Coliseum Arena,Oakland,CA,USA
+oakland_coliseum_oakland,Oakland Coliseum,Oakland,CA,USA
+oakland_coliseum_stadium_oakland,Oakland Coliseum Stadium,Oakland,CA,USA
+ohio_theatre_columbus,Ohio Theatre,Columbus,OH,USA
+oklahoma_city_fairgrounds_arena_oklahoma_city,Oklahoma City Fairgrounds Arena,Oklahoma City,OK,USA
+oklahoma_city_music_hall_oklahoma_city,Oklahoma City Music Hall,Oklahoma City,OK,USA
+old_renaissance_faire_grounds_veneta,Old Renaissance Faire Grounds,Veneta,OR,USA
+olympia_halle_munich,Olympia Halle,Munich,,USA
+olympia_paris,Olympia,Paris,None,USA
+olympia_theater_paris,Olympia Theater,Paris,,USA
+olympiahalle_munich,Olympiahalle,Munich,None,USA
+olympic_center_lake_placid,Olympic Center,Lake Placid,NY,USA
+omaha_auditorium_omaha,Omaha Auditorium,Omaha,NE,USA
+omaha_civic_auditorium_omaha,Omaha Civic Auditorium,Omaha,NE,USA
+omni_coliseum_atlanta,Omni Coliseum,Atlanta,GA,USA
+onondaga_county_war_memorial_syracuse,Onondaga County War Memorial,Syracuse,NY,USA
+onondaga_war_memorial_aud_syracuse,Onondaga War Memorial Aud.,Syracuse,NY,USA
+onondaga_war_memorial_auditorium_syracuse,Onondaga War Memorial Auditorium,Syracuse,NY,USA
+orange_county_fairgrounds_costa_mesa,Orange County Fairgrounds,Costa Mesa,CA,USA
+orchard_park_rich_orchard_park,Orchard Park Rich,Orchard Park,NY,USA
+oregon_country_fairgrounds_veneta,Oregon Country Fairgrounds,Veneta,OR,USA
+oregon_county_fair_site_veneta,Oregon County Fair Site,Veneta,OR,USA
+orlando_arena_orlando,Orlando Arena,Orlando,FL,USA
+orpheum_theatre_san_francisco,Orpheum Theatre,San Francisco,CA,USA
+orvis_student_activities_center_gymnasium_state_university_of_new_york_college_of_technology_at_alfred_alfred,"Orvis Student Activities Center Gymnasium, State University of New York College of Technology at Alfred",Alfred,NY,USA
+oxford_plains_speedway_oxford,Oxford Plains Speedway,Oxford,ME,USA
+p_n_e_agradome_vancouver,P.N.E. Agradome,Vancouver,None,USA
+p_n_e_coliseum_vancouver,P.N.E. Coliseum,Vancouver,None,USA
+p_n_e_garden_auditorium_vancouver,P.N.E. Garden Auditorium,Vancouver,None,USA
+palace_of_fine_arts_theatre_san_francisco,Palace of Fine Arts Theatre,San Francisco,CA,USA
+palace_theater_waterbury,Palace Theater,Waterbury,CT,USA
+palais_des_sports_paris,Palais des Sports,Paris,None,USA
+palau_dels_esports_de_barcelona_barcelona,Palau dels Esports de Barcelona,Barcelona,None,USA
+palm_gardens_new_york,Palm Gardens,New York,NY,USA
+panhandle_golden_gate_park_san_francisco,"Panhandle, Golden Gate Park",San Francisco,CA,USA
+panther_hall_fort_worth,Panther Hall,Fort Worth,TX,USA
+paramount_northeast_seattle,Paramount Northeast,Seattle,WA,USA
+paramount_northwest_seattle,Paramount Northwest,Seattle,WA,USA
+paramount_northwest_theatre_seattle,Paramount Northwest Theatre,Seattle,WA,USA
+paramount_theater_portland,Paramount Theater,Portland,OR,USA
+paramount_theatre_portland,Paramount Theatre,Portland,OR,USA
+parc_des_expositions_dijon,Parc des Expositions,Dijon,None,USA
+park_west_ski_resort_salt_lake_city,Park West Ski Resort,Salt Lake City,UT,USA
+parkwest_ski_resort_park_city,ParkWest Ski Resort,Park City,UT,USA
+pasadena_civic_auditorium_pasadena,Pasadena Civic Auditorium,Pasadena,CA,USA
+patrick_field_house_u_of_vermont_burlington,Patrick Field House (U of Vermont),Burlington,VT,USA
+patrick_gymnasium_university_of_vermont_burlington,"Patrick Gymnasium, University of Vermont",Burlington,VT,USA
+pauley_ballroom_uc_berkeley_berkeley,"Pauley Ballroom, UC Berkeley",Berkeley,CA,USA
+pauley_pavilion_los_angeles,Pauley Pavilion,Los Angeles,CA,USA
+pauley_pavilion_ucla_los_angeles,"Pauley Pavilion, UCLA",Los Angeles,CA,USA
+pavilion_u_illinois_at_chicago_chicago,Pavilion (U Illinois At Chicago),Chicago,IL,USA
+pelletier_farm_st_helens,Pelletier Farm,St. Helens,OR,USA
+performing_arts_center_milwaukee,Performing Arts Center,Milwaukee,WI,USA
+pershing_auditorium_lincoln,Pershing Auditorium,Lincoln,NE,USA
+pershing_municipal_auditorium_lincoln,Pershing Municipal Auditorium,Lincoln,NB,USA
+philadelphia_civic_center_philadelphia,Philadelphia Civic Center,Philadelphia,PA,USA
+philadelphia_jfk_philadelphia,Philadelphia JFK,Philadelphia,PA,USA
+philadelphia_spectrum_philadelphia,Philadelphia Spectrum,Philadelphia,PA,USA
+phoenix_star_theatre_phoenix,Phoenix Star Theatre,Phoenix,AZ,USA
+piedmont_park_atlanta,Piedmont Park,Atlanta,GA,USA
+pine_knob_music_theater_clarkstown,Pine Knob Music Theater,Clarkstown,MI,USA
+pine_knob_music_theatre_clarkston,Pine Knob Music Theatre,Clarkston,MI,USA
+pioneer_ballroom_suisun_city,Pioneer Ballroom,Suisun City,CA,USA
+pirates_world_dania,Pirates World,Dania,FL,USA
+pittsburg_pittsburg,Pittsburg,Pittsburg,PA,USA
+pittsburgh_civic_arena_pittsburgh,Pittsburgh Civic Arena,Pittsburgh,PA,USA
+place_ville_marie_montreal,Place Ville Marie,Montreal,None,USA
+playboy_club_los_angeles,Playboy Club,Los Angeles,CA,USA
+playhouse_theater_edinburgh,Playhouse Theater,Edinburgh,,USA
+playhouse_theatre_edinburgh,Playhouse Theatre,Edinburgh,None,USA
+polo_field_golden_gate_park_san_francisco,"Polo Field, Golden Gate Park",San Francisco,CA,USA
+polo_field_san_francisco,Polo Field,San Francisco,CA,USA
+poplar_creek_music_theatre_hoffman_estates,Poplar Creek Music Theatre,Hoffman Estates,IL,USA
+poplar_creek_pavilion_poplar_creek,Poplar Creek Pavilion,Poplar Creek,IL,USA
+portland_international_raceway_portland,Portland International Raceway,Portland,OR,USA
+portland_international_speedway_portland,Portland International Speedway,Portland,OR,USA
+portland_meadows_portland,Portland Meadows,Portland,OR,USA
+portland_memorial_coliseum_portland,Portland Memorial Coliseum,Portland,OR,USA
+pritchard_gym_s_u_n_y_stony_brook,"Pritchard Gym, S.U.N.Y.",Stony Brook,NY,USA
+providence_civic_center_providence,Providence Civic Center,Providence,RI,USA
+psychedelic_supermarket_boston,Psychedelic Supermarket,Boston,MA,USA
+public_hall_cleveland,Public Hall,Cleveland,OH,USA
+quadrangle_washington_university_st_louis,"Quadrangle, Washington University",St. Louis,MO,USA
+raceway_park_englishtown,Raceway Park,Englishtown,NJ,USA
+radio_city_music_hall_new_york,Radio City Music Hall,New York,NY,USA
+radio_luxembourg_luxembourg,Radio Luxembourg,Luxembourg,None,USA
+radio_luxembourg_xlux,Radio Luxembourg,XLUX,,USA
+rainbow_theater_london,Rainbow Theater,London,,USA
+rainbow_theatre_london,Rainbow Theatre,London,None,USA
+rancho_olompali_novato,Rancho Olompali,Novato,CA,USA
+rec_hall_penn_state_u_state_college,Rec Hall (Penn State U),State College,PA,USA
+recreation_center_mill_valley,Recreation Center,Mill Valley,CA,USA
+recreation_hall_pennsylvania_state_university_university_park,"Recreation Hall, Pennsylvania State University",University Park,PA,USA
+recreation_hall_uc_davis_davis,"Recreation Hall, UC Davis",Davis,CA,USA
+red_rocks_amphitheater_morrison,Red Rocks Amphitheater,Morrison,CO,USA
+red_rocks_amphitheatre_morrison,Red Rocks Amphitheatre,Morrison,CO,USA
+reed_hollow_ranch_franktown,Reed Hollow Ranch,Franktown,CO,USA
+reno_centennial_coliseum_reno,Reno Centennial Coliseum,Reno,NV,USA
+reunion_arena_dallas,Reunion Arena,Dallas,TX,USA
+rfk_stadium_washington,RFK Stadium,Washington,DC,USA
+rfk_stadium_washington_d_c,RFK Stadium,"Washington, D.C.",DC,USA
+rfk_stadium_washington_dc,RFK Stadium,Washington DC,DC,USA
+rheinhalle_dusseldorf,Rheinhalle,Dusseldorf,None,USA
+rhode_island_auditorium_providence,Rhode Island Auditorium,Providence,RI,USA
+rich_stadium_buffalo,Rich Stadium,Buffalo,NY,USA
+rich_stadium_orchard_park,Rich Stadium,Orchard Park,NY,USA
+richfield_coliseum_richfield,Richfield Coliseum,Richfield,OH,USA
+richmond_coliseum_richmond,Richmond Coliseum,Richmond,VA,USA
+river_bend_music_center_cincinnati,River Bend Music Center,Cincinnati,OH,USA
+river_front_coliseum_cincinnati,River Front Coliseum,Cincinnati,OH,USA
+riverbend_music_center_cincinnati,Riverbend Music Center,Cincinnati,OH,USA
+riverfront_arena_cincinnati,Riverfront Arena,Cincinnati,OH,USA
+riverfront_coliseum_cincinnati,Riverfront Coliseum,Cincinnati,OH,USA
+riverport_amphitheatre_maryland_heights,Riverport Amphitheatre,Maryland Heights,MO,USA
+riverport_amphitheatre_st_louis,Riverport Amphitheatre,St. Louis,MO,USA
+roanoke_civic_center_roanoke,Roanoke Civic Center,Roanoke,VA,USA
+robert_f_kennedy_stadium_washington,Robert F. Kennedy Stadium,Washington,DC,USA
+robertson_gym_uc_santa_barbara_goleta,"Robertson Gym, UC Santa Barbara",Goleta,CA,USA
+rochester_community_war_memorial_rochester,Rochester Community War Memorial,Rochester,NY,USA
+rochester_silver_stadium_rochester,Rochester Silver Stadium,Rochester,NY,USA
+rock_pile_toronto,Rock Pile,Toronto,None,USA
+roosevelt_stadium_jersey_city,Roosevelt Stadium,Jersey City,NJ,USA
+roscoe_maples_pavilion_stanford_u_palo_alto,Roscoe Maples Pavilion (Stanford U),Palo Alto,CA,USA
+roscoe_maples_pavilion_stanford_university_palo_alto,"Roscoe Maples Pavilion, Stanford University",Palo Alto,CA,USA
+rose_palace_pasadena,Rose Palace,Pasadena,CA,USA
+rosemont_horizon_chicago,Rosemont Horizon,Chicago,IL,USA
+rosemont_horizon_rosemont,Rosemont Horizon,Rosemont,IL,USA
+rpi_fieldhouse_rensselaer_polytechnic_institute_troy,"RPI Fieldhouse, Rensselaer Polytechnic Institute",Troy,NY,USA
+rubber_bowl_akron,Rubber Bowl,Akron,OH,USA
+rubber_bowl_university_of_akron_akron,"Rubber Bowl, University of Akron",Akron,OH,USA
+rupp_arena_lexington_center_lexington,Rupp Arena (Lexington Center),Lexington,KY,USA
+rupp_arena_university_of_kentucky_lexington,"Rupp Arena, University of Kentucky",Lexington,KY,USA
+sacramento_memorial_auditorium_sacramento,Sacramento Memorial Auditorium,Sacramento,CA,USA
+saenger_performing_arts_center_new_orleans,Saenger Performing Arts Center,New Orleans,LA,USA
+salt_palace_salt_lake_city,Salt Palace,Salt Lake City,UT,USA
+sam_boyd_silver_bowl_las_vegas,Sam Boyd Silver Bowl,Las Vegas,NV,USA
+sam_houston_coliseum_houston,Sam Houston Coliseum,Houston,TX,USA
+san_antonio_municipal_auditorium_san_antonio,San Antonio Municipal Auditorium,San Antonio,TX,USA
+san_diego_sports_arena_san_diego,San Diego Sports Arena,San Diego,CA,USA
+san_francisco_civic_auditorium_san_francisco,San Francisco Civic Auditorium,San Francisco,CA,USA
+san_francisco_civic_san_francisco,San Francisco Civic,San Francisco,CA,USA
+san_jose_civic_auditorium_san_jose,San Jose Civic Auditorium,San Jose,CA,USA
+san_quentin_state_prison_san_quentin,San Quentin State Prison,San Quentin,CA,USA
+sandstone_amphitheater_bonner_springs,Sandstone Amphitheater,Bonner Springs,KS,USA
+sandstone_amphitheatre_bonner_springs,Sandstone Amphitheatre,Bonner Springs,KS,USA
+sandstone_aphitheatre_bonner_springs,Sandstone Aphitheatre,Bonner Springs,KS,USA
+sandstone_bonner_springs,Sandstone,Bonner Springs,KS,USA
+santa_clara_county_fairgrounds_san_jose,Santa Clara County Fairgrounds,San Jose,CA,USA
+santa_cruz_county_fairgrounds_watsonville,Santa Cruz County Fairgrounds,Watsonville,CA,USA
+santa_fe_downs_santa_fe,Santa Fe Downs,Santa Fe,NM,USA
+santa_monica_civic_auditorium_santa_monica,Santa Monica Civic Auditorium,Santa Monica,CA,USA
+santa_rosa_fairgrounds_santa_rosa,Santa Rosa Fairgrounds,Santa Rosa,CA,USA
+santa_venetia_armory_san_rafael,Santa Venetia Armory,San Rafael,CA,USA
+saratoga_performing_arts_center_saratoga_springs,Saratoga Performing Arts Center,Saratoga Springs,NY,USA
+saratoga_performing_arts_saratoga,Saratoga Performing Arts,Saratoga,NY,USA
+sargent_gym_boston_university_boston,"Sargent Gym, Boston University",Boston,MA,USA
+saturday_night_live_nbc_studios_new_york,"Saturday Night Live, NBC Studios",New York,NY,USA
+scope_norfolk,Scope,Norfolk,VA,USA
+seattle_center_arena_seattle,Seattle Center Arena,Seattle,WA,USA
+seattle_center_coliseum_seattle,Seattle Center Coliseum,Seattle,WA,USA
+seattle_center_memorial_coliseum_seattle,Seattle Center Memorial Coliseum,Seattle,WA,USA
+seattle_center_memorial_stadium_seattle,Seattle Center Memorial Stadium,Seattle,WA,USA
+seattle_center_seattle,Seattle Center,Seattle,WA,USA
+selland_arena_fresno,Selland Arena,Fresno,CA,USA
+seminole_indian_village_west_hollywood,Seminole Indian Village,West Hollywood,FL,USA
+shea_s_buffalo_theater_buffalo,Shea's Buffalo Theater,Buffalo,NY,USA
+shea_s_theater_buffalo,Shea's Theater,Buffalo,NY,USA
+shoreline_amphitheater,Shoreline Amphitheater,,CA,USA
+shoreline_amphitheater_mountain_view,Shoreline Amphitheater,Mountain View,CA,USA
+shoreline_amphitheater_shoreline,Shoreline Amphitheater,Shoreline,CA,USA
+shoreline_amphitheater_unknown,Shoreline Amphitheater,unknown,CA,USA
+shoreline_amphitheatre_mountain_view,Shoreline Amphitheatre,Mountain View,CA,USA
+shoreline_amphitheatre_mt_view,Shoreline Amphitheatre,Mt. View,CA,USA
+shoreline_amphitheatre_mtn_view,Shoreline Amphitheatre,Mtn. View,CA,USA
+shoreline_ampitheatre_mountain_view,Shoreline Ampitheatre,Mountain View,MA,USA
+shoreline_ampitheatre_mtn,Shoreline Ampitheatre,Mtn.,CA,USA
+shoreline_mountain_view,Shoreline,Mountain View,CA,USA
+shrine_auditorium_los_angeles,Shrine Auditorium,Los Angeles,CA,USA
+shrine_exhibition_hall_los_angeles,Shrine Exhibition Hall,Los Angeles,CA,USA
+sierra_college_rocklin,Sierra College,Rocklin,CA,USA
+silva_concert_hall_hult_center_for_the_performing_arts_eugene,"Silva Concert Hall, Hult Center For The Performing Arts",Eugene,OR,USA
+silva_hall_hult_center_eugene,Silva Hall (Hult Center),Eugene,OR,USA
+silver_dollar_fairgrounds_chico,Silver Dollar Fairgrounds,Chico,CA,USA
+silver_stadium_rochester,Silver Stadium,Rochester,NY,USA
+siu_arena_southern_illinois_university_carbondale,"SIU Arena, Southern Illinois University",Carbondale,IL,USA
+soccer_field_american_university_washington,"Soccer Field, American University",Washington,DC,USA
+sokol_hall_san_francisco,Sokol Hall,San Francisco,CA,USA
+soldier_field_chicago,Soldier Field,Chicago,IL,USA
+soldier_s_field_chicago,Soldier's Field,Chicago,IL,USA
+soldiers_and_sailors_memorial_hall_kansas_city,Soldiers' and Sailors' Memorial Hall,Kansas City,KS,USA
+soldiers_field_chicago,Soldiers Field,Chicago,IL,USA
+soldiers_sailors_memorial_hall_kansas_city,Soldiers & Sailors Memorial Hall,Kansas City,KS,USA
+son_et_lumiere_theater_giza,Son Et Lumiere Theater,Giza,,USA
+southern_illinois_university_mississippi_river_festival_edwardsville,"Southern Illinois University, Mississippi River Festival",Edwardsville,IL,USA
+southern_star_amphitheater_houston,Southern Star Amphitheater,Houston,TX,USA
+spartan_stadium_san_jose,Spartan Stadium,San Jose,CA,USA
+spartan_stadium_san_jose_state_university_san_jose,"Spartan Stadium, San Jose State University",San Jose,CA,USA
+spectrum_philadelphia,Spectrum,Philadelphia,PA,USA
+speedway_meadows_golden_gate_park_san_francisco,"Speedway Meadows, Golden Gate Park",San Francisco,CA,USA
+spokane_coliseum_spokane,Spokane Coliseum,Spokane,WA,USA
+sportatorium_pembroke_pines,Sportatorium,Pembroke Pines,FL,USA
+sporthalle_hamburg,Sporthalle,Hamburg,None,USA
+sports_and_music_center_indianapolis,Sports and Music Center,Indianapolis,IN,USA
+sports_palace_barcelona,Sports Palace,Barcelona,,USA
+sportsahala_hamburg,Sportsahala,Hamburg,,USA
+spreckles_temple_of_music_bandshell_golden_gate_park_san_francisco,"Spreckles Temple of Music Bandshell, Golden Gate Park",San Francisco,CA,USA
+springer_s_inn_gresham,Springer's Inn,Gresham,OR,USA
+springfield_civic_center_arena_springfield,Springfield Civic Center Arena,Springfield,MA,USA
+springfield_civic_center_springfield,Springfield Civic Center,Springfield,MA,USA
+st_john_s_arena_columbus,St. John's Arena,Columbus,O.H.,USA
+st_louis_arena_st_louis,St. Louis Arena,St. Louis,MO,USA
+st_paul_civic_center_arena_st_paul,St. Paul Civic Center Arena,St. Paul,MN,USA
+st_paul_civic_center_st_paul,St. Paul Civic Center,St. Paul,MN,USA
+stabler_arena_lehigh_u_bethlehem,Stabler Arena (Lehigh U),Bethlehem,PA,USA
+stabler_arena_lehigh_university_bethlehem,"Stabler Arena, Lehigh University",Bethlehem,PA,USA
+stadium_santa_barbara,Stadium,Santa Barbara,CA,USA
+stadt_halle_bremen,Stadt Halle,Bremen,,USA
+stadthalle_iv_bremen,Stadthalle IV,Bremen,None,USA
+stakladen_cafeteria_aarhus_university_aarhus,Stakladen Cafeteria (Aarhus University),Aarhus,None,USA
+stanislaus_county_fairgrounds_turlock,Stanislaus County Fairgrounds,Turlock,CA,USA
+stanley_theater_pittsburgh,Stanley Theater,Pittsburgh,PA,USA
+stanley_theatre_jersey_city,Stanley Theatre,Jersey City,NJ,USA
+stanley_theatre_pittsburgh,Stanley Theatre,Pittsburgh,PA,USA
+star_lake_amphitheater_burgettstown,Star Lake Amphitheater,Burgettstown,PA,USA
+starlight_theater_kansas_city,Starlight Theater,Kansas City,MO,USA
+starlight_theatre_kansas_city,Starlight Theatre,Kansas City,MO,USA
+state_fair_coliseum_detroit,State Fair Coliseum,Detroit,MI,USA
+state_fair_coliseum_indianapolis,State Fair Coliseum,Indianapolis,IN,USA
+state_fairgrounds_des_moines,State Fairgrounds,Des Moines,IA,USA
+state_fairgrounds_lewiston,State Fairgrounds,Lewiston,ME,USA
+stockton_ballroom_stockton,Stockton Ballroom,Stockton,CA,USA
+stockton_civic_aud_stockton,Stockton Civic Aud.,Stockton,CA,USA
+stockton_civic_auditorium_stockton,Stockton Civic Auditorium,Stockton,CA,USA
+straight_theater_san_francisco,Straight Theater,San Francisco,CA,USA
+strawberry_canyon_berkeley,Strawberry Canyon,Berkeley,CA,USA
+student_center_modesto_jr_college_modesto,"Student Center, Modesto Jr. College",Modesto,CA,USA
+student_union_ballroom_university_of_utah_salt_lake_city,"Student Union Ballroom, University of Utah",Salt Lake City,UT,USA
+studio_rehersal_unknown,Studio Rehersal,unknown,,USA
+sullivan_stadium_foxboro,Sullivan Stadium,Foxboro,MA,USA
+summit_arena_houston,Summit Arena,Houston,TX,USA
+sun_dome_tampa,Sun Dome,Tampa,FL,USA
+sun_dome_university_of_south_florida_tampa,"Sun Dome, University of South Florida",Tampa,FL,USA
+swing_auditorium_san_bernardino,Swing Auditorium,San Bernardino,CA,USA
+tacoma_dome_tacoma,Tacoma Dome,Tacoma,WA,USA
+taft_auditorium_cincinnati,Taft Auditorium,Cincinnati,OH,USA
+tampa_stadium_tampa,Tampa Stadium,Tampa,FL,USA
+temple_stadium_temple_university_philadelphia,"Temple Stadium, Temple University",Philadelphia,PA,USA
+terminal_island_correctional_facility_san_pedro,Terminal Island Correctional Facility,San Pedro,CA,USA
+terrace_ballroom_salt_lake_city,Terrace Ballroom,Salt Lake City,UT,USA
+the_ark_boston,The Ark,Boston,MA,USA
+the_bank_torrance,The Bank,Torrance,CA,USA
+the_big_beat_club_palo_alto,The Big Beat Club,Palo Alto,CA,USA
+the_centrum_worcester,The Centrum,Worcester,MA,USA
+the_cheetah_venice,The Cheetah,Venice,CA,USA
+the_dean_dome_chapel_hill,The Dean Dome,Chapel Hill,NC,USA
+the_dean_dome_university_of_nc_chapel_hill,"The Dean Dome, University of NC",Chapel Hill,NC,USA
+the_fabulous_forum_inglewood,The Fabulous Forum,Inglewood,CA,USA
+the_greek_theatre_berkeley,The Greek Theatre,Berkeley,CA,USA
+the_heliport_sausalito,The Heliport,Sausalito,CA,USA
+the_hippodrome_paris,The Hippodrome,Paris,,USA
+the_hippodrome_san_diego,The Hippodrome,San Diego,CA,USA
+the_hullabaloo_hollywood,The Hullabaloo,Hollywood,CA,USA
+the_mecca_milwaukee,The MECCA,Milwaukee,WI,USA
+the_met_center_bloomington,The Met Center,Bloomington,MN,USA
+the_mosque_richmond,The Mosque,Richmond,VA,USA
+the_music_box_omaha,The Music Box,Omaha,NE,USA
+the_north_face_ski_shop_san_francisco,The North Face Ski Shop,San Francisco,CA,USA
+the_old_cheese_factory_san_francisco,The Old Cheese Factory,San Francisco,CA,USA
+the_omni_atlanta,The Omni,Atlanta,GA,USA
+the_palace_at_auburn_hills_aubern_hills,The Palace at Auburn Hills,Aubern Hills,MI,USA
+the_palace_at_auburn_hills_auburn_hills,The Palace at Auburn Hills,Auburn Hills,MI,USA
+the_palace_auburn_hills,The Palace,Auburn Hills,MI,USA
+the_palace_theater_waterbury,The Palace Theater,Waterbury,CT,USA
+the_palestra_university_of_rochester_rochester,"The Palestra, University of Rochester",Rochester,NY,USA
+the_palladium_new_york,The Palladium,New York,NY,USA
+the_pyramid_arena_memphis,The Pyramid Arena,Memphis,TN,USA
+the_pyramid_memphis,The Pyramid,Memphis,TN,USA
+the_rock_garden_san_francisco,The Rock Garden,San Francisco,CA,USA
+the_sam_boyd_silver_bowl_las_vegas,The Sam Boyd Silver Bowl,Las Vegas,NV,USA
+the_scope_norfolk,The Scope,Norfolk,VA,USA
+the_spectrum_philadelphia,The Spectrum,Philadelphia,PA,USA
+the_sportatorium_hollywood,The Sportatorium,Hollywood,FL,USA
+the_strand_lyceum_london,The Strand Lyceum,London,,USA
+the_summit_houston,The Summit,Houston,TX,USA
+the_syndrome_chicago,The Syndrome,Chicago,IL,USA
+the_warehouse_new_orleans,The Warehouse,New Orleans,LA,USA
+the_zenith_paris,The Zenith,Paris,,USA
+thee_club_los_angeles,Thee Club,Los Angeles,CA,USA
+thee_experience_west_hollywood,Thee Experience,West Hollywood,CA,USA
+thee_image_sunny_isles_beach,Thee Image,Sunny Isles Beach,FL,USA
+thelma_los_angeles,Thelma,Los Angeles,CA,USA
+thompson_arena_dartmouth_college_hanover,"Thompson Arena, Dartmouth College",Hanover,NH,USA
+three_rivers_stadium_pittsburgh,Three Rivers Stadium,Pittsburgh,PA,USA
+tivoli_concert_hall_copenhagen,Tivoli Concert Hall,Copenhagen,None,USA
+tivoli_gardens_copenhagen,Tivoli Gardens,Copenhagen,,USA
+tivoli_theater_copenhagen,Tivoli Theater,Copenhagen,,USA
+tivoli_theatre_copenhagen,Tivoli Theatre,Copenhagen,,USA
+tompkins_square_park_new_york,Tompkins Square Park,New York,NY,USA
+tower_theater_upper_darby,Tower Theater,Upper Darby,PA,USA
+tower_theatre_upper_darby,Tower Theatre,Upper Darby,PA,USA
+town_park_telluride,Town Park,Telluride,CO,USA
+tressider_memorial_union_tmu_deck_stanford_university_palo_alto,"Tressider Memorial Union (TMU) Deck, Stanford University",Palo Alto,CA,USA
+trouper_s_hall_los_angeles,Trouper's Hall,Los Angeles,CA,USA
+tulsa_fairgrounds_pavilion_tulsa,Tulsa Fairgrounds Pavilion,Tulsa,OK,USA
+tyrone_guthrie_theater_minneapolis,Tyrone Guthrie Theater,Minneapolis,MN,USA
+uic_pavilion_university_of_illinois_chicago_chicago,"UIC Pavilion, University of Illinois, Chicago",Chicago,IL,USA
+ungano_s_night_club_new_york,Ungano's Night Club,New York,NY,USA
+uni_dome_university_of_northern_iowa_cedar_falls,"Uni-Dome, University of Northern Iowa",Cedar Falls,IA,USA
+unicorn_theater_la_jolla,Unicorn Theater,La Jolla,CA,USA
+universal_amphitheatre_universal_city,Universal Amphitheatre,Universal City,CA,USA
+university_arena_university_of_new_mexico_albuquerque,"University Arena, University of New Mexico",Albuquerque,NM,USA
+university_auditorium_university_of_arizona_tucson,"University Auditorium, University of Arizona",Tucson,AZ,USA
+university_hall_university_of_virginia_charlottesville,"University Hall, University of Virginia",Charlottesville,VA,USA
+university_of_alabama_memorial_coliseum_tuscaloosa,"University of Alabama, Memorial Coliseum",Tuscaloosa,AL,USA
+university_of_iowa_iowa_city,University of Iowa,Iowa City,IA,USA
+university_of_nevada_reno_reno,"University of Nevada, Reno",Reno,NV,USA
+university_of_new_mexico_albuquerque,University of New Mexico,Albuquerque,NM,USA
+university_of_virginia_charlottesville,University of Virginia,Charlottesville,VA,USA
+unknown_lincoln,Unknown,Lincoln,NE,USA
+unknown_none,Unknown,None,CA,USA
+uptown_theater_chicago,Uptown Theater,Chicago,IL,USA
+uptown_theatre_chicago,Uptown Theatre,Chicago,IL,USA
+usair_arena_landover,USAir Arena,Landover,MD,USA
+utica_memorial_auditorium_utica,Utica Memorial Auditorium,Utica,NY,USA
+utica_memorial_coliseum_utica,Utica Memorial Coliseum,Utica,NY,USA
+valley_unitarian_universalist_church_north_hills,Valley Unitarian Universalist Church,North Hills,CA,USA
+vanderbilt_university_nashville,Vanderbilt University,Nashville,TN,USA
+ventura_county_fairgrounds_ventura,Ventura County Fairgrounds,Ventura,CA,USA
+veterans_memorial_auditorium_columbus,Veterans Memorial Auditorium,Columbus,OH,USA
+veterans_memorial_auditorium_santa_rosa,Veterans Memorial Auditorium,Santa Rosa,CA,USA
+veterans_memorial_coliseum_hartford,Veterans' Memorial Coliseum,Hartford,CT,USA
+veterans_memorial_coliseum_jacksonville,Veterans Memorial Coliseum,Jacksonville,FL,USA
+veterans_memorial_coliseum_new_haven,Veterans' Memorial Coliseum,New Haven,CT,USA
+veterans_memorial_hall_berkeley,Veterans Memorial Hall,Berkeley,CA,USA
+veterans_memorial_hall_columbus,Veterans' Memorial Hall,Columbus,OH,USA
+village_theater_new_york,Village Theater,New York,NY,USA
+virginia_beach_civic_center_virginia_beach,Virginia Beach Civic Center,Virginia Beach,VA,USA
+virginia_polytechnic_university_blacksburg,Virginia Polytechnic University,Blacksburg,VA,USA
+volunteer_park_seattle,Volunteer Park,Seattle,WA,USA
+wallace_wade_stadium_duke_university_durham,"Wallace Wade Stadium, Duke University",Durham,NC,USA
+walter_kbel_halle_rsselsheim,Walter K�bel Halle,R�sselsheim,None,USA
+walter_koebel_halle_russelsheim,Walter Koebel Halle,Russelsheim,,USA
+war_memorial_aud_rochester,War Memorial Aud.,Rochester,NY,USA
+war_memorial_auditorium_buffalo,War Memorial Auditorium,Buffalo,NY,USA
+war_memorial_auditorium_rochester,War Memorial Auditorium,Rochester,NY,USA
+warfield_theater_san_francisco,Warfield Theater,San Francisco,CA,USA
+warfield_theatre_san_francisco,Warfield Theatre,San Francisco,CA,USA
+washington_rfk_washington,Washington RFK,Washington,DC,USA
+wembley_arena_london,Wembley Arena,London,None,USA
+west_gym_harpur_college_binghamton,"West Gym, Harpur College",Binghamton,NY,USA
+west_high_auditorium_anchorage,West High Auditorium,Anchorage,AK,USA
+west_palm_beach_auditorium_west_palm_beach,West Palm Beach Auditorium,West Palm Beach,FL,USA
+west_park_ann_arbor,West Park,Ann Arbor,MI,USA
+whisky_a_go_go_san_francisco,Whisky-A-Go-Go,San Francisco,CA,USA
+william_and_mary_college_williamsburg,William and Mary College,Williamsburg,VA,USA
+william_and_mary_hall_college_of_william_and_mary_williamsburg,"William and Mary Hall, College Of William and Mary",Williamsburg,VA,USA
+william_and_mary_hall_williamsburg,William and Mary Hall,Williamsburg,VA,USA
+william_randolph_hearst_greek_theatre_uc_berkeley_berkeley,"William Randolph Hearst Greek Theatre, UC Berkeley",Berkeley,CA,USA
+winnipeg_fairgrounds_winnipeg,Winnipeg Fairgrounds,Winnipeg,None,USA
+winteriand_arena_san_francisco,Winteriand Arena,San Francisco,CA,USA
+winterland_arena_san_francisco,Winterland Arena,San Francisco,CA,USA
+winterland_san_francisco,Winterland,San Francisco,CA,USA
+women_s_gym_san_francisco_state_university_san_francisco,"Women's Gym, San Francisco State University",San Francisco,CA,USA
+world_amphitheatre_tinley_park,World Amphitheatre,Tinley Park,IL,USA
+world_music_theatre_tinley_park,World Music Theatre,Tinley Park,IL,USA
+yale_bowl_new_haven,Yale Bowl,New Haven,CT,USA
+york_farm_poynette,York Farm,Poynette,WI,USA
+youth_opportunities_center_compton,Youth Opportunities Center,Compton,CA,USA
+youth_pavilion_expo_67_montreal,"Youth Pavilion, Expo '67",Montreal,None,USA
+znith_paris_paris,Z�nith Paris,Paris,None,USA
+zoo_amphitheater_oklahoma_city,Zoo Amphitheater,Oklahoma City,OK,USA
+zoo_amphitheatre_oklahoma_city,Zoo Amphitheatre,Oklahoma City,OK,USA

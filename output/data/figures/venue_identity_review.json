@@ -1,0 +1,37 @@
+{
+  "columns": [
+    "metric",
+    "value"
+  ],
+  "figure": "venue_identity_review.png",
+  "metadata": {
+    "mean_collision_setlist_jaccard": 0.047,
+    "method": "reviewed conservative alias map; report-only, no venue rows rewritten",
+    "n_alias_decisions": 20,
+    "n_negative_controls": 6,
+    "policy": "Only hand-verified same-venue spellings collapse. Distinct rooms, stadium/arena splits, and time-renamed venues remain separate unless future review explicitly changes the map."
+  },
+  "rows": [
+    [
+      "venue_slugs",
+      912
+    ],
+    [
+      "alias_slugs_present",
+      20
+    ],
+    [
+      "venues_after_canonicalization",
+      892
+    ],
+    [
+      "venues_collapsed",
+      20
+    ],
+    [
+      "ambiguous_same_date_collisions",
+      311
+    ]
+  ],
+  "title": "Venue Identity Review"
+}

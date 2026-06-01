@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>07_honesty_boundary.md.web</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+<h1 id="the-executable-honesty-boundary">The executable honesty
+boundary</h1>
+<p>The prose elsewhere in this manuscript draws a bright line between
+<em>ingested snapshot</em> and <em>live upstream</em>, between
+<em>pointer metadata</em> and <em>lyric text</em>, between <em>cited
+source</em> and <em>HTTP fetch</em>. This section promotes that boundary
+from prose to a runtime contract enforced inside the compendium loader
+by :class:<code>grateful_data.honesty.HonestyBoundary</code>.</p>
+<h2 id="what-the-boundary-refuses">What the boundary refuses</h2>
+<p>The boundary recursively walks the raw JSON payloads and the built
+<code>Compendium</code> and raises :class:<code>HonestyViolation</code>
+on any of the following shapes:</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Forbidden shape</th>
+<th>Detection rule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>lyric_text</code> / <code>lyrics</code> / <code>verse</code> /
+<code>chorus</code> / <code>stanza</code> / <code>refrain</code> keys
+anywhere</td>
+<td>recursive walk on lowercased key name; project bundles pointers, not
+text</td>
+</tr>
+<tr>
+<td><code>audio_feature_*</code> / <code>synth_*</code> keys
+anywhere</td>
+<td>recursive walk on lowercased key prefix; project bundles no
+audio</td>
+</tr>
+<tr>
+<td><code>Review</code> with <code>sentiment &gt; 0</code> and empty
+<code>source_url</code></td>
+<td>over-claim shape (“positive but unverifiable”)</td>
+</tr>
+<tr>
+<td><code>Citation</code> with empty or non-<code>http(s)://</code>
+URL</td>
+<td>broken provenance</td>
+</tr>
+<tr>
+<td><code>Recording</code> with <code>gd</code>-prefixed
+<code>archive_id</code> whose URL does not point at
+<code>archive.org</code></td>
+<td>identifier suggests Internet Archive but URL is elsewhere</td>
+</tr>
+<tr>
+<td><code>LyricPointer</code> with empty <code>source_url</code></td>
+<td>we promise a pointer; missing pointer is over-claim</td>
+</tr>
+</tbody>
+</table>
+<p>A violation aborts <code>load_seed_compendium</code> before any
+analysis runs. <code>enforce_honesty=False</code> is available but
+exists only for tests of the boundary itself.</p>
+<p>The same rule applies to prose-only context introduced from the
+supplied source dossier. Formation stories, Wall of Sound details,
+public honors, songwriter recollections, studio-era reception, and
+tape-trading claims must cite checked sources and remain prose or
+citation metadata unless the project has a schema field for them
+[dead_net_biography; foundsf_weir_psychedelic_sf;
+mcintosh_wall_of_sound; kennedy_center_honors_2024;
+marshall_bootleg_collectors; rolling_stone_robert_hunter_interview;
+americana_highways_workingmans_american_beauty]. The dossier does not
+authorize new quantitative rows, current-person claims, lyric text,
+audio features, or revenue figures inside <code>data/archival/</code>.
+Community reconstructions are explicitly labelled as context when cited
+[grateful_seconds_touring_revenues].</p>
+<h2 id="why-this-exists">Why this exists</h2>
+<p>Two lessons from the prior-work memory drove it directly:</p>
+<ul>
+<li><strong>disclosure is not remediation</strong> — buried hedges in
+research-manuscript prose are laundering, not honesty. A runtime check
+forced into every load is the durable form.</li>
+<li><strong>shape tests don’t bind truth</strong> — a unit test that
+checks the <em>shape</em> of a review record passes happily on a
+fabricated positive review. The honesty boundary checks the
+<em>content</em> shape that fabrication takes.</li>
+</ul>
+<h2 id="binding-to-tests">Binding to tests</h2>
+<p>Each forbidden shape has a dedicated negative-control test that
+constructs a synthetic violation and asserts the boundary rejects it.
+The positive control is the committed archival compendium:
+<code>test_seed_loader_passes_honesty</code> asserts that the real
+snapshot loads with <code>enforce_honesty=True</code>. The whole loop is
+tested in <code>tests/test_honesty.py</code> and (with one tamper test
+per failure mode flipping a real row to a known-bad shape) in
+<code>tests/test_honesty_tamper.py</code>.</p>
+<h2 id="verdict">Verdict</h2>
+<p><strong>CERTIFY-WITH-RESIDUALS for v0.1.</strong> The honesty
+boundary enforces every named failure mode at load time, the
+negative-control tamper tests demonstrate it fails loud on the right
+shapes, and the entity-page generators are anti-fabrication-tested in
+<code>tests/test_entity_pages_no_fabrication.py</code>. Acknowledged
+residuals at this version:</p>
+<ul>
+<li>schema validation catches shape violations but cross-field semantic
+validity (e.g. date ∈ band-active-window, set position ≤ setlist length)
+is not yet a gate — that is the next layer of refinement;</li>
+<li>the <code>cattheory/</code> package’s load-bearing modules
+(categories, functors, spans, natural, colimits, yoneda) each carry a
+<em>negative control</em> — a broken composition, a non-monotone
+functor, or a too-small colimit vertex that the check must reject — so
+the constructions are tested for teeth, not merely exercised. The
+colimit now verifies the universal property (not just subset-of-union)
+and Yoneda is checked over the non-degenerate <code>Date</code> poset
+rather than the trivial discrete case. The one remaining piece of honest
+<em>scaffolding</em> is <code>enriched.py</code>: the audio-similarity
+enrichment is structural only — concrete weights would come from a
+downstream pipeline against the <code>fifteen-songs-dataset</code>
+[fifteen_songs_dataset], and the honesty boundary forbids bundling audio
+features, so it is labelled a stub rather than presented as an empirical
+result.</li>
+</ul>
+<h2 id="licensing-and-provenance">Licensing and provenance</h2>
+<p>The compendium integrates many community and institutional sources,
+and is explicit about reuse posture. The <em>code and the derived
+compendium schema</em> (the slugged entity tables and the
+category-theoretic constructions) are the contribution of this project;
+the <em>underlying facts</em> — setlists, dates, venues, personnel — are
+drawn from the cited sources, each of which carries its own terms.
+Setlist and show data derive primarily from community archives
+(gdshowsdb, the truckin-through-time dataset, Setlist.fm) and reference
+works (Wikipedia, Britannica); recording metadata comes from the
+Internet Archive Live Music Archive, whose Grateful Dead collection has
+its own access policy and metadata conventions
+[internet_archive_gd_collection_policy]; reviews are a curated/maximinus
+subset. No lyric text and no audio-feature data are bundled — lyric
+pointers are URL metadata only — both to respect copyright and as the
+project’s stated ethical boundary. Dodd and Trist’s annotated lyrics are
+cited as scholarship, not copied as data [dodd_annotated_lyrics].</p>
+<p>One nuance worth stating explicitly: while individual facts (a date,
+a venue, a song title) are not protectable, a <em>curated
+compilation</em> — a particular hand-edited setlist or segue sequence —
+can carry its own rights independent of lyrics or audio, and our setlist
+and segue data derive from such community-curated sources. Archive
+scholarship on the Dead’s sound record underscores that this is a
+co-created curation ecosystem, not a source-free fact dump
+[wallace_cocreation_sound_archive; dead_net_taping_dead]. Downstream
+users should therefore consult each cited source for its own licensing
+before redistribution; this work claims rights only over the integration
+code and the structural representation, not over the source facts or any
+upstream curator’s compilation.</p>
+<h2 id="out-of-scope">Out of scope</h2>
+<p>The boundary is not a content-moderation system or a lyric
+classifier. It is a small set of refusals encoding what the <em>project
+itself</em> has promised to do and not do, written in code so a future
+contributor cannot quietly drift past it.</p>
+</body>
+</html>

@@ -1,0 +1,589 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>The Music Never Stopped — Dashboard</title>
+<style>
+body{font-family:-apple-system,system-ui,Inter,sans-serif;margin:0;padding:0;background:#f8fafc;color:#111827}
+a{color:#2563eb;text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1240px;margin:0 auto;padding:28px}
+header{border-bottom:1px solid #d1d5db;padding-bottom:18px;margin-bottom:24px}
+h1{font-weight:800;margin:0 0 4px 0;letter-spacing:0}
+.muted{color:#4b5563;max-width:900px;line-height:1.45}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-top:18px}
+.kpiCell{background:#ffffff;border:1px solid #e5e7eb;border-radius:8px;padding:12px;text-align:center}
+.kpi{font-size:1.45rem;font-weight:800;color:#92400e}
+section{margin:30px 0 42px 0}
+.sectionHead{display:grid;grid-template-columns:minmax(220px,320px) 1fr;gap:20px;align-items:end;border-bottom:1px solid #e5e7eb;margin-bottom:14px;padding-bottom:10px}
+.sectionHead h2{margin:0;font-size:1.25rem}
+.sectionHead p{margin:0;color:#4b5563;line-height:1.45}
+.figureGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:16px}
+.figureCard,.tableCard,.methodCard{background:#ffffff;border:1px solid #e5e7eb;border-radius:8px;padding:14px;box-shadow:0 1px 2px rgba(15,23,42,.05)}
+.figureCard h3,.tableCard h3,.methodCard h3{margin:0 0 10px 0;font-size:1rem;color:#1f2937}
+.figureCard p,.methodCard p{font-size:.88rem;line-height:1.4;color:#4b5563;margin:9px 0 0 0}
+.dataLinks{font-size:.82rem;margin-top:8px;color:#4b5563}
+.figureMeta{display:grid;grid-template-columns:1fr;gap:4px;margin:9px 0 0 0;font-size:.78rem;color:#4b5563}
+.figureMeta div{display:grid;grid-template-columns:74px 1fr;gap:6px}
+.figureMeta dt{font-weight:700;color:#374151}
+.figureMeta dd{margin:0}
+img{width:100%;height:auto;display:block;border-radius:6px;border:1px solid #f3f4f6}
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+th,td{padding:6px 8px;text-align:left;border-bottom:1px solid #e5e7eb;vertical-align:top}
+th{color:#374151;background:#f9fafb}
+small{color:#6b7280}
+.split{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
+.methodStats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-top:10px}
+.methodStats div{background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:10px}
+.tableScroll{max-height:360px;overflow:auto}
+</style></head>
+<body><div class="wrap">
+
+<header><h1>The Music Never Stopped</h1>
+<div class="muted">Grateful Data Compendium dashboard, generated from the archival compendium (n=3341 shows). Panels are tied to the registry metadata and, where available, to raw CSV/JSON exports under output/data/figures.</div>
+<div class="kpis">
+<div class="kpiCell"><div class="kpi">3341</div><small>Shows</small></div>
+<div class="kpiCell"><div class="kpi">645</div><small>Songs</small></div>
+<div class="kpiCell"><div class="kpi">14</div><small>People</small></div>
+<div class="kpiCell"><div class="kpi">912</div><small>Venues</small></div>
+<div class="kpiCell"><div class="kpi">40757</div><small>Performances</small></div>
+<div class="kpiCell"><div class="kpi">7122</div><small>Recordings</small></div>
+<div class="kpiCell"><div class="kpi">259</div><small>Releases</small></div>
+<div class="kpiCell"><div class="kpi">548</div><small>Lyric Pointers</small></div>
+<div class="kpiCell"><div class="kpi">1888</div><small>Reviews</small></div>
+<div class="kpiCell"><div class="kpi">139</div><small>Citations</small></div>
+</div></header>
+<section><div class="sectionHead"><h2>Overview</h2><p>Scope, temporal coverage, and the compact publication mosaic for the selected tier.</p></div><div class="split"><article class="figureCard"><h3>Total Mosaic</h3><img src="figures/mosaic.png" alt="Composite overview of compendium extent, analyses, category checks, and figure panels."/></article>
+<article class="tableCard"><h3>Top songs</h3><table><tr><th>Song</th><th>Perf count</th></tr>
+<tr><td>Playing In The Band</td><td>752</td></tr>
+<tr><td>Not Fade Away</td><td>666</td></tr>
+<tr><td>The Other One</td><td>664</td></tr>
+<tr><td>Me And My Uncle</td><td>645</td></tr>
+<tr><td>Sugar Magnolia</td><td>610</td></tr>
+<tr><td>Jack Straw</td><td>596</td></tr>
+<tr><td>China Cat Sunflower</td><td>578</td></tr>
+<tr><td>I Know You Rider</td><td>567</td></tr>
+<tr><td>Truckin</td><td>542</td></tr>
+<tr><td>Good Lovin</td><td>537</td></tr>
+<tr><td>Promised Land</td><td>504</td></tr>
+<tr><td>Bertha</td><td>485</td></tr>
+<tr><td>Minglewood Blues</td><td>472</td></tr>
+<tr><td>Mexicali Blues</td><td>443</td></tr>
+<tr><td>Tennessee Jed</td><td>437</td></tr>
+</table></article>
+<article class="tableCard"><h3>Shows per year</h3><table><tr><th>Year</th><th>Shows</th><th>Performances</th></tr>
+<tr><td>1965</td><td>12</td><td>2</td></tr>
+<tr><td>1966</td><td>113</td><td>228</td></tr>
+<tr><td>1967</td><td>139</td><td>201</td></tr>
+<tr><td>1968</td><td>126</td><td>529</td></tr>
+<tr><td>1969</td><td>149</td><td>1527</td></tr>
+<tr><td>1970</td><td>145</td><td>2078</td></tr>
+<tr><td>1971</td><td>81</td><td>1793</td></tr>
+<tr><td>1972</td><td>138</td><td>2281</td></tr>
+<tr><td>1973</td><td>110</td><td>1922</td></tr>
+<tr><td>1974</td><td>62</td><td>1081</td></tr>
+<tr><td>1975</td><td>6</td><td>56</td></tr>
+<tr><td>1976</td><td>57</td><td>957</td></tr>
+<tr><td>1977</td><td>102</td><td>1275</td></tr>
+<tr><td>1978</td><td>138</td><td>1641</td></tr>
+<tr><td>1979</td><td>125</td><td>1647</td></tr>
+<tr><td>1980</td><td>141</td><td>2157</td></tr>
+<tr><td>1981</td><td>144</td><td>1902</td></tr>
+<tr><td>1982</td><td>107</td><td>1358</td></tr>
+<tr><td>1983</td><td>110</td><td>1401</td></tr>
+<tr><td>1984</td><td>105</td><td>1322</td></tr>
+<tr><td>1985</td><td>111</td><td>1442</td></tr>
+<tr><td>1986</td><td>71</td><td>904</td></tr>
+<tr><td>1987</td><td>144</td><td>1752</td></tr>
+<tr><td>1988</td><td>139</td><td>1622</td></tr>
+<tr><td>1989</td><td>122</td><td>1498</td></tr>
+<tr><td>1990</td><td>129</td><td>1544</td></tr>
+<tr><td>1991</td><td>112</td><td>1498</td></tr>
+<tr><td>1992</td><td>87</td><td>1043</td></tr>
+<tr><td>1993</td><td>124</td><td>1587</td></tr>
+<tr><td>1994</td><td>128</td><td>1628</td></tr>
+<tr><td>1995</td><td>64</td><td>881</td></tr>
+</table></article></div></section>
+<section><div class="sectionHead"><h2>Statistical Shape</h2><p>Descriptive distributions, concentration curves, bootstrap intervals, and exploratory repertoire structure. These panels are pattern-discovery aids, not causal claims.</p></div><div class="methodCard"><h3>Method Notes</h3><p>Performance rows/show: median 17, p90 24, empty shows 282. Song concentration: Gini 0.74, top decile 51%. Venue concentration: Gini 0.59, top decile 52%.</p></div><div class="figureGrid">
+<article class="figureCard"><h3>Performance Rows per Show</h3><img src="figures/performance_distribution.png" alt="Histogram of non-empty setlist lengths with median and p90 reference lines plus a callout for empty-setlist shows."/><p>Show-level setlist-size distribution, including empty setlists.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Performance rows per show with median, p90, and empty-setlist count.</dd></div><div><dt>Exclusion</dt><dd>Histogram bins show non-empty setlists; empty setlists are counted in the callout and dataset.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/performance_distribution.csv">CSV</a> · <a href="data/figures/performance_distribution.json">JSON</a></div></article>
+<article class="figureCard"><h3>Repertoire Concentration</h3><img src="figures/repertoire_concentration.png" alt="Cumulative curve rises quickly, showing that a small share of ranked non-segment songs accounts for most performance rows."/><p>Pareto-style concentration of song-performance rows, excluding generic segments.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Ranked cumulative share, Gini, top-decile share, and 50/80 percent coverage thresholds.</dd></div><div><dt>Exclusion</dt><dd>Generic segment markers are excluded.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/repertoire_concentration.csv">CSV</a> · <a href="data/figures/repertoire_concentration.json">JSON</a></div></article>
+<article class="figureCard"><h3>Venue Concentration</h3><img src="figures/venue_concentration.png" alt="Cumulative curve shows how ranked venue slugs account for show rows, with reference guides at 50 and 80 percent."/><p>Pareto-style concentration of show rows across venue slugs.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Ranked cumulative show share, Gini, top-decile share, and 50/80 percent coverage thresholds.</dd></div><div><dt>Exclusion</dt><dd>Uses conservative source-derived venue slugs; venue identity review is report-only.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/venue_concentration.csv">CSV</a> · <a href="data/figures/venue_concentration.json">JSON</a></div></article>
+<article class="figureCard"><h3>Concentration Uncertainty</h3><img src="figures/concentration_uncertainty.png" alt="Four horizontal error bars show fixed-seed bootstrap intervals for song and venue Gini and top-decile share."/><p>Exploratory item-level bootstrap intervals for Gini and top-decile concentration.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Fixed-seed bootstrap intervals for Gini and top-decile share.</dd></div><div><dt>Exclusion</dt><dd>Song rows exclude generic segment markers; venue rows use source-derived venue slugs.</dd></div><div><dt>Claim</dt><dd>exploratory</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/concentration_uncertainty.csv">CSV</a> · <a href="data/figures/concentration_uncertainty.json">JSON</a></div></article>
+<article class="figureCard"><h3>Repertoire Top-N Sensitivity</h3><img src="figures/repertoire_topn_sensitivity.png" alt="Line and band chart shows how top-N song cuts cover total non-segment performances and how coverage varies across eras."/><p>Descriptive sensitivity for alternate top-song cuts.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Top-N performance share plus minimum, mean, and maximum era coverage.</dd></div><div><dt>Exclusion</dt><dd>Generic segment markers are excluded.</dd></div><div><dt>Claim</dt><dd>exploratory</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/repertoire_topn_sensitivity.csv">CSV</a> · <a href="data/figures/repertoire_topn_sensitivity.json">JSON</a></div></article>
+<article class="figureCard"><h3>Exploratory Repertoire Embedding</h3><img src="figures/repertoire_embedding.png" alt="Scatterplot places top non-segment songs by centered SVD era-count profiles, with cluster colors and labels only on the highest-count songs."/><p>Exploratory pattern-discovery view; axes are SVD components, not causal dimensions.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Centered SVD coordinates and deterministic cluster labels over era-by-song performance profiles.</dd></div><div><dt>Exclusion</dt><dd>Generic segment markers are excluded.</dd></div><div><dt>Claim</dt><dd>exploratory</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/repertoire_embedding.csv">CSV</a> · <a href="data/figures/repertoire_embedding.json">JSON</a></div></article>
+<article class="figureCard"><h3>Era Repertoire Heatmap</h3><img src="figures/era_repertoire_heatmap.png" alt="Heatmap shows each era&#x27;s performance-row share for top non-segment songs, with brighter cells marking era-specific concentration."/><p>Era-by-song normalized intensity over non-segment performance rows.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Within-era performance-row share by top song.</dd></div><div><dt>Exclusion</dt><dd>Generic segment markers are excluded.</dd></div><div><dt>Claim</dt><dd>exploratory</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/era_repertoire_heatmap.csv">CSV</a> · <a href="data/figures/era_repertoire_heatmap.json">JSON</a></div></article>
+</div></section>
+<section><div class="sectionHead"><h2>Repertoire/Transitions</h2><p>Frequency, association, first-order transition, stationary, centrality, and explicit segue views over setlist metadata.</p></div><div class="figureGrid"><article class="figureCard"><h3>Most-Performed Songs</h3><img src="figures/top_songs.png" alt="Ranked horizontal bars show the top non-segment songs by performance count; the longest bar is Playing in the Band."/><p>Top repertoire counts computed from performance rows.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Top-song performance counts.</dd></div><div><dt>Exclusion</dt><dd>Generic segment markers are excluded and surfaced separately.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/top_songs.csv">CSV</a> · <a href="data/figures/top_songs.json">JSON</a></div></article>
+<article class="figureCard"><h3>Song Co-occurrence Heatmap</h3><img src="figures/cooccurrence_heatmap.png" alt="Square heatmap compares show-level co-occurrence among top non-segment songs; brighter cells mark song pairs that share more shows."/><p>Cell values count shows in which both songs appear.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Show-level pairwise co-occurrence counts.</dd></div><div><dt>Exclusion</dt><dd>Generic segment markers are excluded.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/cooccurrence_heatmap.csv">CSV</a> · <a href="data/figures/cooccurrence_heatmap.json">JSON</a></div></article>
+<article class="figureCard"><h3>Markov Transition Matrix</h3><img src="figures/transition_matrix.png" alt="Probability heatmap for first-order song successors among top non-segment songs, with the China Cat Sunflower to I Know You Rider cell brightest."/><p>Rows are observed within-show successors normalized to probabilities.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>First-order within-show transition probability.</dd></div><div><dt>Exclusion</dt><dd>Generic segment markers are excluded; sensitivity is reported separately.</dd></div><div><dt>Claim</dt><dd>exploratory</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/transition_matrix.csv">CSV</a> · <a href="data/figures/transition_matrix.json">JSON</a></div></article>
+<article class="figureCard"><h3>Transition Sensitivity</h3><img src="figures/transition_sensitivity.png" alt="Line chart compares how many transition edges and predecessor rows remain as support thresholds increase, with segment markers included versus excluded."/><p>Descriptive support-threshold sensitivity for first-order transition models.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Supported transition-edge and predecessor-row retention by minimum predecessor support.</dd></div><div><dt>Exclusion</dt><dd>Compares generic segment markers included versus excluded.</dd></div><div><dt>Claim</dt><dd>exploratory</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/transition_sensitivity.csv">CSV</a> · <a href="data/figures/transition_sensitivity.json">JSON</a></div></article>
+<article class="figureCard"><h3>Markov Stationary Distribution</h3><img src="figures/stationary_top20.png" alt="Horizontal bars rank non-segment songs by stationary probability under the first-order transition model."/><p>Long-run mass under the first-order transition model.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Stationary probability under a first-order Markov model.</dd></div><div><dt>Exclusion</dt><dd>Generic segment markers are excluded.</dd></div><div><dt>Claim</dt><dd>exploratory</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/stationary_top20.csv">CSV</a> · <a href="data/figures/stationary_top20.json">JSON</a></div></article>
+<article class="figureCard"><h3>Association Centrality</h3><img src="figures/centrality_top20.png" alt="Horizontal bars rank non-segment songs by eigenvector centrality on the Jaccard co-occurrence graph."/><p>Co-occurrence centrality normalized away from raw frequency.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Eigenvector centrality over Jaccard-normalized show co-occurrence.</dd></div><div><dt>Exclusion</dt><dd>Generic segment markers are excluded.</dd></div><div><dt>Claim</dt><dd>exploratory</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/centrality_top20.csv">CSV</a> · <a href="data/figures/centrality_top20.json">JSON</a></div></article>
+<article class="figureCard"><h3>Most Frequent Segues</h3><img src="figures/segue_graph.png" alt="Ranked horizontal bars show explicit source-marked segue edges; Drums to Space and China Cat Sunflower to I Know You Rider dominate."/><p>Explicit source-marked segue edges, not inferred adjacency.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Explicit segue edge counts.</dd></div><div><dt>Exclusion</dt><dd>Uses only source-marked segue_into relations; adjacency is not inferred.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/segue_graph.csv">CSV</a> · <a href="data/figures/segue_graph.json">JSON</a></div></article></div></section>
+<section><div class="sectionHead"><h2>Geography</h2><p>Venue concentration, geocoded venue coverage, and era-level temporal grouping.</p></div><div class="figureGrid"><article class="figureCard"><h3>Venue Geography</h3><img src="figures/geo_scatter.png" alt="Geographic scatterplot of venues sized by show count and colored by region."/><p>Venue geo sidecar coverage and regional distribution.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Geocoded venue points sized by show count.</dd></div><div><dt>Exclusion</dt><dd>Only venues with geocoded sidecar rows are plotted.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/geo_scatter.csv">CSV</a> · <a href="data/figures/geo_scatter.json">JSON</a></div></article>
+<article class="figureCard"><h3>Venue Concentration</h3><img src="figures/venue_concentration.png" alt="Cumulative curve shows how ranked venue slugs account for show rows, with reference guides at 50 and 80 percent."/><p>Pareto-style concentration of show rows across venue slugs.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Ranked cumulative show share, Gini, top-decile share, and 50/80 percent coverage thresholds.</dd></div><div><dt>Exclusion</dt><dd>Uses conservative source-derived venue slugs; venue identity review is report-only.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/venue_concentration.csv">CSV</a> · <a href="data/figures/venue_concentration.json">JSON</a></div></article>
+<article class="figureCard"><h3>Venue Identity Review</h3><img src="figures/venue_identity_review.png" alt="Horizontal bars summarize venue slugs, alias slugs, conservative collapses, and ambiguous same-date canonical collisions."/><p>Report-only venue alias and ambiguity diagnostics; no venue rows are rewritten.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Venue alias counts, post-canonicalization count, ambiguous collision count, and mean collision Jaccard.</dd></div><div><dt>Exclusion</dt><dd>Conservative alias review only; negative controls remain distinct.</dd></div><div><dt>Claim</dt><dd>validation</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/venue_identity_review.csv">CSV</a> · <a href="data/figures/venue_identity_review.json">JSON</a></div></article>
+<article class="figureCard"><h3>Shows by Era</h3><img src="figures/shows_by_era.png" alt="Bar chart of show counts by era label."/><p>Era labels used for density and flow summaries.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Show counts by era bucket.</dd></div><div><dt>Exclusion</dt><dd>Era labels are analytical bins rather than source claims.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/shows_by_era.csv">CSV</a> · <a href="data/figures/shows_by_era.json">JSON</a></div></article></div></section>
+<section><div class="sectionHead"><h2>Evidence</h2><p>Source mix, overlays, personnel intervals, release records, curated review/lyric-pointer dimensions, and first-principles claim boundaries.</p></div><div class="methodCard"><h3>First-Principles Review</h3><p>12 claim families are classified by hard constraints, assumptions, validation artifacts, and limits. The ledger names 12 hard constraints and 12 validation artifacts.</p></div><div class="split"><article class="tableCard"><h3>Claim ledger</h3><div class="tableScroll"><table><tr><th>Claim</th><th>Status</th><th>Section</th><th>Test</th></tr>
+<tr><td>Corpus scope and identity</td><td>audited-descriptive</td><td>Data and Scope</td><td>tests/test_pipeline_integration.py</td></tr>
+<tr><td>Setlist-size distribution</td><td>audited-descriptive</td><td>Descriptive Statistics</td><td>tests/test_distributions.py</td></tr>
+<tr><td>Repertoire ranking</td><td>audited-descriptive</td><td>Repertoire Shape</td><td>tests/test_stats.py</td></tr>
+<tr><td>Concentration metrics</td><td>audited-model</td><td>Concentration and Uncertainty</td><td>tests/test_distributions.py</td></tr>
+<tr><td>Transition model</td><td>audited-model</td><td>Transitions and Segues</td><td>tests/test_transitions.py</td></tr>
+<tr><td>Explicit segue structure</td><td>audited-descriptive</td><td>Transitions and Segues</td><td>tests/test_more_analyses.py</td></tr>
+<tr><td>Co-occurrence and centrality</td><td>audited-model</td><td>Co-occurrence</td><td>tests/test_more_analyses.py</td></tr>
+<tr><td>Exploratory repertoire embedding</td><td>exploratory-noncausal</td><td>Exploratory Repertoire Geometry</td><td>tests/test_exploratory.py</td></tr>
+<tr><td>Category-theoretic abstraction</td><td>audited-formalization</td><td>Categorical Model</td><td>tests/test_category_theory.py</td></tr>
+<tr><td>Venue geography</td><td>metadata-limited</td><td>Geography</td><td>tests/test_more_analyses.py</td></tr>
+<tr><td>Lyrics and review overlays</td><td>pointer-only-limited</td><td>External Pointer Overlays</td><td>tests/test_lyric_enrichment.py</td></tr>
+<tr><td>Historical and archival context</td><td>citation-supported</td><td>Related Work and Archival Context</td><td>tests/test_fetch_bibliography.py</td></tr>
+</table></div></article>
+<article class="figureCard"><h3>First-Principles Claim Evidence Map</h3><img src="figures/claim_evidence_matrix.png" alt="Heatmap counts claim families by claim class and primary validation artifact family, distinguishing corpus, method, boundary, and interpretation claims."/><p>Evidence-governance matrix; cells count claim families, not corpus observations.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Claim-family counts by claim class and validation artifact family.</dd></div><div><dt>Exclusion</dt><dd>Counts claim families, not shows, performances, songs, or venues.</dd></div><div><dt>Claim</dt><dd>validation</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/claim_evidence_matrix.csv">CSV</a> · <a href="data/figures/claim_evidence_matrix.json">JSON</a></div></article>
+</div>
+<div class="split"><article class="tableCard"><h3>Composer credits</h3><table><tr><th>Composer</th><th>Songs</th></tr>
+<tr><td>Jerry Garcia</td><td>46</td></tr>
+<tr><td>Bob Weir</td><td>21</td></tr>
+<tr><td>Phil Lesh</td><td>7</td></tr>
+<tr><td>Bill Kreutzmann</td><td>4</td></tr>
+<tr><td>Brent Mydland</td><td>4</td></tr>
+<tr><td>Ron McKernan</td><td>4</td></tr>
+<tr><td>Chuck Berry</td><td>3</td></tr>
+<tr><td>Mickey Hart</td><td>3</td></tr>
+<tr><td>Al Bell</td><td>1</td></tr>
+<tr><td>Allen Jones</td><td>1</td></tr>
+<tr><td>Bob Bralove</td><td>1</td></tr>
+<tr><td>Bob Dylan</td><td>1</td></tr>
+<tr><td>Bonnie Dobson</td><td>1</td></tr>
+<tr><td>Buddy Holly</td><td>1</td></tr>
+<tr><td>Deadric Malone</td><td>1</td></tr>
+</table></article>
+<article class="tableCard"><h3>Shows by era</h3><table><tr><th>Era</th><th>Shows</th></tr>
+<tr><td>Primal</td><td>681</td></tr>
+<tr><td>Europe 72</td><td>231</td></tr>
+<tr><td>Wall of Sound</td><td>156</td></tr>
+<tr><td>Hiatus-&gt;Return</td><td>335</td></tr>
+<tr><td>Brent</td><td>1356</td></tr>
+<tr><td>Vince+Bruce</td><td>575</td></tr>
+<tr><td>Unknown</td><td>7</td></tr>
+</table></article></div><div class="figureGrid">
+<article class="figureCard"><h3>Composer Attribution</h3><img src="figures/composer_attribution.png" alt="Grouped bars comparing songs written with performance-weighted composer counts."/><p>Composer credit counts versus performance-weighted attribution.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Songs written versus performance-weighted composer attribution.</dd></div><div><dt>Exclusion</dt><dd>Songs without composer metadata do not contribute composer-credit rows.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/composer_attribution.csv">CSV</a> · <a href="data/figures/composer_attribution.json">JSON</a></div></article>
+<article class="figureCard"><h3>Show Density by Month and Year</h3><img src="figures/era_density.png" alt="Year-by-month heatmap of show density."/><p>Calendar density across the selected compendium tier.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Show counts by calendar year and month.</dd></div><div><dt>Exclusion</dt><dd>No shows are dropped; empty-setlist shows still count as shows.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/era_density.csv">CSV</a> · <a href="data/figures/era_density.json">JSON</a></div></article>
+<article class="figureCard"><h3>Personnel Timeline</h3><img src="figures/personnel_gantt.png" alt="Gantt chart of band-member active intervals."/><p>Curated personnel intervals used by lineup analyses.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Membership/role intervals displayed as horizontal date ranges.</dd></div><div><dt>Exclusion</dt><dd>Only explicit interval metadata is plotted; inferred guest appearances are outside scope.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/personnel_gantt.csv">CSV</a> · <a href="data/figures/personnel_gantt.json">JSON</a></div></article>
+<article class="figureCard"><h3>Active Lineup Size</h3><img src="figures/lineup_diversity.png" alt="Line chart of active lineup size over show dates."/><p>Instantaneous active roster size, not cumulative membership.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Active-member count over distinct show dates.</dd></div><div><dt>Exclusion</dt><dd>Counts use interval coverage on each date and are not cumulative roster totals.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/lineup_diversity.csv">CSV</a> · <a href="data/figures/lineup_diversity.json">JSON</a></div></article>
+<article class="figureCard"><h3>Review Sentiment by Source Kind</h3><img src="figures/sentiment_by_kind.png" alt="Bar chart of mean review sentiment grouped by source kind."/><p>Curated review-pointer sentiment aggregates.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Mean sentiment by source kind with support and dispersion.</dd></div><div><dt>Exclusion</dt><dd>Reviews without pointer/source metadata are not fabricated.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/sentiment_by_kind.csv">CSV</a> · <a href="data/figures/sentiment_by_kind.json">JSON</a></div></article>
+<article class="figureCard"><h3>Citation Kinds</h3><img src="figures/citation_kinds.png" alt="Ranked bar chart of bibliography citation kinds."/><p>Citation kind mix after bibliography and references merge.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Citation-kind counts and share of total.</dd></div><div><dt>Exclusion</dt><dd>Citation rows are metadata pointers; no source text is bundled.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/citation_kinds.csv">CSV</a> · <a href="data/figures/citation_kinds.json">JSON</a></div></article>
+<article class="figureCard"><h3>Recording Source Types</h3><img src="figures/recording_sources.png" alt="Ranked bar chart of recording source-type counts."/><p>Recording metadata source labels in the compendium.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Recording counts and shares by source-type label.</dd></div><div><dt>Exclusion</dt><dd>Missing source-type labels remain UNKNOWN; source type is not inferred from audio.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/recording_sources.csv">CSV</a> · <a href="data/figures/recording_sources.json">JSON</a></div></article>
+<article class="figureCard"><h3>Lyric Pointer Themes</h3><img src="figures/lyric_themes.png" alt="Horizontal bar chart of theme tags attached to lyric pointers."/><p>Theme frequencies from pointer metadata only.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Theme-tag frequencies.</dd></div><div><dt>Exclusion</dt><dd>Lyric text is not bundled, parsed, quoted, or derived.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/lyric_themes.csv">CSV</a> · <a href="data/figures/lyric_themes.json">JSON</a></div></article>
+<article class="figureCard"><h3>Set-Position Distribution</h3><img src="figures/set_positions.png" alt="Bar chart of performance counts by position within set."/><p>Distribution of ordered performance positions.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Performance-row counts by within-set position index.</dd></div><div><dt>Exclusion</dt><dd>All loaded performance rows with positions are counted, including segment markers.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/set_positions.csv">CSV</a> · <a href="data/figures/set_positions.json">JSON</a></div></article>
+<article class="figureCard"><h3>Top Tours</h3><img src="figures/tours_top.png" alt="Horizontal bar chart of top tour labels by show count."/><p>Tour labels when available in the loaded data tier.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Show counts by displayed tour-label bucket.</dd></div><div><dt>Exclusion</dt><dd>Shows without tour metadata remain in the untagged bucket.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/tours_top.csv">CSV</a> · <a href="data/figures/tours_top.json">JSON</a></div></article>
+<article class="figureCard"><h3>Recurrence Gaps</h3><img src="figures/bustouts.png" alt="Horizontal bar chart of songs with the widest recurrence gaps."/><p>Largest intervening-show gaps between successive performances.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Maximum intervening-show gap between successive performances.</dd></div><div><dt>Exclusion</dt><dd>Generic segment markers are excluded.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/bustouts.csv">CSV</a> · <a href="data/figures/bustouts.json">JSON</a></div></article>
+<article class="figureCard"><h3>Song Lifespans</h3><img src="figures/song_lifespans.png" alt="Range chart showing first-to-last performance years for selected songs."/><p>First and last performance years for top repertoire items.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>First-to-last performance year for top songs by performance count.</dd></div><div><dt>Exclusion</dt><dd>Generic segment markers are excluded.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/song_lifespans.csv">CSV</a> · <a href="data/figures/song_lifespans.json">JSON</a></div></article>
+<article class="figureCard"><h3>Release Timeline</h3><img src="figures/releases_timeline.png" alt="Timeline scatterplot of releases grouped by kind."/><p>Bundled release records by kind and date.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Release dates and counts by release kind.</dd></div><div><dt>Exclusion</dt><dd>Release rows do not alter performance counts.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/releases_timeline.csv">CSV</a> · <a href="data/figures/releases_timeline.json">JSON</a></div></article>
+<article class="figureCard"><h3>Historical Context Timeline</h3><img src="figures/context_timeline.png" alt="Shows-per-year bar chart overlaid with selected historical milestones."/><p>Computed show counts with cited contextual milestones; milestones are not data rows.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Annual show counts with selected labelled historical waypoints.</dd></div><div><dt>Exclusion</dt><dd>Context labels are interpretive overlays and are not ingested rows.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/context_timeline.csv">CSV</a> · <a href="data/figures/context_timeline.json">JSON</a></div></article>
+</div>
+<div class="split"><article class="tableCard"><h3>Releases</h3><table><tr><th>Title</th><th>Date</th><th>Kind</th></tr>
+<tr><td>30 Trips Around the Sun</td><td>2015-09-18</td><td>box-set</td></tr>
+<tr><td>30 Trips Around the Sun: The Definitive Live Story 1965–1995</td><td>2015-09-18</td><td>live</td></tr>
+<tr><td>All the Years Combine: The DVD Collection</td><td>2012-04-17</td><td>studio</td></tr>
+<tr><td>American Beauty</td><td>1970-11-01</td><td>studio</td></tr>
+<tr><td>American Beauty: The Angel&#x27;s Share</td><td>2020-10-15</td><td>studio</td></tr>
+<tr><td>Anthem of the Sun</td><td>1968-07-18</td><td>studio</td></tr>
+<tr><td>Anthem to Beauty</td><td>1998-01-27</td><td>studio</td></tr>
+<tr><td>Aoxomoxoa</td><td>1969-06-20</td><td>studio</td></tr>
+<tr><td>Backstage Pass</td><td>1992-01-01</td><td>studio</td></tr>
+<tr><td>Beyond Description (1973-1989)</td><td>2004-10-26</td><td>box-set</td></tr>
+<tr><td>Birth of the Dead</td><td>2003-03-25</td><td>live</td></tr>
+<tr><td>Blues for Allah</td><td>1975-09-01</td><td>studio</td></tr>
+<tr><td>Blues for Allah: The Angel&#x27;s Share</td><td>2025-09-25</td><td>studio</td></tr>
+<tr><td>Built to Last</td><td>1989-10-31</td><td>studio</td></tr>
+<tr><td>Cornell 5/8/77</td><td>2017-05-05</td><td>archival</td></tr>
+<tr><td>Crimson White &amp; Indigo</td><td>2010-04-20</td><td>studio</td></tr>
+<tr><td>Dark Star</td><td>2012-04-21</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 1</td><td>2012-02-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 10</td><td>2014-05-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 11</td><td>2014-08-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 12</td><td>2014-11-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 13</td><td>2015-02-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 14</td><td>2015-05-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 15</td><td>2015-08-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 16</td><td>2015-11-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 17</td><td>2016-02-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 18</td><td>2016-05-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 19</td><td>2016-08-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 2</td><td>2012-05-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 20</td><td>2016-11-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 21</td><td>2017-02-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 22</td><td>2017-05-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 23</td><td>2017-08-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 24</td><td>2017-11-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 25</td><td>2018-01-26</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 26</td><td>2018-04-27</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 27</td><td>2018-07-27</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 28</td><td>2018-10-26</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 29</td><td>2019-02-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 3</td><td>2012-08-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 30</td><td>2019-05-03</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 31</td><td>2019-07-26</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 32</td><td>2019-11-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 33</td><td>2020-01-31</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 34</td><td>2020-05-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 35</td><td>2020-07-31</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 36</td><td>2020-10-30</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 37</td><td>2021-01-29</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 38</td><td>2021-04-30</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 39</td><td>2021-07-30</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 4</td><td>2012-11-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 40</td><td>2021-10-29</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 41</td><td>2022-01-28</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 42</td><td>2022-04-29</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 43</td><td>2022-07-29</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 44</td><td>2022-10-28</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 45</td><td>2023-01-27</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 46</td><td>2023-04-28</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 47</td><td>2023-07-28</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 48</td><td>2023-10-27</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 49</td><td>2024-01-26</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 5</td><td>2013-02-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 50</td><td>2024-04-26</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 51</td><td>2024-07-26</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 52</td><td>2024-10-25</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 53</td><td>2025-01-31</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 54</td><td>2025-04-25</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 55</td><td>2025-07-25</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 56</td><td>2025-10-31</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 57</td><td>2026-01-30</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 58</td><td>2026-05-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 6</td><td>2013-05-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 7</td><td>2013-08-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 8</td><td>2013-11-01</td><td>studio</td></tr>
+<tr><td>Dave&#x27;s Picks Volume 9</td><td>2014-02-01</td><td>studio</td></tr>
+<tr><td>Dead Ahead</td><td>1981-01-01</td><td>studio</td></tr>
+<tr><td>Dead Ringers: The Making of Touch of Grey</td><td>1987-01-01</td><td>studio</td></tr>
+<tr><td>Dead Set</td><td>1981-08-26</td><td>live</td></tr>
+<tr><td>Dead Zone: The Grateful Dead CD Collection (1977–1987)</td><td>1987-01-01</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 1</td><td>1993-12-01</td><td>archival</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 10</td><td>1998-02-26</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 11</td><td>1998-06-09</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 12</td><td>1998-10-15</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 13</td><td>1999-03-05</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 14</td><td>1999-06-18</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 15</td><td>1999-10-18</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 16</td><td>2000-03-01</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 17</td><td>2000-04-28</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 18</td><td>2000-06-01</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 19</td><td>2000-10-23</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 2</td><td>1995-03-01</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 20</td><td>2001-01-23</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 21</td><td>2001-03-20</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 22</td><td>2001-06-01</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 23</td><td>2001-10-16</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 24</td><td>2002-02-11</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 25</td><td>2002-07-20</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 26</td><td>2002-10-01</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 27</td><td>2003-01-17</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 28</td><td>2003-04-20</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 29</td><td>2003-07-22</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 3</td><td>1995-11-07</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 30</td><td>2003-10-30</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 31</td><td>2004-03-16</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 32</td><td>2004-07-20</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 33</td><td>2004-11-15</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 34</td><td>2005-02-14</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 35</td><td>2005-06-17</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 36</td><td>2005-10-01</td><td>live</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 4</td><td>1996-01-01</td><td>archival</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 5</td><td>1996-05-30</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 6</td><td>1996-10-07</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 7</td><td>1997-03-04</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 8</td><td>1997-06-14</td><td>studio</td></tr>
+<tr><td>Dick&#x27;s Picks Volume 9</td><td>1997-10-18</td><td>studio</td></tr>
+<tr><td>Downhill from Here</td><td>1997-10-07</td><td>studio</td></tr>
+<tr><td>Duke &#x27;78</td><td>2024-09-20</td><td>studio</td></tr>
+<tr><td>Dylan &amp; the Dead</td><td>1989-01-30</td><td>studio</td></tr>
+<tr><td>Enjoying the Ride</td><td>2025-05-30</td><td>studio</td></tr>
+<tr><td>Europe 72</td><td>1972-11-05</td><td>live</td></tr>
+<tr><td>Europe 72: The Complete Recordings</td><td>2011-09-12</td><td>box-set</td></tr>
+<tr><td>Europe &#x27;72 Volume 2</td><td>2011-09-20</td><td>studio</td></tr>
+<tr><td>Fallout from the Phil Zone</td><td>1997-06-17</td><td>studio</td></tr>
+<tr><td>Family Dog at the Great Highway, San Francisco, CA 4/18/70</td><td>2013-11-29</td><td>studio</td></tr>
+<tr><td>Fillmore Auditorium, San Francisco, CA, July 3, 1966</td><td>2026-07-03</td><td>studio</td></tr>
+<tr><td>Fillmore West 1969</td><td>2005-11-25</td><td>studio</td></tr>
+<tr><td>Fillmore West 1969: February 27th</td><td>2018-04-21</td><td>studio</td></tr>
+<tr><td>Fillmore West 1969: February 28th</td><td>2019-07-09</td><td>studio</td></tr>
+<tr><td>Fillmore West 1969: The Complete Recordings</td><td>2005-11-25</td><td>studio</td></tr>
+<tr><td>Flashback with the Grateful Dead</td><td>2011-04-05</td><td>studio</td></tr>
+<tr><td>Formerly the Warlocks</td><td>2010-09-07</td><td>studio</td></tr>
+<tr><td>Fox Theatre, St. Louis, MO 12-10-71</td><td>2021-10-01</td><td>studio</td></tr>
+<tr><td>Friend of the Devils: April 1978</td><td>2024-09-20</td><td>studio</td></tr>
+<tr><td>From the Mars Hotel</td><td>1974-06-27</td><td>studio</td></tr>
+<tr><td>From the Mars Hotel: The Angel&#x27;s Share</td><td>2024-04-17</td><td>studio</td></tr>
+<tr><td>Giants Stadium 1987, 1989, 1991</td><td>2019-09-27</td><td>studio</td></tr>
+<tr><td>Go to Heaven</td><td>1980-04-28</td><td>studio</td></tr>
+<tr><td>Grateful Dead</td><td>1971-10-24</td><td>studio</td></tr>
+<tr><td>Grateful Dead Download Series: Family Dog at the Great Highway</td><td>2005-12-06</td><td>studio</td></tr>
+<tr><td>Grateful Dead Download Series Volume 1</td><td>2005-05-03</td><td>studio</td></tr>
+<tr><td>Grateful Dead Download Series Volume 10</td><td>2006-02-07</td><td>studio</td></tr>
+<tr><td>Grateful Dead Download Series Volume 11</td><td>2006-03-07</td><td>studio</td></tr>
+<tr><td>Grateful Dead Download Series Volume 12</td><td>2006-04-04</td><td>studio</td></tr>
+<tr><td>Grateful Dead Download Series Volume 2</td><td>2005-06-07</td><td>studio</td></tr>
+<tr><td>Grateful Dead Download Series Volume 3</td><td>2005-07-05</td><td>studio</td></tr>
+<tr><td>Grateful Dead Download Series Volume 4</td><td>2005-08-02</td><td>studio</td></tr>
+<tr><td>Grateful Dead Download Series Volume 5</td><td>2005-09-06</td><td>studio</td></tr>
+<tr><td>Grateful Dead Download Series Volume 6</td><td>2005-10-04</td><td>studio</td></tr>
+<tr><td>Grateful Dead Download Series Volume 7</td><td>2005-11-01</td><td>studio</td></tr>
+<tr><td>Grateful Dead Download Series Volume 8</td><td>2005-12-06</td><td>studio</td></tr>
+<tr><td>Grateful Dead Download Series Volume 9</td><td>2006-01-03</td><td>studio</td></tr>
+<tr><td>Grateful Dead Origins</td><td>2021-01-01</td><td>studio</td></tr>
+<tr><td>Grateful Dead Records Collection</td><td>2017-11-24</td><td>studio</td></tr>
+<tr><td>Grateful Dead (Skull and Roses)</td><td>1971-10-24</td><td>live</td></tr>
+<tr><td>Gratest Hits</td><td>2025-06-13</td><td>studio</td></tr>
+<tr><td>Grayfolded</td><td>1994-01-01</td><td>studio</td></tr>
+<tr><td>Here Comes Sunshine 1973</td><td>2023-06-30</td><td>studio</td></tr>
+<tr><td>Historic Dead</td><td>1971-06-01</td><td>studio</td></tr>
+<tr><td>History of the Grateful Dead, Volume One (Bear&#x27;s Choice)</td><td>1973-07-13</td><td>studio</td></tr>
+<tr><td>Houston, Texas 11-18-1972</td><td>2014-11-28</td><td>studio</td></tr>
+<tr><td>In and Out of the Garden: Madison Square Garden &#x27;81, &#x27;82, &#x27;83</td><td>2022-09-23</td><td>studio</td></tr>
+<tr><td>In the Dark</td><td>1987-07-06</td><td>studio</td></tr>
+<tr><td>Infrared Roses</td><td>1991-11-01</td><td>studio</td></tr>
+<tr><td>Infrared Sightings</td><td>1992-01-01</td><td>studio</td></tr>
+<tr><td>July 1978: The Complete Recordings</td><td>2016-05-13</td><td>studio</td></tr>
+<tr><td>July 29 1966, P.N.E. Garden Aud., Vancouver Canada</td><td>2017-04-22</td><td>studio</td></tr>
+<tr><td>June 1976</td><td>2020-03-20</td><td>studio</td></tr>
+<tr><td>Ladies and Gentlemen... the Grateful Dead</td><td>2000-10-10</td><td>studio</td></tr>
+<tr><td>Listen to the River: St. Louis &#x27;71 &#x27;72 &#x27;73</td><td>2021-10-08</td><td>studio</td></tr>
+<tr><td>Live at Hampton Coliseum</td><td>2014-04-19</td><td>live</td></tr>
+<tr><td>Live at the Cow Palace</td><td>2007-01-19</td><td>live</td></tr>
+<tr><td>Live at the Fillmore East 2-11-69</td><td>1997-10-01</td><td>live</td></tr>
+<tr><td>Live/Dead</td><td>1969-11-10</td><td>live</td></tr>
+<tr><td>Long Strange Trip</td><td>2017-05-26</td><td>studio</td></tr>
+<tr><td>Lyceum &#x27;72: The Complete Recordings</td><td>2022-07-29</td><td>studio</td></tr>
+<tr><td>Lyceum Theatre, London, England 5/26/72</td><td>2022-07-29</td><td>studio</td></tr>
+<tr><td>Madison Square Garden, New York, NY 3/9/81</td><td>2022-09-23</td><td>studio</td></tr>
+<tr><td>May 1977</td><td>2013-06-11</td><td>studio</td></tr>
+<tr><td>May 1977: Get Shown the Light</td><td>2017-05-05</td><td>studio</td></tr>
+<tr><td>Nightfall of Diamonds</td><td>2001-09-25</td><td>studio</td></tr>
+<tr><td>One from the Vault</td><td>1991-04-23</td><td>archival</td></tr>
+<tr><td>Pacific Northwest &#x27;73–&#x27;74: Believe It If You Need It</td><td>2018-09-07</td><td>studio</td></tr>
+<tr><td>Pacific Northwest &#x27;73–&#x27;74: The Complete Recordings</td><td>2018-09-07</td><td>studio</td></tr>
+<tr><td>Playing in the Band, Seattle, Washington, 5/21/74</td><td>2018-11-23</td><td>studio</td></tr>
+<tr><td>Portland Memorial Coliseum, Portland, OR, 5/19/74</td><td>2018-09-07</td><td>studio</td></tr>
+<tr><td>Rare Cuts and Oddities 1966</td><td>2005-03-25</td><td>studio</td></tr>
+<tr><td>Ready or Not</td><td>2019-11-22</td><td>studio</td></tr>
+<tr><td>Reckoning</td><td>1981-04-01</td><td>live</td></tr>
+<tr><td>RFK Stadium, Washington, D.C. 6/10/73</td><td>2023-06-30</td><td>studio</td></tr>
+<tr><td>Road Trips Full Show: Spectrum 11/5/79</td><td>2008-09-10</td><td>studio</td></tr>
+<tr><td>Road Trips Full Show: Spectrum 11/6/79</td><td>2008-09-10</td><td>studio</td></tr>
+<tr><td>Road Trips Volume 1 Number 1</td><td>2007-11-05</td><td>studio</td></tr>
+<tr><td>Road Trips Volume 1 Number 2</td><td>2008-02-04</td><td>studio</td></tr>
+<tr><td>Road Trips Volume 1 Number 3</td><td>2008-06-09</td><td>studio</td></tr>
+<tr><td>Road Trips Volume 1 Number 4</td><td>2008-09-30</td><td>studio</td></tr>
+<tr><td>Road Trips Volume 2 Number 1</td><td>2008-12-10</td><td>studio</td></tr>
+<tr><td>Road Trips Volume 2 Number 2</td><td>2009-03-21</td><td>studio</td></tr>
+<tr><td>Road Trips Volume 2 Number 3</td><td>2009-06-18</td><td>studio</td></tr>
+<tr><td>Road Trips Volume 2 Number 4</td><td>2009-08-25</td><td>studio</td></tr>
+<tr><td>Road Trips Volume 3 Number 1</td><td>2009-11-10</td><td>studio</td></tr>
+<tr><td>Road Trips Volume 3 Number 2</td><td>2010-02-24</td><td>studio</td></tr>
+<tr><td>Road Trips Volume 3 Number 3</td><td>2010-06-14</td><td>studio</td></tr>
+<tr><td>Road Trips Volume 3 Number 4</td><td>2010-09-07</td><td>studio</td></tr>
+<tr><td>Road Trips Volume 4 Number 1</td><td>2010-11-16</td><td>studio</td></tr>
+<tr><td>Road Trips Volume 4 Number 2</td><td>2011-02-01</td><td>studio</td></tr>
+<tr><td>Road Trips Volume 4 Number 3</td><td>2011-04-26</td><td>studio</td></tr>
+<tr><td>Road Trips Volume 4 Number 4</td><td>2011-08-01</td><td>studio</td></tr>
+<tr><td>Road Trips Volume 4 Number 5</td><td>2011-11-01</td><td>studio</td></tr>
+<tr><td>Robert F. Kennedy Stadium, Washington, D.C., July 12 &amp; 13, 1989</td><td>2017-11-10</td><td>studio</td></tr>
+<tr><td>Rockin&#x27; the Rhein with the Grateful Dead</td><td>2004-05-25</td><td>studio</td></tr>
+<tr><td>Rocking the Cradle: Egypt 1978</td><td>2008-09-30</td><td>studio</td></tr>
+<tr><td>Sage &amp; Spirit</td><td>2019-04-13</td><td>studio</td></tr>
+<tr><td>Saint of Circumstance</td><td>2019-09-27</td><td>studio</td></tr>
+<tr><td>Selections From the Arista Years</td><td>1997-01-13</td><td>studio</td></tr>
+<tr><td>Shakedown Street</td><td>1978-11-15</td><td>studio</td></tr>
+<tr><td>Shrine Exposition Hall, Los Angeles, CA 11/10/1967</td><td>2016-01-22</td><td>studio</td></tr>
+<tr><td>Skeletons from the Closet: The Best of Grateful Dead</td><td>1974-02-01</td><td>studio</td></tr>
+<tr><td>So Far</td><td>1987-01-01</td><td>studio</td></tr>
+<tr><td>So Many Roads (1965-1995)</td><td>1999-11-09</td><td>box-set</td></tr>
+<tr><td>So Many Roads (1965–1995) Sampler</td><td>1999-11-07</td><td>studio</td></tr>
+<tr><td>Spring 1990</td><td>2012-08-31</td><td>studio</td></tr>
+<tr><td>Spring 1990: So Glad You Made It</td><td>2012-09-18</td><td>studio</td></tr>
+<tr><td>Spring 1990 (The Other One)</td><td>2014-09-09</td><td>studio</td></tr>
+<tr><td>Steal Your Face</td><td>1976-06-26</td><td>live</td></tr>
+<tr><td>Steppin&#x27; Out with the Grateful Dead: England &#x27;72</td><td>2002-07-09</td><td>studio</td></tr>
+<tr><td>Sunshine Daydream</td><td>2013-09-17</td><td>studio</td></tr>
+<tr><td>Terrapin Station</td><td>1977-07-27</td><td>studio</td></tr>
+<tr><td>The Arista Years</td><td>1996-10-15</td><td>studio</td></tr>
+<tr><td>The Best of the Grateful Dead</td><td>2015-03-31</td><td>studio</td></tr>
+<tr><td>The Best of the Grateful Dead Live</td><td>2018-03-23</td><td>live</td></tr>
+<tr><td>The Closing of Winterland</td><td>2003-11-11</td><td>studio</td></tr>
+<tr><td>The Golden Road (1965-1973)</td><td>2001-10-23</td><td>box-set</td></tr>
+<tr><td>The Grateful Dead</td><td>1967-03-17</td><td>studio</td></tr>
+<tr><td>The Grateful Dead Movie</td><td>1977-06-01</td><td>studio</td></tr>
+<tr><td>The Grateful Dead Movie Soundtrack</td><td>2005-03-15</td><td>studio</td></tr>
+<tr><td>The Music Never Stopped</td><td>2025-05-30</td><td>studio</td></tr>
+<tr><td>The Story of the Grateful Dead</td><td>2020-11-01</td><td>studio</td></tr>
+<tr><td>The Very Best of Grateful Dead</td><td>2003-09-16</td><td>studio</td></tr>
+<tr><td>The Warfield, San Francisco, California, October 9 &amp; 10, 1980</td><td>2019-04-13</td><td>studio</td></tr>
+<tr><td>The Warner Bros. Studio Albums</td><td>2010-09-21</td><td>studio</td></tr>
+<tr><td>Three from the Vault</td><td>2007-06-26</td><td>studio</td></tr>
+<tr><td>Ticket to New Year&#x27;s</td><td>1996-10-01</td><td>studio</td></tr>
+<tr><td>To Terrapin: Hartford &#x27;77</td><td>2009-04-07</td><td>studio</td></tr>
+<tr><td>Truckin&#x27; Up to Buffalo</td><td>2005-07-12</td><td>studio</td></tr>
+<tr><td>Two from the Vault</td><td>1992-08-25</td><td>archival</td></tr>
+<tr><td>View from the Vault, Volume Four</td><td>2003-04-08</td><td>studio</td></tr>
+<tr><td>View from the Vault, Volume Three</td><td>2002-07-15</td><td>studio</td></tr>
+<tr><td>View from the Vault, Volume Two</td><td>2001-06-08</td><td>studio</td></tr>
+<tr><td>Vintage Dead</td><td>1970-10-01</td><td>studio</td></tr>
+<tr><td>Wake of the Flood</td><td>1973-10-15</td><td>studio</td></tr>
+<tr><td>Wake of the Flood: The Angel&#x27;s Share</td><td>2023-08-18</td><td>studio</td></tr>
+<tr><td>Wake Up to Find Out</td><td>2014-09-09</td><td>studio</td></tr>
+<tr><td>What a Long Strange Trip It&#x27;s Been</td><td>1977-09-01</td><td>studio</td></tr>
+<tr><td>Winterland 1973: The Complete Recordings</td><td>2008-04-01</td><td>studio</td></tr>
+<tr><td>Winterland June 1977: The Complete Recordings</td><td>2009-10-01</td><td>studio</td></tr>
+<tr><td>Winterland: May 30th 1971</td><td>2012-11-23</td><td>studio</td></tr>
+<tr><td>Without a Net</td><td>1990-09-04</td><td>live</td></tr>
+<tr><td>Workingman&#x27;s Dead</td><td>1970-06-14</td><td>studio</td></tr>
+<tr><td>Workingman&#x27;s Dead: The Angel&#x27;s Share</td><td>2020-07-01</td><td>studio</td></tr>
+</table></article>
+<article class="tableCard"><h3>Citations</h3><table><tr><th>Key</th><th>Kind</th><th>Title</th></tr>
+<tr><td>03335372_24_1_35_53</td><td>article</td><td><a href="https://doi.org/10.1215/03335372-24-1-35">DOI 03335372-24-1-35</a></td></tr>
+<tr><td>25_years_after_jerry_garcia_s_death_the_grateful_dead_s_popularity_endures</td><td>web</td><td><a href="https://www.cbsnews.com/sanfrancisco/news/25-years-after-jerry-garcias-death-the-grateful-dead-endures/">25 Years After Jerry Garcia&#x27;s Death, the Grateful Dead&#x27;s Popularity Endures</a></td></tr>
+<tr><td>60_years_ago_today_the_warlocks_became_the_grateful_dead</td><td>web</td><td><a href="https://liveforlivemusic.com/news/60-years-ago-today-the-warlocks-became-grateful-dead/">60 Years Ago Today, The Warlocks Became The Grateful Dead</a></td></tr>
+<tr><td>77_1_1_54</td><td>article</td><td><a href="https://doi.org/10.1093/sf/77.1.1">DOI 77.1.1</a></td></tr>
+<tr><td>77_1_1_55</td><td>article</td><td><a href="https://doi.org/10.1093/sf/77.1.1">DOI 77.1.1</a></td></tr>
+<tr><td>9781478027614</td><td>article</td><td><a href="https://doi.org/10.1215/9781478027614">DOI 9781478027614</a></td></tr>
+<tr><td>a_grateful_dead_analysis_the_relationship_between_concert_and_listening_behavior</td><td>article</td><td><a href="https://arxiv.org/abs/0807.2466">A Grateful Dead Analysis: The Relationship Between Concert and Listening
+  Behavior</a></td></tr>
+<tr><td>a_long_strange_trip_audiobook_by_dennis_mcnally_audible_com</td><td>web</td><td><a href="https://www.audible.com/pd/A-Long-Strange-Trip-Audiobook/B077JDS3C8">A Long Strange Trip Audiobook by Dennis McNally - Audible.com</a></td></tr>
+<tr><td>a_long_strange_trip_from_early_christianity_to_the_grateful_dead_s</td><td>web</td><td><a href="https://religionnews.com/2025/07/17/deadheads-and-christians/">A long strange trip from early Christianity to the Grateful Dead&#x27;s </a></td></tr>
+<tr><td>a_long_strange_trip_the_inside_history_of_the_by_dennis_mcnally</td><td>web</td><td><a href="https://www.youtube.com/watch?v=JOVr6ZsTpOo">A Long Strange Trip: The Inside History of the… by Dennis McNally</a></td></tr>
+<tr><td>acid_tests_wikipedia</td><td>web</td><td><a href="https://en.wikipedia.org/wiki/Acid_Tests">Acid Tests - Wikipedia</a></td></tr>
+<tr><td>adams_deadhead_social_science</td><td>book</td><td><a href="https://www.bloomsbury.com/us/deadhead-social-science-9780742502512/">Deadhead Social Science: You Ain&#x27;t Gonna Learn What You Don&#x27;t Want to Know</a></td></tr>
+<tr><td>after_all_is_said_and_done_taping_the_grateful_dead_1965_1995</td><td>web</td><td><a href="https://www.newcommute.net/feed/2022/8/9/after-all-is-said-and-done-taping-the-grateful-dead-1965-1995">After All is Said and Done: Taping the Grateful Dead, 1965-1995</a></td></tr>
+<tr><td>americana_highways_workingmans_american_beauty</td><td>article</td><td><a href="https://americanahighways.org/2020/11/18/review-the-grateful-deads-reissues-of-workingmans-dead-and-american-beauty-are-impeccable/">The Grateful Dead&#x27;s Reissues of Workingman&#x27;s Dead and American Beauty</a></td></tr>
+<tr><td>and_then_flew_on_improvisational_moments_of_rhizomatic_assemblage</td><td>web</td><td><a href="https://www.csustan.edu/sites/default/files/2022-07/gd-improvisation.pdf">“and then flew on”: improvisational moments of rhizomatic assemblage </a></td></tr>
+<tr><td>basic_books_the_grateful_dead_studies_association</td><td>web</td><td><a href="https://deadstudies.org/?page_id=89">Basic Books - the grateful dead studies association</a></td></tr>
+<tr><td>bibliography_the_grateful_dead_studies_association</td><td>web</td><td><a href="https://deadstudies.org/?page_id=1345">Bibliography - the grateful dead studies association</a></td></tr>
+<tr><td>billboard_lyric_book</td><td>article</td><td><a href="https://www.billboard.com/culture/product-recommendations/grateful-dead-lyric-book-buy-online-1235812793/">Billboard — The Complete Annotated Grateful Dead Lyrics review</a></td></tr>
+<tr><td>brackett_live_dead</td><td>book</td><td><a href="https://www.dukeupress.edu/live-dead">Live Dead: The Grateful Dead, Live Recordings, and the Ideology of Liveness</a></td></tr>
+<tr><td>britannica_gd</td><td>web</td><td><a href="https://www.britannica.com/topic/Grateful-Dead">Encyclopaedia Britannica — Grateful Dead</a></td></tr>
+<tr><td>britannica_jerry_garcia</td><td>web</td><td><a href="https://www.britannica.com/biography/Jerry-Garcia">Jerry Garcia - Encyclopaedia Britannica</a></td></tr>
+<tr><td>cmu_leone_lyrics</td><td>web</td><td><a href="https://www.cs.cmu.edu/~mleone/dead-lyrics.html">Mark Leone — Grateful Dead Lyrics (CMU)</a></td></tr>
+<tr><td>cmu_leone_setlists</td><td>web</td><td><a href="https://www.cs.cmu.edu/~mleone/gs.html">Mark Leone — Grateful Dead Setlists (CMU)</a></td></tr>
+<tr><td>dead_company_confirm_60th_anniversary_celebration_of</td><td>web</td><td><a href="https://relix.com/news/detail/dead-company-confirm-60th-anniversary-celebration-of-grateful-dead-in-golden-gate-park-with-opening-sets-from-billy-strings-sturgill-simpson-and-trey-anastasio-band/">Dead &amp; Company Confirm 60th Anniversary Celebration of </a></td></tr>
+<tr><td>dead_company_launches_grateful_dead_60th_anniversary</td><td>web</td><td><a href="https://www.jambase.com/article/dead-company-grateful-dead-60th-anniversary-golden-gate-park-billy-strings-grahame-lesh">Dead &amp; Company Launches Grateful Dead 60th Anniversary </a></td></tr>
+<tr><td>dead_net_biography</td><td>web</td><td><a href="https://www.dead.net/biography">Grateful Dead Biography</a></td></tr>
+<tr><td>dead_net_official</td><td>web</td><td><a href="https://www.dead.net/band">Grateful Dead — Band Members (official)</a></td></tr>
+<tr><td>dead_net_taping_dead</td><td>web</td><td><a href="https://www.dead.net/features/documenting-dead/documenting-dead-taping-dead">Documenting The Dead: Taping the Dead</a></td></tr>
+<tr><td>dead_studies_grateful_dead</td><td>web</td><td><a href="https://www.dead.net/dead-studies">DEAD STUDIES - Grateful Dead</a></td></tr>
+<tr><td>dodd_annotated_lyrics</td><td>book</td><td><a href="https://www.simonandschuster.com/books/The-Complete-Annotated-Grateful-Dead-Lyrics/David-G-Dodd/9781439103340">The Complete Annotated Grateful Dead Lyrics</a></td></tr>
+<tr><td>dodd_weiner_annotated_bibliography</td><td>book</td><td><a href="https://www.bloomsbury.com/us/grateful-dead-and-the-deadheads-9780313301414/">The Grateful Dead and the Deadheads: An Annotated Bibliography</a></td></tr>
+<tr><td>dr_rebecca_adams_the_grateful_dead_and_1_000_000_deadheads</td><td>web</td><td><a href="https://gerontology.uncg.edu/dr-rebecca-adams-deadhead-scholar/">Dr. Rebecca Adams, the Grateful Dead and 1,000,000+ Deadheads</a></td></tr>
+<tr><td>everything_i_know_about_business_i_learned_from_the_grateful_dead</td><td>web</td><td><a href="https://books.google.com/books/about/Everything_I_Know_About_Business_I_Learn.html?id=BQY2AQAAQBAJ">Everything I Know About Business I Learned from the Grateful Dead</a></td></tr>
+<tr><td>fear_and_norms_and_rock_roll_what_jambands_can_teach_us_about_persuading_people_</td><td>web</td><td><a href="https://lawcat.berkeley.edu/record/1120554">Fear and Norms and Rock &amp; Roll: What Jambands Can Teach Us about Persuading People to Obey Copyright Law</a></td></tr>
+<tr><td>fifteen_songs_dataset</td><td>corpus</td><td><a href="https://github.com/grateful-dead-live/fifteen-songs-dataset">grateful-dead-live — fifteen-songs-dataset</a></td></tr>
+<tr><td>foundsf_weir_psychedelic_sf</td><td>web</td><td><a href="https://www.foundsf.org/Bob_Weir_on_Psychedelic_San_Francisco_and_the_Birth_of_the_Grateful_Dead">Bob Weir on Psychedelic San Francisco and the Birth of the Grateful Dead</a></td></tr>
+<tr><td>garcia_an_american_life_jackson_blair_free_download_borrow_and_streaming_interne</td><td>corpus</td><td><a href="https://archive.org/details/garciaamericanli0000jack_a2t2">Garcia : an American life : Jackson, Blair : Free Download, Borrow, and Streaming : Internet Archive</a></td></tr>
+<tr><td>garcia_by_holly_george_warren_goodreads</td><td>web</td><td><a href="https://www.goodreads.com/book/show/1813415.Garcia">Garcia by Holly George-Warren | Goodreads</a></td></tr>
+<tr><td>gd_reviews_corpus</td><td>corpus</td><td><a href="https://github.com/maximinus/grateful-dead-reviews/blob/master/dead_reviews.txt">maximinus — grateful-dead-reviews</a></td></tr>
+<tr><td>gdsets_com</td><td>web</td><td><a href="https://gdsets.com">GDSets.com</a></td></tr>
+<tr><td>gdsets_dead</td><td>web</td><td><a href="https://gdsets.com/grateful-dead.htm">GDSets — Grateful Dead</a></td></tr>
+<tr><td>gdshowsdb</td><td>github</td><td><a href="https://github.com/jefmsmit/gdshowsdb">Jeff Smith — gdshowsdb</a></td></tr>
+<tr><td>github_topic_gratefuldead</td><td>github</td><td><a href="https://github.com/topics/gratefuldead">GitHub topic: gratefuldead</a></td></tr>
+<tr><td>grammy_lifetime_achievement</td><td>web</td><td><a href="https://www.grammy.com/awards/lifetime-achievement-awards">Lifetime Achievement Award - Recording Academy</a></td></tr>
+<tr><td>grateful_data_tutorial</td><td>github</td><td><a href="https://github.com/scottythered/gratefuldata">Scotty Thered — Grateful Data</a></td></tr>
+<tr><td>grateful_dead</td><td>web</td><td><a href="https://www.newworldencyclopedia.org/entry/Grateful_Dead">Grateful Dead</a></td></tr>
+<tr><td>grateful_dead_albums</td><td>web</td><td><a href="http://deaddisc.com/GDFD_Grateful_Dead.htm">Grateful Dead albums</a></td></tr>
+<tr><td>grateful_dead_always_knew_how_to_connect_with_fans_techdirt</td><td>web</td><td><a href="https://www.techdirt.com/2010/02/15/grateful-dead-always-knew-how-to-connect-with-fans/">Grateful Dead Always Knew How To Connect With Fans - Techdirt</a></td></tr>
+<tr><td>grateful_dead_biography</td><td>web</td><td><a href="http://www.dead101.com/biogddata.htm">Grateful Dead Biography</a></td></tr>
+<tr><td>grateful_dead_donates_archives_to_uc_santa_cruz_news</td><td>web</td><td><a href="https://news.ucsc.edu/2008/04/grateful-dead-donates-archives-to-uc-santa-cruz/">Grateful Dead donates archives to UC Santa Cruz - News</a></td></tr>
+<tr><td>grateful_dead_etymology_origin_meaning_of_the_name</td><td>web</td><td><a href="https://www.etymonline.com/word/Grateful%20Dead">Grateful Dead - Etymology, Origin &amp; Meaning of the Name</a></td></tr>
+<tr><td>grateful_dead_house_clio</td><td>web</td><td><a href="https://theclio.com/entry/15969">Grateful Dead House - Clio</a></td></tr>
+<tr><td>grateful_dead_music_group_history_research_starters_ebsco</td><td>web</td><td><a href="https://www.ebsco.com/research-starters/history/grateful-dead-music-group">Grateful Dead (music group) | History | Research Starters - EBSCO</a></td></tr>
+<tr><td>grateful_dead_studies_an_interdisciplinary_academic_journal_about</td><td>web</td><td><a href="https://gratefuldeadstudies.org">Grateful Dead Studies | An Interdisciplinary Academic Journal about </a></td></tr>
+<tr><td>grateful_dead_studio_albums</td><td>web</td><td><a href="https://whitegum.com/studio.htm">Grateful Dead studio albums</a></td></tr>
+<tr><td>grateful_dead_studio_albums_from_worst_to_first</td><td>web</td><td><a href="https://blog.paradisefoundrecordsmusic.com/grateful-dead-studio-albums-from-worst-to-first/">Grateful Dead Studio Albums From Worst to First</a></td></tr>
+<tr><td>grateful_dead_this_day_in_music</td><td>web</td><td><a href="https://www.thisdayinmusic.com/artists/grateful-dead/">Grateful Dead - This Day In Music</a></td></tr>
+<tr><td>grateful_seconds_touring_revenues</td><td>web</td><td><a href="http://www.gratefulseconds.com/2016/01/grateful-dead-touring-revenues-1965-1995.html">Grateful Dead Touring Revenues 1965-1995</a></td></tr>
+<tr><td>grateful_stats</td><td>web</td><td><a href="https://www.gratefulstats.com">Grateful Stats</a></td></tr>
+<tr><td>how_did_they_get_the_name</td><td>web</td><td><a href="https://www.cs.cmu.edu/~./gdead/faq/name.html">How did they get the name?</a></td></tr>
+<tr><td>how_relaxed_copyright_enforcement_has_allowed_the_grateful_dead</td><td>web</td><td><a href="https://jolt.richmond.edu/2019/10/28/listen-to-the-music-play-how-relaxed-copyright-enforcement-has-allowed-the-grateful-dead-and-phish-make-money/">How Relaxed Copyright Enforcement has Allowed the Grateful Dead </a></td></tr>
+<tr><td>how_the_grateful_dead_learned_to_jam_building_a_framework_for_improvisation</td><td>article</td><td><a href="https://read.dukeupress.edu/books/book/3277/chapter/8418104/How-the-Grateful-Dead-Learned-to-JamBuilding-a">How the Grateful Dead Learned to Jam: Building a Framework for Improvisation</a></td></tr>
+<tr><td>implicit_religion_reshaping_the_boundary_between_the_religious_and_the_secular</td><td>article</td><td><a href="https://www.tandfonline.com/doi/full/10.1080/13617672.2022.2005707">Implicit religion: reshaping the boundary between the religious and the secular?</a></td></tr>
+<tr><td>inciting_sociological_thought_by_studying_the_deadhead_community</td><td>article</td><td><a href="https://academic.oup.com/sf/article-abstract/77/1/1/2233665">Inciting Sociological Thought by Studying the Deadhead Community</a></td></tr>
+<tr><td>inciting_sociological_thought_by_studying_the_deadhead_community_engaging_public</td><td>article</td><td><a href="https://academic.oup.com/sf/article/77/1/1/2233665?guestAccessKey=">Inciting Sociological Thought by Studying the Deadhead Community: Engaging Publics in Dialogue*</a></td></tr>
+<tr><td>internet_archive_gd_collection_policy</td><td>web</td><td><a href="https://help.archive.org/help/the-grateful-dead-collection/">The Grateful Dead Collection</a></td></tr>
+<tr><td>internet_archive_lma</td><td>corpus</td><td><a href="https://archive.org/details/GratefulDead">Internet Archive — Live Music Archive (Grateful Dead)</a></td></tr>
+<tr><td>jerry_garcia_s_last_grateful_dead_showand_its_surprising_result</td><td>web</td><td><a href="https://time.com/3946460/grateful-dead-last-show-history/">Jerry Garcia&#x27;s Last Grateful Dead Show—And Its Surprising Result</a></td></tr>
+<tr><td>jerry_garcia_sandy_troy_google_books</td><td>web</td><td><a href="https://books.google.com/books/about/Jerry_Garcia.html?id=RzlQEAAAQBAJ">Jerry Garcia - Sandy Troy - Google Books</a></td></tr>
+<tr><td>jerry_pycia</td><td>github</td><td><a href="https://github.com/andrewblance/jerryPycia">Andrew Blance — jerryPycia</a></td></tr>
+<tr><td>journal_overview_grateful_dead_studies</td><td>web</td><td><a href="https://gratefuldeadstudies.org/journal-overview/">Journal Overview | Grateful Dead Studies</a></td></tr>
+<tr><td>journal_the_grateful_dead_studies_association</td><td>web</td><td><a href="https://deadstudies.org/?page_id=807">Journal - the grateful dead studies association</a></td></tr>
+<tr><td>jstor_daily_tape_trading</td><td>article</td><td><a href="https://daily.jstor.org/grateful-dead-tape-trading-music-industry/">The Grateful Dead, Tape Trading, and the Music Industry</a></td></tr>
+<tr><td>kennedy_center_honors_2024</td><td>web</td><td><a href="https://www.kennedy-center.org/globalassets/news-room/press-release-pdfs/2024/press-release---kennedy-center-announces-47th-kennedy-center-honors-slate.pdf">The Kennedy Center Announces 47th Class of Honorees</a></td></tr>
+<tr><td>legacies_live_on_in_special_collections</td><td>web</td><td><a href="https://www.universityofcalifornia.edu/news/legacies-live-special-collections">Legacies live on in special collections</a></td></tr>
+<tr><td>lewin_gmit</td><td>book</td><td><a href="https://academic.oup.com/book/4583">Generalized Musical Intervals and Transformations</a></td></tr>
+<tr><td>library_guides_the_grateful_dead_archive_welcome</td><td>web</td><td><a href="https://guides.library.ucsc.edu/gratefuldeadarchive/welcome">Library Guides: The Grateful Dead Archive: Welcome!</a></td></tr>
+<tr><td>life_cycle_imagery_in_the_lyric_of_robert_hunter</td><td>web</td><td><a href="http://artsites.ucsc.edu/gdead/agdl/schleif.html">Life Cycle Imagery in the Lyric of Robert Hunter</a></td></tr>
+<tr><td>live_dead_the_grateful_dead_live_recordings_and_the</td><td>web</td><td><a href="https://www.goodreads.com/en/book/show/123840849">Live Dead: The Grateful Dead, Live Recordings, and the …</a></td></tr>
+<tr><td>live_dead_the_grateful_dead_live_recordings_and_the_ideology_of_liveness</td><td>article</td><td><a href="https://read.dukeupress.edu/books/book/3287/Live-DeadThe-Grateful-Dead-Live-Recordings-and-the">Live Dead: The Grateful Dead, Live Recordings, and the Ideology of Liveness</a></td></tr>
+<tr><td>liveness_and_the_grateful_dead</td><td>web</td><td><a href="https://scholarlypublishingcollective.org/am/article/37/2/123/260498/Liveness-and-the-Grateful-Dead">Liveness and the Grateful Dead</a></td></tr>
+<tr><td>long_strange_trips_tourism_events_and_the_grateful_dead</td><td>web</td><td><a href="https://www.ingentaconnect.com/content/10.3727/152599519X15506259855850">Long Strange Trips: Tourism, Events, and the Grateful Dead</a></td></tr>
+<tr><td>marshall_bootleg_collectors</td><td>article</td><td><a href="https://doi.org/10.1017/S0261143003003040">For and Against the Record Industry: An Introduction to Bootleg Collectors and Tape Traders</a></td></tr>
+<tr><td>mcintosh_wall_of_sound</td><td>web</td><td><a href="https://www.mcintoshlabs.com/about/news/mcintosh-and-the-grateful-deads-wall-of-sound">Bringing the Grateful Dead&#x27;s Wall of Sound to Life</a></td></tr>
+<tr><td>more</td><td>web</td><td><a href="https://www.deadandcompanytour2022.com">More</a></td></tr>
+<tr><td>mus_31104_grateful_dead_scholarly_literature_ccny_libraries</td><td>web</td><td><a href="https://library.ccny.cuny.edu/gratefuldead/scholarly">MUS 31104: Grateful Dead: Scholarly Literature - CCNY Libraries</a></td></tr>
+<tr><td>new_studies_in_the_grateful_dead_book_series_to_explore_band_s</td><td>web</td><td><a href="https://liveforlivemusic.com/news/studies-in-the-grateful-dead-book-series/">New &#x27;Studies In The Grateful Dead&#x27; Book Series To Explore Band&#x27;s </a></td></tr>
+<tr><td>nicholas_meriwether_innovator_and_advocate_for_grateful_dead</td><td>web</td><td><a href="https://relix.com/articles/detail/nicholas-meriwether-innovator-and-advocate-for-grateful-dead-scholarship/">Nicholas Meriwether: Innovator and Advocate for Grateful Dead </a></td></tr>
+<tr><td>noah_truckin_through_time</td><td>web</td><td><a href="https://noahgorstein.com/blog/truckin-through-time/">Noah Gorstein — Truckin&#x27; Through Time</a></td></tr>
+<tr><td>padi_category_music_case_study</td><td>article</td><td><a href="https://www.nist.gov/publications/category-theoretic-approach-modeling-and-analysis-using-music-case-study">A Category Theoretic Approach to Modeling and Analysis Using Music as a Case Study</a></td></tr>
+<tr><td>popoff_hidden_categories</td><td>article</td><td><a href="https://arxiv.org/abs/2311.18371">Hidden Categories: A New Perspective on Lewin&#x27;s Generalized Interval Systems and Klumpenhouwer Networks</a></td></tr>
+<tr><td>popular_culture_icons_grateful_dead_and_deadheads_adams</td><td>web</td><td><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/9781405165518.wbeos1018.pub2">Popular Culture Icons: Grateful Dead and Deadheads - Adams</a></td></tr>
+<tr><td>recording_the_grateful_dead_the_culture_of_tapers_good_times</td><td>web</td><td><a href="https://www.goodtimes.sc/recording-the-grateful-dead-the-culture-of-tapers/">Recording the Grateful Dead: The Culture of Tapers | Good Times</a></td></tr>
+<tr><td>reddit_data_sets</td><td>web</td><td><a href="https://www.reddit.com/r/gratefuldead/comments/10w2rh2/grateful_dead_data_sets_any_good_sources/">r/gratefuldead — Grateful Dead Data Sets discussion</a></td></tr>
+<tr><td>reddit_lyrics_attribution</td><td>web</td><td><a href="https://www.reddit.com/r/gratefuldead/comments/1r4azkm/did_jerry_or_bobby_write_the_words_to_any_of/">r/gratefuldead — Garcia vs Weir lyric attribution</a></td></tr>
+<tr><td>reddit_setlist_db</td><td>web</td><td><a href="https://www.reddit.com/r/gratefuldead/comments/1e4z60l/best_setlist_databases/">r/gratefuldead — best setlist databases</a></td></tr>
+<tr><td>reddit_spreadsheet_archive</td><td>web</td><td><a href="https://www.reddit.com/r/gratefuldead/comments/1qb5aec/does_anyone_still_have_the_spreadsheet_file_with/">r/gratefuldead — spreadsheet archive thread</a></td></tr>
+<tr><td>rel16121481</td><td>article</td><td><a href="https://doi.org/10.3390/rel16121481">DOI rel16121481</a></td></tr>
+<tr><td>restive_spirits_seeking_release_the_implicit_religion_of_the_grateful_dead</td><td>article</td><td><a href="https://www.tandfonline.com/doi/full/10.1080/13617672.2022.2005711">Restive spirits seeking release: the Implicit Religion of the Grateful Dead</a></td></tr>
+<tr><td>ripple_in_still_water_a_grateful_dead_ethnography</td><td>web</td><td><a href="https://digitalcommons.butler.edu/urc/2018/anthropology/5/">Ripple in Still Water: A Grateful Dead Ethnography</a></td></tr>
+<tr><td>robert_hunter_s_oral_poetry_mind_metaphor_and_community</td><td>article</td><td><a href="https://read.dukeupress.edu/poetics-today/article-abstract/24/1/35/20777/Robert-Hunter-s-Oral-Poetry-Mind-Metaphor-and?redirectedFrom=fulltext">Robert Hunter&#x27;s Oral Poetry: Mind, Metaphor, and Community</a></td></tr>
+<tr><td>rockhall_grateful_dead</td><td>web</td><td><a href="https://rockhall.com/inductees/grateful-dead/">The Grateful Dead - Rock and Roll Hall of Fame</a></td></tr>
+<tr><td>rolling_stone_robert_hunter_interview</td><td>article</td><td><a href="https://www.rollingstone.com/feature/robert-hunter-on-grateful-deads-early-days-wild-tours-sacred-songs-37978/">Robert Hunter on Grateful Dead&#x27;s Early Days, Wild Tours, Sacred Songs</a></td></tr>
+<tr><td>searching_for_the_sacred_sound_phil_lesh_the_grateful_dead_and_religion</td><td>web</td><td><a href="https://online.ucpress.edu/jrpc/article/23/2/139/204539">Searching for the (Sacred) Sound: Phil Lesh, the Grateful Dead, and Religion</a></td></tr>
+<tr><td>setlistfm_gd</td><td>api</td><td><a href="https://www.setlist.fm/setlists/grateful-dead-bd6ad4a.html">Setlist.fm — Grateful Dead</a></td></tr>
+<tr><td>setlists_net_program</td><td>web</td><td><a href="https://www.setlists.net">The SetList Program (setlists.net)</a></td></tr>
+<tr><td>smithsonian_institutionally_dead</td><td>web</td><td><a href="https://avpreservation.si.edu/institutionally-dead">Institutionally Dead</a></td></tr>
+<tr><td>studies_in_the_grateful_dead_duke_university_press</td><td>article</td><td><a href="https://www.dukeupress.edu/series/studies-in-the-grateful-dead">Studies in the Grateful Dead - Duke University Press</a></td></tr>
+<tr><td>teaching_with_the_grateful_dead_on_tour_on_by_rebecca_g_adams</td><td>web</td><td><a href="https://digitalcommons.unl.edu/dialogue/vol9/iss1/4/">Teaching (with) the Grateful Dead On Tour, On &quot; by Rebecca G. Adams</a></td></tr>
+<tr><td>the_dead_live_on_at_ucsc_news</td><td>web</td><td><a href="https://news.ucsc.edu/2008/10/the-dead-live-on-at-ucsc/">The Dead live on at UCSC - News</a></td></tr>
+<tr><td>the_ecology_and_architecture_of_enduring_spiritualities</td><td>web</td><td><a href="https://www.mdpi.com/2077-1444/16/12/1481">The Ecology and Architecture of Enduring Spiritualities</a></td></tr>
+<tr><td>the_grateful_dead_an_imperfect_symbol_of_the_hippie_movement</td><td>web</td><td><a href="https://digitalcommons.wku.edu/theses/3791/">The Grateful Dead: An Imperfect Symbol of the Hippie Movement</a></td></tr>
+<tr><td>the_grateful_dead_and_the_commodification_of_hippie_culture</td><td>web</td><td><a href="https://digitalcommons.georgiasouthern.edu/honors-theses/725/">The Grateful Dead and the Commodification of Hippie Culture</a></td></tr>
+<tr><td>the_grateful_dead_archive_library_guides_uc_santa_cruz</td><td>web</td><td><a href="https://guides.library.ucsc.edu/gratefuldeadarchive">The Grateful Dead Archive - Library Guides - UC Santa Cruz</a></td></tr>
+<tr><td>the_grateful_dead_live_recordings_and_the_ideology_of_liveness</td><td>web</td><td><a href="https://duke.libcal.com/event/11890863">The Grateful Dead, Live Recordings, and the Ideology of Liveness</a></td></tr>
+<tr><td>the_grateful_dead_on_continuing_after_jerry_garcia_left_guitar_world</td><td>web</td><td><a href="https://www.guitarworld.com/artists/bands/grateful-dead-on-jerry-garcia-lasting-impact-on-their-legacy">The Grateful Dead on continuing after Jerry Garcia left | Guitar World</a></td></tr>
+<tr><td>the_grateful_dead_plaque_city_of_san_jose</td><td>web</td><td><a href="https://www.sanjoseca.gov/your-government/departments-offices/cultural-affairs/grateful-dead-plaque">The Grateful Dead Plaque | City of San José</a></td></tr>
+<tr><td>the_grateful_dead_s_taping_guidelines_and_copyright_information</td><td>web</td><td><a href="https://ayessstea225.wordpress.com/2011/12/02/the-grateful-deads-taping-guidelines-and-copyright-information/">The Grateful Dead&#x27;s Taping Guidelines and Copyright Information</a></td></tr>
+<tr><td>the_grateful_dead_studies_association_an_academic</td><td>web</td><td><a href="https://deadstudies.org">THE GRATEFUL DEAD STUDIES ASSOCIATION – An Academic </a></td></tr>
+<tr><td>the_grateful_dead_the_history_of_a_folk_story</td><td>web</td><td><a href="https://scholarlypublishingcollective.org/jaf/article/114/454/505/229381/The-Grateful-Dead-The-History-of-a-Folk-Story">The Grateful Dead: The History of a Folk Story</a></td></tr>
+<tr><td>the_legend_of_jerry_garcia_cbs_news</td><td>web</td><td><a href="https://www.cbsnews.com/news/the-legend-of-jerry-garcia/">The Legend Of Jerry Garcia - CBS News</a></td></tr>
+<tr><td>the_meaning_behind_the_band_name_grateful_dead</td><td>web</td><td><a href="https://americansongwriter.com/the-meaning-behind-the-band-name-grateful-dead/">The Meaning Behind the Band Name: Grateful Dead</a></td></tr>
+<tr><td>the_music_never_stopped_naming_businesses_as_a_method_for_remembering_the_gratef</td><td>article</td><td><a href="https://www.tandfonline.com/doi/full/10.1080/08873631.2016.1264073">“The music never stopped”: naming businesses as a method for remembering the Grateful Dead</a></td></tr>
+<tr><td>the_origins_of_the_grateful_dead</td><td>web</td><td><a href="https://jasobrecht.substack.com/p/the-origins-of-the-grateful-dead">The Origins of the Grateful Dead</a></td></tr>
+<tr><td>the_stylistic_development_of_the_grateful_dead_1965_1973</td><td>web</td><td><a href="https://openresearch.surrey.ac.uk/esploro/outputs/doctoral/The-stylistic-development-of-the-Grateful/99514389302346">The stylistic development of the Grateful Dead : 1965-1973</a></td></tr>
+<tr><td>thesis_00858118_65</td><td>article</td><td><a href="https://doi.org/10.15126/thesis.00858118">DOI thesis.00858118</a></td></tr>
+<tr><td>ucr_lineup_changes</td><td>article</td><td><a href="https://ultimateclassicrock.com/grateful-dead-lineup-changes/">Ultimate Classic Rock — Grateful Dead Lineup Changes: A Complete Guide</a></td></tr>
+<tr><td>ucsc_grateful_dead_archive</td><td>web</td><td><a href="https://guides.library.ucsc.edu/gratefuldeadarchive">The Grateful Dead Archive</a></td></tr>
+<tr><td>volume_1_grateful_dead_studies</td><td>web</td><td><a href="https://gratefuldeadstudies.org/volume-1/">Volume 1 - Grateful Dead Studies</a></td></tr>
+<tr><td>wallace_cocreation_sound_archive</td><td>book</td><td><a href="https://www.cambridge.org/core/books/abs/community-archives/cocreation-of-the-grateful-dead-sound-archive-control-access-and-curation-communities/1428A421FA4D0D7353C5418099303029">Co-creation of the Grateful Dead sound archive: control, access and curation communities</a></td></tr>
+<tr><td>wang_setlist_segmentation</td><td>article</td><td><a href="https://archives.ismir.net/ismir2014/paper/000211.pdf">Automatic Set List Identification and Song Segmentation for Full-Length Concert Videos</a></td></tr>
+<tr><td>we_will_survive_an_ethnography_of_the_grateful_dead_following</td><td>web</td><td><a href="https://scholarworks.uni.edu/etd/2570/">We Will Survive: An Ethnography of the Grateful Dead Following</a></td></tr>
+<tr><td>what_are_your_favorite_and_essential_dead_books</td><td>web</td><td><a href="https://www.reddit.com/r/gratefuldead/comments/13thcbg/what_are_your_favorite_and_essential_dead_books/">What are your favorite and essential dead books?</a></td></tr>
+<tr><td>what_grateful_dead_albums_are_live_albums_and_which_are_studio</td><td>web</td><td><a href="https://www.reddit.com/r/gratefuldead/comments/1fns0jc/what_grateful_dead_albums_are_live_albums_and/">What Grateful Dead albums are live albums and which are studio?</a></td></tr>
+<tr><td>where_did_the_grateful_dead_get_their_name</td><td>web</td><td><a href="https://boards.straightdope.com/t/where-did-the-grateful-dead-get-their-name/667302">Where did the Grateful Dead get their name?</a></td></tr>
+<tr><td>whitegum_alex_allan</td><td>web</td><td><a href="https://www.whitegum.com/intro.htm">Alex Allan — Grateful Dead Lyric and Song Finder</a></td></tr>
+<tr><td>wikipedia_discography</td><td>web</td><td><a href="https://en.wikipedia.org/wiki/Grateful_Dead_discography">Wikipedia — Grateful Dead discography</a></td></tr>
+<tr><td>wikipedia_gd</td><td>web</td><td><a href="https://en.wikipedia.org/wiki/Grateful_Dead">Wikipedia — Grateful Dead</a></td></tr>
+<tr><td>writing_about_improvisation_approaches_to_understanding_spontaneous_playing</td><td>article</td><td><a href="https://read.dukeupress.edu/books/book/3277/chapter/8418112/Writing-About-ImprovisationApproaches-to">Writing About Improvisation: Approaches to Understanding Spontaneous Playing</a></td></tr>
+</table></article></div></section>
+<section><div class="sectionHead"><h2>Additional Registered Figures</h2><p>Registry-backed panels not already shown above.</p></div><div class="figureGrid"><article class="figureCard"><h3>Shows and Performances by Year</h3><img src="figures/shows_per_year.png" alt="Yearly bars count shows while an overlaid line counts performance rows, making late-1970s and late-1980s touring intensity visible."/><p>Temporal activity in the selected compendium tier.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Annual show count and annual performance-row count.</dd></div><div><dt>Exclusion</dt><dd>No shows are dropped; empty-setlist shows contribute to show counts but not performance-row totals.</dd></div><div><dt>Claim</dt><dd>descriptive</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/shows_per_year.csv">CSV</a> · <a href="data/figures/shows_per_year.json">JSON</a></div></article>
+<article class="figureCard"><h3>Functor Cardinalities</h3><img src="figures/functor_cardinalities.png" alt="Two cumulative lines compare setlist growth and active lineup growth over chronological show index."/><p>Machine-checked monotone cumulative functor sizes.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Cumulative setlist and lineup cardinalities.</dd></div><div><dt>Exclusion</dt><dd>Cumulative functor construction includes all loaded performances and personnel intervals.</dd></div><div><dt>Claim</dt><dd>validation</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/functor_cardinalities.csv">CSV</a> · <a href="data/figures/functor_cardinalities.json">JSON</a></div></article>
+<article class="figureCard"><h3>Transition Sensitivity</h3><img src="figures/transition_sensitivity.png" alt="Line chart compares how many transition edges and predecessor rows remain as support thresholds increase, with segment markers included versus excluded."/><p>Descriptive support-threshold sensitivity for first-order transition models.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Supported transition-edge and predecessor-row retention by minimum predecessor support.</dd></div><div><dt>Exclusion</dt><dd>Compares generic segment markers included versus excluded.</dd></div><div><dt>Claim</dt><dd>exploratory</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/transition_sensitivity.csv">CSV</a> · <a href="data/figures/transition_sensitivity.json">JSON</a></div></article>
+<article class="figureCard"><h3>Repertoire Top-N Sensitivity</h3><img src="figures/repertoire_topn_sensitivity.png" alt="Line and band chart shows how top-N song cuts cover total non-segment performances and how coverage varies across eras."/><p>Descriptive sensitivity for alternate top-song cuts.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Top-N performance share plus minimum, mean, and maximum era coverage.</dd></div><div><dt>Exclusion</dt><dd>Generic segment markers are excluded.</dd></div><div><dt>Claim</dt><dd>exploratory</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/repertoire_topn_sensitivity.csv">CSV</a> · <a href="data/figures/repertoire_topn_sensitivity.json">JSON</a></div></article>
+<article class="figureCard"><h3>Venue Identity Review</h3><img src="figures/venue_identity_review.png" alt="Horizontal bars summarize venue slugs, alias slugs, conservative collapses, and ambiguous same-date canonical collisions."/><p>Report-only venue alias and ambiguity diagnostics; no venue rows are rewritten.</p><dl class="figureMeta"><div><dt>Statistic</dt><dd>Venue alias counts, post-canonicalization count, ambiguous collision count, and mean collision Jaccard.</dd></div><div><dt>Exclusion</dt><dd>Conservative alias review only; negative controls remain distinct.</dd></div><div><dt>Claim</dt><dd>validation</dd></div></dl><div class="dataLinks">Raw data: <a href="data/figures/venue_identity_review.csv">CSV</a> · <a href="data/figures/venue_identity_review.json">JSON</a></div></article></div></section>
+</div></body></html>

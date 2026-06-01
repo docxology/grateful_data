@@ -1,0 +1,136 @@
+{
+  "columns": [
+    "rank",
+    "song_slug",
+    "title",
+    "stationary_probability"
+  ],
+  "figure": "stationary_top20.png",
+  "metadata": {
+    "exclude_segments": true,
+    "model": "first_order_markov_stationary"
+  },
+  "rows": [
+    [
+      1,
+      "bridging_the_gap",
+      "Bridging The Gap",
+      0.35005675
+    ],
+    [
+      2,
+      "goodnight_irene",
+      "Goodnight Irene",
+      0.06205903
+    ],
+    [
+      3,
+      "come_back_baby",
+      "Come Back Baby",
+      0.05762425
+    ],
+    [
+      4,
+      "star_spangled_banner",
+      "Star Spangled Banner",
+      0.04875615
+    ],
+    [
+      5,
+      "rainy_day_women_12_and_35",
+      "Rainy Day Women #12 and 35",
+      0.03819466
+    ],
+    [
+      6,
+      "playing_in_the_band",
+      "Playing In The Band",
+      0.00938392
+    ],
+    [
+      7,
+      "not_fade_away",
+      "Not Fade Away",
+      0.0091965
+    ],
+    [
+      8,
+      "sugar_magnolia",
+      "Sugar Magnolia",
+      0.00834546
+    ],
+    [
+      9,
+      "the_other_one",
+      "The Other One",
+      0.00821948
+    ],
+    [
+      10,
+      "good_lovin",
+      "Good Lovin'",
+      0.00762722
+    ],
+    [
+      11,
+      "china_cat_sunflower",
+      "China Cat Sunflower",
+      0.0067855
+    ],
+    [
+      12,
+      "me_and_my_uncle",
+      "Me And My Uncle",
+      0.00670272
+    ],
+    [
+      13,
+      "i_know_you_rider",
+      "I Know You Rider",
+      0.00662205
+    ],
+    [
+      14,
+      "truckin",
+      "Truckin'",
+      0.00655499
+    ],
+    [
+      15,
+      "one_more_saturday_night",
+      "One More Saturday Night",
+      0.00592661
+    ],
+    [
+      16,
+      "u_s_blues",
+      "U.S. Blues",
+      0.00587966
+    ],
+    [
+      17,
+      "turn_on_your_lovelight",
+      "Turn On Your Lovelight",
+      0.00558811
+    ],
+    [
+      18,
+      "uncle_john_s_band",
+      "Uncle John's Band",
+      0.00556788
+    ],
+    [
+      19,
+      "around_and_around",
+      "Around And Around",
+      0.00535546
+    ],
+    [
+      20,
+      "johnny_b_goode",
+      "Johnny B. Goode",
+      0.00518554
+    ]
+  ],
+  "title": "Markov Stationary Distribution"
+}

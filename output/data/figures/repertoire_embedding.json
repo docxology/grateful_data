@@ -1,0 +1,822 @@
+{
+  "columns": [
+    "song_slug",
+    "title",
+    "svd_component_1",
+    "svd_component_2",
+    "cluster",
+    "n_performances",
+    "dominant_era",
+    "dominant_era_share"
+  ],
+  "figure": "repertoire_embedding.png",
+  "metadata": {
+    "component_1_variance_share": 0.4811,
+    "component_2_variance_share": 0.2891,
+    "method_note": "Exploratory pattern-discovery only: fixed preprocessing, centered SVD coordinates, and deterministic k-means-style clustering over era-by-song performance counts; no causal or predictive claim is made.",
+    "n_clusters": 5
+  },
+  "rows": [
+    [
+      "playing_in_the_band",
+      "Playing In The Band",
+      2.432694,
+      2.710189,
+      3,
+      752,
+      "Brent",
+      0.4282
+    ],
+    [
+      "not_fade_away",
+      "Not Fade Away",
+      3.511701,
+      -0.816536,
+      4,
+      666,
+      "Brent",
+      0.3604
+    ],
+    [
+      "the_other_one",
+      "The Other One",
+      3.821578,
+      -1.120501,
+      4,
+      664,
+      "Brent",
+      0.3434
+    ],
+    [
+      "me_and_my_uncle",
+      "Me And My Uncle",
+      4.232558,
+      -0.711246,
+      4,
+      645,
+      "Brent",
+      0.3178
+    ],
+    [
+      "sugar_magnolia",
+      "Sugar Magnolia",
+      3.566145,
+      0.418012,
+      3,
+      610,
+      "Brent",
+      0.3672
+    ],
+    [
+      "jack_straw",
+      "Jack Straw",
+      1.773979,
+      3.030328,
+      3,
+      596,
+      "Brent",
+      0.4077
+    ],
+    [
+      "china_cat_sunflower",
+      "China Cat Sunflower",
+      3.566859,
+      -1.832528,
+      4,
+      578,
+      "Brent",
+      0.3702
+    ],
+    [
+      "i_know_you_rider",
+      "I Know You Rider",
+      3.530859,
+      -1.773482,
+      4,
+      567,
+      "Brent",
+      0.3739
+    ],
+    [
+      "truckin",
+      "Truckin'",
+      3.417309,
+      0.008401,
+      4,
+      542,
+      "Brent",
+      0.3856
+    ],
+    [
+      "good_lovin",
+      "Good Lovin'",
+      2.145391,
+      -2.475452,
+      4,
+      537,
+      "Primal",
+      0.3315
+    ],
+    [
+      "promised_land",
+      "Promised Land",
+      1.798435,
+      3.0447,
+      3,
+      504,
+      "Brent",
+      0.3135
+    ],
+    [
+      "bertha",
+      "Bertha",
+      2.078241,
+      2.299191,
+      3,
+      485,
+      "Brent",
+      0.334
+    ],
+    [
+      "minglewood_blues",
+      "Minglewood Blues",
+      -1.285025,
+      -1.217288,
+      1,
+      472,
+      "Brent",
+      0.6059
+    ],
+    [
+      "mexicali_blues",
+      "Mexicali Blues",
+      1.652695,
+      2.485907,
+      3,
+      443,
+      "Brent",
+      0.4357
+    ],
+    [
+      "tennessee_jed",
+      "Tennessee Jed",
+      1.543857,
+      2.699367,
+      3,
+      437,
+      "Brent",
+      0.3478
+    ],
+    [
+      "deal",
+      "Deal",
+      1.458837,
+      2.585516,
+      3,
+      431,
+      "Brent",
+      0.4153
+    ],
+    [
+      "turn_on_your_lovelight",
+      "Turn On Your Lovelight",
+      0.301167,
+      -5.29178,
+      4,
+      430,
+      "Primal",
+      0.5628
+    ],
+    [
+      "around_and_around",
+      "Around And Around",
+      1.643382,
+      1.330409,
+      3,
+      425,
+      "Brent",
+      0.4588
+    ],
+    [
+      "looks_like_rain",
+      "Looks Like Rain",
+      0.434242,
+      2.607076,
+      2,
+      419,
+      "Brent",
+      0.5131
+    ],
+    [
+      "big_river",
+      "Big River",
+      1.303053,
+      2.788852,
+      3,
+      401,
+      "Brent",
+      0.3791
+    ],
+    [
+      "wharf_rat",
+      "Wharf Rat",
+      1.029801,
+      1.917539,
+      2,
+      398,
+      "Brent",
+      0.4975
+    ],
+    [
+      "el_paso",
+      "El Paso",
+      2.899432,
+      1.239762,
+      3,
+      397,
+      "Europe 72",
+      0.2872
+    ],
+    [
+      "estimated_prophet",
+      "Estimated Prophet",
+      -3.213872,
+      1.14147,
+      1,
+      392,
+      "Brent",
+      0.5816
+    ],
+    [
+      "eyes_of_the_world",
+      "Eyes Of The World",
+      -0.021544,
+      2.557635,
+      2,
+      382,
+      "Brent",
+      0.4686
+    ],
+    [
+      "sugaree",
+      "Sugaree",
+      1.564094,
+      2.457412,
+      3,
+      375,
+      "Brent",
+      0.3253
+    ],
+    [
+      "uncle_john_s_band",
+      "Uncle John's Band",
+      2.723883,
+      -1.682462,
+      4,
+      370,
+      "Brent",
+      0.3108
+    ],
+    [
+      "samson_and_delilah",
+      "Samson And Delilah",
+      -3.505767,
+      0.89473,
+      1,
+      367,
+      "Brent",
+      0.515
+    ],
+    [
+      "black_peter",
+      "Black Peter",
+      1.4231,
+      -1.621462,
+      4,
+      353,
+      "Brent",
+      0.5297
+    ],
+    [
+      "loser",
+      "Loser",
+      1.651084,
+      1.664631,
+      3,
+      353,
+      "Brent",
+      0.3626
+    ],
+    [
+      "one_more_saturday_night",
+      "One More Saturday Night",
+      1.274166,
+      2.203024,
+      3,
+      350,
+      "Brent",
+      0.3629
+    ],
+    [
+      "brown_eyed_women",
+      "Brown Eyed Women",
+      1.273591,
+      2.549023,
+      3,
+      349,
+      "Brent",
+      0.3209
+    ],
+    [
+      "beat_it_on_down_the_line",
+      "Beat It On Down The Line",
+      3.59651,
+      -0.943952,
+      4,
+      346,
+      "Europe 72",
+      0.3237
+    ],
+    [
+      "casey_jones",
+      "Casey Jones",
+      3.909001,
+      -2.365162,
+      4,
+      338,
+      "Europe 72",
+      0.426
+    ],
+    [
+      "cassidy",
+      "Cassidy",
+      -3.227037,
+      1.012262,
+      1,
+      337,
+      "Brent",
+      0.5875
+    ],
+    [
+      "u_s_blues",
+      "U.S. Blues",
+      -1.726312,
+      2.186279,
+      1,
+      332,
+      "Brent",
+      0.5361
+    ],
+    [
+      "he_s_gone",
+      "He's Gone",
+      0.670786,
+      1.861744,
+      2,
+      330,
+      "Brent",
+      0.4758
+    ],
+    [
+      "stella_blue",
+      "Stella Blue",
+      0.292164,
+      2.058411,
+      2,
+      330,
+      "Brent",
+      0.5091
+    ],
+    [
+      "don_t_ease_me_in",
+      "Don't Ease Me In",
+      1.183897,
+      -1.237555,
+      4,
+      328,
+      "Brent",
+      0.6067
+    ],
+    [
+      "ramble_on_rose",
+      "Ramble On Rose",
+      0.937207,
+      2.001688,
+      2,
+      319,
+      "Brent",
+      0.373
+    ],
+    [
+      "scarlet_begonias",
+      "Scarlet Begonias",
+      -1.897606,
+      2.074764,
+      1,
+      316,
+      "Brent",
+      0.5158
+    ],
+    [
+      "cold_rain_and_snow",
+      "Cold Rain And Snow",
+      1.59851,
+      -2.286425,
+      4,
+      312,
+      "Brent",
+      0.375
+    ],
+    [
+      "mama_tried",
+      "Mama Tried",
+      0.724625,
+      -2.186221,
+      4,
+      310,
+      "Brent",
+      0.429
+    ],
+    [
+      "friend_of_the_devil",
+      "Friend Of The Devil",
+      1.097657,
+      -1.181929,
+      4,
+      308,
+      "Brent",
+      0.4383
+    ],
+    [
+      "goin_down_the_road_feelin_bad",
+      "Goin' Down The Road Feelin' Bad",
+      2.586928,
+      -0.514555,
+      4,
+      302,
+      "Brent",
+      0.3808
+    ],
+    [
+      "terrapin_station",
+      "Terrapin Station",
+      -3.647905,
+      0.549292,
+      1,
+      302,
+      "Brent",
+      0.5795
+    ],
+    [
+      "bird_song",
+      "Bird Song",
+      -0.375169,
+      -0.192804,
+      2,
+      300,
+      "Brent",
+      0.5867
+    ],
+    [
+      "mississippi_half_step",
+      "Mississippi Half Step",
+      0.665409,
+      2.342406,
+      2,
+      295,
+      "Brent",
+      0.3864
+    ],
+    [
+      "greatest_story_ever_told",
+      "Greatest Story Ever Told",
+      0.952214,
+      0.32603,
+      2,
+      289,
+      "Brent",
+      0.4706
+    ],
+    [
+      "candyman",
+      "Candyman",
+      0.916004,
+      -1.529284,
+      4,
+      288,
+      "Brent",
+      0.4479
+    ],
+    [
+      "hell_in_a_bucket",
+      "Hell In A Bucket",
+      -4.422049,
+      -1.453439,
+      0,
+      288,
+      "Brent",
+      0.7292
+    ],
+    [
+      "let_it_grow",
+      "Let It Grow",
+      -1.702866,
+      2.003628,
+      1,
+      288,
+      "Brent",
+      0.5347
+    ],
+    [
+      "johnny_b_goode",
+      "Johnny B. Goode",
+      1.477118,
+      1.179533,
+      2,
+      287,
+      "Brent",
+      0.3937
+    ],
+    [
+      "morning_dew",
+      "Morning Dew",
+      2.094999,
+      -2.23063,
+      4,
+      283,
+      "Primal",
+      0.3463
+    ],
+    [
+      "row_jimmy",
+      "Row Jimmy",
+      0.091967,
+      2.325196,
+      2,
+      277,
+      "Brent",
+      0.3502
+    ],
+    [
+      "dark_star",
+      "Dark Star",
+      2.860524,
+      -3.025232,
+      4,
+      276,
+      "Primal",
+      0.5181
+    ],
+    [
+      "cryptical_envelopment",
+      "Cryptical Envelopment",
+      0.824508,
+      -6.35556,
+      4,
+      273,
+      "Primal",
+      0.8791
+    ],
+    [
+      "althea",
+      "Althea",
+      -4.410997,
+      -1.496714,
+      0,
+      272,
+      "Brent",
+      0.7794
+    ],
+    [
+      "i_need_a_miracle",
+      "I Need A Miracle",
+      -3.747963,
+      0.304267,
+      1,
+      272,
+      "Brent",
+      0.5551
+    ],
+    [
+      "little_red_rooster",
+      "Little Red Rooster",
+      -4.411484,
+      -1.494608,
+      0,
+      272,
+      "Brent",
+      0.7757
+    ],
+    [
+      "touch_of_grey",
+      "Touch Of Grey",
+      -4.420144,
+      -1.452388,
+      0,
+      267,
+      "Brent",
+      0.6554
+    ],
+    [
+      "peggy_o",
+      "Peggy-O",
+      -2.283285,
+      1.700773,
+      1,
+      266,
+      "Brent",
+      0.4774
+    ],
+    [
+      "throwing_stones",
+      "Throwing Stones",
+      -4.417595,
+      -1.464584,
+      0,
+      266,
+      "Brent",
+      0.6917
+    ],
+    [
+      "feel_like_a_stranger",
+      "Feel Like A Stranger",
+      -4.409619,
+      -1.498186,
+      0,
+      259,
+      "Brent",
+      0.7529
+    ],
+    [
+      "the_wheel",
+      "The Wheel",
+      -3.746912,
+      0.223463,
+      1,
+      258,
+      "Brent",
+      0.6473
+    ],
+    [
+      "fire_on_the_mountain",
+      "Fire On The Mountain",
+      -3.65271,
+      0.421277,
+      1,
+      253,
+      "Brent",
+      0.581
+    ],
+    [
+      "the_music_never_stopped",
+      "The Music Never Stopped",
+      -3.520473,
+      0.649508,
+      1,
+      247,
+      "Brent",
+      0.4251
+    ],
+    [
+      "cumberland_blues",
+      "Cumberland Blues",
+      2.127331,
+      -3.455877,
+      4,
+      242,
+      "Primal",
+      0.3099
+    ],
+    [
+      "dire_wolf",
+      "Dire Wolf",
+      1.152644,
+      -1.67469,
+      4,
+      242,
+      "Brent",
+      0.3843
+    ],
+    [
+      "they_love_each_other",
+      "They Love Each Other",
+      -0.199558,
+      2.059443,
+      2,
+      230,
+      "Brent",
+      0.4261
+    ],
+    [
+      "ship_of_fools",
+      "Ship Of Fools",
+      -1.956368,
+      1.707378,
+      1,
+      226,
+      "Brent",
+      0.531
+    ],
+    [
+      "saint_of_circumstance",
+      "Saint Of Circumstance",
+      -4.398893,
+      -1.53118,
+      0,
+      224,
+      "Brent",
+      0.7232
+    ],
+    [
+      "franklin_s_tower",
+      "Franklin's Tower",
+      -3.652078,
+      0.326103,
+      1,
+      222,
+      "Brent",
+      0.5901
+    ],
+    [
+      "brokedown_palace",
+      "Brokedown Palace",
+      1.003368,
+      -1.35209,
+      4,
+      220,
+      "Brent",
+      0.5409
+    ],
+    [
+      "iko_iko",
+      "Iko Iko",
+      -3.911827,
+      -0.271925,
+      0,
+      214,
+      "Brent",
+      0.6776
+    ],
+    [
+      "alabama_getaway",
+      "Alabama Getaway",
+      -4.305398,
+      -1.903965,
+      0,
+      208,
+      "Brent",
+      0.976
+    ],
+    [
+      "shakedown_street",
+      "Shakedown Street",
+      -3.782149,
+      -0.021563,
+      1,
+      204,
+      "Brent",
+      0.6814
+    ],
+    [
+      "saint_stephen",
+      "Saint Stephen",
+      0.687485,
+      -4.093986,
+      4,
+      201,
+      "Primal",
+      0.7065
+    ],
+    [
+      "man_smart_woman_smarter",
+      "Man Smart (Woman Smarter)",
+      -4.380604,
+      -1.600904,
+      0,
+      200,
+      "Brent",
+      0.79
+    ],
+    [
+      "big_railroad_blues",
+      "Big Railroad Blues",
+      1.221924,
+      -1.950744,
+      4,
+      180,
+      "Brent",
+      0.4556
+    ],
+    [
+      "box_of_rain",
+      "Box Of Rain",
+      -0.091704,
+      -0.63773,
+      2,
+      170,
+      "Brent",
+      0.3882
+    ]
+  ],
+  "title": "Exploratory Repertoire Embedding"
+}

@@ -1,0 +1,58 @@
+# The Music Never Stopped — Grateful Data Compendium
+# Inherits workspace settings from root pyproject.toml.
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grateful_data"
+version = "0.1.0"
+description = "The Music Never Stopped: a modular, citation-bound Grateful Dead data compendium with category-theoretic interpretation."
+authors = [
+    {name = "Daniel Ari Friedman", email = "danielarifriedman@gmail.com"}
+]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "hypothesis>=6.0",
+    "pytest-httpserver>=1.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "src"]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short --strict-markers"
+
+[tool.coverage.run]
+source = ["src"]
+branch = true
+omit = [
+    "tests/*",
+    "*/__init__.py",
+    "*/test_*.py",
+]
+
+[tool.coverage.report]
+fail_under = 90
+show_missing = true
+precision = 2
+exclude_lines = [
+    "pragma: no cover",
+    "if __name__ == .__main__.:",
+    "raise NotImplementedError",
+    "if TYPE_CHECKING:",
+]
+
+[tool.uv]
+# Inherits workspace settings from root pyproject.toml

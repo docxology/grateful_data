@@ -1,0 +1,43 @@
+{
+  "columns": [
+    "kind",
+    "n_reviews",
+    "mean_sentiment",
+    "stdev_sentiment"
+  ],
+  "figure": "sentiment_by_kind.png",
+  "metadata": {},
+  "rows": [
+    [
+      "documentary",
+      1,
+      1.0,
+      0.0
+    ],
+    [
+      "fan",
+      1881,
+      0.717677,
+      0.120735
+    ],
+    [
+      "official",
+      2,
+      0.925,
+      0.035355
+    ],
+    [
+      "official-release",
+      1,
+      1.0,
+      0.0
+    ],
+    [
+      "press",
+      3,
+      0.9,
+      0.132288
+    ]
+  ],
+  "title": "Review Sentiment by Source Kind"
+}

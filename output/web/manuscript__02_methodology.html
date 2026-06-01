@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>02_methodology.md.web</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <script defer=""
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+</head>
+<body>
+<h1 id="methodology">Methodology</h1>
+<h2 id="schema">Schema</h2>
+<p>The compendium primitive is a small frozen-dataclass schema. Every
+entity validates its inputs in <code>__post_init__</code>; every primary
+key is computed by a canonical-slug function so that joins across
+sources reduce to dictionary lookups. The nine entity types are
+<code>Show</code>, <code>Venue</code>, <code>Person</code>,
+<code>Song</code>, <code>Performance</code>, <code>Recording</code>,
+<code>Release</code>, <code>Citation</code>, and <code>Lineup</code>;
+their fields and invariants are documented in
+<code>src/models.py</code>.</p>
+<p>Two canonical-slug rules suffice for source-agnostic identity:</p>
+<ul>
+<li>a song slug is the ASCII-folded, punctuation-stripped slug of its
+title;</li>
+<li>a show slug is <code>YYYY-MM-DD@&lt;venue-slug&gt;</code>.</li>
+</ul>
+<p>These deterministic functions absorb the cross-source-naming variance
+that would otherwise require a manual alias table.</p>
+<h3 id="data-dictionary-core-entities">Data dictionary (core
+entities)</h3>
+<p>The field-level contract for the entities that carry the quantitative
+claims; the authoritative definition with all invariants is
+<code>src/models.py</code>.</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Entity</th>
+<th>Key</th>
+<th>Principal fields</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Show</code></td>
+<td><code>slug</code> = <code>YYYY-MM-DD@venue</code></td>
+<td><code>date</code>, <code>venue_slug</code></td>
+<td>one concert; <code>venue_slug</code> is a foreign key into
+<code>Venue</code></td>
+</tr>
+<tr>
+<td><code>Venue</code></td>
+<td><code>slug</code></td>
+<td><code>name</code>, <code>city</code>, <code>state_or_region</code>,
+<code>country</code></td>
+<td>geo coordinates live in a <code>venue_geo</code> sidecar</td>
+</tr>
+<tr>
+<td><code>Song</code></td>
+<td><code>slug</code> (slug of title)</td>
+<td><code>title</code>, <code>composers</code>, <code>lyricists</code>,
+<code>first_performed</code>, <code>last_performed</code>,
+<code>aliases</code></td>
+<td>catalogue entry; need not have been performed</td>
+</tr>
+<tr>
+<td><code>Performance</code></td>
+<td><code>(show, song, set, position)</code></td>
+<td><code>show_slug</code>, <code>song_slug</code>,
+<code>set_number</code>, <code>position</code>, <code>segue_into</code>,
+<code>notes</code></td>
+<td>the apex of the show<span
+class="math inline">\(\leftrightarrow\)</span>song span</td>
+</tr>
+<tr>
+<td><code>Person</code></td>
+<td><code>slug</code></td>
+<td><code>intervals</code> = <code>(start, end, role)</code> tuples</td>
+<td>open interval (<code>end=None</code>) means still active</td>
+</tr>
+<tr>
+<td><code>Recording</code></td>
+<td><code>slug</code></td>
+<td><code>show_slug</code> (or date), <code>source_type</code></td>
+<td>Internet Archive + curated rows</td>
+</tr>
+<tr>
+<td><code>Review</code></td>
+<td>—</td>
+<td><code>show_slug</code>, <code>kind</code>, <code>sentiment</code>
+<span class="math inline">\(\in[-1,1]\)</span>,
+<code>source_url</code></td>
+<td>positive sentiment requires a source URL (honesty check)</td>
+</tr>
+<tr>
+<td><code>Citation</code></td>
+<td><code>key</code></td>
+<td><code>kind</code>, <code>url</code></td>
+<td>bibliography + <code>references.bib</code></td>
+</tr>
+<tr>
+<td><code>LyricPointer</code></td>
+<td><code>song_slug</code></td>
+<td><code>url</code>, <code>themes</code>, <code>lyricist</code></td>
+<td>URL metadata only — never lyric text</td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-ingestion">Source ingestion</h2>
+<p>Each cited source has its own <em>reference parser</em> at
+<code>src/sources/&lt;name&gt;.py</code>. Every parser exposes a single
+<code>parse</code> function whose input is a record in the documented
+upstream shape (JSON payload for API sources, line-oriented text block
+for HTML-derived archives, dict-of-tables for relational dumps) and
+whose output is in the canonical schema. The committed snapshot in
+<code>data/archival/</code> is built from gdshowsdb YAML,
+truckin-through-time SQLite gap-fill, and curated overlays. Live HTTP
+fetchers are implemented in <code>src/ingest/</code> and invoked by
+<code>scripts/00_fetch_sources.py --online --archival-max</code>. We
+support nine ingestion paths corresponding to the survey above:</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Source</th>
+<th>Module</th>
+<th>Citation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Setlist.fm</td>
+<td><code>sources/setlistfm.py</code></td>
+<td>[setlistfm_gd]</td>
+</tr>
+<tr>
+<td>The SetList Program</td>
+<td><code>sources/setlist_program.py</code></td>
+<td>[setlists_net_program]</td>
+</tr>
+<tr>
+<td>CMU / Mark Leone</td>
+<td><code>sources/cmu_setlists.py</code></td>
+<td>[cmu_leone_setlists; noah_truckin_through_time]</td>
+</tr>
+<tr>
+<td>GDsets</td>
+<td><code>sources/gdsets.py</code></td>
+<td>[gdsets_com; gdsets_dead]</td>
+</tr>
+<tr>
+<td>gdshowsdb</td>
+<td><code>sources/gdshowsdb.py</code></td>
+<td>[gdshowsdb]</td>
+</tr>
+<tr>
+<td>Internet Archive LMA</td>
+<td><code>sources/internet_archive.py</code></td>
+<td>[internet_archive_lma; fifteen_songs_dataset]</td>
+</tr>
+<tr>
+<td>Alex Allan / whitegum</td>
+<td><code>sources/alex_allan.py</code></td>
+<td>[whitegum_alex_allan]</td>
+</tr>
+<tr>
+<td>dead.net (official)</td>
+<td><code>sources/dead_net.py</code></td>
+<td>[dead_net_official]</td>
+</tr>
+<tr>
+<td>Wikipedia</td>
+<td><code>sources/wikipedia.py</code></td>
+<td>[wikipedia_gd; wikipedia_discography]</td>
+</tr>
+</tbody>
+</table>
+<p>The Internet Archive path is treated as recording <em>metadata</em>
+rather than as an audio-ingestion license. The Grateful Dead collection
+has its own access and upload posture, and its item metadata can include
+source, taper, and transfer fields that are valuable without bundling
+audio files [internet_archive_gd_collection_policy]. Likewise, the lyric
+layer records URLs, lyricist attribution, and curated theme labels only;
+Dodd and Trist’s annotated lyrics are cited as external interpretive
+context, not ingested text [dodd_annotated_lyrics].</p>
+<h3 id="contextual-source-layer">Contextual-source layer</h3>
+<p>Historical context is deliberately stored as citations and prose, not
+as performance data. The enriched-bibliography pass added a fourth
+source class: checked contextual anchors for formation, public honors,
+sound engineering, tape-trading, Deadhead sociology, studio-era
+reception, bibliography, and live-recording scholarship
+[dead_net_biography; foundsf_weir_psychedelic_sf;
+smithsonian_institutionally_dead; mcintosh_wall_of_sound;
+marshall_bootleg_collectors; brackett_live_dead;
+adams_deadhead_social_science; dodd_weiner_annotated_bibliography;
+americana_highways_workingmans_american_beauty;
+kennedy_center_honors_2024]. These sources can explain why a date
+matters, but they do not create or override <code>Show</code>,
+<code>Performance</code>, <code>Recording</code>, or
+<code>Release</code> rows. The quality tiers are explicit:</p>
+<ul>
+<li><strong>Data-bearing primary sources</strong> (gdshowsdb, Truckin,
+Setlist.fm, SetList Program, Internet Archive metadata) may create or
+corroborate schema rows through parser code.</li>
+<li><strong>Pointer-only sources</strong> (whitegum, the CMU lyric
+index, dead.net song pages, Dodd/Trist) may supply URLs, attributions,
+and themes but never bundled lyric text.</li>
+<li><strong>Scholarly or institutional context</strong> (UCSC, Wallace,
+Brackett, Adams/Sardiello, Lewin, NIST/Padi, Popoff/Andreatta) may
+support manuscript interpretation, methods scope, and related work.</li>
+<li><strong>Journalism or publisher context</strong> (JSTOR Daily,
+Americana Highways, Billboard, Britannica, McIntosh) may support
+labelled reception, biography, or technical context only.</li>
+<li><strong>Community reconstruction</strong> (Reddit threads, Grateful
+Seconds) may support explicitly labelled background, never quantitative
+findings.</li>
+</ul>
+<p>No current-person, revenue, lyric, or audio claim from the source
+dossier is allowed into the quantitative layer unless it is
+independently sourced and represented in the schema. The same rule
+applies to citation placement: contextual sources may explain the
+provenance of a figure or timeline label, but the plotted statistics
+must still come from generated reports or exported figure data.</p>
+<h2 id="integration">Integration</h2>
+<p>The integration layer at <code>src/integration/reconcile.py</code>
+performs a deterministic merge. The merge rule is pointwise per entity
+type — venues join on slug, songs join on slug with union of
+composer/lyricist tuples and min/max of first/last-performed dates,
+people join on slug with union of intervals, performances join on the
+four-tuple <code>(show, song, set, pos)</code>. The resulting
+<code>Compendium</code> is immutable and byte-stable across runs.</p>
+<h2 id="committed-compendium-dataarchival">Committed compendium
+(<code>data/archival/</code>)</h2>
+<p>The published dataset lives under <code>data/archival/</code> (3341
+ingested shows (gdshowsdb + truckin gap-fill; community literature
+estimates ~2318 canonical concerts), 645 songs, 912 venues, 40757
+performance rows). It merges gdshowsdb YAML, truckin-through-time
+gap-fill, Internet Archive LMA metadata, bibliography citations,
+maximinus reviews, CMU lyric pointers, and curated personnel/releases
+overlays. <code>GRATEFUL_DATA_TIER=archival</code> selects this load
+path (see <code>src/tier.py</code>).</p>
+<h2 id="analyses-and-validation">Analyses and validation</h2>
+<p>The analysis layer at <code>src/analysis/</code> computes descriptive
+statistics, co-occurrence and Markov transitions, era and personnel
+timelines, geo and tour aggregates, lyric-theme frequencies from
+pointers, review sentiment, segue extraction, eigenvector centrality,
+stationary distributions, and bustout (recurrence-gap) metrics — each as
+a pure function of the <code>Compendium</code>.</p>
+<p>Distributional statistics are first-class objects rather than
+incidental plot annotations. <code>src/analysis/distributions.py</code>
+computes show-level performance-row summaries, robust percentiles, and
+simple concentration statistics (Gini, top-decile share, and the number
+of ranked items needed to cover 50% and 80% of rows). The method is
+descriptive only: it reports skew and concentration in the archival
+record without treating unequal song frequency, venue recurrence, or
+setlist length as causal effects. Show-level performance distributions
+include empty-setlist shows, because excluding them would make the
+setlist-completeness limitation invisible.</p>
+<p>The same module now adds fixed-seed item-level bootstrap intervals
+for the song and venue concentration statistics. These intervals are
+reported as exploratory uncertainty bands around descriptive metrics:
+the resampling unit is the observed item count (a song’s performance
+count or a venue’s show count), not a claim about unobserved concerts,
+fan preference, or musical causation.</p>
+<p>Exploratory repertoire modeling lives in
+<code>src/analysis/exploratory.py</code>. It constructs an era-by-song
+performance-count matrix with generic segment markers excluded, applies
+a centered SVD to log-count profiles, and clusters the two-dimensional
+coordinates with deterministic k-means-style updates and stable
+tie-breaks. The output is explicitly labelled as pattern discovery: it
+helps inspect era-weighted repertoire profiles, but it is not
+predictive, causal, or a definitive musicological taxonomy.</p>
+<p>The transition analysis is intentionally modest: a first-order chain
+over adjacent within-show performance rows plus an explicit segue graph
+over source-marked <code>segue_into</code> edges. MIR work on
+full-concert setlist identification shows why audio-level segmentation
+is a separate, harder task that would require different evidence and
+different artifacts [wang_setlist_segmentation]. The current analysis
+report also includes a deterministic transition-sensitivity layer:
+predecessor-support thresholds are summarized with and without generic
+segment markers, and era-specific transition summaries are reported as
+descriptive diagnostics. These sensitivity rows do not rerun the
+permutation screen and do not create predictive claims; they show how
+fragile or stable the visible transition surface is under ordinary
+presentation choices.</p>
+<p>Repertoire concentration is likewise reported with sensitivity
+context. Beyond the fixed-seed bootstrap intervals, the analysis report
+summarizes alternate top-N cuts for performance share, within-cut Gini,
+top-decile concentration, and era coverage. This keeps the manuscript
+from treating a single top-song cutoff or heatmap width as if it were an
+intrinsic property of the archive.</p>
+<h3 id="first-principles-claim-ledger">First-principles claim
+ledger</h3>
+<p>The methods layer now includes a claim-governance pass in
+<code>src/analysis/first_principles.py</code>. This is not a statistical
+model; it is a reproducibility device. The ledger deconstructs each
+major manuscript claim family into five irreducible parts: the data
+input, the hard constraint that must hold, the softer modeling or
+presentation choice, the assumption that remains after the hard
+constraint is enforced, and the interpretation limit. The current build
+classifies 12 claim families across 6 claim classes, naming 12 hard
+constraints, 12 assumptions, and 12 validation artifacts.</p>
+<p>This layer prevents the common failure mode in computational
+humanities projects: a polished visualization silently upgrades a
+descriptive pattern into an explanatory claim. For example, repertoire
+rankings are permitted to say what was counted after segment-marker
+exclusion; they are not permitted to say what the band preferred. The
+transition matrix is permitted to summarize adjacent setlist rows; it is
+not permitted to infer musical causality. The historical-context
+timeline is permitted to orient computed show counts against cited
+milestones; it is not permitted to create or modify a <code>Show</code>
+row. <code>scripts/19_first_principles_review.py</code> serializes the
+ledger as <code>output/reports/first_principles_review.json</code> and
+<code>output/reports/first_principles_claims.csv</code>. Each row also
+names the manuscript section, figure filename, report key, governing
+test file, and claim status, so caveats can be routed through the ledger
+instead of repeated as free-floating prose.</p>
+<h3 id="provenance-external-pointers-and-reviewer-artifacts">Provenance,
+external pointers, and reviewer artifacts</h3>
+<p>Source provenance is exported as a sidecar rather than written into
+the frozen entity dataclasses. <code>src/provenance.py</code> records
+the source-layer families behind shows, songs, venues, performances,
+recordings, releases, citations, lyric pointers, reviews, personnel
+rows, and computed segue edges. The records are deliberately
+conservative: they identify ingest or computation layers, not hidden
+row-level certainty that the schema does not store.</p>
+<p>The external-media layer is pointer-only.
+<code>src/external_manifests.py</code> writes audio and lyric URL
+manifests with compact metadata, hashes where available, and explicit
+policy labels. It rejects bundled audio, local paths, lyric text,
+transcripts, excerpts, waveforms, and derived text fields. It also
+writes a small pipeline contract that names allowed inputs and outputs
+for future external audio-feature and lyric-annotation workflows. This
+keeps future audio- or lyric-analysis work reproducible without changing
+the present copyright and data-boundary claims.</p>
+<p>Visualization lives in <code>src/viz/</code>: reusable panel builders
+(<code>panels.py</code>), a figure registry (<code>figures.py</code>),
+mosaic composition (<code>compose.py</code>), alluvial flows
+(<code>alluvial.py</code>), and non-blank figure validation
+(<code>validate.py</code>). HTML dashboards and entity markdown pages
+live in <code>src/reporting/</code>.</p>
+<p>The figure set is deliberately mixed: frequency and concentration
+views use ranked bars or cumulative-share curves; distributions use
+histograms with median and high-percentile reference lines; temporal
+activity uses bars/lines; co-occurrence and transition matrices use
+heatmaps; geography uses a size-encoded scatter map; and the
+composer/song/era view uses an alluvial diagram. Pie charts are avoided
+because the same categorical comparisons are more legible as sorted bars
+with counts and shares.</p>
+<p>The contextual-source distinction also shapes the visual layer. The
+new historical-context timeline overlays a small set of cited milestones
+on computed show counts; it is a visual orientation aid, not an ingest
+product. The figure registry therefore carries its title, screen-reader
+alt text, caption hint, data source, statistic, exclusion rule, claim
+class, draw function, and figure-data exporter together. The same
+metadata feeds the dashboard, raw figure-data index, publication
+validator, and manuscript captions, so prose claims and plotted
+statistics are auditable from one registry. A plain static explorer
+under <code>output/explorer/</code> reuses exported show, song, venue,
+segue, figure, provenance, and claim-evidence data for local filtering
+without adding a frontend framework. The explorer supports URL-state
+filters, sortable table headers, related links, and filtered CSV
+download, so readers can inspect subsets without depending on a
+server.</p>
+<p>Runtime probes certify manuscript claims beyond unit tests:</p>
+<ul>
+<li><code>src/audit.py::audit_completeness</code> — referential
+integrity (tier-aware);</li>
+<li><code>src/export.py</code> — full raw CSV/JSON export of every
+entity type;</li>
+<li><code>src/analysis/first_principles.py</code> — first-principles
+claim/evidence ledger for hard constraints, assumptions, validation
+artifacts, and limits;</li>
+<li><code>src/provenance.py</code> — sidecar provenance CSV/JSON for
+entity/source-layer review;</li>
+<li><code>src/external_manifests.py</code> — pointer-only external
+audio/lyric manifests with protected-content rejection;</li>
+<li><code>src/viz/datasets.py</code> — raw CSV/JSON export of 34
+registered figure datasets;</li>
+<li><code>src/viz/validate.py::validate_figures</code> — every expected
+PNG exists and is non-degenerate.</li>
+</ul>
+</body>
+</html>

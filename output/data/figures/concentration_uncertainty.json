@@ -1,0 +1,59 @@
+{
+  "columns": [
+    "family",
+    "metric",
+    "point",
+    "ci_low",
+    "ci_high",
+    "confidence",
+    "n_resamples",
+    "seed"
+  ],
+  "figure": "concentration_uncertainty.png",
+  "metadata": {
+    "method": "fixed-seed item-level bootstrap; descriptive uncertainty only"
+  },
+  "rows": [
+    [
+      "song_performance_concentration",
+      "gini",
+      0.7375,
+      0.7126,
+      0.7592,
+      0.95,
+      300,
+      0
+    ],
+    [
+      "song_performance_concentration",
+      "top_10_share_pct",
+      50.61,
+      45.947,
+      55.0405,
+      0.95,
+      300,
+      0
+    ],
+    [
+      "venue_show_concentration",
+      "gini",
+      0.5883,
+      0.5548,
+      0.6172,
+      0.95,
+      300,
+      1
+    ],
+    [
+      "venue_show_concentration",
+      "top_10_share_pct",
+      51.81,
+      47.6932,
+      55.2825,
+      0.95,
+      300,
+      1
+    ]
+  ],
+  "title": "Concentration Uncertainty"
+}

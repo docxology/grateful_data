@@ -1,0 +1,136 @@
+{
+  "columns": [
+    "rank",
+    "song_slug",
+    "title",
+    "eigenvector_centrality"
+  ],
+  "figure": "centrality_top20.png",
+  "metadata": {
+    "adjacency": "Jaccard co-occurrence",
+    "exclude_segments": true
+  },
+  "rows": [
+    [
+      1,
+      "sugar_magnolia",
+      "Sugar Magnolia",
+      0.01219818
+    ],
+    [
+      2,
+      "playing_in_the_band",
+      "Playing In The Band",
+      0.01203786
+    ],
+    [
+      3,
+      "me_and_my_uncle",
+      "Me And My Uncle",
+      0.01197963
+    ],
+    [
+      4,
+      "i_know_you_rider",
+      "I Know You Rider",
+      0.01183123
+    ],
+    [
+      5,
+      "mexicali_blues",
+      "Mexicali Blues",
+      0.01178876
+    ],
+    [
+      6,
+      "el_paso",
+      "El Paso",
+      0.01172514
+    ],
+    [
+      7,
+      "china_cat_sunflower",
+      "China Cat Sunflower",
+      0.01165257
+    ],
+    [
+      8,
+      "truckin",
+      "Truckin'",
+      0.0116472
+    ],
+    [
+      9,
+      "big_river",
+      "Big River",
+      0.01098552
+    ],
+    [
+      10,
+      "tennessee_jed",
+      "Tennessee Jed",
+      0.01097448
+    ],
+    [
+      11,
+      "deal",
+      "Deal",
+      0.0107449
+    ],
+    [
+      12,
+      "not_fade_away",
+      "Not Fade Away",
+      0.01028682
+    ],
+    [
+      13,
+      "around_and_around",
+      "Around And Around",
+      0.01027805
+    ],
+    [
+      14,
+      "jack_straw",
+      "Jack Straw",
+      0.01020086
+    ],
+    [
+      15,
+      "looks_like_rain",
+      "Looks Like Rain",
+      0.01013602
+    ],
+    [
+      16,
+      "sugaree",
+      "Sugaree",
+      0.01011664
+    ],
+    [
+      17,
+      "beat_it_on_down_the_line",
+      "Beat It On Down The Line",
+      0.01010641
+    ],
+    [
+      18,
+      "promised_land",
+      "Promised Land",
+      0.01010226
+    ],
+    [
+      19,
+      "brown_eyed_women",
+      "Brown Eyed Women",
+      0.00998908
+    ],
+    [
+      20,
+      "the_other_one",
+      "The Other One",
+      0.0097707
+    ]
+  ],
+  "title": "Association Centrality"
+}
