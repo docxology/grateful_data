@@ -1,7 +1,7 @@
 # Agent notes — grateful_data/docs
 
 - Docs conventions for this repo live in the root `AGENTS.md` and
-  `manuscript/AGENTS.md` (token-injection authoring contract); this folder
+  `docs/manuscript/AGENTS.md` (token-injection authoring contract); this folder
   holds only supplementary engineering docs.
 - Manuscript numbers come from `{{TOKEN}}` substitution resolved at render
   time; do not hard-code counts into docs or prose.

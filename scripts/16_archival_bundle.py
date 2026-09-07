@@ -6,12 +6,12 @@ from __future__ import annotations
 import hashlib
 import json
 import subprocess
-import sys
 import tarfile
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT))
+from _bootstrap import ensure_project_root
+
+ROOT = ensure_project_root()
 
 from src.export import export_all  # noqa: E402
 from src.seed import load_seed_compendium  # noqa: E402

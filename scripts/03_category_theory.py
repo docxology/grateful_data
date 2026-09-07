@@ -4,11 +4,10 @@
 from __future__ import annotations
 
 import json
-import sys
-from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT))
+from _bootstrap import ensure_project_root
+
+ROOT = ensure_project_root()
 
 from src.cattheory import (  # noqa: E402
     build_date_category,

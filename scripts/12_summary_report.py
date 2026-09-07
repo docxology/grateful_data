@@ -3,11 +3,9 @@
 
 from __future__ import annotations
 
-import sys
-from pathlib import Path
+from _bootstrap import ensure_project_root
 
-ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT))
+ROOT = ensure_project_root()
 
 from src.analysis import composers, eras, stats, timeseries, tours  # noqa: E402
 from src.cattheory.functors import (  # noqa: E402

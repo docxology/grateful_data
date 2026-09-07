@@ -19,7 +19,7 @@ counts in prose.
 | Recordings | 7,122 (Internet Archive LMA unlimited; 100 dropped on unknown show slug, 1 on date mismatch) |
 | Releases | 259 (curated seed + Wikipedia discography merge) |
 | Reviews | 1,888 (1,877 maximinus + 11 curated exemplar rows) |
-| Citations | 139 (26 seed + bibliography MD + `manuscript/references.bib`, URL-deduped) |
+| Citations | 139 (26 seed + bibliography MD + `docs/manuscript/references.bib`, URL-deduped) |
 | Lyric pointers | 548 (CMU index + curated overlay + dead.net gap-fill URLs; 80 with lyricist, 24 with themes) |
 
 Coverage vs `FULL_CORPUS_SHOW_ESTIMATE` (~2,318) is reported in the build report.
@@ -58,7 +58,7 @@ Vendor caches (gitignored): `data/vendor/{gdshowsdb,cmu,whitegum,dead_net,wikipe
 - Primary bulk: [jefmsmit/gdshowsdb](https://github.com/jefmsmit/gdshowsdb) year YAML (`:segued` → `segue_into`)
 - Gap-fill setlists: [Noah Gorstein truckin-through-time](https://noahgorstein.com/blog/truckin-through-time/) SQLite (~983 shows not in gdshowsdb alone)
 - Curated overlays: `data/seed/` (personnel with intervals is authoritative — online dead.net/Wikipedia personnel skipped when `personnel.json` present)
-- Bibliography: numbered markdown + `manuscript/references.bib` merged offline (`bibliography_combined`)
+- Bibliography: numbered markdown + `docs/manuscript/references.bib` merged offline (`bibliography_combined`)
 - Lyric pointers: CMU `dead-lyrics.html` index (no lyric text); seed themes/lyricists overlay matching `song_slug`; dead.net song pages for catalog songs still missing a URL
 - Optional online: Internet Archive LMA (unlimited with `--archival-max`), Alex Allan / whitegum index, dead.net roster, **Wikipedia** discography/members; CMU setlists (primary + Wayback mirrors — currently 404 / wrapper-only); **truckin-through-time** SQLite download; dead.net `/songs` HTML (often 403 — gap-fill uses constructed `/song/{slug}` URLs); Grateful Stats API when `GRATEFULSTATS_API_KEY` is set; Setlist.fm API when `SETLISTFM_API_KEY` is set (`setlistfm_max_pages=0` = full pagination)
 

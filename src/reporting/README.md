@@ -2,6 +2,8 @@
 
 Report and table generation.
 
-Contents: __init__.py, dashboard.py, entity_pages.py, explorer.py, peer_review.py, song_pages.py
+Contents: __init__.py, dashboard.py, entity_pages.py, explorer.py, manuscript.py, peer_review.py, release_prep.py, song_pages.py
 
-Part of the DataTools lane (local-only, never committed). Parent: `../README.md`.
+`manuscript.py` derives manuscript variables and hydrates `output/manuscript/`;
+`release_prep.py` holds the release-prep gate logic (step plan, subprocess
+runner, HTML postprocess, template-root discovery). Parent: `../README.md`.

@@ -13,6 +13,7 @@ from src.external_manifests import ExternalPointer, write_external_manifests
 from src.provenance import lookup_provenance, provenance_records, write_provenance
 from src.reporting.explorer import write_explorer
 from src.reporting.peer_review import write_peer_review_dossier
+from src.reporting.release_prep import build_steps
 from src.viz.figures import DASHBOARD_FIGURES, FIGURE_SPECS
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -201,8 +202,7 @@ def test_publication_validator_passes_and_catches_regressions(tmp_path):
 
 
 def test_release_prep_dry_run_ordering():
-    release_prep = _load_script("21_release_prep.py")
-    steps = release_prep.build_steps(
+    steps = build_steps(
         tier="archival",
         template_root=Path("/tmp/template"),
         skip_tests=False,

@@ -86,7 +86,7 @@ def test_expected_filenames_count():
 
 
 def test_results_figure_captions_are_evidence_structured():
-    text = (ROOT / "manuscript" / "04_results.md").read_text(encoding="utf-8")
+    text = (ROOT / "docs" / "manuscript" / "04_results.md").read_text(encoding="utf-8")
     captions = re.findall(
         r"\\includegraphics\[[^\]]*\]\{[^}]+\}\n\\caption\{(.*?)\}\n\\label\{([^}]+)\}",
         text,

@@ -6,10 +6,11 @@ import json
 import re
 from pathlib import Path
 
-from scripts.z_generate_manuscript_variables import (
-    _find_template_root,
+from src.reporting.manuscript import (
     _top_song_fields,
+    _unresolved_tokens,
     _write_counts,
+    find_template_root,
 )
 
 
@@ -45,27 +46,14 @@ def test_write_counts_includes_curated_overlay_fields(
     (reports / "analysis_report.json").write_text(
         json.dumps(analysis), encoding="utf-8"
     )
-    monkeypatch.setattr("scripts.z_generate_manuscript_variables.ROOT", tmp_path.parent)
+    monkeypatch.setattr("src.reporting.manuscript.ROOT", tmp_path.parent)
     payload = _top_song_fields(analysis)
     assert payload["TOP_SONG"] == "ripple"
 
 
 def test_find_template_root_from_private_checkout():
-    root = _find_template_root(Path(__file__).resolve().parent.parent)
+    root = find_template_root(Path(__file__).resolve().parent.parent)
     assert (root / "infrastructure" / "rendering").is_dir()
-
-
-def test_deprecated_generate_manuscript_counts_delegates(monkeypatch):
-    if not (
-        Path(__file__).resolve().parent.parent / "data" / "archival" / "shows.json"
-    ).is_file():
-        import pytest
-
-        pytest.skip("archival data not in checkout")
-    monkeypatch.setenv("GRATEFUL_DATA_TIER", "archival")
-    from scripts import generate_manuscript_counts as legacy
-
-    assert legacy.main() == 0
 
 
 def test_manuscript_variables_json_written(monkeypatch):
@@ -97,7 +85,7 @@ def test_all_source_manuscript_tokens_are_generated(monkeypatch):
     payload = _write_counts()
     source_tokens: set[str] = set()
     token_re = re.compile(r"\{\{([A-Z][A-Z0-9_]*)\}\}")
-    for path in sorted((root / "manuscript").glob("*.md")):
+    for path in sorted((root / "docs" / "manuscript").glob("*.md")):
         if path.name in {"AGENTS.md", "README.md", "SYNTAX.md"}:
             continue
         source_tokens.update(token_re.findall(path.read_text(encoding="utf-8")))
@@ -106,8 +94,6 @@ def test_all_source_manuscript_tokens_are_generated(monkeypatch):
 
 
 def test_unresolved_tokens_helper(tmp_path):
-    from scripts.z_generate_manuscript_variables import _unresolved_tokens
-
     md = tmp_path / "01_section.md"
     md.write_text("count {{MISSING_TOKEN}} only", encoding="utf-8")
     assert _unresolved_tokens(tmp_path) == ["MISSING_TOKEN"]

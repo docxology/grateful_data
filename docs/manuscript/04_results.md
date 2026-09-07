@@ -539,7 +539,7 @@ summary.}
 \centering
 \includegraphics[width=0.82\textwidth]{../output/figures/citation_kinds.png}
 \caption{Citation kinds across the {{CITATIONS_N}} references in
-\texttt{manuscript/references.bib} and \texttt{data/archival/citations.json}.
+\texttt{docs/manuscript/references.bib} and \texttt{data/archival/citations.json}.
 Data source: bibliography markdown, BibTeX, and archival citation rows.
 Statistic: counts and share-of-total across {{FIG_CITATION_KIND_N}} citation
 kinds. Exclusion rule: citation rows are metadata pointers; no source text is

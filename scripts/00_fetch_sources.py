@@ -11,12 +11,11 @@ from __future__ import annotations
 
 import argparse
 import json
-import sys
 from datetime import datetime, timezone
-from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT))
+from _bootstrap import ensure_project_root
+
+ROOT = ensure_project_root()
 
 PLAN: list[dict] = [
     {

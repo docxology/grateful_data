@@ -222,7 +222,7 @@ registry-backed manuscript tokens so archival PDFs never say "curated seed".
 - [x] CMU fetch tries primary + Internet Archive mirrors; skipped sources recorded in `build_report.json`.
 - [x] `src/viz/style.py`: `resolve_tier()`, `tier_phrase()`, `overlay_phrase()`; panels/compose use tier labels.
 - [x] `02_analyze.py` + `z_generate_manuscript_variables.py`: `TOP_SONG*`, `TIER_LABEL`, `CURATED_*_N`.
-- [x] `manuscript/04_results.md`: no hardcoded seed prose at archival render.
+- [x] `docs/manuscript/04_results.md`: no hardcoded seed prose at archival render.
 - [x] Tests: `test_viz_tier_labels.py`, `test_manuscript_variables.py`, fetch adapter pagination/CMU cache.
 
 ## Verification (2026-05-29, archival-max)

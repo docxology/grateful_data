@@ -15,6 +15,14 @@ def _exists(path: Path) -> bool:
     return path.is_file() or path.is_dir()
 
 
+def _promotion_command(root: Path) -> str:
+    """Portable lifecycle move: sibling ``active/`` beside the ``projects/`` ancestor."""
+    for ancestor in root.parents:
+        if ancestor.name == "projects":
+            return f"mv {root} {ancestor / 'active' / root.name}"
+    return f"mv {root} {root.parent / 'active' / root.name}"
+
+
 def main() -> int:
     out_dir = ROOT / "output" / "reports"
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -57,7 +65,7 @@ def main() -> int:
         "does_not_promote": True,
         "ready_to_request_promotion": all(check["ok"] for check in checks),
         "checks": checks,
-        "promotion_command_if_explicitly_requested": "mv /Users/4d/Documents/GitHub/projects/working/grateful_data /Users/4d/Documents/GitHub/projects/active/grateful_data",
+        "promotion_command_if_explicitly_requested": _promotion_command(ROOT),
         "required_pre_promotion_gates": [
             "uv run pytest tests/ --cov=src --cov-fail-under=90",
             "GRATEFUL_DATA_TIER=archival uv run python scripts/99_pipeline.py --tier archival",

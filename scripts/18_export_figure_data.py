@@ -3,11 +3,9 @@
 
 from __future__ import annotations
 
-import sys
-from pathlib import Path
+from _bootstrap import ensure_project_root
 
-ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT))
+ROOT = ensure_project_root()
 
 from src.seed import load_seed_compendium  # noqa: E402
 from src.viz.datasets import export_figure_datasets  # noqa: E402

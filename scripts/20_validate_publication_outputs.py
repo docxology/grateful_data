@@ -80,7 +80,7 @@ def validate_publication_outputs(root: Path = ROOT) -> dict[str, object]:
     text_files = _text_files(
         output,
         (
-            "manuscript/*.md",
+            "docs/manuscript/*.md",
             "web/*.html",
             "dashboard.html",
             "explorer/*.html",

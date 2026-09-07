@@ -16,7 +16,7 @@ no `infrastructure/` imports by design. Documentation lives in this file and
 - `data/seed/` — CI demonstrator JSON fixtures (83 shows).
 - `data/archival/` — committed full gdshowsdb snapshot + truckin gap-fill (3,341 shows; includes `performances.json`).
 - `data/vendor/` — gitignored upstream caches (`gdshowsdb/`, `cmu/`, `whitegum/`, `dead_net/`, `wikipedia/`).
-- `manuscript/` — markdown sections + `references.bib`.
+- `docs/manuscript/` — markdown sections + `references.bib`.
 
 Tier selection: `GRATEFUL_DATA_TIER=seed|archival` or `scripts/99_pipeline.py --tier …`
 (default `seed`). See `src/tier.py`.
@@ -38,7 +38,7 @@ assert_valid (validation.py)
 | `src/seed.py` | Bundled-seed loader orchestrator (`resolve_seed_dir()`). |
 | `src/tier.py` | `GRATEFUL_DATA_TIER` → `data/seed/` vs `data/archival/`. |
 | `src/ingest/` | Online fetch (`fetch_*`), gdshowsdb YAML load, merge, `write_archival_seed`. |
-| `src/ingest/fetch_bibliography.py` | Parse numbered bibliography MD + inline links + DOIs + `manuscript/references.bib`. |
+| `src/ingest/fetch_bibliography.py` | Parse numbered bibliography MD + inline links + DOIs + `docs/manuscript/references.bib`. |
 | `src/ingest/fetch_truckin_db.py` | Download/parse truckin-through-time SQLite for setlist gap-fill. |
 | `src/ingest/fetch_dead_net_songs.py` | dead.net `/songs` HTML scrape → lyric pointer URLs. |
 | `src/ingest/fetch_gratefulstats.py` | Optional Grateful Stats API smoke probe (`GRATEFULSTATS_API_KEY`). |
@@ -104,6 +104,8 @@ assert_valid (validation.py)
 | `src/reporting/explorer.py` | Plain static explorer over exported show/song/venue/segue/figure/claim/provenance data with URL-state filters, sorting, related links, and CSV download. |
 | `src/reporting/peer_review.py` | Reviewer dossier mapping claim families to reports, figures, tests, and citations. |
 | `src/reporting/song_pages.py` | Per-song markdown pages. |
+| `src/reporting/manuscript.py` | Manuscript variable derivation, template-root discovery (`find_template_root`), and `output/manuscript/` hydration. |
+| `src/reporting/release_prep.py` | Release-prep gate logic: step plan (`build_steps`), subprocess runner, HTML postprocess, template-root resolution. |
 | `scripts/_bootstrap.py` | Shared `sys.path` + headless matplotlib setup for scripts. |
 
 ## Category-theory report keys
@@ -131,7 +133,7 @@ Stage order (`99_pipeline.py`):
 
 | Stage | Script | Role |
 | --- | --- | --- |
-| 0 | `00_fetch_sources.py` | `--online --archival-max` → `data/archival/`; **gdshowsdb** + **truckin** gap-fill; **maximinus** reviews; **bibliography** (`*.md` + `manuscript/references.bib`); **CMU dead-lyrics** pointers; **dead.net** lyric gap-fill; IA LMA; Setlist.fm / Grateful Stats when keyed |
+| 0 | `00_fetch_sources.py` | `--online --archival-max` → `data/archival/`; **gdshowsdb** + **truckin** gap-fill; **maximinus** reviews; **bibliography** (`*.md` + `docs/manuscript/references.bib`); **CMU dead-lyrics** pointers; **dead.net** lyric gap-fill; IA LMA; Setlist.fm / Grateful Stats when keyed |
 | 1 | `01_build_compendium.py` | CSV + JSON compendium |
 | 2 | `02_analyze.py` | Descriptive + transitions report |
 | 3 | `03_category_theory.py` | Functor laws + spans report |
@@ -208,7 +210,7 @@ the command that satisfies both.
 
 ## Manuscript
 
-`manuscript/` follows the template format. `references.bib` carries surveyed
+`docs/manuscript/` follows the template format. `references.bib` carries surveyed
 sources. The manuscript distinguishes seed-data claims (audited, in-repo)
 from full-corpus scaling claims. Repeated caveats should point to the
 first-principles ledger rather than duplicating long limitations prose; figure

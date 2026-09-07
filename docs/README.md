@@ -14,7 +14,7 @@ manuscript lives in `../manuscript/`.
 | `scripts/` | Thin orchestrators that call `src/` |
 | `tests/` | Test suite |
 | `output/` | Generated figures and data artifacts |
-| `manuscript/` | Publication-track manuscript (sections, `config.yaml`, `references.bib`) |
+| `docs/manuscript/` | Publication-track manuscript (sections, `config.yaml`, `references.bib`) |
 | `AGENTS.md`, `ISA.md`, `TODO.md` | Agent notes, project ISA, backlog |
 
 ## How to run/test
@@ -33,6 +33,6 @@ Entry-point script names are listed in `pyproject.toml` under
 ## Documentation here
 
 This `docs/` folder is intentionally minimal: root `README.md` (overview +
-commands), `AGENTS.md` (agent-facing notes), and `manuscript/AGENTS.md`
+commands), `AGENTS.md` (agent-facing notes), and `docs/manuscript/AGENTS.md`
 (manuscript authoring contract) are the maintained entry points. Add one
 file per real concern here only when a concern outgrows those.

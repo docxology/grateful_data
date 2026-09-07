@@ -84,7 +84,7 @@ uv run python -m src.cli provenance songs scarlet_begonias
 | Numeric counts in §4 | ``output/data/manuscript_variables.json`` + ``output/reports/analysis_report.json`` |
 | Referential completeness | ``scripts/13_audit_completeness.py`` → ``completeness_report.json`` (`dangling_total: 0`) |
 | Figure integrity (blank-canvas tripwire) | ``scripts/14_validate_figures.py`` → ``figure_validation.json`` ({{N_FIGURES}} non-blank). Figure *correctness* is bound by the archival ground-truth tests, not by pixel variance. |
-| Figure filenames, titles, alt text, captions, data source, statistic, exclusion rule, claim class | ``src/viz/figures.py`` registry + ``manuscript/04_results.md`` + ``output/data/figures/index.json`` |
+| Figure filenames, titles, alt text, captions, data source, statistic, exclusion rule, claim class | ``src/viz/figures.py`` registry + ``docs/manuscript/04_results.md`` + ``output/data/figures/index.json`` |
 | Figure raw data | ``scripts/18_export_figure_data.py`` → ``output/data/figures/{*.csv,*.json,index.json}`` |
 | Claim boundaries | ``scripts/19_first_principles_review.py`` → ``first_principles_review.json`` + ``first_principles_claims.csv`` with section, figure, report, test, and status columns |
 | Transition sensitivity | ``output/reports/analysis_report.json`` → ``transition_sensitivity`` plus ``transition_sensitivity.png`` and figure CSV/JSON |
@@ -96,11 +96,11 @@ uv run python -m src.cli provenance songs scarlet_begonias
 | Peer-review dossier | ``scripts/26_peer_review_dossier.py`` → claim-to-artifact map in JSON and Markdown |
 | Publication output gate | ``scripts/20_validate_publication_outputs.py --strict`` → ``publication_validation.json`` |
 | Non-destructive archival refresh diff | ``scripts/22_archival_refresh_diff.py`` → ``output/refresh/archival_refresh_diff.{json,md}``; never overwrites ``data/archival/`` |
-| Contextual historical claims | ``manuscript/references.bib`` + checked official/scholarly URLs; not ingested as ``Show`` or ``Performance`` rows |
+| Contextual historical claims | ``docs/manuscript/references.bib`` + checked official/scholarly URLs; not ingested as ``Show`` or ``Performance`` rows |
 | Functor monotonicity | ``category_theory_report.json``; ``tests/test_cattheory.py`` |
 | Naturality of η | ``src/cattheory/natural.py`` + negative-control tests |
 | Wide-pullback setlist recovery | ``tests/test_cattheory.py`` on concrete compendium shows |
-| Citations | ``manuscript/references.bib`` + bibliography markdown ({{CITATIONS_N}} merged citations in the active build) |
+| Citations | ``docs/manuscript/references.bib`` + bibliography markdown ({{CITATIONS_N}} merged citations in the active build) |
 | Honesty boundary | ``src/honesty.py`` enforced at every ``load_seed_compendium()`` |
 
 The bibliography parser accepts legacy ``\url{...}`` wrappers, explicit

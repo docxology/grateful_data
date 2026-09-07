@@ -75,7 +75,7 @@ online refresh candidates are written only under `output/refresh/`.
 | Venues | 25 | 912 | derived from show ingestion |
 | Recordings | 6 | 7,122 | Internet Archive LMA (`--archival-max`) |
 | Reviews | 12 | 1,888 | maximinus corpus + curated exemplar |
-| Citations | 26 | 139 | bibliography MD + `manuscript/references.bib` |
+| Citations | 26 | 139 | bibliography MD + `docs/manuscript/references.bib` |
 | Lyric pointers | 25 | 548 | CMU index + curated overlay + dead.net URLs (no lyric text) |
 | Full lyric text | **NOT bundled** | **NOT bundled** | pointers only |
 
@@ -133,7 +133,7 @@ python -m json.tool output/data/figures/index.json
 
 ## Citations and Scholarship
 
-`manuscript/references.bib` carries both source-parser references and the
+`docs/manuscript/references.bib` carries both source-parser references and the
 scholarly frame for the paper: UCSC and Internet Archive archival context,
 dead.net and Wallace on taping/community curation, Dodd/Trist on lyric
 annotation, MIR setlist segmentation, Brackett and Marshall on liveness and
