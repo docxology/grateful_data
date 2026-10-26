@@ -38,11 +38,13 @@ no mocks.
 ## Quick Start
 
 ```bash
-cd projects/working/grateful_data
+git clone https://github.com/docxology/grateful_data.git
+cd grateful_data
+uv sync --extra dev
 
 # Seed tier (CI default)
 uv run python scripts/99_pipeline.py --tier seed
-uv run pytest tests/ --cov=src --cov-fail-under=90
+uv run --extra dev pytest tests/ --cov=src --cov-fail-under=90
 
 # Archival tier (full gdshowsdb snapshot — requires data/archival/)
 uv run python scripts/00_fetch_sources.py --online --write-archival

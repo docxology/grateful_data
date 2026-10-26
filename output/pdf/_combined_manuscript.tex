@@ -1986,7 +1986,7 @@ reproduction}\label{single-command-reproduction}
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\BuiltInTok{cd}\NormalTok{ projects/working/grateful\_data}
+\BuiltInTok{cd}\NormalTok{ /path/to/grateful\_data}
 
 \CommentTok{\# Refresh committed snapshot (optional; requires network)}
 \ExtensionTok{uv}\NormalTok{ run python scripts/00\_fetch\_sources.py }\AttributeTok{{-}{-}online} \AttributeTok{{-}{-}archival{-}max}
@@ -2040,7 +2040,7 @@ From the template repository root:
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\BuiltInTok{cd}\NormalTok{ projects/working/grateful\_data}
+\BuiltInTok{cd}\NormalTok{ /path/to/grateful\_data}
 \ExtensionTok{uv}\NormalTok{ run python scripts/z\_generate\_manuscript\_variables.py}
 
 \BuiltInTok{cd}\NormalTok{ /path/to/template}
@@ -2057,7 +2057,7 @@ This performs the multi-pass LaTeX + bibliography build and writes
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\BuiltInTok{cd}\NormalTok{ projects/working/grateful\_data}
+\BuiltInTok{cd}\NormalTok{ /path/to/grateful\_data}
 \VariableTok{GRATEFUL\_DATA\_TIER}\OperatorTok{=}\NormalTok{archival }\ExtensionTok{uv}\NormalTok{ run python }\AttributeTok{{-}m}\NormalTok{ src.cli stats}
 \ExtensionTok{uv}\NormalTok{ run python }\AttributeTok{{-}m}\NormalTok{ src.cli song scarlet\_begonias}
 \ExtensionTok{uv}\NormalTok{ run python }\AttributeTok{{-}m}\NormalTok{ src.cli show 1977{-}05{-}08@barton\_hall\_ithaca}

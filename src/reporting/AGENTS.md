@@ -1,8 +1,7 @@
 # AGENTS.md — `grateful_data/src/reporting`
 
-> Local-only path under `projects/ongoing/DataTools/` — matched by the
-> root `.gitignore` rule `projects/*`; never commit. Repo-wide policy:
-> see `/Volumes/external_drive/Git/template/projects/ongoing/AGENTS.md`.
+> Docs for this subtree of the grateful_data repo (`docxology/grateful_data`).
+> Repo-wide policy: see the repo root `AGENTS.md`/`README.md`.
 
 ## What this is
 

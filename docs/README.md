@@ -3,7 +3,7 @@
 `grateful_data` builds a curated Grateful Dead data corpus — archival shows,
 performances, songs, venues, personnel, releases, reviews, and citations —
 and derives setlist/repertoire analytics from it. The publication-track
-manuscript lives in `../manuscript/`.
+manuscript lives in `docs/manuscript/`.
 
 ## Repo layout
 
@@ -19,16 +19,17 @@ manuscript lives in `../manuscript/`.
 
 ## How to run/test
 
-Commands are declared by `pyproject.toml` at the repo root (dependency group
-`uv.lock`); install and run tests with:
+Install and run the suite from the repo root (the `dev` extra carries pytest,
+coverage, and hypothesis):
 
 ```bash
-uv sync
-uv run pytest tests/
+uv sync --extra dev
+uv run --extra dev pytest tests/ --cov=src --cov-fail-under=90
 ```
 
-Entry-point script names are listed in `pyproject.toml` under
-`[project.scripts]`; consult it rather than this file for the live list.
+Entry points are the numbered scripts in `scripts/` — see
+[`../scripts/README.md`](../scripts/README.md) for the inventory; there is no
+`[project.scripts]` console-script table in `pyproject.toml`.
 
 ## Documentation here
 

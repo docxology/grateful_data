@@ -4,9 +4,10 @@ Module-by-module orientation for contributors and agents.
 
 ## Project status
 
-Local-only rotating project under `projects/grateful_data/`. Self-contained:
-no `infrastructure/` imports by design. Documentation lives in this file and
-[`README.md`](README.md) (no separate `docs/` 12-file hub).
+Self-contained project (`docxology/grateful_data`); every command below runs
+from the repository root. No `infrastructure/` imports by design. Documentation
+lives in this file and [`README.md`](README.md) (no separate `docs/` 12-file
+hub).
 
 ## Architecture (two-layer, thin orchestrator)
 
@@ -119,14 +120,13 @@ assert_valid (validation.py)
 ## Test-coverage gate
 
 ```bash
-uv run pytest projects/grateful_data/tests/ \
-  --cov=projects/grateful_data/src --cov-fail-under=90
+uv run --extra dev pytest tests/ --cov=src --cov-fail-under=90
 ```
 
 ## Pipeline
 
 ```bash
-uv run python projects/grateful_data/scripts/99_pipeline.py
+uv run python scripts/99_pipeline.py
 ```
 
 Stage order (`99_pipeline.py`):
@@ -195,7 +195,7 @@ deliberately free of `infrastructure/` coupling. Manuscript → PDF rendering is
 a template-level concern, run from the template root via the shared renderer:
 
 ```bash
-cd projects/working/grateful_data
+cd /path/to/grateful_data
 GRATEFUL_DATA_TIER=archival uv run python scripts/z_generate_manuscript_variables.py
 cd /path/to/template
 uv run python scripts/03_render_pdf.py --project grateful_data

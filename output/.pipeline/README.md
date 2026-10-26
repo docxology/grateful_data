@@ -4,4 +4,4 @@ Internal pipeline state (artifact registry). Do not edit by hand.
 
 Contents: artifacts/
 
-Part of the DataTools lane (local-only, never committed). Parent: `../README.md`.
+Part of the `docxology/grateful_data` repository tree. Parent: `../README.md`.

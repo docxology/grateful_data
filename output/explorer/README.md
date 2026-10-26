@@ -4,4 +4,4 @@ Interactive explorer (web) outputs.
 
 Contents: explorer_data.json, index.html
 
-Part of the DataTools lane (local-only, never committed). Parent: `../README.md`.
+Part of the `docxology/grateful_data` repository tree. Parent: `../README.md`.
