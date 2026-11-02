@@ -12,7 +12,7 @@ description = "The Music Never Stopped: a modular, citation-bound Grateful Dead 
 authors = [
     {name = "Daniel Ari Friedman", email = "danielarifriedman@gmail.com"}
 ]
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
     "numpy>=1.24.0",
     "matplotlib>=3.7.0",
