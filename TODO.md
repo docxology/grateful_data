@@ -105,3 +105,7 @@ compendium, manuscript, figures, dashboard, or reproducibility story.
 - Split vague items into testable tasks before implementation.
 - Add new items only when they have a clear artifact, validation path, or
   manuscript-quality payoff.
+
+## Workflowz review — 2026-11-10
+
+- [ ] **WFZ-GD-001 — Make fallback venue geocoding reproducible across processes** — **P2** — `src/ingest/geo_enrich.py:106` describes a deterministic non-US/unknown-country fallback, but `src/ingest/geo_enrich.py:107` uses Python’s per-process randomized `hash()` and `src/ingest/geo_enrich.py:111` derives latitude from it. Replace process-random hashing with a stable defined digest for these fallback rows while retaining real coordinates and existing output shape. **Acceptance probe:** from the repository root, run the geo-enrichment fallback path for the same non-US/unknown-country venue in two fresh Python processes with different, fixed `PYTHONHASHSEED` values and assert that both exported rows (especially latitude/longitude) are byte-for-byte equal; assert actual US-state and non-US known-coordinate inputs remain unchanged. Add that two-process case to the geo-enrichment behavior tests. **Dependencies/constraints:** inspect the full function and existing callers before editing; do not change bundled lyric/audio boundaries or invent geographic coordinates, and keep the explicitly approximate fallback status clear in reports.
