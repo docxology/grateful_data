@@ -29,6 +29,7 @@ Coverage vs `FULL_CORPUS_SHOW_ESTIMATE` (~2,318) is reported in the build report
 ```bash
 cd /path/to/grateful_data
 
+```bash
 # Clone/update vendor dump (gitignored) and write committed JSON — full pagination profile
 uv run python scripts/00_fetch_sources.py --online --archival-max
 
