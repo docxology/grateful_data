@@ -313,8 +313,6 @@ and close every gate green.
   the report — claim-verification at archival scale surfaced it; the lint/dep
   gate had silently regressed because `working/` projects are outside the
   template's public-scope CI; criterion_now: ISC-1..26 all green + Forge CERTIFY.
-</content>
-</invoke>
 
 ---
 
