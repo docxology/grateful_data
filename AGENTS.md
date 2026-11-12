@@ -9,6 +9,11 @@ from the repository root. No `infrastructure/` imports by design. Documentation
 lives in this file and [`README.md`](README.md) (no separate `docs/` 12-file
 hub).
 
+Path convention: in a standalone checkout of this repository the repository
+root *is* the project root. Commands below that carry a `projects/grateful_data/`
+prefix, or a `cd projects/working/grateful_data` step, assume the template
+workspace — drop that prefix/step when running from this repository.
+
 ## Architecture (two-layer, thin orchestrator)
 
 - `src/` — pure logic: schema, source parsers, integration, analysis, category theory, visualization panels.
@@ -122,6 +127,11 @@ assert_valid (validation.py)
 ```bash
 uv run --extra dev pytest tests/ --cov=src --cov-fail-under=90
 ```
+
+Dev tooling (`pytest`, `pytest-cov`, `hypothesis`) lives in the `dev` extra, so
+`--extra dev` is required on a fresh environment. Run the pipeline first as
+well: the manuscript-token test reads `output/reports/*.json`, so a bare
+checkout fails that test until the report stages have run.
 
 ## Pipeline
 
