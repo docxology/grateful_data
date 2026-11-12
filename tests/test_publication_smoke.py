@@ -48,6 +48,9 @@ def test_z_generate_leaves_no_unresolved_tokens(tmp_path, monkeypatch):
     if not (ROOT / "data" / "archival" / "shows.json").is_file():
         pytest.skip("archival data not present in checkout")
 
+    # Hydration needs the template checkout; skip without it (see _find_template_root).
+    _find_template_root(ROOT)
+
     monkeypatch.setenv("GRATEFUL_DATA_TIER", "archival")
     result = subprocess.run(
         [sys.executable, str(ROOT / "scripts" / "z_generate_manuscript_variables.py")],
