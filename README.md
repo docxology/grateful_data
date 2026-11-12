@@ -30,7 +30,7 @@ promoting the project out of `working/`.
 **Status:** Dual-tier compendium: **`data/seed/`** (83-show CI demonstrator,
 pinned tests) and **`data/archival/`** (committed gdshowsdb snapshot, **3,341
 ingested shows**; community literature estimates ~2,318 canonical concerts for
-the full corpus). Nine **reference parsers** in `src/sources/` plus **`src/ingest/`**
+the full corpus). Ten **reference parsers** in `src/sources/` plus **`src/ingest/`**
 online fetch/normalize paths (gdshowsdb + truckin-through-time gap-fill at
 archival scale). Tests default to the seed tier — deterministic, network-free,
 no mocks.
@@ -42,6 +42,7 @@ git clone https://github.com/docxology/grateful_data.git
 cd grateful_data
 uv sync --extra dev
 
+```bash
 # Seed tier (CI default)
 uv run python scripts/99_pipeline.py --tier seed
 uv run --extra dev pytest tests/ --cov=src --cov-fail-under=90
@@ -54,6 +55,10 @@ GRATEFUL_DATA_TIER=archival uv run python scripts/99_pipeline.py --tier archival
 uv run python scripts/20_validate_publication_outputs.py --strict
 uv run python scripts/21_release_prep.py --dry-run
 ```
+
+Manuscript-hydration tests need the template checkout that provides
+`infrastructure/rendering/`; they skip when it is not discoverable from the
+repository's parent directories — set `TEMPLATE_REPO_ROOT` to point at it.
 
 ## What's bundled vs scalable
 
