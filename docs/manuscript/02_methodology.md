@@ -30,7 +30,7 @@ the authoritative definition with all invariants is ``src/models.py``.
 | ``Performance`` | ``(show, song, set, position)`` | ``show_slug``, ``song_slug``, ``set_number``, ``position``, ``segue_into``, ``notes`` | the apex of the show$\leftrightarrow$song span |
 | ``Person`` | ``slug`` | ``intervals`` = ``(start, end, role)`` tuples | open interval (``end=None``) means still active |
 | ``Recording`` | ``slug`` | ``show_slug`` (or date), ``source_type`` | Internet Archive + curated rows |
-| ``Review`` | — | ``show_slug``, ``kind``, ``sentiment`` $\in[-1,1]$, ``source_url`` | positive sentiment requires a source URL (honesty check) |
+| ``Review`` | — | ``show_slug``, ``kind``, ``sentiment`` with magnitude at most one, ``source_url`` | positive sentiment requires a source URL (honesty check) |
 | ``Citation`` | ``key`` | ``kind``, ``url`` | bibliography + ``references.bib`` |
 | ``LyricPointer`` | ``song_slug`` | ``url``, ``themes``, ``lyricist`` | URL metadata only — never lyric text |
 

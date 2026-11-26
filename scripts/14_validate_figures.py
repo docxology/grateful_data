@@ -9,7 +9,7 @@ from _bootstrap import ensure_project_root
 
 ROOT = ensure_project_root()
 
-from src.viz.figures import EXPECTED_FILENAMES  # noqa: E402
+from src.viz.figures import EXPECTED_FILENAMES, write_manuscript_figure_registry  # noqa: E402
 from src.viz.validate import validate_figures  # noqa: E402
 
 
@@ -31,6 +31,8 @@ def main() -> int:
             print(f"  FAIL {r.path}: {'; '.join(r.reasons)}")
     for m in report.missing:
         print(f"  MISSING {m}")
+    if report.all_ok:
+        print(write_manuscript_figure_registry(figures_dir))
     return 0 if report.all_ok else 1
 
 

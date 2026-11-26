@@ -123,6 +123,7 @@ def test_merge_gratefulstats_probe(monkeypatch):
             ia_max_rows=0,
             skip_truckin=True,
             skip_cmu=True,
+            skip_cmu_lyrics=True,
             skip_whitegum=True,
             skip_wikipedia=True,
             skip_maximinus=True,

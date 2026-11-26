@@ -77,7 +77,7 @@ claims about musical density.
 <!-- alt: Histogram of performance rows per show with median and p90 reference lines -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.88\textwidth]{../output/figures/performance_distribution.png}
+\includegraphics[width=0.88\textwidth]{../../output/figures/performance_distribution.png}
 \caption{Distribution of performance rows per show in the {{CORPUS_LABEL}},
 including empty setlists. Data source: bundled show/performance tables.
 Statistic: non-empty show-level histogram with overall median and 90th
@@ -100,7 +100,7 @@ unimportant.
 <!-- alt: Cumulative-share curve showing ranked songs' share of performance rows -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.88\textwidth]{../output/figures/repertoire_concentration.png}
+\includegraphics[width=0.88\textwidth]{../../output/figures/repertoire_concentration.png}
 \caption{Repertoire concentration: cumulative share of non-segment performance
 rows by ranked song. Data source: bundled performance rows. Statistic:
 cumulative share with 50\%/80\% coverage guides, Gini, and top-decile share.
@@ -121,7 +121,7 @@ description of each era.
 <!-- alt: Line and band chart showing how top-N song cuts cover total and era-level non-segment performance rows -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.88\textwidth]{../output/figures/repertoire_topn_sensitivity.png}
+\includegraphics[width=0.88\textwidth]{../../output/figures/repertoire_topn_sensitivity.png}
 \caption{Repertoire top-N sensitivity. Data source: bundled performance rows
 and era labels. Statistic: selected top-N performance share plus minimum, mean,
 and maximum era-level coverage. Exclusion rule: generic segment markers are
@@ -143,7 +143,7 @@ fully disambiguated venue-history census.
 <!-- alt: Cumulative-share curve showing ranked venues' share of show rows -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.88\textwidth]{../output/figures/venue_concentration.png}
+\includegraphics[width=0.88\textwidth]{../../output/figures/venue_concentration.png}
 \caption{Venue concentration: cumulative share of show rows by ranked venue
 slug. Data source: bundled show and venue tables. Statistic: cumulative show
 share with concentration thresholds, Gini, and top-decile share. Exclusion rule:
@@ -168,7 +168,7 @@ archive, not uncertainty about an unobserved causal data-generating process.
 <!-- alt: Error-bar chart of fixed-seed bootstrap intervals for song and venue concentration metrics -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.88\textwidth]{../output/figures/concentration_uncertainty.png}
+\includegraphics[width=0.88\textwidth]{../../output/figures/concentration_uncertainty.png}
 \caption{Concentration uncertainty: fixed-seed item-level bootstrap intervals
 for repertoire and venue concentration statistics. Data source: bundled
 song-performance and venue-show count vectors. Statistic: 95\% item-level
@@ -193,7 +193,7 @@ era-weighted profiles, not as a discovered set of song genres.
 <!-- alt: Scatterplot of top songs embedded by centered SVD era-count profiles and colored by deterministic clusters -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.9\textwidth]{../output/figures/repertoire_embedding.png}
+\includegraphics[width=0.9\textwidth]{../../output/figures/repertoire_embedding.png}
 \caption{Exploratory repertoire embedding: top non-segment songs are embedded
 from log era-by-song performance counts using centered SVD, then colored by a
 deterministic k-means-style cluster assignment. Data source: bundled
@@ -213,7 +213,7 @@ normalization directly.
 <!-- alt: Heatmap of era-normalized performance-row intensity for the top songs -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.95\textwidth]{../output/figures/era_repertoire_heatmap.png}
+\includegraphics[width=0.95\textwidth]{../../output/figures/era_repertoire_heatmap.png}
 \caption{Era repertoire heatmap: era-normalized performance-row share for the
 top non-segment songs. Data source: bundled performance rows and era labels.
 Statistic: within-era performance-row share. Exclusion rule: generic segment
@@ -233,7 +233,7 @@ consolidation, and sustained late-period touring with peaks in 1977 and
 <!-- alt: Bar and line chart of shows and performances per year, 1969-1995 -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.92\textwidth]{../output/figures/shows_per_year.png}
+\includegraphics[width=0.92\textwidth]{../../output/figures/shows_per_year.png}
 \caption{Temporal activity in the {{CORPUS_LABEL}} (n={{ARCHIVAL_SHOWS}} shows).
 Data source: bundled show and performance tables. Statistic: bars count
 distinct concerts per calendar year; the line counts total performance rows
@@ -258,7 +258,7 @@ the counts.
 <!-- alt: Shows-per-year bar chart with selected historical milestones labelled above the bars -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.95\textwidth]{../output/figures/context_timeline.png}
+\includegraphics[width=0.95\textwidth]{../../output/figures/context_timeline.png}
 \caption{Shows per year with cited historical context markers. Data source:
 bundled show table plus checked contextual sources. Statistic: annual show
 counts with selected labelled historical waypoints. Exclusion rule: context
@@ -293,15 +293,15 @@ snapshot.
 <!-- alt: Horizontal bar chart of top fifteen songs by performance count -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.88\textwidth]{../output/figures/top_songs.png}
+\includegraphics[width=0.88\textwidth]{../../output/figures/top_songs.png}
 \caption{Most-performed songs in the {{CORPUS_LABEL}}. Data source: bundled
 performance rows. Statistic: top-{{FIG_TOP_SONGS_N}} performance counts. Exclusion rule:
-generic segment markers are excluded and surfaced separately in
-``analysis_report.json::segment_marker_counts``. Claim class: descriptive.}
+generic segment markers are excluded and counted separately in the analysis
+report. Claim class: descriptive.}
 \label{fig:top_songs}
 \end{figure}
 
-Figure \ref{fig:cooccurrence} restricts the song--song co-occurrence matrix to
+Figure \ref{fig:cooccurrence_heatmap} restricts the song--song co-occurrence matrix to
 the {{FIG_COOCCURRENCE_SONG_N}} most-played titles. High off-diagonal mass marks pairs that share
 shows frequently — including segue-adjacent pairs such as ``Scarlet
 Begonias'' / ``Fire on the Mountain'' when both appear in the same setlist
@@ -312,20 +312,20 @@ described in MIR setlist-segmentation work [@wang_setlist_segmentation].
 <!-- alt: Heatmap of song co-occurrence among top twenty-five songs -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.85\textwidth]{../output/figures/cooccurrence_heatmap.png}
+\includegraphics[width=0.85\textwidth]{../../output/figures/cooccurrence_heatmap.png}
 \caption{Co-occurrence heatmap among the {{FIG_COOCCURRENCE_SONG_N}} most-performed non-segment songs.
 Data source: bundled show/performance rows. Statistic: cell $(i,j)$ counts
 shows in which both songs appear; diagonal entries are per-song show counts.
 Exclusion rule: generic segment markers are excluded. Claim class:
 descriptive association summary.}
-\label{fig:cooccurrence}
+\label{fig:cooccurrence_heatmap}
 \end{figure}
 
 ## Markov structure of setlist order
 
 A first-order Markov model fit on within-show song order (see
 ``src/analysis/transitions.py``) yields the sub-block in Figure
-\ref{fig:transitions}. The manuscript-ready matrix excludes generic segment
+\ref{fig:transition_matrix}. The manuscript-ready matrix excludes generic segment
 markers so the main panel is a song-to-song repertoire view; the sensitivity
 panel below reports what changes when markers are included. Chains such as
 ``Help on the Way'' $\to$ ``Slipknot!'' $\to$ ``Franklin's Tower'' appear as
@@ -335,7 +335,7 @@ setlists.
 <!-- alt: Heatmap of Markov transition probabilities among top songs -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.85\textwidth]{../output/figures/transition_matrix.png}
+\includegraphics[width=0.85\textwidth]{../../output/figures/transition_matrix.png}
 \caption{Estimated first-order transition probabilities among the top
 {{FIG_TRANSITION_SONG_N}}
 non-segment songs by performance count. Data source: ordered bundled
@@ -343,7 +343,7 @@ performance rows. Statistic: row-stochastic successor probability over
 observed within-show order. Exclusion rule: generic segment markers are
 excluded here and compared in Figure \ref{fig:transition_sensitivity}. Claim class:
 exploratory descriptive model.}
-\label{fig:transitions}
+\label{fig:transition_matrix}
 \end{figure}
 
 Figure \ref{fig:transition_sensitivity} gives the support-threshold audit for
@@ -356,7 +356,7 @@ probabilities as stable structure.
 <!-- alt: Line chart comparing transition edge and predecessor retention across support thresholds with segment markers included versus excluded -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.88\textwidth]{../output/figures/transition_sensitivity.png}
+\includegraphics[width=0.88\textwidth]{../../output/figures/transition_sensitivity.png}
 \caption{Transition sensitivity. Data source: ordered bundled performance rows
 and the segment-marker policy. Statistic: share of nonzero transition edges and
 predecessor rows retained as the minimum predecessor-support threshold
@@ -365,8 +365,8 @@ versus excluded. Claim class: exploratory sensitivity diagnostic.}
 \label{fig:transition_sensitivity}
 \end{figure}
 
-The stationary distribution (Figure \ref{fig:stationary}) and association
-centrality (Figure \ref{fig:centrality}) provide complementary
+The stationary distribution (Figure \ref{fig:stationary_top20}) and association
+centrality (Figure \ref{fig:centrality_top20}) provide complementary
 views: the former summarizes long-run Markov mass; the latter weights songs
 that bridge many co-occurring pairs in the show graph. Centrality is computed
 on the \emph{Jaccard-association} adjacency rather than the raw co-occurrence
@@ -379,30 +379,30 @@ bridge many pairs rather than songs that were simply played often.
 <!-- alt: Bar chart of Markov stationary probabilities for top songs -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.88\textwidth]{../output/figures/stationary_top20.png}
+\includegraphics[width=0.88\textwidth]{../../output/figures/stationary_top20.png}
 \caption{Top {{FIG_STATIONARY_N}} non-segment songs by stationary probability under the compendium
 Markov model. Data source: ordered bundled performance rows. Statistic:
 stationary mass of the row-stochastic first-order transition matrix. Exclusion rule:
 generic segment markers are excluded. Claim class: exploratory model
 summary.}
-\label{fig:stationary}
+\label{fig:stationary_top20}
 \end{figure}
 
 <!-- alt: Bar chart of association (Jaccard) eigenvector centrality scores for top songs -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.88\textwidth]{../output/figures/centrality_top20.png}
+\includegraphics[width=0.88\textwidth]{../../output/figures/centrality_top20.png}
 \caption{Top {{FIG_CENTRALITY_N}} non-segment songs by association centrality. Data source:
 show-level song co-occurrence. Statistic: eigenvector centrality on the
 Jaccard-association adjacency, reducing raw play-frequency bias. Exclusion rule:
 generic segment markers are excluded. Claim class: exploratory
 association summary.}
-\label{fig:centrality}
+\label{fig:centrality_top20}
 \end{figure}
 
 ## Category-theoretic cardinalities
 
-Figure \ref{fig:functor_card} plots cumulative setlist and lineup functor
+Figure \ref{fig:functor_cardinalities} plots cumulative setlist and lineup functor
 cardinalities $|F_{\text{setlist}}(d)|$ and $|F_{\text{lineup}}(d)|$ along
 the chronological show index. Both are monotone non-decreasing on the compendium
 tier,
@@ -415,7 +415,7 @@ size continues to grow.
 <!-- alt: Line chart of cumulative setlist and lineup functor sizes -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.92\textwidth]{../output/figures/functor_cardinalities.png}
+\includegraphics[width=0.92\textwidth]{../../output/figures/functor_cardinalities.png}
 \caption{Cumulative setlist size (purple, left axis) and cumulative lineup
 roster size (amber, right axis) along the chronological show timeline. Data source:
 bundled ordered performances and curated personnel intervals.
@@ -424,7 +424,7 @@ Exclusion rule: cumulative functor construction includes all loaded
 performances and personnel intervals; no segment-marker filtering is applied.
 Claim class: validation, with machine-checked verdicts in
 \texttt{output/reports/category\_theory\_report.json}.}
-\label{fig:functor_card}
+\label{fig:functor_cardinalities}
 \end{figure}
 
 The category-theory report records {{ARCHIVAL_PERFORMANCES}} performance spans, cumulative setlist
@@ -434,30 +434,30 @@ passing ``Category.check_laws`` for both $\mathbf{Date}$ and $\mathbf{Show}$.
 
 ## Composers, eras, and personnel
 
-Figure \ref{fig:composer} contrasts songs-written counts with
+Figure \ref{fig:composer_attribution} contrasts songs-written counts with
 performance-weighted attribution, exposing the familiar asymmetry between
 prolific Garcia/Hunter writing and high-performance-weight Weir/Barlow
 closers. Figure \ref{fig:era_density} shows show density by year and month;
-Figure \ref{fig:gantt} is a Gantt chart of the
+Figure \ref{fig:personnel_gantt} is a Gantt chart of the
 {{FIG_PERSONNEL_INTERVAL_N}} personnel intervals in the current build.
 
 <!-- alt: Grouped bar chart of composer song counts versus weighted performances -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.92\textwidth]{../output/figures/composer_attribution.png}
+\includegraphics[width=0.92\textwidth]{../../output/figures/composer_attribution.png}
 \caption{Composer attribution for the top {{FIG_COMPOSER_N}} credited writers
 in the {{CORPUS_LABEL}}. Data source: bundled song composer fields joined to
 performance rows. Statistic: songs written versus performance-weighted
 composer attribution. Exclusion rule: songs without composer metadata do not
 contribute composer-credit rows; no lyric or audio content is bundled. Claim class:
 descriptive attribution summary.}
-\label{fig:composer}
+\label{fig:composer_attribution}
 \end{figure}
 
 <!-- alt: Year by month heatmap of show counts -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.92\textwidth]{../output/figures/era_density.png}
+\includegraphics[width=0.92\textwidth]{../../output/figures/era_density.png}
 \caption{Show density by calendar year and month. Data source: bundled show
 dates. Statistic: {{FIG_ERA_DENSITY_CELL_N}} year-month show-count cells.
 Exclusion rule: no shows are dropped; empty-setlist shows still count as
@@ -468,13 +468,13 @@ shows. Claim class: descriptive calendar-density summary.}
 <!-- alt: Gantt chart of personnel membership intervals -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.95\textwidth]{../output/figures/personnel_gantt.png}
+\includegraphics[width=0.95\textwidth]{../../output/figures/personnel_gantt.png}
 \caption{Personnel timeline. Data source: curated personnel interval table.
 Statistic: {{FIG_PERSONNEL_INTERVAL_N}} membership/role intervals displayed
 as horizontal date ranges. Exclusion rule: only explicit interval metadata is
 plotted; inferred guest appearances are outside scope. Claim class:
 descriptive provenance-backed roster summary.}
-\label{fig:gantt}
+\label{fig:personnel_gantt}
 \end{figure}
 
 Figure \ref{fig:shows_by_era} aggregates shows into the six era windows used
@@ -484,7 +484,7 @@ active lineup size over time.
 <!-- alt: Bar chart of show counts by musical era -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.88\textwidth]{../output/figures/shows_by_era.png}
+\includegraphics[width=0.88\textwidth]{../../output/figures/shows_by_era.png}
 \caption{Shows per era label in the {{CORPUS_LABEL}}. Data source: bundled
 show dates and deterministic era windows. Statistic: show counts across
 {{FIG_ERA_LABEL_N}} era buckets. Exclusion rule: no shows are dropped; era
@@ -496,7 +496,7 @@ descriptive era aggregation.}
 <!-- alt: Line chart of active lineup size over show dates -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.92\textwidth]{../output/figures/lineup_diversity.png}
+\includegraphics[width=0.92\textwidth]{../../output/figures/lineup_diversity.png}
 \caption{Active lineup size by show date. Data source: bundled show dates and
 curated personnel intervals. Statistic: active-member count over
 {{FIG_LINEUP_DATE_N}} distinct show dates. Exclusion rule: counts use interval
@@ -509,8 +509,8 @@ descriptive personnel-time summary.}
 
 The {{CORPUS_LABEL}} bundles {{REVIEWS_N}} show-level reviews (including the
 maximinus corpus at archival tier plus {{CURATED_REVIEWS_N}} curated exemplar
-rows); Figure \ref{fig:sentiment} reports mean sentiment by kind. Figure
-\ref{fig:citations} and Figure \ref{fig:recordings} summarize the
+rows); Figure \ref{fig:sentiment_by_kind} reports mean sentiment by kind. Figure
+\ref{fig:citation_kinds} and Figure \ref{fig:recording_sources} summarize the
 {{CITATIONS_N}} bibliographic citations and {{ARCHIVAL_RECORDINGS}}
 Internet Archive recording rows. The added citation mass is intentionally
 weighted toward archival, scholarly, official, and publisher-controlled
@@ -523,7 +523,7 @@ evidence path from its show/performance rows [@brackett_live_dead;
 <!-- alt: Bar chart of mean review sentiment by source kind -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.88\textwidth]{../output/figures/sentiment_by_kind.png}
+\includegraphics[width=0.88\textwidth]{../../output/figures/sentiment_by_kind.png}
 \caption{Review sentiment by source kind in the {{CORPUS_LABEL}}. Data source:
 bundled review-pointer table (n={{REVIEWS_N}} reviews across
 {{FIG_REVIEW_KIND_N}} source kinds). Statistic: mean sentiment by kind with
@@ -531,33 +531,33 @@ support and dispersion in the raw CSV/JSON export. Exclusion rule: reviews
 without pointer/source metadata are not fabricated; sentiment is limited to
 curated and maximinus review rows. Claim class: descriptive reception
 summary.}
-\label{fig:sentiment}
+\label{fig:sentiment_by_kind}
 \end{figure}
 
 <!-- alt: Ranked horizontal bar chart of citation kinds with counts and shares -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.82\textwidth]{../output/figures/citation_kinds.png}
+\includegraphics[width=0.82\textwidth]{../../output/figures/citation_kinds.png}
 \caption{Citation kinds across the {{CITATIONS_N}} references in
 \texttt{docs/manuscript/references.bib} and \texttt{data/archival/citations.json}.
 Data source: bibliography markdown, BibTeX, and archival citation rows.
 Statistic: counts and share-of-total across {{FIG_CITATION_KIND_N}} citation
 kinds. Exclusion rule: citation rows are metadata pointers; no source text is
 bundled. Claim class: descriptive bibliography-provenance summary.}
-\label{fig:citations}
+\label{fig:citation_kinds}
 \end{figure}
 
 <!-- alt: Ranked horizontal bar chart of recording source types with counts; UNKNOWN dominates -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.82\textwidth]{../output/figures/recording_sources.png}
+\includegraphics[width=0.82\textwidth]{../../output/figures/recording_sources.png}
 \caption{Recording source types in the bundled Internet Archive ingest
 (n={{ARCHIVAL_RECORDINGS}} recordings). Data source: bundled recording
 metadata. Statistic: counts and shares across {{FIG_RECORDING_SOURCE_TYPE_N}}
 source-type labels. Exclusion rule: missing source-type labels remain
 \texttt{UNKNOWN}; the ingest does not infer SBD/AUD/MTX from audio. Claim class:
 descriptive data-quality summary.}
-\label{fig:recordings}
+\label{fig:recording_sources}
 \end{figure}
 
 ## Lyric pointers and segues
@@ -569,7 +569,7 @@ curated overlay, and dead.net gap-fill URLs).
 {{SONGS_WITHOUT_LYRIC_POINTER_N}} performed songs lack any pointer URL in this
 build. The compendium carries {{ARCHIVAL_SEGUE_MARKERS}} explicit
 ``segue_into'' edges from gdshowsdb ``:segued`` flags via
-``performances.json``. Figure \ref{fig:segue} ranks the most frequent segues
+``performances.json``. Figure \ref{fig:segue_graph} ranks the most frequent segues
 directly (a node-link layout collapses into an unreadable tangle once the top
 edge occurs over a thousand times); the segue *structure* is interpreted in
 Section \ref{sec:segue-structure}.
@@ -577,7 +577,7 @@ Section \ref{sec:segue-structure}.
 <!-- alt: Horizontal bar chart of lyric theme tag frequencies -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.88\textwidth]{../output/figures/lyric_themes.png}
+\includegraphics[width=0.88\textwidth]{../../output/figures/lyric_themes.png}
 \caption{Lyric pointer theme tags. Data source: CMU/dead.net/curated lyric
 pointer metadata only (n={{LYRIC_POINTERS_N}} pointers). Statistic:
 frequency of the top {{FIG_LYRIC_THEME_N}} theme tags. Exclusion rule: lyric
@@ -589,21 +589,21 @@ metadata summary.}
 <!-- alt: Ranked horizontal bar chart of the most frequent song-to-song segues with counts -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.95\textwidth]{../output/figures/segue_graph.png}
+\includegraphics[width=0.95\textwidth]{../../output/figures/segue_graph.png}
 \caption{Most frequent explicit segues. Data source: bundled ordered
 performance rows with source-marked \texttt{segue\_into} flags
 (n={{ARCHIVAL_SEGUE_MARKERS}} markers). Statistic: top
 {{FIG_SEGUE_EDGE_N}} directed song-to-song edge counts. Exclusion rule:
 adjacent songs are not inferred as segues; only explicit flags contribute.
 Claim class: descriptive transition-edge summary.}
-\label{fig:segue}
+\label{fig:segue_graph}
 \end{figure}
 
 ## Geography, set position, tours, and bustouts
 
-Figure \ref{fig:geo} maps geocoded venues (point size ∝ shows at that venue).
-Figure \ref{fig:setpos} shows within-set position histograms; Figure
-\ref{fig:tours} ranks tour tags by show count (most shows lack tour
+Figure \ref{fig:geo_scatter} maps geocoded venues (point size ∝ shows at that venue).
+Figure \ref{fig:set_positions} shows within-set position histograms; Figure
+\ref{fig:tours_top} ranks tour tags by show count (most shows lack tour
 metadata in the ingest and appear under an untagged bucket); Figure
 \ref{fig:bustouts}
 highlights songs with the widest gap between successive performances in the
@@ -612,13 +612,13 @@ highlights songs with the widest gap between successive performances in the
 <!-- alt: Scatter map of venue locations sized by show count -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.92\textwidth]{../output/figures/geo_scatter.png}
+\includegraphics[width=0.92\textwidth]{../../output/figures/geo_scatter.png}
 \caption{Venue geography for geocoded venues (n={{ARCHIVAL_VENUES}} in compendium).
 Data source: bundled venue table plus geo sidecar. Statistic: point area
 scales with show count at that venue. Exclusion rule: only venues with
 geocoded sidecar rows are plotted; current archival coverage is complete.
 Claim class: descriptive.}
-\label{fig:geo}
+\label{fig:geo_scatter}
 \end{figure}
 
 Figure \ref{fig:venue_identity_review} is the companion to venue concentration:
@@ -630,7 +630,7 @@ review instead of merging them.
 <!-- alt: Horizontal bars summarize venue alias counts, conservative collapses, and ambiguous same-date canonical collisions -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.88\textwidth]{../output/figures/venue_identity_review.png}
+\includegraphics[width=0.88\textwidth]{../../output/figures/venue_identity_review.png}
 \caption{Venue identity review. Data source: bundled show/venue/performance
 tables and curated venue alias map. Statistic: venue-slug counts, conservative
 alias-collapse counts, ambiguous same-date collision count, and mean collision
@@ -642,31 +642,31 @@ not rewritten. Claim class: validation and data-quality diagnostic.}
 <!-- alt: Bar chart of performance counts by set position -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.88\textwidth]{../output/figures/set_positions.png}
+\includegraphics[width=0.88\textwidth]{../../output/figures/set_positions.png}
 \caption{Set-position distribution. Data source: bundled ordered performance
 rows. Statistic: performance-row counts across {{FIG_SET_POSITION_N}}
 within-set position indexes. Exclusion rule: all loaded performance rows with
 positions are counted, including segment markers. Claim class: descriptive
 setlist-structure summary.}
-\label{fig:setpos}
+\label{fig:set_positions}
 \end{figure}
 
 <!-- alt: Horizontal bar chart of top tours by show count -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.88\textwidth]{../output/figures/tours_top.png}
+\includegraphics[width=0.88\textwidth]{../../output/figures/tours_top.png}
 \caption{Top tour labels by number of shows. Data source: bundled show
 metadata. Statistic: show counts across {{FIG_TOUR_LABEL_N}} displayed tour
 label bucket(s). Exclusion rule: shows without tour metadata remain in the
 untagged bucket rather than being imputed. Claim class: descriptive
 coverage-quality summary.}
-\label{fig:tours}
+\label{fig:tours_top}
 \end{figure}
 
 <!-- alt: Horizontal bar chart of widest recurrence gaps between song performances -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.88\textwidth]{../output/figures/bustouts.png}
+\includegraphics[width=0.88\textwidth]{../../output/figures/bustouts.png}
 \caption{Songs with the widest recurrence gaps. Data source: chronological
 show order and bundled performance rows. Statistic: top {{FIG_BUSTOUT_N}}
 maximum intervening-show gaps between successive performances. Exclusion rule:
@@ -676,7 +676,7 @@ repertoire-recurrence summary.}
 \label{fig:bustouts}
 \end{figure}
 
-Figure \ref{fig:lifespans} gives the complementary *lifespan* view: each of the
+Figure \ref{fig:song_lifespans} gives the complementary *lifespan* view: each of the
 top songs as a horizontal segment from its debut year to its last-played year,
 ordered by debut and colored by debut era. Where Figure \ref{fig:bustouts}
 measures recurrence gaps, this shows when each piece entered and left rotation —
@@ -685,41 +685,41 @@ the temporal spine of the repertoire.
 <!-- alt: Lollipop range chart of song first-to-last performance years, ordered by debut, colored by era -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.92\textwidth]{../output/figures/song_lifespans.png}
+\includegraphics[width=0.92\textwidth]{../../output/figures/song_lifespans.png}
 \caption{Song lifespans in the {{CORPUS_LABEL}}. Data source: bundled
 performance rows and era labels. Statistic: first-to-last performance year for
 {{FIG_LIFESPAN_N}} top songs by performance count, ordered by debut and
 colored by debut era. Exclusion rule: generic segment markers are excluded.
 Claim class: descriptive repertoire-span summary.}
-\label{fig:lifespans}
+\label{fig:song_lifespans}
 \end{figure}
 
-Figure \ref{fig:releases} places the {{RELEASES_N}} bundled releases on a timeline by
+Figure \ref{fig:releases_timeline} places the {{RELEASES_N}} bundled releases on a timeline by
 kind.
 
 <!-- alt: Scatter timeline of release dates by release kind -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.95\textwidth]{../output/figures/releases_timeline.png}
+\includegraphics[width=0.95\textwidth]{../../output/figures/releases_timeline.png}
 \caption{Release timeline by kind. Data source: bundled release metadata.
 Statistic: release dates and kinds for {{FIG_RELEASE_N}} release records in
 the {{CORPUS_LABEL}}. Exclusion rule: release rows without a source show link
 remain release metadata and do not alter performance counts. Claim class:
 descriptive discography-context summary.}
-\label{fig:releases}
+\label{fig:releases_timeline}
 \end{figure}
 
 ## Composite views
 
 Figure \ref{fig:mosaic} is the single-page extent artefact: title block,
 analytical panels, context timeline, and a per-layer provenance table. Figure
-\ref{fig:alluvial} traces the top 40 composer $\to$ song $\to$ era flows by
+\ref{fig:alluvial_composer_song_era} traces the top 40 composer $\to$ song $\to$ era flows by
 performance weight.
 
 <!-- alt: Large multi-panel mosaic summarizing the active compendium tier -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.98\textwidth]{../output/figures/mosaic.png}
+\includegraphics[width=0.98\textwidth]{../../output/figures/mosaic.png}
 \caption{Total mosaic for the {{CORPUS_LABEL}}. Data source: selected
 registry-backed figures and top-line report values. Statistic: composite
 overview selected from the {{N_FIGURES}} validated figure outputs, grouped by
@@ -733,14 +733,14 @@ synthesis.}
 <!-- alt: Alluvial diagram linking composers to songs to eras -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.95\textwidth]{../output/figures/alluvial_composer_song_era.png}
+\includegraphics[width=0.95\textwidth]{../../output/figures/alluvial_composer_song_era.png}
 \caption{Composer $\to$ song $\to$ era alluvial diagram. Data source:
 bundled performance rows joined to song composer metadata and show-era labels.
 Statistic: top {{ALLUVIAL_TOP_PATHS_N}} composer-song-era paths by
 performance count, with ribbon width proportional to flow mass. Exclusion rule:
 paths require composer metadata; lyric text and audio features are not
 bundled. Claim class: descriptive attribution-flow summary.}
-\label{fig:alluvial}
+\label{fig:alluvial_composer_song_era}
 \end{figure}
 
 ## Claim evidence map
@@ -756,7 +756,7 @@ than the evidence supports.
 <!-- alt: Heatmap counting claim families by claim class and primary validation artifact family -->
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.92\textwidth]{../output/figures/claim_evidence_matrix.png}
+\includegraphics[width=0.92\textwidth]{../../output/figures/claim_evidence_matrix.png}
 \caption{First-principles claim evidence matrix. Data source:
 the first-principles analysis module. Statistic: count of
 {{FIRST_PRINCIPLES_CLAIM_AREAS_N}} claim families by claim class and primary

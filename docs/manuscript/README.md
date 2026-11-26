@@ -1,7 +1,7 @@
 # grateful_data manuscript
 
 Publication-track manuscript for the Grateful Dead data compendium
-("The Music Never Stopped" — see repo root `README.md`, DOI
+("The Music Never Stopped" — see the [project README](../../README.md), DOI
 10.5281/zenodo.20482025): a citation-bound corpus of shows, songs,
 performances, personnel, venues, recordings, and reception, with a
 category-theoretic reading of the performance graph.
@@ -29,8 +29,11 @@ category-theoretic reading of the performance graph.
 
 Quantitative values are cited through `{{UPPERCASE_TOKEN}}` substitution
 (see `AGENTS.md`); tokens resolve at render time from generated variables
-(`../scripts/z_generate_manuscript_variables.py` →
+([the hydration hook](../../scripts/z_generate_manuscript_variables.py) →
 `output/data/manuscript_variables.json`). Unresolved tokens in these source
 files on disk are expected. Do not hand-type numbers; every registered
 figure panel declares its data source and plotted CSV/JSON rows under
-`../output/data/figures/`.
+`output/data/figures/`.
+
+Follow [the publication guide](../rendering.md) for a clean-checkout replay and
+pinned render. The release deposit records earlier rendered outputs.

@@ -4,15 +4,9 @@ Module-by-module orientation for contributors and agents.
 
 ## Project status
 
-Self-contained project (`docxology/grateful_data`); every command below runs
-from the repository root. No `infrastructure/` imports by design. Documentation
-lives in this file and [`README.md`](README.md) (no separate `docs/` 12-file
-hub).
-
-Path convention: in a standalone checkout of this repository the repository
-root *is* the project root. Commands below that carry a `projects/grateful_data/`
-prefix, or a `cd projects/working/grateful_data` step, assume the template
-workspace — drop that prefix/step when running from this repository.
+Self-contained project (`docxology/grateful_data`). Run package commands
+from the repository root. The [documentation index](docs/README.md) explains
+the offline analysis and the separate pinned parent renderer.
 
 ## Architecture (two-layer, thin orchestrator)
 
@@ -200,23 +194,9 @@ compares a candidate under `output/refresh/` or a provided directory against
 
 ## Manuscript PDF
 
-`99_pipeline.py` is the **analysis** pipeline (data → figures → reports) and is
-deliberately free of `infrastructure/` coupling. Manuscript → PDF rendering is
-a template-level concern, run from the template root via the shared renderer:
-
-```bash
-cd /path/to/grateful_data
-GRATEFUL_DATA_TIER=archival uv run python scripts/z_generate_manuscript_variables.py
-cd /path/to/template
-uv run python scripts/03_render_pdf.py --project grateful_data
-```
-
-This performs the multi-pass LaTeX + bibliography build and writes
-`output/pdf/grateful_data_combined.pdf` (citations from `references.bib`
-resolve in the rendered output) plus per-section slide PDFs under
-`output/slides/`. `domain_profile.yaml` declares `manuscript_pdf` as an
-expected output and `manuscript_citations_resolve` as a review gate; this is
-the command that satisfies both.
+Use the [publication guide](docs/rendering.md) for pinned Template rendering
+and validation. The offline analysis pipeline prepares the reports, figures,
+and variables consumed by the shared renderer.
 
 ## Manuscript
 

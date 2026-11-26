@@ -35,30 +35,12 @@ online fetch/normalize paths (gdshowsdb + truckin-through-time gap-fill at
 archival scale). Tests default to the seed tier — deterministic, network-free,
 no mocks.
 
-## Quick Start
+## Documentation
 
-```bash
-git clone https://github.com/docxology/grateful_data.git
-cd grateful_data
-uv sync --extra dev
-
-```bash
-# Seed tier (CI default)
-uv run python scripts/99_pipeline.py --tier seed
-uv run --extra dev pytest tests/ --cov=src --cov-fail-under=90
-
-# Archival tier (full gdshowsdb snapshot — requires data/archival/)
-uv run python scripts/00_fetch_sources.py --online --write-archival
-GRATEFUL_DATA_TIER=archival uv run python scripts/99_pipeline.py --tier archival
-
-# Publication gate after rendering
-uv run python scripts/20_validate_publication_outputs.py --strict
-uv run python scripts/21_release_prep.py --dry-run
-```
-
-Manuscript-hydration tests need the template checkout that provides
-`infrastructure/rendering/`; they skip when it is not discoverable from the
-repository's parent directories — set `TEMPLATE_REPO_ROOT` to point at it.
+The [documentation index](docs/README.md) covers setup, corpus tiers, CLI
+queries, outputs, and offline verification. The [publication guide](docs/rendering.md)
+rebuilds and renders the [canonical manuscript](docs/manuscript/README.md)
+from the checked-in archival snapshot.
 
 ## What's bundled vs scalable
 
@@ -67,11 +49,8 @@ repository's parent directories — set `TEMPLATE_REPO_ROOT` to point at it.
 | Seed (CI) | `data/seed/` | 83 | Pinned tests, fast pipeline |
 | Archival | `data/archival/` | 3,341 | gdshowsdb + truckin gap-fill + curated layers; 16.6k segue markers |
 
-Refresh archival: `uv run python scripts/00_fetch_sources.py --online --write-archival`
-(see [`data/archival/README.md`](data/archival/README.md)).
-For a non-destructive refresh comparison, use
-`uv run python scripts/22_archival_refresh_diff.py --candidate-dir <archival-shaped-dir>`;
-online refresh candidates are written only under `output/refresh/`.
+See the [archival source record](data/archival/README.md) for source attribution
+and the [replay guide](docs/README.md#offline-replay) for local use.
 
 | Layer | Seed | Archival (typical) | Scales by |
 | --- | ---: | ---: | --- |
@@ -86,9 +65,8 @@ online refresh candidates are written only under `output/refresh/`.
 | Lyric pointers | 25 | 548 | CMU index + curated overlay + dead.net URLs (no lyric text) |
 | Full lyric text | **NOT bundled** | **NOT bundled** | pointers only |
 
-The compendium is honest about what it contains. The bundled seed is sufficient
-for the manuscript's quantitative claims and category-theoretic constructions.
-Full-corpus ingestion is the scaling path, not the present claim.
+The compendium is honest about what it contains. The seed supports test fixtures and demonstrations. The manuscript's corpus
+results are derived from the committed archival tier.
 
 ## Architecture
 
@@ -109,34 +87,7 @@ graph TD
 ```
 
 See [AGENTS.md](AGENTS.md) for module-by-module documentation.
-See [TODO.md](TODO.md) for the minor/medium/large improvement roadmap.
-
-## Publication Artifacts
-
-| Artifact | Path | Purpose |
-| --- | --- | --- |
-| Dashboard | `output/dashboard.html` | Sectioned static figure browser with raw CSV/JSON links |
-| Figure data | `output/data/figures/` | Registry-backed plotted data exports and index |
-| Provenance sidecar | `output/data/provenance/` | Entity/source-layer provenance without schema mutation |
-| External manifests | `output/data/external/` | Pointer-only audio/lyric manifests plus future-pipeline contract; no protected content |
-| Static explorer | `output/explorer/index.html` | Plain HTML/JS filters for shows, songs, venues, segues, figures, claims, provenance |
-| Peer-review dossier | `output/reports/peer_review_dossier.{json,md}` | Claim-to-artifact map for reviewers |
-| Publication validation | `output/reports/publication_validation.json` | PDF/HTML/dashboard/figure-data/citation/token checks |
-| Release prep | `output/reports/release_prep.json` | Command-order and execution report for release gate |
-
-The explorer is intentionally framework-free. It supports URL-state filters,
-sortable table headers, related links, and filtered CSV downloads so reviewers
-can inspect show, song, venue, segue, figure, claim, and provenance subsets
-locally.
-
-Useful inspection commands:
-
-```bash
-GRATEFUL_DATA_TIER=archival uv run python -m src.cli provenance songs scarlet_begonias
-python -m json.tool output/reports/analysis_report.json | rg "transition_sensitivity|repertoire_topn_sensitivity|venue_identity_review"
-python -m json.tool output/reports/publication_validation.json
-python -m json.tool output/data/figures/index.json
-```
+See the [backlog](docs/backlog.md) for planned improvements.
 
 ## Citations and Scholarship
 

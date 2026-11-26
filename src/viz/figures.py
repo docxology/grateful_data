@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 from collections.abc import Callable
 from dataclasses import dataclass
 from pathlib import Path
@@ -533,6 +534,37 @@ DASHBOARD_FIGURES: tuple[str, ...] = (MOSAIC_FILENAME,) + tuple(
 FIGURE_SPEC_BY_FILENAME: dict[str, FigureSpec] = {
     spec.filename: spec for spec in FIGURE_SPECS
 }
+
+
+def write_manuscript_figure_registry(out_dir: Path) -> Path:
+    """Export Template's label-keyed view of the native figure registry."""
+    metadata = [
+        (spec.filename, spec.caption_hint, spec.alt_text) for spec in FIGURE_SPECS
+    ]
+    metadata.extend(
+        [
+            (MOSAIC_FILENAME, "Overview of the archival figure panels.",
+             "Multi-panel mosaic of setlist, statistical, and provenance summaries."),
+            (ALLUVIAL_FILENAME, "Top composer, song, and era flows by performance count.",
+             "Alluvial ribbons connect composers, songs, and performance eras."),
+        ]
+    )
+    figures = [
+        {
+            "label": f"fig:{Path(filename).stem}",
+            "filename": filename,
+            "caption": caption,
+            "alt_text": alt,
+            "generated_by": "scripts/99_pipeline.py",
+        }
+        for filename, caption, alt in metadata
+    ]
+    path = out_dir / "figure_registry.json"
+    path.write_text(
+        json.dumps({"schema_version": 1, "figures": figures}, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    return path
 
 
 def specs_for_group(group: FigureGroup) -> tuple[FigureSpec, ...]:

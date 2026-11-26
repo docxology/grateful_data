@@ -143,7 +143,7 @@ def build_steps(
         steps.append(
             Step(
                 "tests",
-                ("uv", "run", "pytest", "tests/", "--cov=src", "--cov-fail-under=90"),
+                ("uv", "run", "--locked", "--extra", "dev", "pytest", "tests/", "--cov=src", "--cov-fail-under=90"),
                 ROOT,
                 env,
             )
@@ -161,7 +161,10 @@ def build_steps(
         steps.append(
             Step(
                 "template_render",
-                ("uv", "run", "python", "scripts/03_render_pdf.py", "--project", "grateful_data"),
+                (
+                    "uv", "run", "--locked", "python",
+                    "scripts/pipeline/stage_03_render.py", "--project", "working/grateful_data",
+                ),
                 template_root,
                 env,
             )

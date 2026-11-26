@@ -41,7 +41,7 @@ are the higher-confidence signal.
 
 ## The most frequent segues
 
-Figure \ref{fig:segue} ranks the segues directly. The single most frequent is
+Figure \ref{fig:segue_graph} ranks the segues directly. The single most frequent is
 "{{TOP_SEGUE_SRC}}" -> "{{TOP_SEGUE_DST}}" with {{TOP_SEGUE_COUNT}}
 occurrences — the canonical "Drums" -> "Space" passage that anchors the
 second-set improvisational core for most of the band's career. That this

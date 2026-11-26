@@ -1,12 +1,7 @@
 # AGENTS — grateful_data/manuscript
 
-Markdown sections for the Grateful Dead data compendium paper. Rendered via the
-template root:
-
-```bash
-GRATEFUL_DATA_TIER=archival uv run python scripts/z_generate_manuscript_variables.py
-uv run python scripts/03_render_pdf.py --project grateful_data
-```
+Markdown sections for the Grateful Dead data compendium. Follow the
+[pinned publication guide](../rendering.md) for replay, rendering, and checks.
 
 ## Files
 
@@ -38,7 +33,7 @@ after injection abort the generator.
   ingested as data rows.
 - Figure filenames, dashboard labels, alt text, caption hints, data source,
   statistic, exclusion rule, claim class, and figure-data exporters live in
-  `src/viz/figures.py`. Add or rename figures through that registry rather
+  [the figure registry](../../src/viz/figures.py). Add or rename figures through that registry rather
   than duplicating lists in scripts or prose; CSV/JSON panel data and the
   metadata index are emitted by `scripts/18_export_figure_data.py`.
 - Claim boundaries live in `src/analysis/first_principles.py` and are exported
