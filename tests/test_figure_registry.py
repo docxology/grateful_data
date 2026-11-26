@@ -2,7 +2,10 @@
 
 from __future__ import annotations
 
+import json
 import os
+import re
+from pathlib import Path
 
 os.environ.setdefault("MPLBACKEND", "Agg")
 
@@ -18,6 +21,7 @@ from src.viz.figures import (
     render_group,
     render_one,
     specs_for_group,
+    write_manuscript_figure_registry,
 )
 
 
@@ -28,6 +32,21 @@ def test_expected_filenames_match_panel_specs_plus_composites():
         "mosaic.png",
         "alluvial_composer_song_era.png",
     }
+
+
+def test_manuscript_registry_covers_authored_labels(tmp_path):
+    root = Path(__file__).resolve().parents[1]
+    sections = (root / "docs" / "manuscript").glob("[0-9]*.md")
+    referenced = {
+        label
+        for section in sections
+        for label in re.findall(r"\\(?:label|ref)\{(fig:[^}]+)\}", section.read_text())
+    }
+    path = write_manuscript_figure_registry(tmp_path)
+    figures = json.loads(path.read_text())["figures"]
+    assert {figure["filename"] for figure in figures} == set(EXPECTED_FILENAMES)
+    assert {figure["label"] for figure in figures} == referenced
+    assert all(figure["alt_text"] for figure in figures)
 
 
 def test_dashboard_figures_include_mosaic_and_all_panel_specs():

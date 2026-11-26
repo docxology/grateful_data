@@ -13,7 +13,7 @@ from src.external_manifests import ExternalPointer, write_external_manifests
 from src.provenance import lookup_provenance, provenance_records, write_provenance
 from src.reporting.explorer import write_explorer
 from src.reporting.peer_review import write_peer_review_dossier
-from src.reporting.release_prep import build_steps
+from src.reporting.release_prep import Step, build_steps, postprocess_html, run_step
 from src.viz.figures import DASHBOARD_FIGURES, FIGURE_SPECS
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -216,6 +216,46 @@ def test_release_prep_dry_run_ordering():
         "template_render",
         "publication_validator",
     ]
+    assert steps[2].command[-3:] == (
+        "scripts/pipeline/stage_03_render.py", "--project", "working/grateful_data"
+    )
+    assert steps[2].cwd == Path("/tmp/template")
+
+
+def test_release_postprocess_adds_links_once(tmp_path):
+    assert postprocess_html(tmp_path)["reason"] == "missing"
+    web = tmp_path / "output" / "web"
+    web.mkdir(parents=True)
+    index = web / "index.html"
+    index.write_text("<html><head></head><body></body></html>", encoding="utf-8")
+    section = web / "section.html"
+    section.write_text(
+        '<span class="citation" data-cites="a b">[@a; @b]</span>', encoding="utf-8"
+    )
+
+    result = postprocess_html(tmp_path)
+    assert result["ok"] and result["changed"]
+    assert set(result["changed_files"]) == {str(index), str(section)}
+    html = index.read_text(encoding="utf-8")
+    assert 'href="../dashboard.html"' in html
+    assert 'href="../explorer/index.html"' in html
+    assert 'href="../pdf/grateful_data_combined.pdf"' in html
+    assert "[a; b]" in section.read_text(encoding="utf-8")
+    assert not postprocess_html(tmp_path)["changed"]
+    assert html == index.read_text(encoding="utf-8")
+
+
+def test_release_step_respects_project_environment(tmp_path):
+    command = (
+        sys.executable, "-c",
+        "import os; from pathlib import Path; "
+        "print(Path.cwd()); print(os.environ['GRATEFUL_DATA_TIER'])",
+    )
+    step = Step("publication_input", command, tmp_path, {"GRATEFUL_DATA_TIER": "archival"})
+    result = run_step(step)
+    assert result["ok"]
+    assert result["stdout_tail"].splitlines() == [str(tmp_path), "archival"]
+    assert result["stderr_tail"] == ""
 
 
 def test_archival_refresh_diff_detects_json_changes(tmp_path):

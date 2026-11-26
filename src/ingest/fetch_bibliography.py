@@ -8,11 +8,8 @@ from pathlib import Path
 from ..models import Citation, normalize_slug
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-BIBLIOGRAPHY_PATH = (
-    PROJECT_ROOT
-    / "The Grateful Dead  A Comprehensive Bibliography and Citation Reference.md"
-)
-REFERENCES_BIB_PATH = PROJECT_ROOT / "manuscript" / "references.bib"
+BIBLIOGRAPHY_PATH = PROJECT_ROOT / "docs" / "bibliography.md"
+REFERENCES_BIB_PATH = PROJECT_ROOT / "docs" / "manuscript" / "references.bib"
 
 _NUMBERED_ENTRY = re.compile(
     r"^\d+\.\s+\[(?P<title>[^\]]+)\]\((?P<url>https?://[^\)]+)\)",

@@ -59,7 +59,7 @@ transitions. The Internet Archive's Live Music Archive supplies recording
 metadata for the bulk of the live corpus [@internet_archive_lma], and its
 Grateful Dead collection policy explains the special access and metadata
 posture of those recordings [@internet_archive_gd_collection_policy]. The
-``fifteen-songs-dataset`` curates 2617 soundboard recordings of 15 songs for
+``fifteen-songs-dataset`` curates soundboard recordings for fifteen songs for
 music-information-retrieval research [@fifteen_songs_dataset], while Wang
 et al.'s setlist-segmentation paper gives a broader MIR frame for why live
 setlist identification is non-trivial [@wang_setlist_segmentation].

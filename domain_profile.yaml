@@ -1,16 +1,8 @@
 domain: music-information-retrieval
-project_kind: data-compendium
-# Outputs produced by the self-contained analysis pipeline (scripts/99_pipeline.py).
-# This pipeline is deliberately free of infrastructure/ coupling.
-expected_outputs:
-  - figures
-  - canonical_compendium_csv
-  - canonical_compendium_json
-# Produced OUT OF BAND by the shared template renderer, NOT by 99_pipeline.py:
-#   uv run python scripts/03_render_pdf.py --project grateful_data
-# (multi-pass + bibliography; citations resolve in the rendered artifact). See AGENTS.md.
-template_rendered_outputs:
-  - manuscript_pdf
+display_name: Grateful Data Compendium
+preferred_outputs:
+  - pdf
+  - html
 review_gates:
   - tests_90_pct_src
   - manuscript_citations_resolve

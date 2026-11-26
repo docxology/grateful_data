@@ -93,7 +93,7 @@ $$\mathrm{Show}\ \xleftarrow{\pi_{\text{show}}}\ p\ \xrightarrow{\pi_{\text{song
 
 In ``cattheory/spans.py``, ``PerformanceSpan`` exposes the two projections
 explicitly. The *fiber* of $\pi_{\text{show}}$ over a fixed show $s$ — the
-preimage $\pi_{\text{show}}^{-1}(s)$, equivalently the wide pullback of all
+preimage $\{p : \pi_{\text{show}}(p) = s\}$, equivalently the wide pullback of all
 spans pinned on the left to $s$ in the discrete fibration sense — recovers
 the show's setlist in canonical order. Symmetrically, the fiber of
 $\pi_{\text{song}}$ over a fixed song recovers the song's performance
