@@ -3,7 +3,8 @@
 Read the [published v1.0.0 manuscript](https://doi.org/10.5281/zenodo.20482026)
 for the archived edition. The HTML tracked in Git under `output/web/`
 is from an earlier run and retains that run’s browser title and reference
-format. The steps below generate a current local reader.
+format. Download the [verified HTML reader](reader/README.md) or follow the
+steps below to generate a local reader from the current source.
 
 Use a clean disposable Grateful Data worktree. Analysis and rendering
 overwrite paths under `output/`, which also contains the repository's
