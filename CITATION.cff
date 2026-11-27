@@ -1,4 +1,5 @@
 cff-version: 1.2.0
+message: "If you use the Grateful Data Compendium, please cite it using the metadata below."
 title: "The Music Never Stopped: A Grateful Data Compendium with Category-Theoretic Interpretation"
 abstract: >
   A modular, citation-bound Grateful Dead data compendium integrating shows,
