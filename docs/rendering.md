@@ -6,10 +6,18 @@ historical snapshots. The editable paper is
 [`docs/manuscript/`](manuscript/README.md) and the hydrated copy is
 `output/manuscript/`.
 
-Set up a separate checkout of [Template at the pinned revision](https://github.com/docxology/template/tree/87704feae0a4490ef7dad9c931d268e8c30273c2)
-following the [pinned runtime guide](https://github.com/docxology/template/blob/87704feae0a4490ef7dad9c931d268e8c30273c2/docs/RUN_GUIDE.md).
+Set up a separate checkout of [Template at the pinned revision](https://github.com/docxology/template/tree/56611eeb1074ea606a46d0b7c65d46c597bb1bac)
+following the [pinned runtime guide](https://github.com/docxology/template/blob/56611eeb1074ea606a46d0b7c65d46c597bb1bac/docs/RUN_GUIDE.md).
 The local render uses Python 3.14, Pandoc 3.14 with its matching pandoc-crossref
 0.3.26 build, and a LaTeX distribution.
+
+From the Template checkout root, select the pinned revision before preparing
+the Grateful Data worktree. The archival pipeline uses Template to hydrate the
+manuscript on its final step.
+
+```bash
+git switch --detach 56611eeb1074ea606a46d0b7c65d46c597bb1bac
+```
 
 ## Rebuild from the archival snapshot
 
@@ -29,6 +37,14 @@ hydrator writes the derived sections from those variables and their source
 configuration. Run the [native test gate](README.md#offline-replay) after
 the replay and before final parent validation.
 
+Start a source rebuild from the checked-in archival inputs. The tracked
+`output/` snapshots record earlier runs. Some of their generated files
+differ from the outputs of the current archival pipeline. The retained
+figure-reference render check reused a prepared set of current archival
+outputs. It verifies how Template renders those inputs. The archival
+pipeline and the project validator below cover input reconstruction and
+project output checks, respectively.
+
 ## Render and verify
 
 From the Template checkout root, register the same Grateful Data worktree and
@@ -37,7 +53,6 @@ A worktree directly under `projects/working/grateful_data` already satisfies
 the registration.
 
 ```bash
-git switch --detach 87704feae0a4490ef7dad9c931d268e8c30273c2
 mkdir -p projects/working
 ln -s /absolute/path/to/grateful_data projects/working/grateful_data
 uv run --locked python scripts/pipeline/stage_03_render.py --project working/grateful_data
