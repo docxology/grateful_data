@@ -20,8 +20,8 @@ provides the overview and citation.
 ## Setup
 
 Use [uv](https://docs.astral.sh/uv/) from the repository root. The package
-supports Python 3.11 or newer. Use Python 3.14 or newer for the pinned
-Template integration.
+supports Python 3.11 or newer. The pinned Template integration and the
+commands below use Python 3.14. The checkout default is Python 3.15.
 
 ```bash
 uv sync --locked --python 3.14 --extra dev
@@ -36,9 +36,9 @@ Use the default seed tier for examples. Set `GRATEFUL_DATA_TIER=archival`
 for a command that should read the retained archival snapshot.
 
 ```bash
-uv run --locked python -m src.cli stats
-GRATEFUL_DATA_TIER=archival uv run --locked python -m src.cli stats
-GRATEFUL_DATA_TIER=archival uv run --locked python -m src.cli provenance songs scarlet_begonias
+uv run --locked --python 3.14 python -m src.cli stats
+GRATEFUL_DATA_TIER=archival uv run --locked --python 3.14 python -m src.cli stats
+GRATEFUL_DATA_TIER=archival uv run --locked --python 3.14 python -m src.cli provenance songs scarlet_begonias
 ```
 
 Seed rows in `data/seed/` are fixtures and curated examples. Archival rows
@@ -54,7 +54,7 @@ snapshots. For the native test gate in that worktree, set
 `TEMPLATE_REPO_ROOT` to the pinned Template path and run:
 
 ```bash
-uv run --locked --extra dev pytest tests/ --cov=src --cov-fail-under=90
+uv run --locked --python 3.14 --extra dev pytest tests/ --cov=src --cov-fail-under=90
 ```
 
 The publication smoke test invokes hydration and writes derived files into
