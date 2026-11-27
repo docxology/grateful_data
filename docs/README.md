@@ -8,6 +8,7 @@ provides the overview and citation.
 | Guide | Use it to |
 | --- | --- |
 | [Published manuscript on Zenodo](https://doi.org/10.5281/zenodo.20482026) | Read the archived v1.0.0 edition |
+| [Packaged HTML reader](reader/README.md) | Download the source-matched web edition with figures and a verification receipt |
 | [Publication guide](rendering.md) | Rebuild and validate the manuscript and figures with the pinned Template |
 | [Publication artifacts](artifacts.md) | Inspect the dashboard, explorer, figure tables, and provenance |
 | [Canonical manuscript](manuscript/README.md) | Edit sections, configuration, and BibTeX |

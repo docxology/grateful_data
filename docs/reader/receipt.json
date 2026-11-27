@@ -1,0 +1,228 @@
+{
+  "title": "The Music Never Stopped: A Grateful Data Compendium with a Category-Theoretic Interpretation",
+  "source": {
+    "current_review_base": "1d6a0b3fb3385343e4f5cc9f3553492e387bc5f4",
+    "render_commit": "2663c2d7373cc1eb646db77caacb3df52fff7265",
+    "manuscript_tree": "5147deadee1b75afcf1549fbc02ae8b2d7e26045",
+    "section_sha256": {
+      "docs/manuscript/00_abstract.md": "020c8d12d7d35691a010a4993af22e0f8597c35ac0026ed360e0cabb6f602f20",
+      "docs/manuscript/01_introduction.md": "bebe01b9380e83a1581f2ad14d64d46a2e21ddf725c13c69a5a21b0cb7910408",
+      "docs/manuscript/02_methodology.md": "5d10645a825399cc31af8b28327e24d205ee616c63dd9ec8ecca9312058504f6",
+      "docs/manuscript/03_category_theory.md": "787ae5912177f84608729bee2de21cb3b5159b1059683bda649172278a98ed83",
+      "docs/manuscript/04_results.md": "e3f2ced23c51aa8c7b3ed631f6a63bd485708a41c82a3a504bb314863c64cfa3",
+      "docs/manuscript/04b_segue_structure.md": "3518f218e1550f86c65fb97a7d7883507e7ba03f957dc7237d8e968b63083a76",
+      "docs/manuscript/05_conclusion.md": "d75914052d944f340cb21252e40afd28d4b2d07c884d42f86ba83de67d3046e8",
+      "docs/manuscript/06_reproducibility.md": "88927c1f561f17be1d2d97f1b6779a11139971c07de9837a3a1f7db73a1f4964",
+      "docs/manuscript/07_honesty_boundary.md": "7026054cf8d8f7d2cce8987bca59af0d443ea7d85fe26a9df08b189e40b60f4d",
+      "docs/manuscript/99_references.md": "277d3a8b3cd5c3d5574f7e4c86860e5c5099ae7087e5098a67301e30ae2f295f"
+    }
+  },
+  "template": {
+    "pinned_commit": "56611eeb1074ea606a46d0b7c65d46c597bb1bac",
+    "render_commit": "ff6755b2126bccaf59d14f044ad203008d00ca25",
+    "render_tree": "d68c769d3b8288e8f8117e681a88801fad68e878"
+  },
+  "render_evidence": {
+    "provenance_sha256": "98b5bbdf4242c1550159c7067c72e4c3f8bfc8bc5d08d6abc174867ac30b2fca",
+    "evidence_files": {
+      "artifact_manifest": {
+        "path": "output/reports/artifact_manifest.json",
+        "sha256": "a5243fa9e96787035909a40292715fd99ec0edef0fd279326db4746241780d93",
+        "size_bytes": 57140
+      },
+      "combined_manuscript": {
+        "path": "output/web/_combined_manuscript.md",
+        "sha256": "717949ada12a4b808756eb57c1d41735198aab346ef2a2cecca5edefbc3271ef",
+        "size_bytes": 106726
+      },
+      "composition_manifest": {
+        "path": "output/reports/manuscript_composition.json",
+        "sha256": "50a98cd883d1277f3f21439ab7fbd2f64e0eb1f82dde3e5afe86e43f050d75bd",
+        "size_bytes": 2542
+      },
+      "validation_report": {
+        "path": "output/reports/validation_report.json",
+        "sha256": "c85d637d4a2285ef2e8718d0a0e33a5c21ddf40d6efc066023934363d54d7e7a",
+        "size_bytes": 11326
+      }
+    },
+    "template_stage_04": {
+      "all_passed": true,
+      "failed": 0,
+      "figure_issues_count": 0,
+      "passed": 9,
+      "total_checks": 9
+    },
+    "local_fragment_links": 325,
+    "local_citation_links": 197,
+    "figures": 36,
+    "remote_resource": "https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-chtml.js"
+  },
+  "archive": {
+    "file": "grateful-data-reader.zip",
+    "sha256": "b82f1e109d29fbb1543438cd0d452f9428f4a7d7abc39cdcf176b6d8f747905e",
+    "bytes": 6399779,
+    "entries": {
+      "LICENSE": {
+        "sha256": "72f87c6cb562ffc6f870dc124d86b45ee0df5460e83fe8443d8e2ae65777e978",
+        "bytes": 1076
+      },
+      "figures/alluvial_composer_song_era.png": {
+        "sha256": "b17a862bb0d4c05435b6a29a4bfde7a2b89c364a67b93d07178437905ffaf15d",
+        "bytes": 152898
+      },
+      "figures/bustouts.png": {
+        "sha256": "2fbdcec70d71a4c194dc1fc604a19eba56e98637658fb7f30e204a549c8528a5",
+        "bytes": 69269
+      },
+      "figures/centrality_top20.png": {
+        "sha256": "e251e1402c093a7e584acf549aa39dd79645b70ff7f8f44f456e7ce9ef1e69bf",
+        "bytes": 72857
+      },
+      "figures/citation_kinds.png": {
+        "sha256": "5daf9bcf1391c7b8bda14b270d30473444f5ed0e0149f1b9a80df189a1693861",
+        "bytes": 37438
+      },
+      "figures/claim_evidence_matrix.png": {
+        "sha256": "69140ede6ff7c4b82605234781b50ca918f7caa578f18a32399ce3c8d2f20bb1",
+        "bytes": 65005
+      },
+      "figures/composer_attribution.png": {
+        "sha256": "d382fdfed18df56290a80fee8eb5b8f23d402fa6692ce31105ba56bab8a0cdbb",
+        "bytes": 60026
+      },
+      "figures/concentration_uncertainty.png": {
+        "sha256": "081ad0be22f42ccd226c47aefb95d2561aa633fb32aeb7845e1eb061519bf33b",
+        "bytes": 45335
+      },
+      "figures/context_timeline.png": {
+        "sha256": "48709a9104146c30928786d6c35b9e86460a2c570612b7715e34d549a3bbb00b",
+        "bytes": 63222
+      },
+      "figures/cooccurrence_heatmap.png": {
+        "sha256": "b890b80a7269a58f3819584c982bbbb6d3528e05066607d56291af0ee2b89e5a",
+        "bytes": 161968
+      },
+      "figures/era_density.png": {
+        "sha256": "3b5387979434d5b9863733052268338ab6fd194aecf0b9f179d4a9229e7c2dc7",
+        "bytes": 71891
+      },
+      "figures/era_repertoire_heatmap.png": {
+        "sha256": "c9f4915b3a1555958e28b7773e4b393215590956cb17d1aa766444144d7e604f",
+        "bytes": 115218
+      },
+      "figures/functor_cardinalities.png": {
+        "sha256": "da99d2d0f85c91933dbf7515311f0e9625122e802471c68ccb1c709b81339381",
+        "bytes": 55781
+      },
+      "figures/geo_scatter.png": {
+        "sha256": "ecc663b88b1a9574b4a3409c982fbcda7140ff0ee6652ab7617297fe97c286d9",
+        "bytes": 113209
+      },
+      "figures/lineup_diversity.png": {
+        "sha256": "07a65429268b339f3dcf72bafca1cbfc04bcc1812418fb3f03814551a604753a",
+        "bytes": 42624
+      },
+      "figures/lyric_themes.png": {
+        "sha256": "04e8dddb820d5d47f492f2e89ac489c299dcb6b8c4fb490aed6a37bc0e8a9732",
+        "bytes": 55835
+      },
+      "figures/mosaic.png": {
+        "sha256": "9da167acf99e1c0095fd507fb4afbf7249f5886c5461ebd2e75e8d43d2868566",
+        "bytes": 1652079
+      },
+      "figures/performance_distribution.png": {
+        "sha256": "254c78e134ca3c5ad8f7efdcbc80a4c1c5d7e197a8972d59e80a1f1b06951691",
+        "bytes": 54739
+      },
+      "figures/personnel_gantt.png": {
+        "sha256": "37d3692ed93ae937df3c14f40e18ca41321ba4dd0856a1bc6b961566fb8d97e2",
+        "bytes": 44657
+      },
+      "figures/recording_sources.png": {
+        "sha256": "837df9e86ba64a6b39c14b8f544ef2a5d5d2268ebb8e689b027f895167d6ec98",
+        "bytes": 35741
+      },
+      "figures/releases_timeline.png": {
+        "sha256": "717708d45b5e023d99d54db057c35060eb4effc24fd9166fa3f876fc4a4fb064",
+        "bytes": 72138
+      },
+      "figures/repertoire_concentration.png": {
+        "sha256": "68b6492d1cc1e494966ef74efc0f76536efd366e946262d723a29e409ca7887a",
+        "bytes": 66811
+      },
+      "figures/repertoire_embedding.png": {
+        "sha256": "0c60c33d478937f7905bee0b3d168b3573c9543f9021fc8cbeef3f4b67ff4b45",
+        "bytes": 126330
+      },
+      "figures/repertoire_topn_sensitivity.png": {
+        "sha256": "89aec30ea2935cbe731b7db4fa41f0702cd72d3bdc83b6e43b8e3d6bbc25a7e0",
+        "bytes": 77524
+      },
+      "figures/segue_graph.png": {
+        "sha256": "a386538557f2e51f0e614d58ae4b276871e78e8d5fb82e9ca770a1e761913736",
+        "bytes": 91170
+      },
+      "figures/sentiment_by_kind.png": {
+        "sha256": "13df1b8018dd574c6a1ebcf1f9c6fbe9526278852d88a313f8f1ce9ee4c4fa4d",
+        "bytes": 35116
+      },
+      "figures/set_positions.png": {
+        "sha256": "b0bc08aec452d5ca50ed40f93862c8575e382769170acb151a9bd165e3e8745a",
+        "bytes": 29660
+      },
+      "figures/shows_by_era.png": {
+        "sha256": "d138e1466cc5769398f17c19c2de7d7ac084117c89af86645ea4bae4d2220585",
+        "bytes": 41095
+      },
+      "figures/shows_per_year.png": {
+        "sha256": "00dbf2de1814ffe8a73d30bf78da0e843b3a465c557c8820d77bf52031154142",
+        "bytes": 78933
+      },
+      "figures/song_lifespans.png": {
+        "sha256": "8836f20218657181713b69e49ef4acaaf61f6f86a5d164c7f230239c20bf8722",
+        "bytes": 96032
+      },
+      "figures/stationary_top20.png": {
+        "sha256": "0c52a888c59e7f5b0a8de5e7b66719d2c3235405a5a75a8b32b073eec995f828",
+        "bytes": 81003
+      },
+      "figures/top_songs.png": {
+        "sha256": "cc15acf26ef3b73df4bfd263f488d64cd7c2346aff76b4c1715890373b032213",
+        "bytes": 68114
+      },
+      "figures/tours_top.png": {
+        "sha256": "62cd00735e39bf1f361ed96e81bb17ee0e74a63082f404042fc3c27c505679b9",
+        "bytes": 30634
+      },
+      "figures/transition_matrix.png": {
+        "sha256": "db2b11236f577da3ccd142f1cd25ed4efd0cf485c6e2472a5e897576fd5883e3",
+        "bytes": 155334
+      },
+      "figures/transition_sensitivity.png": {
+        "sha256": "da4e520d1dcc63a9bea7829fd06cd9162c67da9e26d199df650b6e4aedcd4f0b",
+        "bytes": 82938
+      },
+      "figures/venue_concentration.png": {
+        "sha256": "5f2f05ee46aad9be124df9c7573eb9527db0c111b7f7d194fdffd32b7007442e",
+        "bytes": 59482
+      },
+      "figures/venue_identity_review.png": {
+        "sha256": "618258047391e62b1444732012276d83e7fbd428ff9114e5ddbb02bc6fad9410",
+        "bytes": 48323
+      },
+      "web/assets/source-web-fonts.js": {
+        "sha256": "0109f374e3beab2adfc6373df6c5ee7126f035c6155c73dbb97c09a41a6b296c",
+        "bytes": 1975181
+      },
+      "web/favicon.ico": {
+        "sha256": "6ca6e9ffbb22550f6d94bf216e743cc7469a7fc50d8dcf0737b11bf800de7dad",
+        "bytes": 121
+      },
+      "web/index.html": {
+        "sha256": "281701e671a0056bd9ef27b1887f2fb289d478186e6314c77797cbbd39ce2d08",
+        "bytes": 207708
+      }
+    }
+  }
+}
