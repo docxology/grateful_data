@@ -1,5 +1,10 @@
 # Replay and render the manuscript
 
+Read the [published v1.0.0 manuscript](https://doi.org/10.5281/zenodo.20482026)
+for the archived edition. The HTML tracked in Git under `output/web/`
+is from an earlier run and retains that run’s browser title and reference
+format. The steps below generate a current local reader.
+
 Use a clean disposable Grateful Data worktree. Analysis and rendering
 overwrite paths under `output/`, which also contains the repository's
 historical snapshots. The editable paper is
@@ -58,8 +63,8 @@ ln -s /absolute/path/to/grateful_data projects/working/grateful_data
 uv run --locked python scripts/pipeline/stage_03_render.py --project working/grateful_data
 ```
 
-Inspect the combined PDF `output/pdf/grateful_data_combined.pdf` and web
-manuscript `output/web/index.html` in the Grateful Data worktree. Check the
+Inspect the newly generated combined PDF `output/pdf/grateful_data_combined.pdf`
+and HTML `output/web/index.html` in the disposable Grateful Data worktree. Check the
 ordered sections, resolved citations, and figure images against the
 [figure-data and provenance paths](artifacts.md).
 
@@ -78,8 +83,7 @@ uv run --locked python scripts/pipeline/stage_04_validate.py --project working/g
 
 The project validator writes `output/reports/publication_validation.json`.
 The final parent stage writes `output/reports/validation_report.json` and
-`output/reports/rendered_provenance.json`. The archived version remains
-available through [its published record](https://doi.org/10.5281/zenodo.20482026).
+`output/reports/rendered_provenance.json`.
 
 The [legacy stage receipts](../output/reports/snapshots/legacy-template/)
 retain the earlier Template run's metadata. Stage 04 reads current receipts
